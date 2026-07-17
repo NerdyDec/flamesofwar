@@ -290,16 +290,7 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
         <categoryLink id="9030-eb60-012a-8c12" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8ad0-ebd1-b4cf-61a2" name="Peasant Army" hidden="false" collective="false" import="true" targetId="7c75-4f14-1932-1302" type="selectionEntry">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="82e6-70a6-20bb-8c47" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0f4c-1dd9-7c71-fe21" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="434e-06c1-806a-3173" type="min"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="aaf3-6cbc-bf23-bb79" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
+
     <entryLink id="c968-a8c6-87ee-0aaf" name="Pioneer Platoon" hidden="false" collective="false" import="true" targetId="84ca-6fc7-4458-3537" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3040-b586-4dac-9822" type="max"/>
@@ -3150,6 +3141,40 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="e6a2-19f4-cec6-10db" name="0) Command Cards (Unit)" hidden="false" collective="false" import="true">
       <selectionEntries>
+
+
+
+
+
+
+
+
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="caa1-6a28-f23d-76e6" name="Command Cards (Force)" hidden="false" collective="false" import="true">
+      <selectionEntries>
+
+
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f1b6-3b22-8e21-64d8" name="0) Command Cards (Formation)" hidden="false" collective="false" import="true">
+      <selectionEntries>
+
+
+
+
+
+
+
+
+
+
+
+      </selectionEntries>
+    </selectionEntryGroup>
+  
+    <selectionEntryGroup id="b817-a0d3-d17a-4acb" name="Romanian Force Command Cards" hidden="false" collective="false" import="true">
+      <selectionEntries>
         <selectionEntry id="6713-e54a-870f-9a09" name="Dead Eye [Ltd]" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
@@ -3386,10 +3411,6 @@ If this shot hits its target, target Team must re-roll a successful Save.</chara
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="caa1-6a28-f23d-76e6" name="Command Cards (Force)" hidden="false" collective="false" import="true">
-      <selectionEntries>
         <selectionEntry id="0dc3-1192-98db-8f45" name="Pure Luck" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aba-5c7f-45d2-55d1" type="max"/>
@@ -3420,10 +3441,6 @@ If this shot hits its target, target Team must re-roll a successful Save.</chara
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="f1b6-3b22-8e21-64d8" name="0) Command Cards (Formation)" hidden="false" collective="false" import="true">
-      <selectionEntries>
         <selectionEntry id="6af0-5d58-7728-2d8c" name="Charmed Life [Ltd]" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="267c-b7ce-16fd-24c7" type="max"/>
@@ -3644,6 +3661,18 @@ The Formation HQ and any Unit that is making a combined Assault with it Countera
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="8ad0-ebd1-b4cf-61a2" name="Peasant Army" hidden="false" collective="false" import="true" targetId="7c75-4f14-1932-1302" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="82e6-70a6-20bb-8c47" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0f4c-1dd9-7c71-fe21" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="434e-06c1-806a-3173" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="aaf3-6cbc-bf23-bb79" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

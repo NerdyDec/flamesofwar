@@ -3144,6 +3144,45 @@ Added Command Cards &amp; Dynamic Points 2025 11-21-2024</readme>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="88c5-986e-357f-a925" name="0) Command Cards [Formation]" hidden="false" collective="false" import="true">
       <selectionEntries>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="46cd-0d10-f293-5570" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true">
+      <selectionEntries>
+
+
+
+
+
+
+
+
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4d5d-5e12-2c6c-50b1" name="Command Cards [Force]" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9290-0fb8-a834-ff2b" type="max"/>
+      </constraints>
+      <selectionEntries>
+
+
+      </selectionEntries>
+    </selectionEntryGroup>
+  
+    <selectionEntryGroup id="071c-ec54-f733-136c" name="Hungarian Force Command Cards" hidden="false" collective="false" import="true">
+      <selectionEntries>
         <selectionEntry id="9dea-bf83-b2b0-56ba" name="Elite Crew" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -3403,10 +3442,6 @@ Infantry and Gun Teams in this Formations Dig In on a roll of 2+.</characteristi
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="46cd-0d10-f293-5570" name="0) Command Cards [Unit]" hidden="false" collective="false" import="true">
-      <selectionEntries>
         <selectionEntry id="26e9-7338-50c6-ba6b" name="Dead Eye" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
@@ -3648,13 +3683,6 @@ If this shot hits it target, that Team must re-roll their Save if it is successf
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="4d5d-5e12-2c6c-50b1" name="Command Cards [Force]" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9290-0fb8-a834-ff2b" type="max"/>
-      </constraints>
-      <selectionEntries>
         <selectionEntry id="b0a8-8a01-6310-8299" name="Diversionary Tactics" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8a5-7756-79f6-33c8" type="max"/>

@@ -1441,72 +1441,7 @@ Command Cards unfinished for now</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="57de-d622-5d7d-3c08" name="Assault Engineer Company" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="11cf-b5e8-d07d-22d5" name="Assault Engineer Company" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-          <characteristics>
-            <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Infantry Teams in this Formation cross Minefields safely on a roll of 3+.
-Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="61cb-22ae-07cf-b7e7" name="1) Additional Assault Engineer Platoons" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="2fdf-44bf-4949-8c5d" name="Assault Engineer Platoon" hidden="false" collective="false" import="true" targetId="e109-ca64-215c-ea52" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9850-d5de-2575-fc0c" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="ecec-c0c0-6034-1a36" name="Assault Engineer Platoon" hidden="false" collective="false" import="true" targetId="e109-ca64-215c-ea52" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="06aa-d35a-a82b-3983" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="3224-38b4-dde8-9584" name="2) Optional Platoons" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="a089-a847-44d3-e125" name="47mm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="c1a6-f9b0-d9a5-66c5" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="99de-5f09-15ff-b2ad" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="7a4f-dbc1-2670-25d0" name="81mm Mortar Platoon" hidden="false" collective="false" import="true" targetId="0462-2588-ba36-dc95" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b379-1ed9-2fac-623d" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="525e-b9e7-8bfd-9951" name="Bersaglieri Rifle Company HQ" hidden="false" collective="false" import="true" targetId="d2b6-dbfc-3a5d-7e44" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="name" value="Rifle Company HQ"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a01d-cc7f-f2d6-64db" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca72-5b72-bb5f-652a" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="fe76-c809-7e8a-a4ce" name="Assault Engineer Platoon" hidden="false" collective="false" import="true" targetId="e109-ca64-215c-ea52" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a251-603b-6a3a-404e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2cba-069b-90f2-e8a6" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="afe2-8546-8b81-98ca" name="Assault Engineer Platoon" hidden="false" collective="false" import="true" targetId="e109-ca64-215c-ea52" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4fcf-db03-c87b-237f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e0a6-4df3-efdb-70a8" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-      </costs>
-    </selectionEntry>
+
     <selectionEntry id="78ed-7ec1-c2d2-1829" name="L6/40 Scout Tank Company" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="a72a-6a0e-e00f-417a" name="L6/40 Scout Tank Company HQ" hidden="false" collective="false" import="true" type="unit">
@@ -2884,6 +2819,77 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  
+    <selectionEntryGroup id="eca4-fe7c-888e-d26b" name="Avanti Force Command Cards" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="57de-d622-5d7d-3c08" name="Assault Engineer Company" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="11cf-b5e8-d07d-22d5" name="Assault Engineer Company" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+          <characteristics>
+            <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Infantry Teams in this Formation cross Minefields safely on a roll of 3+.
+Infantry and Gun Units in this Formation Dig In on a roll of 3+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="61cb-22ae-07cf-b7e7" name="1) Additional Assault Engineer Platoons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="2fdf-44bf-4949-8c5d" name="Assault Engineer Platoon" hidden="false" collective="false" import="true" targetId="e109-ca64-215c-ea52" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9850-d5de-2575-fc0c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="ecec-c0c0-6034-1a36" name="Assault Engineer Platoon" hidden="false" collective="false" import="true" targetId="e109-ca64-215c-ea52" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="06aa-d35a-a82b-3983" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3224-38b4-dde8-9584" name="2) Optional Platoons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="a089-a847-44d3-e125" name="47mm Tank-hunter Platoon" hidden="false" collective="false" import="true" targetId="c1a6-f9b0-d9a5-66c5" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="99de-5f09-15ff-b2ad" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7a4f-dbc1-2670-25d0" name="81mm Mortar Platoon" hidden="false" collective="false" import="true" targetId="0462-2588-ba36-dc95" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b379-1ed9-2fac-623d" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="525e-b9e7-8bfd-9951" name="Bersaglieri Rifle Company HQ" hidden="false" collective="false" import="true" targetId="d2b6-dbfc-3a5d-7e44" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="name" value="Rifle Company HQ"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a01d-cc7f-f2d6-64db" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca72-5b72-bb5f-652a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fe76-c809-7e8a-a4ce" name="Assault Engineer Platoon" hidden="false" collective="false" import="true" targetId="e109-ca64-215c-ea52" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a251-603b-6a3a-404e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="2cba-069b-90f2-e8a6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="afe2-8546-8b81-98ca" name="Assault Engineer Platoon" hidden="false" collective="false" import="true" targetId="e109-ca64-215c-ea52" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="4fcf-db03-c87b-237f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e0a6-4df3-efdb-70a8" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

@@ -329,11 +329,7 @@ Support the creators, buy the book!</readme>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="594f-a4bd-2937-af91" type="max"/>
       </constraints>
     </entryLink>
-    <entryLink id="de73-4bbb-6150-64ca" name="Lucky" hidden="false" collective="false" import="true" targetId="9413-df88-661f-9de5" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="9c3e-55b5-288e-034d" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
+
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="dbef-035b-adfb-7fa0" name="Armoured Panzergrenadier Platoon" hidden="false" collective="false" import="true" type="upgrade">
@@ -5800,44 +5796,8 @@ Unit hits on 2+ &amp; Counterattacks 3+</description>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ff0-3a53-c3b3-5467" name="Machine-Gun Nests" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfb7-d2fe-e2f8-ee49" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="7201-afba-702f-6731" name="Machine-Gun Nests" hidden="false">
-          <description>sMG34 or sMG42 HMG teams in this unit cannot move, but can rotate to face target when shooting and are Nests.  Each HMG team is a separate Independent Team</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="61c2-cccf-3714-72cb" name="Nest" hidden="false" targetId="cd91-ebea-58fa-9f14" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="40d6-328d-7ed2-3e83" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="fe01-edde-baa4-48b3" name="Pakfront" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e66-f8ab-f64e-ad13" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="b368-c3f6-a485-71d7" name="Pakfront" hidden="false">
-          <description>gun teams in this unit cannot move, but can rotate to face target when shooting and are Nests.  Each gun team is a separate Independent Team</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="32e2-55a1-04ce-fc78" name="Nest" hidden="false" targetId="cd91-ebea-58fa-9f14" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="790c-185c-4ac4-6d07" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
+
+
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6b8c-14e3-45f5-8974" name="0 - Formation Warriors" hidden="false" collective="false" import="true">
@@ -5871,6 +5831,56 @@ Each turn you can re-roll 1 failed reserve roll</description>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff6a-15f6-46cf-b317" type="max"/>
       </constraints>
+    </selectionEntryGroup>
+  
+    <selectionEntryGroup id="2a7b-657c-2ad5-f901" name="Bagration: German Command Cards" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="5ff0-3a53-c3b3-5467" name="Machine-Gun Nests" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfb7-d2fe-e2f8-ee49" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="7201-afba-702f-6731" name="Machine-Gun Nests" hidden="false">
+          <description>sMG34 or sMG42 HMG teams in this unit cannot move, but can rotate to face target when shooting and are Nests.  Each HMG team is a separate Independent Team</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="61c2-cccf-3714-72cb" name="Nest" hidden="false" targetId="cd91-ebea-58fa-9f14" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="40d6-328d-7ed2-3e83" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="fe01-edde-baa4-48b3" name="Pakfront" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e66-f8ab-f64e-ad13" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="b368-c3f6-a485-71d7" name="Pakfront" hidden="false">
+          <description>gun teams in this unit cannot move, but can rotate to face target when shooting and are Nests.  Each gun team is a separate Independent Team</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="32e2-55a1-04ce-fc78" name="Nest" hidden="false" targetId="cd91-ebea-58fa-9f14" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="790c-185c-4ac4-6d07" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+      </costs>
+    </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="de73-4bbb-6150-64ca" name="Lucky" hidden="false" collective="false" import="true" targetId="9413-df88-661f-9de5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9c3e-55b5-288e-034d" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

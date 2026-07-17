@@ -167,14 +167,7 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
         <categoryLink id="2962-1eeb-adff-9c69" name="New CategoryLink" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5e6b-da71-c9c1-a473" name="Command Cards [Force]" hidden="false" collective="false" import="true" targetId="4e58-4655-3159-3028" type="selectionEntry">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3171-c983-8080-76a2" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="9216-72e2-b665-0624" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
+
     <entryLink id="2cbb-5d1f-15dd-b2a5" name="76mm Artillery Battery" hidden="false" collective="false" import="true" targetId="8f8a-8cb0-ae45-3a35" type="selectionEntry">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2715-8416-6652-b39f" type="max"/>
@@ -2393,6 +2386,36 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6d79-0eb5-e19d-8742" name="Command Cards (Force)" hidden="false" collective="false" import="true">
       <selectionEntries>
+
+
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="96e9-dcea-0d87-0d8d" name="0) Command Cards (Formation)" hidden="false" collective="false" import="true">
+      <selectionEntries>
+
+
+
+
+
+
+
+
+
+
+
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9254-feeb-ea46-903c" name="0) Command Cards (Unit)" hidden="false" collective="false" import="true">
+      <selectionEntries>
+
+
+
+
+      </selectionEntries>
+    </selectionEntryGroup>
+  
+    <selectionEntryGroup id="5abd-522d-0e7f-d342" name="Finnish Force Command Cards" hidden="false" collective="false" import="true">
+      <selectionEntries>
         <selectionEntry id="f744-f123-a338-9539" name="Pure Luck" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2dc-d613-2112-8652" type="max"/>
@@ -2423,10 +2446,6 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="96e9-dcea-0d87-0d8d" name="0) Command Cards (Formation)" hidden="false" collective="false" import="true">
-      <selectionEntries>
         <selectionEntry id="5fcb-86f9-73f6-a6e5" name="Charmed Life [Ltd]" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e86-58d0-3bba-a2c6" type="max"/>
@@ -2683,10 +2702,6 @@ Discard this card: Automatically pass one Unit Last Stand Test for a Unit from t
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="9254-feeb-ea46-903c" name="0) Command Cards (Unit)" hidden="false" collective="false" import="true">
-      <selectionEntries>
         <selectionEntry id="3a1c-eaf7-1ef9-0770" name="Dead Eye [Ltd]" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
@@ -2797,6 +2812,16 @@ If this shot hits its target, target Team must re-roll a successful Save.</chara
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="5e6b-da71-c9c1-a473" name="Command Cards [Force]" hidden="false" collective="false" import="true" targetId="4e58-4655-3159-3028" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3171-c983-8080-76a2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9216-72e2-b665-0624" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

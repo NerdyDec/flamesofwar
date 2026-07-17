@@ -1720,18 +1720,7 @@ Assault 4+</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1816-78d2-acd6-d7fa" name="** The Best Guns" hidden="false" collective="false" import="true" targetId="9833-ef36-efc8-e650" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="995a-4d67-6920-bfe4" value="4.0">
-              <conditions>
-                <condition field="selections" scope="bbd7-bb3e-576a-edb8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5a6-3d3a-e99a-5601" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </entryLink>
+
         <entryLink id="64b4-d7a2-41ac-7a7d" name="0) Unit Cards" hidden="false" collective="false" import="true" targetId="a15e-3a7c-e37d-fb20" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -2378,33 +2367,7 @@ Assault 5+</characteristic>
         </selectionEntryGroup>
         <selectionEntryGroup id="371c-1870-7b1b-d8ae" name="0) Title Command Cards" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="1a93-60d3-4c14-18e8" name="The Best Hunters" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="995a-4d67-6920-bfe4" value="6.0">
-                  <conditions>
-                    <condition field="selections" scope="7b39-c0fb-5da4-59a3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8436-8628-7574-d064" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="995a-4d67-6920-bfe4" value="8.0">
-                  <conditions>
-                    <condition field="selections" scope="7b39-c0fb-5da4-59a3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c560-2903-b892-669d" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <profiles>
-                <profile id="18bc-8781-d91f-f789" name="The Best Hunters" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-                  <characteristics>
-                    <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit has the following ratings for +2pts per tank: 
-Motivation 3+, Counterattack 4+
-Skill 3+, Assault 4+
-Is Hit On 4+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-              </costs>
-            </selectionEntry>
+
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2467,18 +2430,7 @@ Is Hit On 4+</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="031e-530f-416d-d04e" name="** The Best Support" hidden="false" collective="false" import="true" targetId="7855-8ef9-bbb8-1175" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="995a-4d67-6920-bfe4" value="2.0">
-              <conditions>
-                <condition field="selections" scope="9adb-03e6-89f6-0b24" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a0d9-e37c-4127-b3e8" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </entryLink>
+
         <entryLink id="472e-4ef1-6dcb-3792" name="0) Unit Cards" hidden="false" collective="false" import="true" targetId="a15e-3a7c-e37d-fb20" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -4613,55 +4565,8 @@ Last Stand 4+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7855-8ef9-bbb8-1175" name="[Unit] The Best Support" hidden="true" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6803-71b2-66ed-c4e1" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aa73-dc3c-66a3-7525" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="37f0-a536-f695-5cda" name="The Best Support" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-          <characteristics>
-            <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">All Tank Units have the following ratings for +1 point per two teams or part thereof:
-Skill 3+
-Is Hit On 4+.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9833-ef36-efc8-e650" name="[Unit] The Best Guns" hidden="true" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="false">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6803-71b2-66ed-c4e1" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1306-e8ce-2c40-29a4" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="1e4e-934e-793f-547b" name="The Best Guns" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-          <characteristics>
-            <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit has the following ratings for +1pt per Team:
-Skill 3+
-Assault 4+
-Is Hit On 4+</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
+
+
     <selectionEntry id="7be2-a8f9-a2df-2d5f" name="Brummbär Assault Tank Platoon" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="d39e-591e-8ae0-57f9" name="Brummbär Assault Tank Platoon" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
@@ -4865,6 +4770,151 @@ Assault 6</characteristic>
     </selectionEntryGroup>
     <selectionEntryGroup id="4c23-3429-832f-6856" name="0) Formation Cards" hidden="false" collective="false" import="true">
       <selectionEntries>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a15e-3a7c-e37d-fb20" name="0) Unit Cards" hidden="false" collective="false" import="true">
+      <selectionEntries>
+
+
+
+
+
+
+
+
+
+
+
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="49c7-7529-04e7-8fca" name="Tiger Ace Ability" hidden="true" collective="false" import="true" defaultSelectionEntryId="a997-7806-34f0-d6cc">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="131a-8e0c-ba4d-cec8" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3c0c-054f-537e-5c46" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ab44-558e-fc58-db74" type="min"/>
+          </constraints>
+          <selectionEntries>
+
+
+
+
+
+            <selectionEntry id="a997-7806-34f0-d6cc" name="6) Choose one of the above" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bdab-0f55-286c-8cb1" name="Force Cards" hidden="false" collective="false" import="true">
+      <selectionEntries>
+
+
+
+      </selectionEntries>
+    </selectionEntryGroup>
+  
+    <selectionEntryGroup id="0e9d-80bc-1318-13bd" name="D-Day: Waffen-SS Force Command Cards" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="1a93-60d3-4c14-18e8" name="The Best Hunters" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="995a-4d67-6920-bfe4" value="6.0">
+                  <conditions>
+                    <condition field="selections" scope="7b39-c0fb-5da4-59a3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8436-8628-7574-d064" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="995a-4d67-6920-bfe4" value="8.0">
+                  <conditions>
+                    <condition field="selections" scope="7b39-c0fb-5da4-59a3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c560-2903-b892-669d" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="18bc-8781-d91f-f789" name="The Best Hunters" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+                  <characteristics>
+                    <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit has the following ratings for +2pts per tank: 
+Motivation 3+, Counterattack 4+
+Skill 3+, Assault 4+
+Is Hit On 4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+        <selectionEntry id="7855-8ef9-bbb8-1175" name="[Unit] The Best Support" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6803-71b2-66ed-c4e1" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aa73-dc3c-66a3-7525" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="37f0-a536-f695-5cda" name="The Best Support" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+          <characteristics>
+            <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">All Tank Units have the following ratings for +1 point per two teams or part thereof:
+Skill 3+
+Is Hit On 4+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="9833-ef36-efc8-e650" name="[Unit] The Best Guns" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6803-71b2-66ed-c4e1" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1306-e8ce-2c40-29a4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1e4e-934e-793f-547b" name="The Best Guns" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+          <characteristics>
+            <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit has the following ratings for +1pt per Team:
+Skill 3+
+Assault 4+
+Is Hit On 4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
         <selectionEntry id="4327-23c2-c75b-841e" name="Michael Wittmann" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
@@ -5425,10 +5475,6 @@ Is Hit On 4+</characteristic>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="a15e-3a7c-e37d-fb20" name="0) Unit Cards" hidden="false" collective="false" import="true">
-      <selectionEntries>
         <selectionEntry id="131a-8e0c-ba4d-cec8" name="Tiger Ace" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
@@ -5767,22 +5813,7 @@ This Unit Digs In on a roll of 2+.</characteristic>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="49c7-7529-04e7-8fca" name="Tiger Ace Ability" hidden="true" collective="false" import="true" defaultSelectionEntryId="a997-7806-34f0-d6cc">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="131a-8e0c-ba4d-cec8" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3c0c-054f-537e-5c46" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ab44-558e-fc58-db74" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="4e52-82f7-90b4-256f" name="1) Clever Hans" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4e52-82f7-90b4-256f" name="1) Clever Hans" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="e8e3-881d-2481-f0f1" name="Clever Hans" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
                   <characteristics>
@@ -5797,7 +5828,7 @@ This Unit Digs In on a roll of 2+.</characteristic>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b9c5-2724-c97a-891f" name="2) Deadly Gunner" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b9c5-2724-c97a-891f" name="2) Deadly Gunner" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="a736-7055-e8e2-5940" name="Deadly Gunner" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
                   <characteristics>
@@ -5809,7 +5840,7 @@ This Unit Digs In on a roll of 2+.</characteristic>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="347a-8301-e292-27d0" name="3) Rapid Fire" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="347a-8301-e292-27d0" name="3) Rapid Fire" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="cfa5-b965-9996-e54e" name="Rapid Fire" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
                   <characteristics>
@@ -5821,7 +5852,7 @@ This Unit Digs In on a roll of 2+.</characteristic>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c45d-8594-91e7-14a3" name="4) Schnell!" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c45d-8594-91e7-14a3" name="4) Schnell!" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="75c4-0041-9c2a-5b88" name="Schnell!" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
                   <characteristics>
@@ -5833,7 +5864,7 @@ This Unit Digs In on a roll of 2+.</characteristic>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="bf83-2e3b-1a78-639d" name="5) Roll Over Them" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bf83-2e3b-1a78-639d" name="5) Roll Over Them" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
                 <profile id="be55-af2f-ed6e-be40" name="Roll Over Them" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
                   <characteristics>
@@ -5845,17 +5876,6 @@ This Unit Digs In on a roll of 2+.</characteristic>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a997-7806-34f0-d6cc" name="6) Choose one of the above" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="bdab-0f55-286c-8cb1" name="Force Cards" hidden="false" collective="false" import="true">
-      <selectionEntries>
         <selectionEntry id="422c-9bd0-ac14-61af" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="a84b-be4d-57c0-6897" type="max"/>
@@ -5907,6 +5927,32 @@ When a Team moves within 2&quot;/5cm of an Old Minefield marker, roll a die. On 
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="1816-78d2-acd6-d7fa" name="** The Best Guns" hidden="false" collective="false" import="true" targetId="9833-ef36-efc8-e650" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="995a-4d67-6920-bfe4" value="4.0">
+              <conditions>
+                <condition field="selections" scope="bbd7-bb3e-576a-edb8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5a6-3d3a-e99a-5601" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="031e-530f-416d-d04e" name="** The Best Support" hidden="false" collective="false" import="true" targetId="7855-8ef9-bbb8-1175" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="995a-4d67-6920-bfe4" value="2.0">
+              <conditions>
+                <condition field="selections" scope="9adb-03e6-89f6-0b24" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a0d9-e37c-4127-b3e8" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
