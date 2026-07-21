@@ -4098,4 +4098,598 @@ A Tiger Heavy Tanks Platoon has a Last Stand rating of 2+, whether or not it has
   <catalogueLinks>
     <catalogueLink id="f63a-e78f-47e5-b939" name="Mid-War; Fallschirmjager" targetId="4e61-1b9e-452b-7fe1" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
-</catalogue>
+<selectionEntries><selectionEntry id="0a2b-d793-c62c-4e54" name="Panzer IV Tank Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="c4a7-9953-2d9c-4fd5" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">MG108</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="379c-07d2-0ac4-26f2" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d468-33e3-28e3-e758" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3136-7dbd-3cc6-da7a" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1865-01a2-9cdc-df20" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81e8-ce78-9aec-145b" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ca-0b62-b4b6-cd9a" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="51bb-60fe-1103-42d0" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2a1-c42a-51fc-ff76" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9ed-580e-d2a5-4577" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="35ee-c8d8-d627-4bfa" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8008-d865-8e33-14df" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbe5-2710-0479-2f2d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a935-0461-b0d7-3fa3" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17ed-66bb-7bc0-f27a" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2695-e468-7769-5d93" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c6f3-de19-968b-b970" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="071d-23b4-9877-8a1e" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ee-05a7-0cd5-35f7" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8594-b6e7-3279-2e72" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b562-0bb4-96d4-742e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7ef-0956-c99b-f1b0" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3b9d-f534-fe7a-8bba" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e35c-7b70-10c6-52ef" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61d9-d0cc-e2cf-e68f" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e966-fcb7-6d9e-13f7" name="Wildcard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5905-24c8-1277-6634" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2c9-eda6-6963-7bc2" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="e8a7-7c54-8be5-db85" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="691e-8ef8-e47c-0483" name="Panzer III Tank Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="d32b-b6fb-1a1a-5a62" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">MG101</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="78b8-1aed-0314-c1a1" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="127e-4e61-9584-5e81" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8a1-c23b-4f9e-e18f" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="704d-b9fd-3d77-3115" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b8d-5415-1a79-5fa0" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2002-504a-e4c1-2068" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bf26-1c06-49af-e465" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2ba-017e-72a4-917d" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc53-7d6f-615d-c1a0" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="cf2c-5be7-34ee-62f2" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="743c-7fd1-474c-b3c7" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44b9-da2a-af97-640e" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="615b-387b-2ea1-8b2d" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c5b-93ec-4679-ac18" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d09-9d9f-271a-ed06" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8855-3371-69bf-aeb5" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07a3-69f6-fe63-fa31" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a62-1f56-a250-c8ae" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9907-7c91-fe42-d301" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d4-9e49-cdd2-9831" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="babb-ac18-4d45-f5b4" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e4a0-84bf-1708-06bb" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0c7-dfe5-a586-c763" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89eb-aec9-e8f6-c22d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3ac1-8063-1a3e-568c" name="Wildcard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53b3-4894-4341-210e" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fd1-d233-c765-cae8" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="38e1-506e-0f39-5b3e" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="81c6-2923-e4bc-e430" name="Panzer III (Uparmoured) Tank Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="4ea6-c130-ed18-c591" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">MG102</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="4856-9ea3-a0c6-64cf" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ffd-920e-3bb5-becb" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb6d-faa8-c90c-e9d9" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a21f-da36-6e89-804e" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0da3-bf89-85d2-1002" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11a9-17bf-b277-d6a3" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="62fc-51de-2703-fbc9" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5407-3d68-7744-5bd2" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d32b-9078-bf19-0937" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8375-9390-3b03-4906" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1502-cb53-b96e-9cda" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c0c-8e98-ad87-22a2" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4004-483c-1d4e-edc1" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43a8-82af-e0e1-385c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9ba-1a9d-88b6-ffe8" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3580-2640-659b-83db" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d27-42ee-266b-31c1" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6841-b428-220f-800d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="49fb-6ade-92f2-b277" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb1b-97aa-a69d-5f2a" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff09-b74e-5d36-df39" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2dba-f55e-7248-65c5" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb7c-4917-bc7a-fea2" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cc8-9052-9f20-9c44" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b788-2840-02ae-3a49" name="Wildcard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d11-2a24-a212-3b22" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1733-2ac7-061e-73f4" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="c6a5-c66f-caab-08fb" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="1510-b0f9-0186-c323" name="Africa Rifle Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="d58f-d912-389c-94fa" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">MG112</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="7b46-c096-1b22-222b" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b57-1829-ba8d-bbe9" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="852f-8a6d-ba3f-681d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c93a-068b-3e0e-924d" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1970-f5fd-9eeb-4703" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc27-8170-7653-16a5" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e5b7-6eee-3494-1f7a" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8cf-c9ba-28a3-e586" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b270-5d8a-ef96-c2f1" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f402-7395-21ca-389b" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5876-efbd-1bca-fcbc" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9593-a639-6230-1807" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c5a7-e8ee-c063-aff3" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="558a-e52d-b492-a342" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eed9-bd90-3364-e6d3" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="256e-f6e0-63ae-2d3b" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32de-7c3c-f80d-ee0b" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a85-5123-823b-a42d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0a64-06d1-9632-fdcb" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0223-d1ec-3343-f277" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c774-7fd2-860b-adb1" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b1a5-aa0f-e319-5886" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2096-cea2-4f60-7dc1" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="964b-c96b-ca1d-db83" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="35a2-b013-a8fc-76c6" name="Wildcard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d6a-5819-db13-99c3" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d61-3517-96b5-9bf4" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="32d5-3e9d-ad89-40ba" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="7a3e-d287-6ef9-c6c9" name="90th Light Rifle Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="921a-8ec5-714f-c3d9" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">MG124</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="2108-0ed5-dc2b-aa66" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f17c-3ba7-fb6f-3ce6" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8313-251d-29d1-3bf9" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1f44-199a-e6e5-67e8" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3d8-13fa-b9aa-dbb4" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b98a-c71f-cedd-21a9" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b338-1977-150b-b47c" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f4e-9c9c-7035-7878" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffd6-7da1-5aec-a43a" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8fd6-fc32-82d8-596e" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d843-5be0-77fe-3ef0" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d492-af0f-9af4-4833" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f6a3-87e2-7315-95bf" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f772-951c-9b3d-7ecc" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e766-6e45-9849-4a41" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="53f3-e813-9fe4-fa16" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8c1-3145-7009-53bc" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30e3-72a5-2add-004e" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ed2d-71cb-53d8-c32c" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af9-ee56-fe02-6056" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d01a-f7e0-2075-f13d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5d5f-d813-6a58-6541" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc94-ad65-4e79-eb0b" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65f8-67ef-1334-c349" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4bc6-acae-d466-d413" name="Wildcard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acc8-777d-049d-8b0a" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d8c-097a-50fd-683b" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="22fd-b175-9eee-1896" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="b556-c92a-63b0-ee7d" name="Fallschirmjäger Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="2421-3c9e-290a-41ee" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">MG301</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="8d3b-6807-ba11-cd3c" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0475-7ff9-9d24-6b98" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="898b-d1e4-0940-69ac" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="317b-42c7-f0c6-dc27" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8852-932b-53a8-97f4" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8124-5391-cdc2-2558" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3306-4af4-b041-98b1" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a409-20de-e94e-77a2" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a95-f0fe-a5f8-a8b4" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="36e2-9fed-d56e-a9f0" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dbf-2604-521d-5a20" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1be-fa08-4f8b-9c22" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b833-df52-01dc-a279" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b89d-6061-8418-bdb0" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfa6-3a7b-817c-8df3" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2b07-8ec8-a04a-138a" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be36-b678-50d5-442a" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9773-8564-1adc-ceed" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="78e3-6f61-3dfc-7b21" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d29-1f7b-eb9b-6035" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cc4-b5da-aa11-0509" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5214-90ff-dc0c-71fa" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4969-b726-f2e5-8eb0" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5279-8ff9-0ea0-5653" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7b60-7aaf-4f01-9a91" name="Wildcard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7857-49b5-17d7-526b" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41e7-db52-fdab-f914" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="f5c9-53dd-043b-5dba" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="11f0-d244-600a-5537" name="Afrikakorps Command Cards" hidden="false" collective="false" import="true" type="unit">
+  <selectionEntryGroups>
+    <selectionEntryGroup id="0eb5-c929-fe76-a4a1" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b07a-2e63-a56e-b0b4" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10df-e3f4-4925-2583" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3c6e-ee7e-4ea3-e110" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2617-3693-5970-dce3" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d423-4f5b-caf5-a59b" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a0fe-fc00-0f83-7b43" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a4c-f425-bba8-bc11" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0568-48e6-9e0c-e702" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4ff1-22a9-ded3-6a5f" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21a4-ea87-9d5e-49b3" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb94-94e8-fc54-fe42" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6dab-3f47-026a-dfbf" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9b4-1118-652b-93ea" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b07-b73d-f248-6e49" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="934c-30e4-3190-1346" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="419c-96fa-53a6-3b98" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b8e-e7f0-ea0d-836c" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e503-6020-2312-1157" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9102-e464-fe15-7686" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66ad-62f5-f222-f84a" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3ca7-2e96-f4bb-160a" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0558-94c4-6c0c-b7e3" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5950-4390-b9c5-9afa" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7a2b-0545-e5a9-a156" name="Wildcard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1433-b1f2-7956-faf7" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed08-2224-c01c-6faa" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="c8d7-78b6-e91b-83bf" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="becd-b91f-ed63-a2dd" name="Death From Above Command Cards" hidden="false" collective="false" import="true" type="unit">
+  <selectionEntryGroups>
+    <selectionEntryGroup id="05d8-55f4-c2c5-79ae" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a98b-d662-f9ab-f6f0" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe7e-9490-1ca6-8c14" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="15df-4c82-aae0-8938" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d67-af9b-fd1e-6291" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2673-f1c9-505c-cb7b" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="58f0-0c28-5f40-05b7" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62d6-e24e-ea17-04fb" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90a9-6a09-51d2-a0ba" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="44b8-2e83-f4c1-1e09" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cd6-ad7b-015a-1e8c" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="249e-eed2-89ba-79ff" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0f67-7adb-1168-fdbf" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2285-71b7-b080-abee" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fafa-c38c-6ef2-b04a" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8bc4-5a4c-bbe8-f05b" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9273-c8d8-5347-5e1e" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aa2-81da-f059-86d9" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ad59-0367-2fac-107e" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88fa-2cc7-578f-66f6" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9629-0a91-5cf3-a736" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="86be-e52b-77dc-65e6" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cc3-6a0a-8983-32f5" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a60c-8975-9da4-6eed" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3c18-b60f-5815-7a90" name="Wildcard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d5d-5c37-8aa8-d0c8" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0ea-63e9-0730-9685" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="21eb-7269-b42b-f98d" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry></selectionEntries></catalogue>

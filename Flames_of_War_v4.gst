@@ -204,7 +204,12 @@ updated info in v20 by mdcooledge</comment>
         <characteristicType id="fa11-60d9-4bb8-7538" name="Details"/>
       </characteristicTypes>
     </profileType>
-  </profileTypes>
+      <profileType id="86a9-a6ee-b9bd-dafe" name="Forces ID">
+      <characteristicTypes>
+        <characteristicType id="846f-94be-be15-4936" name="ID"/>
+      </characteristicTypes>
+    </profileType>
+</profileTypes>
   <categoryEntries>
     <categoryEntry id="5630-abd3-15d8-5cc6" name="Formations" publicationId="453d-401b-fd1e-0f95" page="94" hidden="false">
       <comment>v17 - willus8888
