@@ -534,9 +534,312 @@ Updated with Command Cards, Mid-War Points Update 2025</readme>
       </selectionEntries>
     </selectionEntryGroup>
   
-    <selectionEntryGroup id="b817-a0d3-d17a-4acb" name="Romanian Force Command Cards" hidden="false" collective="false" import="true">
-      <selectionEntries>
-        <selectionEntry id="6713-e54a-870f-9a09" name="Dead Eye [Ltd]" hidden="true" collective="false" import="true" type="upgrade">
+    </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="d893-0182-30a3-c389" name="Peasant Army" hidden="false">
+      <description>Roll a die for each Unit with this rule at the beginning of the game, after deployment but before the first turn; platoons held in Reserve do not roll until they arrive.
+If the die roll is a 5+, the Unit uses the Elite version for their ratings; these changed stats will be indicated in brackets.
+</description>
+    </rule>
+    <rule id="30a3-e8be-d83d-266b" name="Pioneers" hidden="false">
+      <description>Cross Minefields on a roll of 3+. If not Pinned Down, may clear the Minefield automatically next turn. Pioneer Units Dig In on a 3+.</description>
+    </rule>
+    <rule id="5b40-efb7-09e0-d745" name="Mountaineers" hidden="false">
+      <description>Teams from this Unit that start their Movement Step adjacent to a cliff or mountain side (or another similar impassable terrain feature) roll a Skill Test. If successful, the team may move using Terrain Dash across the terrain.</description>
+    </rule>
+    <rule id="c1e8-36dd-37d0-e53f" name="Motorcycles" hidden="false">
+      <description>Infantry Teams from this Unit become Unarmoured Tank Teams with the noted stats, movement, and special rules listed; discard this card at the start of any Movement Step to revert them to Infantry Teams.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="b514-306f-e5a7-f0e8" name="ZB24 rifle team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Slow FIring</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="db49-d13b-7864-8b7c" name="ZB53 HMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">6</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Heavy Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f62c-40f0-fc9c-1e4a" name="Flame-thrower team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">6&quot;/15cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Flame-thrower, Pinned ROF 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c27d-237d-5528-6a59" name="ZB24 rifle &amp; ZB30 MG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="9588-51ce-c2c0-d71a" name="Orita SMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 2+, Pinned ROF 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6758-9d56-c403-a67a" name="MG" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="a665-7961-49de-57af" name="T-38 (3.7cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">6</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overworked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="eeb8-6567-9655-6901" name="T-38 Light Tank " hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 5+ [4+] / Remount 3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+ [4+]</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985">Armoured Reserve</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0a23-368c-104b-6135" name="T-38 (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="32e1-a14d-76ec-1537" name="75mm Anti-tank Platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ / Last Stand 5+ [4+]</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">5+ [4+] / Assault 6 [5+]</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+        <characteristic name="Notes" typeId="28aa-390d-006a-1776">Gun Shield</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7fec-042d-a819-33e8" name="75mm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ada2-e52a-afae-f37f" name="Short 75mm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, HEAT</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="211a-819c-6232-dfa6" name="TAC 938 75mm Anti-tank Platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ / Last Stand 5+ [4+]</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">5+ [4+] / Assault 6 [5+]</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+        <characteristic name="Notes" typeId="28aa-390d-006a-1776">Gun Shield</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="51c2-aa02-0556-bcfc" name="81mm mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5c50-03d0-cee9-da69" name="R-2 Light Tank" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 5+ [4+] / Remount 3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+ [4+]</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">16&quot;/40cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985">Armoured Reserve</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="249a-6926-a8ad-ca46" name="R-2 (3.7cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">6</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overworked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7c1e-faae-8dfc-4e64" name="R-2 (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="fda1-2f4d-89f1-c070" name="T-3 Medium Tank" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 5+ [4+] / Remount 3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+ [4+]</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+      </characteristics>
+    </profile>
+    <profile id="fb57-6684-5dba-d6d2" name="T-3 (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">HEAT</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3cbc-c7f7-2cf0-79eb" name="T-3 (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="6619-618d-fa37-6a86" name="T-4  (Long 7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="69e9-06cf-ebc6-188a" name="T-4 Medium Tank" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 5+ [4+] / Remount 3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+ [4+]</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
+      </characteristics>
+    </profile>
+    <profile id="daca-9bfc-b5bb-d7a4" name="T-4 (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="2a5e-4581-184f-fd6e" name="60mm mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Heavy Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="13a7-955a-00a6-26a0" name="Motorcycles" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
+      <characteristics>
+        <characteristic name="Motivation" typeId="55ef-8653-887d-4642"/>
+        <characteristic name="Skill" typeId="229c-c44f-2910-c1d1"/>
+        <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d"/>
+        <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">4+</characteristic>
+        <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">-</characteristic>
+        <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">10&quot;/25cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">16&quot;/40cm</characteristic>
+        <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">40&quot;/100cm</characteristic>
+        <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">4+</characteristic>
+        <characteristic name="Notes" typeId="5c4c-b4d7-c2d1-6a93"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+<selectionEntries><selectionEntry id="7bac-a6c3-c991-0eec" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="6713-e54a-870f-9a09" name="Dead Eye [Ltd]" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -967,323 +1270,4 @@ The Formation HQ and any Unit that is making a combined Assault with it Countera
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="8ad0-ebd1-b4cf-61a2" name="Peasant Army" hidden="false" collective="false" import="true" targetId="7c75-4f14-1932-1302" type="selectionEntry">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="82e6-70a6-20bb-8c47" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0f4c-1dd9-7c71-fe21" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="434e-06c1-806a-3173" type="min"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="aaf3-6cbc-bf23-bb79" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
-  <sharedRules>
-    <rule id="d893-0182-30a3-c389" name="Peasant Army" hidden="false">
-      <description>Roll a die for each Unit with this rule at the beginning of the game, after deployment but before the first turn; platoons held in Reserve do not roll until they arrive.
-If the die roll is a 5+, the Unit uses the Elite version for their ratings; these changed stats will be indicated in brackets.
-</description>
-    </rule>
-    <rule id="30a3-e8be-d83d-266b" name="Pioneers" hidden="false">
-      <description>Cross Minefields on a roll of 3+. If not Pinned Down, may clear the Minefield automatically next turn. Pioneer Units Dig In on a 3+.</description>
-    </rule>
-    <rule id="5b40-efb7-09e0-d745" name="Mountaineers" hidden="false">
-      <description>Teams from this Unit that start their Movement Step adjacent to a cliff or mountain side (or another similar impassable terrain feature) roll a Skill Test. If successful, the team may move using Terrain Dash across the terrain.</description>
-    </rule>
-    <rule id="c1e8-36dd-37d0-e53f" name="Motorcycles" hidden="false">
-      <description>Infantry Teams from this Unit become Unarmoured Tank Teams with the noted stats, movement, and special rules listed; discard this card at the start of any Movement Step to revert them to Infantry Teams.</description>
-    </rule>
-  </sharedRules>
-  <sharedProfiles>
-    <profile id="b514-306f-e5a7-f0e8" name="ZB24 rifle team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Slow FIring</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="db49-d13b-7864-8b7c" name="ZB53 HMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">6</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Heavy Weapon</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="f62c-40f0-fc9c-1e4a" name="Flame-thrower team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">6&quot;/15cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Flame-thrower, Pinned ROF 1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="c27d-237d-5528-6a59" name="ZB24 rifle &amp; ZB30 MG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="9588-51ce-c2c0-d71a" name="Orita SMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 2+, Pinned ROF 1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="6758-9d56-c403-a67a" name="MG" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="a665-7961-49de-57af" name="T-38 (3.7cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">6</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overworked</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="eeb8-6567-9655-6901" name="T-38 Light Tank " hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
-      <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 5+ [4+] / Remount 3+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+ [4+]</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
-        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
-        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
-        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
-        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
-        <characteristic name="Notes" typeId="33d6-6375-9564-9985">Armoured Reserve</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="0a23-368c-104b-6135" name="T-38 (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="32e1-a14d-76ec-1537" name="75mm Anti-tank Platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
-      <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ / Last Stand 5+ [4+]</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">5+ [4+] / Assault 6 [5+]</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
-        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
-        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
-        <characteristic name="Notes" typeId="28aa-390d-006a-1776">Gun Shield</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="7fec-042d-a819-33e8" name="75mm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ada2-e52a-afae-f37f" name="Short 75mm gun" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, HEAT</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="211a-819c-6232-dfa6" name="TAC 938 75mm Anti-tank Platoon" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
-      <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ / Last Stand 5+ [4+]</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">5+ [4+] / Assault 6 [5+]</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
-        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
-        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
-        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
-        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
-        <characteristic name="Notes" typeId="28aa-390d-006a-1776">Gun Shield</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="51c2-aa02-0556-bcfc" name="81mm mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="5c50-03d0-cee9-da69" name="R-2 Light Tank" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
-      <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 5+ [4+] / Remount 3+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+ [4+]</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
-        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
-        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
-        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">16&quot;/40cm</characteristic>
-        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
-        <characteristic name="Notes" typeId="33d6-6375-9564-9985">Armoured Reserve</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="249a-6926-a8ad-ca46" name="R-2 (3.7cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">6</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overworked</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="7c1e-faae-8dfc-4e64" name="R-2 (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="fda1-2f4d-89f1-c070" name="T-3 Medium Tank" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
-      <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 5+ [4+] / Remount 3+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+ [4+]</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
-        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
-        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
-        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
-        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
-        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
-      </characteristics>
-    </profile>
-    <profile id="fb57-6684-5dba-d6d2" name="T-3 (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">HEAT</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3cbc-c7f7-2cf0-79eb" name="T-3 (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="6619-618d-fa37-6a86" name="T-4  (Long 7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="69e9-06cf-ebc6-188a" name="T-4 Medium Tank" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
-      <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ / Last Stand 5+ [4+] / Remount 3+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+ [4+]</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
-        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
-        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
-        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
-        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
-        <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
-      </characteristics>
-    </profile>
-    <profile id="daca-9bfc-b5bb-d7a4" name="T-4 (MGs)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="2a5e-4581-184f-fd6e" name="60mm mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a"/>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Heavy Weapon</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="13a7-955a-00a6-26a0" name="Motorcycles" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
-      <characteristics>
-        <characteristic name="Motivation" typeId="55ef-8653-887d-4642"/>
-        <characteristic name="Skill" typeId="229c-c44f-2910-c1d1"/>
-        <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d"/>
-        <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">4+</characteristic>
-        <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">-</characteristic>
-        <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">10&quot;/25cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">16&quot;/40cm</characteristic>
-        <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">40&quot;/100cm</characteristic>
-        <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">4+</characteristic>
-        <characteristic name="Notes" typeId="5c4c-b4d7-c2d1-6a93"/>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
-<selectionEntries/></catalogue>
+      </selectionEntries></selectionEntry></selectionEntries></catalogue>

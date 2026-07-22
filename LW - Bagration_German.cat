@@ -7289,7 +7289,45 @@ Third ReichLast Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="99e6-3ac8-2fc9-c3e1" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-<entryLinks><entryLink id="7505-dfb8-b880-a620" name="Sd Kfz 250 Scout Troop (LG179)" hidden="false" collective="false" import="true" targetId="7888-037a-8320-1bdf" type="selectionEntry"/><entryLink id="8512-984d-2b5c-1dc4" name="Hetzer Tank-hunter Platoon (LG243)" hidden="false" collective="false" import="true" targetId="995c-2a98-e4df-8ca6" type="selectionEntry"/><entryLink id="f0d2-909f-9401-431d" name="Storm Grenadier Platoon (LG237)" hidden="false" collective="false" import="true" targetId="6e6d-c9ef-d098-374f" type="selectionEntry"/><entryLink id="aace-9cec-44e6-6af3" name="Ju 87 Stuka (3.7cm) Tank-hunter Flight (LG146)" hidden="false" collective="false" import="true" targetId="402e-6969-4464-ad68" type="selectionEntry"/><entryLink id="1268-2a62-886f-05a6" name="Ju 87 Stuka Dive Bomber Flight (LG145)" hidden="false" collective="false" import="true" targetId="27ff-7bfc-7f85-dffe" type="selectionEntry"/><entryLink id="7e59-2e45-eb04-e030" name="7.5cm Tank-hunter Platoon (LG131)" hidden="false" collective="false" import="true" targetId="c855-ce29-885f-0ffb" type="selectionEntry"/><entryLink id="9fa4-7352-4560-c299" name="Tiger Tank Platoon (LG102)" hidden="false" collective="false" import="true" targetId="135b-cbb2-cfe0-68c2" type="selectionEntry"/><entryLink id="e1c7-897f-289e-48e6" name="Panther Tank Platoon (LG104)" hidden="false" collective="false" import="true" targetId="1530-ff76-b046-8b8f" type="selectionEntry"/></entryLinks></selectionEntry></selectionEntries>
+<entryLinks><entryLink id="7505-dfb8-b880-a620" name="Sd Kfz 250 Scout Troop (LG179)" hidden="false" collective="false" import="true" targetId="7888-037a-8320-1bdf" type="selectionEntry"/><entryLink id="8512-984d-2b5c-1dc4" name="Hetzer Tank-hunter Platoon (LG243)" hidden="false" collective="false" import="true" targetId="995c-2a98-e4df-8ca6" type="selectionEntry"/><entryLink id="f0d2-909f-9401-431d" name="Storm Grenadier Platoon (LG237)" hidden="false" collective="false" import="true" targetId="6e6d-c9ef-d098-374f" type="selectionEntry"/><entryLink id="aace-9cec-44e6-6af3" name="Ju 87 Stuka (3.7cm) Tank-hunter Flight (LG146)" hidden="false" collective="false" import="true" targetId="402e-6969-4464-ad68" type="selectionEntry"/><entryLink id="1268-2a62-886f-05a6" name="Ju 87 Stuka Dive Bomber Flight (LG145)" hidden="false" collective="false" import="true" targetId="27ff-7bfc-7f85-dffe" type="selectionEntry"/><entryLink id="7e59-2e45-eb04-e030" name="7.5cm Tank-hunter Platoon (LG131)" hidden="false" collective="false" import="true" targetId="c855-ce29-885f-0ffb" type="selectionEntry"/><entryLink id="9fa4-7352-4560-c299" name="Tiger Tank Platoon (LG102)" hidden="false" collective="false" import="true" targetId="135b-cbb2-cfe0-68c2" type="selectionEntry"/><entryLink id="e1c7-897f-289e-48e6" name="Panther Tank Platoon (LG104)" hidden="false" collective="false" import="true" targetId="1530-ff76-b046-8b8f" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="38a4-097b-ccfc-137f" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="5ff0-3a53-c3b3-5467" name="Machine-Gun Nests" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfb7-d2fe-e2f8-ee49" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="7201-afba-702f-6731" name="Machine-Gun Nests" hidden="false">
+          <description>sMG34 or sMG42 HMG teams in this unit cannot move, but can rotate to face target when shooting and are Nests.  Each HMG team is a separate Independent Team</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="61c2-cccf-3714-72cb" name="Nest" hidden="false" targetId="cd91-ebea-58fa-9f14" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="40d6-328d-7ed2-3e83" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="fe01-edde-baa4-48b3" name="Pakfront" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e66-f8ab-f64e-ad13" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="b368-c3f6-a485-71d7" name="Pakfront" hidden="false">
+          <description>gun teams in this unit cannot move, but can rotate to face target when shooting and are Nests.  Each gun team is a separate Independent Team</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="32e2-55a1-04ce-fc78" name="Nest" hidden="false" targetId="cd91-ebea-58fa-9f14" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="790c-185c-4ac4-6d07" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+      </costs>
+    </selectionEntry>
+      </selectionEntries></selectionEntry></selectionEntries>
   <entryLinks>
     <entryLink id="ae42-79c9-0e86-d937" name="Grenadier Company" hidden="false" collective="false" import="true" targetId="34b7-3af0-ec16-5e90" type="selectionEntry"/>
     <entryLink id="7ba5-6972-41f8-a55d" name="Fallschirmjäger StuG Assault Gun Company" hidden="false" collective="false" import="true" targetId="5c5a-c627-3e2b-1e4b" type="selectionEntry"/>
@@ -8673,56 +8711,7 @@ Each turn you can re-roll 1 failed reserve roll</description>
       </constraints>
     </selectionEntryGroup>
   
-    <selectionEntryGroup id="2a7b-657c-2ad5-f901" name="Bagration: German Command Cards" hidden="false" collective="false" import="true">
-      <selectionEntries>
-        <selectionEntry id="5ff0-3a53-c3b3-5467" name="Machine-Gun Nests" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfb7-d2fe-e2f8-ee49" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="7201-afba-702f-6731" name="Machine-Gun Nests" hidden="false">
-          <description>sMG34 or sMG42 HMG teams in this unit cannot move, but can rotate to face target when shooting and are Nests.  Each HMG team is a separate Independent Team</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="61c2-cccf-3714-72cb" name="Nest" hidden="false" targetId="cd91-ebea-58fa-9f14" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="40d6-328d-7ed2-3e83" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-        <selectionEntry id="fe01-edde-baa4-48b3" name="Pakfront" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e66-f8ab-f64e-ad13" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="b368-c3f6-a485-71d7" name="Pakfront" hidden="false">
-          <description>gun teams in this unit cannot move, but can rotate to face target when shooting and are Nests.  Each gun team is a separate Independent Team</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="32e2-55a1-04ce-fc78" name="Nest" hidden="false" targetId="cd91-ebea-58fa-9f14" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="790c-185c-4ac4-6d07" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="de73-4bbb-6150-64ca" name="Lucky" hidden="false" collective="false" import="true" targetId="9413-df88-661f-9de5" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="9c3e-55b5-288e-034d" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
+    </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d933-b4ee-739a-f94f" name="Panzerfaust - Limited 1" hidden="false">
       <description>Each time this Unit shoots, one of its Teams my shoot as a Panzerfaust rather than its usual weapons.

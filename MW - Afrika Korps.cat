@@ -620,626 +620,7 @@ Updated with MW Points Update 2025 on 4-3-2025</readme>
       </selectionEntries>
     </selectionEntryGroup>
   
-    <selectionEntryGroup id="1939-279b-15e0-d033" name="Afrika Korps Force Command Cards" hidden="false" collective="false" import="true">
-      <selectionEntries>
-        <selectionEntry id="4401-be65-0c71-2556" name="Brandenburgers" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53d2-e036-27fe-2453" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="d6d9-be61-4ed0-16bc" name="Brandenburgers" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">When your opponent would first roll for Air Support, they automatically fail to receive Air Support for that turn.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d697-3267-bd14-b6c6" name="Dummy Minefield" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1032-6da5-0a50-2954" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="950c-b62d-ead9-81ea" name="Dummy Minefield" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">If this mission has Minefields, after Deployment you may redeply a Minefield marker anywhere outside your opponent&apos;s deployment area.
-
-In Missions without Minefields, you may deploy a Minefield marker anywhere outside your opponent&apos;s deployment area before placing Objectives.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f21f-3e88-f077-e623" name="Diversionary Tactics" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae4b-7eca-79bc-5c92" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="a61d-b54d-e2d8-c496" name="Diversionary Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">At the start of a game, after deployment, reposition one of your opponent&apos;s Ranged In markers up to 6&quot;/15cm in any direction.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2f85-9941-dddc-4594" name="Erwin Rommel" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a227-c653-2c86-501a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05fd-7e5c-3826-8152" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="89ae-4c63-193c-7065" name="Erwin Rommel" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">All of your Formation Commanders have their Commander Leadership range increased from 6&quot;/15cm to 8&quot;/20cm.
-
-If you win the game, you gain one extra Victory Point; if you lose the game, you lose one Victory Point.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6fa1-a573-bc6e-e2ed" name="Pure Luck" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc88-b8cb-f628-26b9" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="4215-48d8-513b-ad9b" name="Pure Luck" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card to re-roll any one die. The second result must be used.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="40b0-f913-a92e-18fc" name="Forward Scouts" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="421b-edac-f499-d8ef" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae26-94b4-bec2-79d4" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="6950-0a5e-ebf9-58d3" name="Forward Scouts" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit gains Scout.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="7a79-1edf-fb77-fc6c" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a600-ffd2-dcd2-0b7d" name="Roll Over Them" hidden="true" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8236-8139-1ecb-9f79" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a89a-0c66-b6ba-fe17" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db4c-4a34-ca81-9214" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="5d54-c0f1-47c6-7051" name="Roll Over Them" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit Counterattacks on 3+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7ac4-30ad-00db-d0f3" name="Dead Eye" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="282a-83eb-876c-4759" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dce7-0596-f249-e8d3" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9408-38da-f779-e675" name="Dead Eye" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">In each Shooting Step, pick one Infantry Team from this Unit. This team may re-roll one failed To Hit roll.
-
-If this shot hits it target, that Team must re-roll their Save if it is successful.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="074f-6b27-bd55-f65e" name="Every Shot Counts" hidden="true" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8236-8139-1ecb-9f79" type="instanceOf"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a89a-0c66-b6ba-fe17" type="instanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c508-7ba8-f0a6-f20b" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="66e3-8717-9a1c-238d" name="Every Shot Counts" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Unit Leader in this Unit may re-roll one failed To Hit in each Shooting Step.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ade2-9fc8-cb21-b347" name="Clever Hans" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdd-59d1-f32e-d241" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d2f-5d85-1ff2-a0ab" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="109a-82eb-90d6-eb9a" name="Clever Hans" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Tiger tanks in this Unit pass Cross tests on 2+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="25aa-de24-31e8-6f1a" name="Rapid Fire" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdd-59d1-f32e-d241" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16ab-7288-2137-0dbc" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="3388-b735-12d8-9de6" name="Rapid Fire" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Unit Leader&apos;s Tiger tank has Halted ROF 3 with its 8.8cm gun.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fef0-d0c7-1c6e-aee1" name="Deadly Gunner" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdd-59d1-f32e-d241" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ef7-488a-21e2-6f52" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="8251-46b7-624a-4b1f" name="Deadly Gunner" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Unit Leader may re-roll one failed Firepower Test during the Shooting Step.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2de9-50df-d440-6a7d" name="Schnell" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdd-59d1-f32e-d241" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a60-0dcd-b0dc-e6b4" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="b9b5-86a2-a041-4de6" name="Schnell" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit passes Blitz Move tests on 2+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8208-a496-b61f-3fc6" name="Panzer-Knacker" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ef-b0db-7869-181a" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="1756-8fb4-0727-7d5f" name="Panzer-Knacker" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card to give Infantry and Gun teams in this Unit Anti-tank 3 and Firepower 1+ against Top Armour in Assaults until the end of the turn.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7f96-5400-7c3f-d612" name="Elite Crew" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="912e-3dba-2ff4-ab44" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64e0-2825-56d0-f1a6" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9202-c0ef-a27b-6130" name="Elite Crew" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Formation Commander&apos;s Panzer III tank has Halted ROF 3 with its Short 5cm, Long 5cm, or 7.5cm gun.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a6b9-5398-4d48-610c" name="Precise Gunner" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0954-86f2-0fca-c5fa" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="289b-69d2-c7b6-57f2" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="8fc9-4803-7c76-9418" name="Precise Gunner" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Formation Commander may re-roll one failed Firepower Test during the Shooting Step.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a859-7d70-31d2-1132" name="Pinpoint Accuracy" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0954-86f2-0fca-c5fa" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6b3-2d04-316f-4af0" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="35a7-554f-89f8-0449" name="Pinpoint Accuracy" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your HQ Unit has a Skill of 2+ when Ranging In its own Artillery Bombardment.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="41b2-c806-86eb-587d" name="Ferocious Valor" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b34-5db9-db08-6b67" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7833-b93c-d327-7f2a" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="ea83-eb9c-908e-b524" name="Ferocious Valor" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your Formation Commander may roll two dice instead of one To Hit during Assaults.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="039e-c1c3-17fc-13c1" name="Clever Tactics" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="912e-3dba-2ff4-ab44" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82d2-1d3a-ab04-ac03" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="a162-6ed6-52bf-fe76" name="Clever Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your HQ Unit passes Tactics tests for Movement Orders on 2+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f5fa-24b0-29bd-490a" name="Hidden in Plain Sight" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b989-c4e8-a973-b99f" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a4c-9d05-c3e0-59a3" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="189b-2f6c-c9d0-951c" name="Hidden in Plain Sight" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your HQ Unit is Concealed when Halted.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="cff3-59b8-dd1e-f5be" name="Marksman" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="174c-f7a4-b898-98c0" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd81-5706-687c-62cc" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="a496-14b9-d0b2-9fae" name="Marksman" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Hits by this Formation Commander may only be swapped using the Mistaken Target rule on 4+ instead of 3+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9c8d-5d53-1cfd-c138" name="Fortify the Building" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cea-b4f5-05ce-722f" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="3840-734a-efaa-ca31" name="Fortify the Building" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Place this card next to a building that your HQ Unit is occupying. For the rest of the game, Infantry Teams in this building have a 2+ save.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3e1d-5373-9218-c8cc" name="Captured Tank" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f83-d971-df0a-5a4d" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="0d14-71b4-1107-6bc6" name="Captured Tank" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card after you win in an assault in which you Destroyed an enemy Tank Team. Remove one adjacent Infantry Team and add the enemy Tank to your force as a Captured Tank unit.
-
-Use  the captured Tank&apos;s normal stats apart from its Is Hit On which becomes 2+. The captured Tank must add +1 to the score needed To Hit when it shoots. A Captured Tank Unit may not Launch an Assault and must always Break Off when assaulted.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7c2f-d498-adf8-d17e" name="Cut Them Down" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a6e-bb9f-6913-0b8c" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8200-5977-15e4-6c7c" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="546d-7cde-aa76-a264" name="Cut Them Down" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Thie Formation Commander may re-roll failed To Hit rolls when Shooting during Defensive Fire while being assaulted.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c990-6f69-1fa1-9983" name="Charmed Life" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df87-a07b-dfed-9f9d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d54-923d-ea23-6e29" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="dc9d-1469-543c-8c13" name="Charmed Life" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card before rolling to automatically pass an Armour or Infantry Save (including all re-rolls) made by this Formation Commander.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1f5f-523d-22e2-3eca" name="Blitzkrieg" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58e1-2eaf-ebf4-13fb" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01b5-22fc-50e4-3724" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="22c2-61d3-e975-a694" name="Blitzkrieg" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card to let Units in this Formation whose Unit Leader is within 8&quot;/20cm of this Formation Commander pass Blitz Move Movement Orders on a 2+ until the end of the turn.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9c04-2358-eb28-d317" name="Josef Rettemeier" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="614f-8959-6401-2c62" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b756-a478-cdb7-3707" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="0430-164e-8f2b-3a3e" name="Josef Rettemeier" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">If the Unit Leader of a Tank Unit in this Formation is within 6&quot;/15cm and in Line of Sight of the Formation Commander, the Unit passes Shoot and Scoot tests on 2+.
-
-The Formation Commander&apos;s Tank Team may re-roll one failed roll To Hit in each Shooting Step. This does not apply if his tank fires an Artillery Bombardment.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e955-3fc3-cf9b-aacb" name="Mission Tactics" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0180-c31c-cae0-b273" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="92a6-f47a-704d-9023" name="Mission Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Increase this Formation Commander&apos;s Command Leadership distance from 6&quot;/15cm to 8&quot;/20cm.
-
-Discard this card to automatically pass one Unit Last Stand Test for a Unit from this Formation whose Unit Leader is within 8&quot;/20cm of the Formation Commander.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6368-fa94-520b-68de" name="Pioneer Company" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8195-e8fe-d94d-0863" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d90f-0c32-6dad-fe4f" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="4e4a-0cb5-3b4d-69f0" name="Pioneer Company" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Infantry Teams in Formation cross Minefields safely on a roll of 2+.
-Infantry and Gun Teams in this Formations Dig In on a roll of 2+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4417-4f3c-5f8d-bf0e" name="Trench Fighter" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="301e-c702-4c66-63e4" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e1f2-f25a-eed9-3850" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="f853-39c7-3839-cb1f" name="Trench Fighter" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
-              <characteristics>
-                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Formation Commander Infantry Team Hits on 2+ in Assaults.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
+    </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="9a14-019a-eb63-0b40" name="HEAT" hidden="false">
       <description>A Team&apos;s Armour rating is not increased by +1 if it is more than 16&quot;/40cm away when hit by HEAT weapons.</description>
@@ -4147,4 +3528,619 @@ SP GunAssault 4+</characteristic>
   <categoryLinks>
     <categoryLink id="a0a2-9e99-c634-b0db" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-</selectionEntry></selectionEntries></catalogue>
+</selectionEntry><selectionEntry id="2c48-f36f-f421-0e0a" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="4401-be65-0c71-2556" name="Brandenburgers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53d2-e036-27fe-2453" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d6d9-be61-4ed0-16bc" name="Brandenburgers" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">When your opponent would first roll for Air Support, they automatically fail to receive Air Support for that turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d697-3267-bd14-b6c6" name="Dummy Minefield" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1032-6da5-0a50-2954" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="950c-b62d-ead9-81ea" name="Dummy Minefield" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">If this mission has Minefields, after Deployment you may redeply a Minefield marker anywhere outside your opponent&apos;s deployment area.
+
+In Missions without Minefields, you may deploy a Minefield marker anywhere outside your opponent&apos;s deployment area before placing Objectives.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f21f-3e88-f077-e623" name="Diversionary Tactics" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae4b-7eca-79bc-5c92" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a61d-b54d-e2d8-c496" name="Diversionary Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">At the start of a game, after deployment, reposition one of your opponent&apos;s Ranged In markers up to 6&quot;/15cm in any direction.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2f85-9941-dddc-4594" name="Erwin Rommel" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a227-c653-2c86-501a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05fd-7e5c-3826-8152" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="89ae-4c63-193c-7065" name="Erwin Rommel" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">All of your Formation Commanders have their Commander Leadership range increased from 6&quot;/15cm to 8&quot;/20cm.
+
+If you win the game, you gain one extra Victory Point; if you lose the game, you lose one Victory Point.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6fa1-a573-bc6e-e2ed" name="Pure Luck" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc88-b8cb-f628-26b9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4215-48d8-513b-ad9b" name="Pure Luck" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card to re-roll any one die. The second result must be used.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="40b0-f913-a92e-18fc" name="Forward Scouts" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="421b-edac-f499-d8ef" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae26-94b4-bec2-79d4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6950-0a5e-ebf9-58d3" name="Forward Scouts" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit gains Scout.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7a79-1edf-fb77-fc6c" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a600-ffd2-dcd2-0b7d" name="Roll Over Them" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8236-8139-1ecb-9f79" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a89a-0c66-b6ba-fe17" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db4c-4a34-ca81-9214" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5d54-c0f1-47c6-7051" name="Roll Over Them" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit Counterattacks on 3+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7ac4-30ad-00db-d0f3" name="Dead Eye" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="282a-83eb-876c-4759" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dce7-0596-f249-e8d3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9408-38da-f779-e675" name="Dead Eye" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">In each Shooting Step, pick one Infantry Team from this Unit. This team may re-roll one failed To Hit roll.
+
+If this shot hits it target, that Team must re-roll their Save if it is successful.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="074f-6b27-bd55-f65e" name="Every Shot Counts" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8236-8139-1ecb-9f79" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a89a-0c66-b6ba-fe17" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c508-7ba8-f0a6-f20b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="66e3-8717-9a1c-238d" name="Every Shot Counts" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Unit Leader in this Unit may re-roll one failed To Hit in each Shooting Step.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ade2-9fc8-cb21-b347" name="Clever Hans" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdd-59d1-f32e-d241" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d2f-5d85-1ff2-a0ab" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="109a-82eb-90d6-eb9a" name="Clever Hans" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Tiger tanks in this Unit pass Cross tests on 2+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="25aa-de24-31e8-6f1a" name="Rapid Fire" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdd-59d1-f32e-d241" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16ab-7288-2137-0dbc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3388-b735-12d8-9de6" name="Rapid Fire" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Unit Leader&apos;s Tiger tank has Halted ROF 3 with its 8.8cm gun.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fef0-d0c7-1c6e-aee1" name="Deadly Gunner" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdd-59d1-f32e-d241" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ef7-488a-21e2-6f52" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8251-46b7-624a-4b1f" name="Deadly Gunner" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Unit Leader may re-roll one failed Firepower Test during the Shooting Step.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2de9-50df-d440-6a7d" name="Schnell" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdd-59d1-f32e-d241" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a60-0dcd-b0dc-e6b4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b9b5-86a2-a041-4de6" name="Schnell" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Unit passes Blitz Move tests on 2+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8208-a496-b61f-3fc6" name="Panzer-Knacker" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ef-b0db-7869-181a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1756-8fb4-0727-7d5f" name="Panzer-Knacker" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card to give Infantry and Gun teams in this Unit Anti-tank 3 and Firepower 1+ against Top Armour in Assaults until the end of the turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7f96-5400-7c3f-d612" name="Elite Crew" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="912e-3dba-2ff4-ab44" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64e0-2825-56d0-f1a6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9202-c0ef-a27b-6130" name="Elite Crew" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Formation Commander&apos;s Panzer III tank has Halted ROF 3 with its Short 5cm, Long 5cm, or 7.5cm gun.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a6b9-5398-4d48-610c" name="Precise Gunner" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0954-86f2-0fca-c5fa" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="289b-69d2-c7b6-57f2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8fc9-4803-7c76-9418" name="Precise Gunner" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">The Formation Commander may re-roll one failed Firepower Test during the Shooting Step.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a859-7d70-31d2-1132" name="Pinpoint Accuracy" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0954-86f2-0fca-c5fa" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6b3-2d04-316f-4af0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="35a7-554f-89f8-0449" name="Pinpoint Accuracy" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your HQ Unit has a Skill of 2+ when Ranging In its own Artillery Bombardment.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="41b2-c806-86eb-587d" name="Ferocious Valor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b34-5db9-db08-6b67" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7833-b93c-d327-7f2a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ea83-eb9c-908e-b524" name="Ferocious Valor" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your Formation Commander may roll two dice instead of one To Hit during Assaults.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="039e-c1c3-17fc-13c1" name="Clever Tactics" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="912e-3dba-2ff4-ab44" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82d2-1d3a-ab04-ac03" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a162-6ed6-52bf-fe76" name="Clever Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your HQ Unit passes Tactics tests for Movement Orders on 2+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f5fa-24b0-29bd-490a" name="Hidden in Plain Sight" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b989-c4e8-a973-b99f" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a4c-9d05-c3e0-59a3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="189b-2f6c-c9d0-951c" name="Hidden in Plain Sight" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Your HQ Unit is Concealed when Halted.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cff3-59b8-dd1e-f5be" name="Marksman" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="174c-f7a4-b898-98c0" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd81-5706-687c-62cc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a496-14b9-d0b2-9fae" name="Marksman" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Hits by this Formation Commander may only be swapped using the Mistaken Target rule on 4+ instead of 3+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9c8d-5d53-1cfd-c138" name="Fortify the Building" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cea-b4f5-05ce-722f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3840-734a-efaa-ca31" name="Fortify the Building" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Place this card next to a building that your HQ Unit is occupying. For the rest of the game, Infantry Teams in this building have a 2+ save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3e1d-5373-9218-c8cc" name="Captured Tank" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f83-d971-df0a-5a4d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0d14-71b4-1107-6bc6" name="Captured Tank" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card after you win in an assault in which you Destroyed an enemy Tank Team. Remove one adjacent Infantry Team and add the enemy Tank to your force as a Captured Tank unit.
+
+Use  the captured Tank&apos;s normal stats apart from its Is Hit On which becomes 2+. The captured Tank must add +1 to the score needed To Hit when it shoots. A Captured Tank Unit may not Launch an Assault and must always Break Off when assaulted.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7c2f-d498-adf8-d17e" name="Cut Them Down" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a6e-bb9f-6913-0b8c" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8200-5977-15e4-6c7c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="546d-7cde-aa76-a264" name="Cut Them Down" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Thie Formation Commander may re-roll failed To Hit rolls when Shooting during Defensive Fire while being assaulted.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c990-6f69-1fa1-9983" name="Charmed Life" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df87-a07b-dfed-9f9d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d54-923d-ea23-6e29" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dc9d-1469-543c-8c13" name="Charmed Life" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card before rolling to automatically pass an Armour or Infantry Save (including all re-rolls) made by this Formation Commander.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1f5f-523d-22e2-3eca" name="Blitzkrieg" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58e1-2eaf-ebf4-13fb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01b5-22fc-50e4-3724" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="22c2-61d3-e975-a694" name="Blitzkrieg" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Discard this card to let Units in this Formation whose Unit Leader is within 8&quot;/20cm of this Formation Commander pass Blitz Move Movement Orders on a 2+ until the end of the turn.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9c04-2358-eb28-d317" name="Josef Rettemeier" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="614f-8959-6401-2c62" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b756-a478-cdb7-3707" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0430-164e-8f2b-3a3e" name="Josef Rettemeier" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">If the Unit Leader of a Tank Unit in this Formation is within 6&quot;/15cm and in Line of Sight of the Formation Commander, the Unit passes Shoot and Scoot tests on 2+.
+
+The Formation Commander&apos;s Tank Team may re-roll one failed roll To Hit in each Shooting Step. This does not apply if his tank fires an Artillery Bombardment.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e955-3fc3-cf9b-aacb" name="Mission Tactics" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0180-c31c-cae0-b273" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="92a6-f47a-704d-9023" name="Mission Tactics" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Increase this Formation Commander&apos;s Command Leadership distance from 6&quot;/15cm to 8&quot;/20cm.
+
+Discard this card to automatically pass one Unit Last Stand Test for a Unit from this Formation whose Unit Leader is within 8&quot;/20cm of the Formation Commander.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6368-fa94-520b-68de" name="Pioneer Company" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8195-e8fe-d94d-0863" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d90f-0c32-6dad-fe4f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4e4a-0cb5-3b4d-69f0" name="Pioneer Company" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">Infantry Teams in Formation cross Minefields safely on a roll of 2+.
+Infantry and Gun Teams in this Formations Dig In on a roll of 2+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4417-4f3c-5f8d-bf0e" name="Trench Fighter" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e15-8a32-a705-9365" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="301e-c702-4c66-63e4" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e1f2-f25a-eed9-3850" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f853-39c7-3839-cb1f" name="Trench Fighter" hidden="false" typeId="c86b-12b3-c1b1-b8e0" typeName="Command Card [Revised]">
+              <characteristics>
+                <characteristic name="Details" typeId="fa11-60d9-4bb8-7538">This Formation Commander Infantry Team Hits on 2+ in Assaults.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries></selectionEntry></selectionEntries></catalogue>

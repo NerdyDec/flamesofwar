@@ -429,23 +429,6 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="8d09-6d24-cd79-e1fd" name="Command Cards" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c92-129a-ef7d-0ec8" type="max"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry id="b5ab-8305-0c66-6545" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e3c-524e-42c3-b91e" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="b325-44a2-31d9-a812" name="Secondary Weapon" hidden="false">
       <description>A Tank may fire its Secondary Weapon at ROF 1 at the same time as its main gun. If they do this, the Secondary Wapon suffers a +1 penalty to hit. Each weapon may fire at a different target.</description>
@@ -908,4 +891,12 @@ Infantry and Gun Units in this Formation Dig In on a roll of 3+.</description>
       </characteristics>
     </profile>
   </sharedProfiles>
-<selectionEntries/></catalogue>
+<selectionEntries><selectionEntry id="72ea-aa62-62e9-0b19" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="b5ab-8305-0c66-6545" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e3c-524e-42c3-b91e" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries></selectionEntry></selectionEntries></catalogue>

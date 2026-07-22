@@ -401,9 +401,90 @@ V1.2 [Mid-War Update 2025] finished 4-3-25</readme>
       </selectionEntries>
     </selectionEntryGroup>
   
-    <selectionEntryGroup id="5abd-522d-0e7f-d342" name="Finnish Force Command Cards" hidden="false" collective="false" import="true">
-      <selectionEntries>
-        <selectionEntry id="f744-f123-a338-9539" name="Pure Luck" hidden="false" collective="false" import="true" type="upgrade">
+    </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="6998-876f-198f-9c8e" name="Armoured Reserve" hidden="false">
+      <description>In missions with Deep Reserves, you may only field one Tank Unit with Armoured Reserve, one Tank Unit with Front Armour of 3 or more, or one Aircraft Unit on the table at the start of the game.</description>
+    </rule>
+    <rule id="fdf4-b280-0b79-3a03" name="Hunters" hidden="false">
+      <description>Infantry Teams treat Snow, Woods, and Forests as Cross-country Dash instead of Terrain Dash.</description>
+    </rule>
+    <rule id="f624-57ae-b369-3f2f" name="Pioneers" hidden="false">
+      <description>Teams cross Minefields on 2+.</description>
+    </rule>
+    <rule id="48dc-e552-d836-ccc7" name="HEAT" hidden="false">
+      <description>Target Armour is not increased by +1 if it is more than 16&quot;/40cm away.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="aed0-bc85-6fcf-ebc9" name="T-26 (45mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overworked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="43e6-db76-2e23-ab4e" name="T-26 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="d67b-2209-b256-c380" name="T-26" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ / Tactics 3+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">16&quot;/40cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+        <characteristic name="Notes" typeId="33d6-6375-9564-9985">Armoured Reserve</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fd18-c7bd-f557-d674" name="Suomi SMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Pinned ROF 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4a21-a176-80e1-d22c" name="Maxim HMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">6</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Heavy Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8588-2c4c-132b-81d8" name="M/27 rifle team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+<selectionEntries><selectionEntry id="c5ac-4e8d-300f-ec78" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="f744-f123-a338-9539" name="Pure Luck" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2dc-d613-2112-8652" type="max"/>
           </constraints>
@@ -798,99 +879,4 @@ If this shot hits its target, target Team must re-roll a successful Save.</chara
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="5e6b-da71-c9c1-a473" name="Command Cards [Force]" hidden="false" collective="false" import="true" targetId="4e58-4655-3159-3028" type="selectionEntry">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3171-c983-8080-76a2" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="9216-72e2-b665-0624" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
-  <sharedRules>
-    <rule id="6998-876f-198f-9c8e" name="Armoured Reserve" hidden="false">
-      <description>In missions with Deep Reserves, you may only field one Tank Unit with Armoured Reserve, one Tank Unit with Front Armour of 3 or more, or one Aircraft Unit on the table at the start of the game.</description>
-    </rule>
-    <rule id="fdf4-b280-0b79-3a03" name="Hunters" hidden="false">
-      <description>Infantry Teams treat Snow, Woods, and Forests as Cross-country Dash instead of Terrain Dash.</description>
-    </rule>
-    <rule id="f624-57ae-b369-3f2f" name="Pioneers" hidden="false">
-      <description>Teams cross Minefields on 2+.</description>
-    </rule>
-    <rule id="48dc-e552-d836-ccc7" name="HEAT" hidden="false">
-      <description>Target Armour is not increased by +1 if it is more than 16&quot;/40cm away.</description>
-    </rule>
-  </sharedRules>
-  <sharedProfiles>
-    <profile id="aed0-bc85-6fcf-ebc9" name="T-26 (45mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overworked</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="43e6-db76-2e23-ab4e" name="T-26 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="d67b-2209-b256-c380" name="T-26" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
-      <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ / Tactics 3+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
-        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
-        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
-        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
-        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
-        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">12&quot;/30cm</characteristic>
-        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">16&quot;/40cm</characteristic>
-        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
-        <characteristic name="Notes" typeId="33d6-6375-9564-9985">Armoured Reserve</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="fd18-c7bd-f557-d674" name="Suomi SMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Pinned ROF 1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4a21-a176-80e1-d22c" name="Maxim HMG team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">6</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Heavy Weapon</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8588-2c4c-132b-81d8" name="M/27 rifle team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Slow Firing</characteristic>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
-<selectionEntries/></catalogue>
+      </selectionEntries></selectionEntry></selectionEntries></catalogue>

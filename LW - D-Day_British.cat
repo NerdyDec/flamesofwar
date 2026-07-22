@@ -9966,7 +9966,100 @@ DeadlyAssault 3+</characteristic><characteristic name="Is Hit On" typeId="0641-f
   <categoryLinks>
     <categoryLink id="af40-9b38-a680-cc36" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-</selectionEntry></selectionEntries>
+</selectionEntry><selectionEntry id="641c-d512-3f08-b9f0" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="8268-08c4-f6e3-caf6" name="Canadian Division - Relentless" hidden="false" collective="false" import="true" type="upgrade">
+  <profiles>
+    <profile id="3d81-1008-c29f-f62b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">66d806d8-6354-50d7-a30d-a36dd92b50b7</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <rules>
+    <rule id="aba9-e279-8956-e892" name="Relentless" hidden="false">
+      <description>Units in this Formation gain the Determination rating.
+
+Remount 3+</description>
+    </rule>
+  </rules>
+  <categoryLinks>
+    <categoryLink id="233c-793d-1c51-f438" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+  </categoryLinks>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+  </costs>
+</selectionEntry>
+        <selectionEntry id="23f5-712b-d11d-a1f0" name="1st Canadian Parachute Batallion - Relentless" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="d740-ffe8-0b30-198e" name="Relentless" hidden="false">
+                  <description>Parachute Rifle Company HQ and Parachute Rifle Platoons gain the Relentless rating for +2 points per Parachute Rifle Platoon.
+
+Relentless
+Rally 2+</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="c508-cce8-2e21-b590" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+        <selectionEntry id="76ab-d3f7-b436-78f1" name="Tommy Guns" hidden="false" collective="false" import="true" type="upgrade">
+  <profiles>
+    <profile id="9de2-cc6c-0d3a-32f1" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">0e08e85a-0120-5b62-8e8f-41facacc3ce8</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <rules>
+    <rule id="ce2e-b08b-a4c6-7e14" name="Tommy Guns" hidden="false">
+      <description>Exchange all Bren Gun &amp; SMLE rifle teams in this Unit with Mixed Weapon teams.</description>
+    </rule>
+  </rules>
+  <infoLinks>
+    <infoLink id="9e54-9f75-f602-2dcd" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
+    <infoLink id="df9a-56b9-6749-22a1" name="Mixed Weapon team" hidden="false" targetId="c179-a881-badd-4452" type="profile"/>
+  </infoLinks>
+  <categoryLinks>
+    <categoryLink id="b47f-6410-cb6d-acd5" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+  </categoryLinks>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+  </costs>
+</selectionEntry>
+        <selectionEntry id="0d11-1b58-4294-80ba" name="43rd (Wessex Division) - Cautious Not Stupid" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="70c3-362d-d610-5cb6" name="Cautious Not Stupid" hidden="false">
+          <description>During the Starting Step, when Rallying Pinned Down Units, you may discard this card to automatically Rally a Pinned Down Unit from this Formation.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ae57-dccd-d99e-9a08" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="edcc-4e4c-28cc-ec51" name="Davide V. Currie" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="1150-0211-43c8-c93d" name="Davide V. Currie" hidden="false">
+          <description>This Commander&apos;s Leadership range is increased to 8&quot;/20cm instead of its normal 6&quot;/15cm.
+
+This Formation Commander may roll two dice instead of one To Hit during Assaults.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f178-9125-c8e0-d322" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0cf0-8c01-33d4-83a1" name="Warrior" hidden="false" collective="false" import="true" targetId="3bf7-7a62-ca18-c39d" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+      </selectionEntries></selectionEntry></selectionEntries>
   <sharedSelectionEntries>
 
 
@@ -11649,103 +11742,4 @@ An Air Observer Post is unarmed, but can act as an Observer Spotting for an Arti
       </characteristics>
     </profile>
   </sharedProfiles>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="b87d-cc8a-b638-33ca" name="D-Day: British Force Command Cards" hidden="false" collective="false" import="true">
-      <selectionEntries>
-        <selectionEntry id="8268-08c4-f6e3-caf6" name="Canadian Division - Relentless" hidden="false" collective="false" import="true" type="upgrade">
-  <profiles>
-    <profile id="3d81-1008-c29f-f62b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">66d806d8-6354-50d7-a30d-a36dd92b50b7</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <rules>
-    <rule id="aba9-e279-8956-e892" name="Relentless" hidden="false">
-      <description>Units in this Formation gain the Determination rating.
-
-Remount 3+</description>
-    </rule>
-  </rules>
-  <categoryLinks>
-    <categoryLink id="233c-793d-1c51-f438" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
-  </categoryLinks>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-  </costs>
-</selectionEntry>
-        <selectionEntry id="23f5-712b-d11d-a1f0" name="1st Canadian Parachute Batallion - Relentless" hidden="false" collective="false" import="true" type="upgrade">
-              <rules>
-                <rule id="d740-ffe8-0b30-198e" name="Relentless" hidden="false">
-                  <description>Parachute Rifle Company HQ and Parachute Rifle Platoons gain the Relentless rating for +2 points per Parachute Rifle Platoon.
-
-Relentless
-Rally 2+</description>
-                </rule>
-              </rules>
-              <categoryLinks>
-                <categoryLink id="c508-cce8-2e21-b590" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
-              </categoryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-        <selectionEntry id="76ab-d3f7-b436-78f1" name="Tommy Guns" hidden="false" collective="false" import="true" type="upgrade">
-  <profiles>
-    <profile id="9de2-cc6c-0d3a-32f1" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">0e08e85a-0120-5b62-8e8f-41facacc3ce8</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <rules>
-    <rule id="ce2e-b08b-a4c6-7e14" name="Tommy Guns" hidden="false">
-      <description>Exchange all Bren Gun &amp; SMLE rifle teams in this Unit with Mixed Weapon teams.</description>
-    </rule>
-  </rules>
-  <infoLinks>
-    <infoLink id="9e54-9f75-f602-2dcd" name="Pinned ROF 1" hidden="false" targetId="3284-2a9d-b7f4-e17a" type="rule"/>
-    <infoLink id="df9a-56b9-6749-22a1" name="Mixed Weapon team" hidden="false" targetId="c179-a881-badd-4452" type="profile"/>
-  </infoLinks>
-  <categoryLinks>
-    <categoryLink id="b47f-6410-cb6d-acd5" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
-  </categoryLinks>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-  </costs>
-</selectionEntry>
-        <selectionEntry id="0d11-1b58-4294-80ba" name="43rd (Wessex Division) - Cautious Not Stupid" hidden="false" collective="false" import="true" type="upgrade">
-      <rules>
-        <rule id="70c3-362d-d610-5cb6" name="Cautious Not Stupid" hidden="false">
-          <description>During the Starting Step, when Rallying Pinned Down Units, you may discard this card to automatically Rally a Pinned Down Unit from this Formation.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="ae57-dccd-d99e-9a08" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-      </costs>
-    </selectionEntry>
-        <selectionEntry id="edcc-4e4c-28cc-ec51" name="Davide V. Currie" hidden="false" collective="false" import="true" type="upgrade">
-      <rules>
-        <rule id="1150-0211-43c8-c93d" name="Davide V. Currie" hidden="false">
-          <description>This Commander&apos;s Leadership range is increased to 8&quot;/20cm instead of its normal 6&quot;/15cm.
-
-This Formation Commander may roll two dice instead of one To Hit during Assaults.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="f178-9125-c8e0-d322" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="0cf0-8c01-33d4-83a1" name="Warrior" hidden="false" collective="false" import="true" targetId="3bf7-7a62-ca18-c39d" type="selectionEntry"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
-</catalogue>
+  </catalogue>

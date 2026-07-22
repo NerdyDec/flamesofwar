@@ -3015,7 +3015,357 @@ ScoutAssault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="4536-8bd8-dbdc-ff84" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-<entryLinks><entryLink id="0e15-9766-e7ff-b073" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/></entryLinks></selectionEntry></selectionEntries>
+<entryLinks><entryLink id="0e15-9766-e7ff-b073" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="eda4-4b90-7200-fd9e" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="8c4e-eb4e-f0b8-81b2" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df20-fcbf-9f80-718d" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f433-4a9c-db33-a577" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="44c3-ca33-b954-6a00" name="Lucky" hidden="false">
+          <description>Discard this card to re-roll any one die. The second result must be used.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3fec-da19-8e44-a80d" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="3fab-a800-f75b-5377" name="Total Air Superiority" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eca-28f6-b073-7848" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e0f-9517-b932-fb4d" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="4d90-c86a-a24a-6cfc" name="Total Air Superiority" hidden="false">
+          <description>Your Force has Fighter Interdiction and Perfect Timing.
+Fighter Interdiction: Your opponent must roll a 5+ for their aircraft to arrive (instead of the usual 4+).
+Perfect Timing: Discard this card before rolling. When Rolling for Aircraft arrival, your Aircraft arrive on a 3+ (instead of the usual 4+) this turn.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ee58-60b4-204e-03a1" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="5683-3fe7-973c-00c4" name="Naval Gunfire" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f48-9ce4-4b64-207b" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e81-9c3b-488e-ce25" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="3dca-a970-1aeb-729e" name="Naval Gunfire" hidden="false">
+          <description>Each Shooting Step, choose a Formation HQ Team or an Observer to request a Naval Gunfire bombardment. On a roll of 5+ they may Spot for a four-gun Naval Gunfire Bombardment using their own Skill rating and the following weapon stats:
+(See &quot;Naval Gunfire&quot; profile)
+Remove the Ranged In marker for this bombardment at the end of the Shooting Step.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7248-848c-e565-9ffe" name="Naval Gunfire" hidden="false" targetId="037a-753e-f868-8982" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="54a5-5aab-d53d-6357" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="8408-24dd-185a-6079" name="Airborne Field Company, Royal Engineers" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a743-e952-7071-88e0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9b88-95e6-3205-8dbd" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+        <categoryLink id="a10b-e828-9f56-964e" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="83f8-0e82-805d-c0ab" name="Parachute Royal Engineer Troop" hidden="false" collective="false" import="true" targetId="f203-e60e-6e45-f969" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf45-de61-f67c-8cbb" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2005-fae5-e1c4-a55a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fb32-7d7a-ba60-1eff" name="Glider Pilot Flight" hidden="false" collective="false" import="true" targetId="fa0d-76e3-26d8-63fc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd6c-9cd0-51d0-7ccf" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="4707-0d40-eb06-f74f" name="Airborne Recce Squadron" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da28-31a4-2bd0-aac5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ace5-c0d7-901e-3596" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+        <categoryLink id="cde2-97e2-bf87-8cf0" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0418-d405-373f-4509" name="Airborne Recce Squadron HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fe8-9e3c-7b8e-ce79" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06d9-5427-68ae-a634" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="0692-d09f-fd46-4962" name="Headquaters" hidden="false" targetId="2739-fb2a-059a-ccb0" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="dd4c-b05d-b347-37ba" name="Frost&apos;s 3-inch Mortar Section" hidden="false" collective="false" import="true" targetId="3c9f-d1db-0932-719b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb6d-f743-0454-f8af" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="1109-adad-e65f-89f5" name="Breaching Group" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe5a-ef82-52ac-381d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2c6a-5550-d606-1168" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+        <categoryLink id="6d96-5820-320b-6c63" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="4f70-a2ad-bb24-ce27" name="Sherman DD Armoured Troop" hidden="false" collective="false" import="true" targetId="7a1a-67c8-4ddd-4d20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fa7-8622-e28a-fa2f" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6586-396e-50be-f90b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3d56-b4ea-fe2e-08dc" name="[Armour] Crocodile Flame-Tank Platoon" hidden="false" collective="false" import="true" targetId="cbe6-a634-2d78-21a8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0746-2e91-37ab-7569" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e1e7-a468-ed3f-4fad" name="AVRE Assault Section" hidden="false" collective="false" import="true" targetId="3c2e-0ced-e9f1-65e6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f77-de9e-79c1-86ec" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9329-68ba-9c55-b8e6" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="efb3-15e6-b499-bd0d" name="Recce Squadron" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66bd-3769-2e94-971c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9113-274c-8da9-bcb6" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+        <categoryLink id="8361-3937-5dd5-4c66" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ec54-e889-2fca-794d" name="Recce Squadron HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d18d-ac25-0769-e856" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04a9-df5c-9a96-b1c5" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="22d4-8d55-005b-0aca" name="Headquaters" hidden="false" targetId="2739-fb2a-059a-ccb0" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="f2b3-52b2-093c-2295" name="1x Daimler (2 pdr)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="082c-c5d6-da69-c783" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c15e-ec09-f3a7-8710" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="c32b-9603-fa6b-ec80" name="Daimler" hidden="false" targetId="29ca-50e3-f529-d9e2" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="bab4-a7d2-c05f-3afe" name="Daimler Recce Troop" hidden="false" collective="false" import="true" targetId="4db3-66be-bd5b-c8b2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9195-18dd-8226-fe76" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24de-576c-6b2a-f5bd" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="60d5-945f-2c63-9e7e" name="Universal Carrier Patrol" hidden="false" collective="false" import="true" targetId="c5a3-a78d-9ad6-4858" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="743a-8952-7516-d3f4" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d63-e03a-eb94-1685" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2ab8-e8e2-abc9-7820" name="Motor 6 pdr Anti-Tank Platoon" hidden="false" collective="false" import="true" targetId="f26b-4914-4be9-7e4c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dcc-1ca9-67c5-78c6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7037-cdc7-0f1a-8096" name="3-inch Mortar Platoon" hidden="false" collective="false" import="true" targetId="dc7e-dcfd-bbf6-e9b8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="577c-3ae3-5eec-a03d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="73e1-453d-e090-71af" name="3-inch Mortar Platoon" hidden="false" collective="false" import="true" targetId="dc7e-dcfd-bbf6-e9b8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d51-6956-66a7-746b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="df84-f7a7-1be3-84d0" name="Armoured Car Squadron" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3835-c0b2-b0fb-283b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="36a7-9be4-08f0-2f39" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+        <categoryLink id="5967-5215-849b-5cd3" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c859-3a80-ca62-5023" name="Armoured Car Squadron HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b7f-2484-e332-b6b4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e9c-a7c4-f38d-e6dc" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="4ac5-eff8-7edb-8051" name="Headquaters" hidden="false" targetId="2739-fb2a-059a-ccb0" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="8180-b413-44c4-6387" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="63d3-c059-91e9-c1b3">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f09d-a1ad-9377-e363" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4024-942c-3c09-09b6" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="63d3-c059-91e9-c1b3" name="2x Daimler (2pdr)" hidden="false" collective="false" import="true" type="unit">
+                  <infoLinks>
+                    <infoLink id="8b74-3a7b-d9a2-2d93" name="Daimler" hidden="false" targetId="29ca-50e3-f529-d9e2" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="75d5-0763-6e28-e5c0" name="Daimler Armoured Car Troop" hidden="false" collective="false" import="true" targetId="4054-0dec-a800-10fd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be0e-ef6f-71dc-5fb8" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c03f-3a22-8a4f-5136" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f48c-1ff0-2e9f-eda5" name="Black Bull Motor Platoon" hidden="false" collective="false" import="true" targetId="8fe8-a8ce-d11e-8e10" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f31-e70e-e29d-419a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="cb42-ad35-23eb-4d20" name="Inns of Court Regiment - The Devil&apos;s Own" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2ea-112b-653d-0abe" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9bfd-50ac-e582-f27c" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+        <categoryLink id="7a95-edce-7706-0c46" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+        <categoryLink id="84ad-760e-c2f6-5420" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d7e5-62cc-c292-2f52" name="The Devil&apos;s Own HQ" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a1f-12e4-0f8b-ae87" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2faa-ac35-e6bc-52cc" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="ea21-84b2-8fde-63fd" name="Headquaters" hidden="false" targetId="2739-fb2a-059a-ccb0" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="a085-1555-5219-53ba" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f96c-6e49-216d-c670">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b422-b876-cb98-de23" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ec2-5e17-9d20-49a8" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="f96c-6e49-216d-c670" name="2x Daimler (2pdr)" hidden="false" collective="false" import="true" type="unit">
+                  <infoLinks>
+                    <infoLink id="0220-7e92-0de1-2856" name="Daimler" hidden="false" targetId="29ca-50e3-f529-d9e2" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="6a76-c5c6-1115-71ac" name="Daimler Armoured Car Troop" hidden="false" collective="false" import="true" targetId="4054-0dec-a800-10fd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e437-9192-d72d-f271" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8f0-58af-f937-86ee" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="61f7-a40b-db16-f86d" name="Black Bull Motor Platoon" hidden="false" collective="false" import="true" targetId="8fe8-a8ce-d11e-8e10" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef9e-5765-c2c8-2f07" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="fdaf-48c8-05bb-16d0" name="Gammon Bombs" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="2ac5-827d-0a44-b993" name="Gammon Bombs" hidden="false">
+          <description>Discard this card to give Infantry teams in this Unit Anti-tank 3 and Firepower AUTO against Top Armour in Assaults untile the end of the turn.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3d86-ad55-ea8f-aa97" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+      </selectionEntries></selectionEntry></selectionEntries>
   <entryLinks>
     <entryLink id="b963-a0b7-355c-a45a" name="Kangaroo Rifle Platoon" hidden="false" collective="false" import="true" targetId="d3bc-f9e9-98eb-1789" type="selectionEntry">
       <constraints>
@@ -5941,360 +6291,4 @@ Remount 3+</characteristic>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="864b-1189-8518-bb44" name="Bulge: British Force Command Cards" hidden="false" collective="false" import="true">
-      <selectionEntries>
-        <selectionEntry id="8c4e-eb4e-f0b8-81b2" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df20-fcbf-9f80-718d" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f433-4a9c-db33-a577" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="44c3-ca33-b954-6a00" name="Lucky" hidden="false">
-          <description>Discard this card to re-roll any one die. The second result must be used.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="3fec-da19-8e44-a80d" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-      </costs>
-    </selectionEntry>
-        <selectionEntry id="3fab-a800-f75b-5377" name="Total Air Superiority" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eca-28f6-b073-7848" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e0f-9517-b932-fb4d" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="4d90-c86a-a24a-6cfc" name="Total Air Superiority" hidden="false">
-          <description>Your Force has Fighter Interdiction and Perfect Timing.
-Fighter Interdiction: Your opponent must roll a 5+ for their aircraft to arrive (instead of the usual 4+).
-Perfect Timing: Discard this card before rolling. When Rolling for Aircraft arrival, your Aircraft arrive on a 3+ (instead of the usual 4+) this turn.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="ee58-60b4-204e-03a1" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-        <selectionEntry id="5683-3fe7-973c-00c4" name="Naval Gunfire" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f48-9ce4-4b64-207b" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e81-9c3b-488e-ce25" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="3dca-a970-1aeb-729e" name="Naval Gunfire" hidden="false">
-          <description>Each Shooting Step, choose a Formation HQ Team or an Observer to request a Naval Gunfire bombardment. On a roll of 5+ they may Spot for a four-gun Naval Gunfire Bombardment using their own Skill rating and the following weapon stats:
-(See &quot;Naval Gunfire&quot; profile)
-Remove the Ranged In marker for this bombardment at the end of the Shooting Step.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="7248-848c-e565-9ffe" name="Naval Gunfire" hidden="false" targetId="037a-753e-f868-8982" type="profile"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="54a5-5aab-d53d-6357" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-      </costs>
-    </selectionEntry>
-        <selectionEntry id="8408-24dd-185a-6079" name="Airborne Field Company, Royal Engineers" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a743-e952-7071-88e0" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="9b88-95e6-3205-8dbd" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-        <categoryLink id="a10b-e828-9f56-964e" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="83f8-0e82-805d-c0ab" name="Parachute Royal Engineer Troop" hidden="false" collective="false" import="true" targetId="f203-e60e-6e45-f969" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf45-de61-f67c-8cbb" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2005-fae5-e1c4-a55a" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="fb32-7d7a-ba60-1eff" name="Glider Pilot Flight" hidden="false" collective="false" import="true" targetId="fa0d-76e3-26d8-63fc" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd6c-9cd0-51d0-7ccf" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-        <selectionEntry id="4707-0d40-eb06-f74f" name="Airborne Recce Squadron" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da28-31a4-2bd0-aac5" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="ace5-c0d7-901e-3596" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-        <categoryLink id="cde2-97e2-bf87-8cf0" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="0418-d405-373f-4509" name="Airborne Recce Squadron HQ" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fe8-9e3c-7b8e-ce79" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06d9-5427-68ae-a634" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="0692-d09f-fd46-4962" name="Headquaters" hidden="false" targetId="2739-fb2a-059a-ccb0" primary="false"/>
-          </categoryLinks>
-          <selectionEntries>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="dd4c-b05d-b347-37ba" name="Frost&apos;s 3-inch Mortar Section" hidden="false" collective="false" import="true" targetId="3c9f-d1db-0932-719b" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb6d-f743-0454-f8af" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-        <selectionEntry id="1109-adad-e65f-89f5" name="Breaching Group" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe5a-ef82-52ac-381d" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="2c6a-5550-d606-1168" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-        <categoryLink id="6d96-5820-320b-6c63" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="4f70-a2ad-bb24-ce27" name="Sherman DD Armoured Troop" hidden="false" collective="false" import="true" targetId="7a1a-67c8-4ddd-4d20" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fa7-8622-e28a-fa2f" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6586-396e-50be-f90b" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="3d56-b4ea-fe2e-08dc" name="[Armour] Crocodile Flame-Tank Platoon" hidden="false" collective="false" import="true" targetId="cbe6-a634-2d78-21a8" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0746-2e91-37ab-7569" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="e1e7-a468-ed3f-4fad" name="AVRE Assault Section" hidden="false" collective="false" import="true" targetId="3c2e-0ced-e9f1-65e6" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f77-de9e-79c1-86ec" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9329-68ba-9c55-b8e6" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-        <selectionEntry id="efb3-15e6-b499-bd0d" name="Recce Squadron" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66bd-3769-2e94-971c" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="9113-274c-8da9-bcb6" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-        <categoryLink id="8361-3937-5dd5-4c66" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="ec54-e889-2fca-794d" name="Recce Squadron HQ" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d18d-ac25-0769-e856" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04a9-df5c-9a96-b1c5" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="22d4-8d55-005b-0aca" name="Headquaters" hidden="false" targetId="2739-fb2a-059a-ccb0" primary="false"/>
-          </categoryLinks>
-          <selectionEntries>
-            <selectionEntry id="f2b3-52b2-093c-2295" name="1x Daimler (2 pdr)" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="082c-c5d6-da69-c783" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c15e-ec09-f3a7-8710" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="c32b-9603-fa6b-ec80" name="Daimler" hidden="false" targetId="29ca-50e3-f529-d9e2" type="infoGroup"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="bab4-a7d2-c05f-3afe" name="Daimler Recce Troop" hidden="false" collective="false" import="true" targetId="4db3-66be-bd5b-c8b2" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9195-18dd-8226-fe76" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24de-576c-6b2a-f5bd" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="60d5-945f-2c63-9e7e" name="Universal Carrier Patrol" hidden="false" collective="false" import="true" targetId="c5a3-a78d-9ad6-4858" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="743a-8952-7516-d3f4" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d63-e03a-eb94-1685" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="2ab8-e8e2-abc9-7820" name="Motor 6 pdr Anti-Tank Platoon" hidden="false" collective="false" import="true" targetId="f26b-4914-4be9-7e4c" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dcc-1ca9-67c5-78c6" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="7037-cdc7-0f1a-8096" name="3-inch Mortar Platoon" hidden="false" collective="false" import="true" targetId="dc7e-dcfd-bbf6-e9b8" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="577c-3ae3-5eec-a03d" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="73e1-453d-e090-71af" name="3-inch Mortar Platoon" hidden="false" collective="false" import="true" targetId="dc7e-dcfd-bbf6-e9b8" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d51-6956-66a7-746b" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-        <selectionEntry id="df84-f7a7-1be3-84d0" name="Armoured Car Squadron" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3835-c0b2-b0fb-283b" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="36a7-9be4-08f0-2f39" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-        <categoryLink id="5967-5215-849b-5cd3" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="c859-3a80-ca62-5023" name="Armoured Car Squadron HQ" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b7f-2484-e332-b6b4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e9c-a7c4-f38d-e6dc" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="4ac5-eff8-7edb-8051" name="Headquaters" hidden="false" targetId="2739-fb2a-059a-ccb0" primary="false"/>
-          </categoryLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="8180-b413-44c4-6387" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="63d3-c059-91e9-c1b3">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f09d-a1ad-9377-e363" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4024-942c-3c09-09b6" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="63d3-c059-91e9-c1b3" name="2x Daimler (2pdr)" hidden="false" collective="false" import="true" type="unit">
-                  <infoLinks>
-                    <infoLink id="8b74-3a7b-d9a2-2d93" name="Daimler" hidden="false" targetId="29ca-50e3-f529-d9e2" type="infoGroup"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="75d5-0763-6e28-e5c0" name="Daimler Armoured Car Troop" hidden="false" collective="false" import="true" targetId="4054-0dec-a800-10fd" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be0e-ef6f-71dc-5fb8" type="min"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c03f-3a22-8a4f-5136" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="f48c-1ff0-2e9f-eda5" name="Black Bull Motor Platoon" hidden="false" collective="false" import="true" targetId="8fe8-a8ce-d11e-8e10" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f31-e70e-e29d-419a" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-        <selectionEntry id="cb42-ad35-23eb-4d20" name="Inns of Court Regiment - The Devil&apos;s Own" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2ea-112b-653d-0abe" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="9bfd-50ac-e582-f27c" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-        <categoryLink id="7a95-edce-7706-0c46" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
-        <categoryLink id="84ad-760e-c2f6-5420" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="d7e5-62cc-c292-2f52" name="The Devil&apos;s Own HQ" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a1f-12e4-0f8b-ae87" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2faa-ac35-e6bc-52cc" type="max"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="ea21-84b2-8fde-63fd" name="Headquaters" hidden="false" targetId="2739-fb2a-059a-ccb0" primary="false"/>
-          </categoryLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="a085-1555-5219-53ba" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f96c-6e49-216d-c670">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b422-b876-cb98-de23" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ec2-5e17-9d20-49a8" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="f96c-6e49-216d-c670" name="2x Daimler (2pdr)" hidden="false" collective="false" import="true" type="unit">
-                  <infoLinks>
-                    <infoLink id="0220-7e92-0de1-2856" name="Daimler" hidden="false" targetId="29ca-50e3-f529-d9e2" type="infoGroup"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink id="6a76-c5c6-1115-71ac" name="Daimler Armoured Car Troop" hidden="false" collective="false" import="true" targetId="4054-0dec-a800-10fd" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e437-9192-d72d-f271" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8f0-58af-f937-86ee" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="61f7-a40b-db16-f86d" name="Black Bull Motor Platoon" hidden="false" collective="false" import="true" targetId="8fe8-a8ce-d11e-8e10" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef9e-5765-c2c8-2f07" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-        <selectionEntry id="fdaf-48c8-05bb-16d0" name="Gammon Bombs" hidden="false" collective="false" import="true" type="upgrade">
-      <rules>
-        <rule id="2ac5-827d-0a44-b993" name="Gammon Bombs" hidden="false">
-          <description>Discard this card to give Infantry teams in this Unit Anti-tank 3 and Firepower AUTO against Top Armour in Assaults untile the end of the turn.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="3d86-ad55-ea8f-aa97" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
-</catalogue>
+  </catalogue>
