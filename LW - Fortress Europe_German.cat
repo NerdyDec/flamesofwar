@@ -5233,14 +5233,14 @@ Third ReichLast Stand 3+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2a0f-9c4a-f454-9528" name="Armoured sMG34 Machine-gun Platoon (LG114)" publicationId="b8e5-51cf-456c-eafb" page="48" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2a0f-9c4a-f454-9528" name="Armoured sMG34 Machine-Gun Platoon (LG114)" publicationId="b8e5-51cf-456c-eafb" page="48" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="15c3-8cba-fcd1-8f9f" name="Armoured sMG34 Machine-Gun Platoon" publicationId="b8e5-51cf-456c-eafb" page="48" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Third ReichLast Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
-Heavy WeaponAssault 4+</characteristic>
+            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
+Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
             <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
             <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -5251,7 +5251,7 @@ Heavy WeaponAssault 4+</characteristic>
             <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Heavy Weapon, Stormtroopers</characteristic>
           </characteristics>
         </profile>
-      <profile id="1537-7b64-4030-e3fa" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG114</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="b15f-5ab9-ce90-8180" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
         <infoLink id="e8d3-3901-af28-1319" name="sMG34 HMG" hidden="false" targetId="1bb9-cb85-a6e6-7ae0" type="profile"/>
@@ -5264,26 +5264,23 @@ Heavy WeaponAssault 4+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e47f-0372-5b7b-6842" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="cbb5-fd64-edfd-4bac" name="4x sMG34 HMG2x Sd Kfz 251 (MG) half-track (LG112)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/></costs></selectionEntry><selectionEntry id="413d-9d22-1a66-bb7f" name="2x sMG34 HMG1x Sd Kfz 251 (MG) half-track (LG112)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry><selectionEntry id="500e-470a-f3e2-0d03" name="4x sMG34 HMG" hidden="false" collective="false" import="true" type="model">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="ba11-fdcc-f97b-38f9" name="Command Card:" hidden="false" collective="false" import="true">
-                  <entryLinks>
-                    <entryLink id="2cca-34f1-72a8-1c58" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="name" value="2x Softskin Transport"/>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d02f-64d3-78a0-758a" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+            <selectionEntry id="f216-a6fb-ba57-808b" name="4x sMG34 HMG; 2x Sd Kfz 251 (MG) Half-track (LG112)" hidden="false" collective="false" import="true" type="model">
+              <entryLinks>
+                <entryLink id="535b-a31e-4fae-ce75" name="Sd Kfz 251 (MG) half-track (LG112)" hidden="false" collective="false" import="true" targetId="ce7b-b471-4b83-8f1d" type="selectionEntry"/>
+              </entryLinks>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
               </costs>
             </selectionEntry>
-          <selectionEntry id="4a1c-c167-e362-1ed8" name="2x sMG34 HMG" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="59e4-21fc-31ca-f41b" name="2x sMG34 HMG; 1x Sd Kfz 251 (MG) Half-track (LG112)" hidden="false" collective="false" import="true" type="model">
+              <entryLinks>
+                <entryLink id="f7f1-2686-916d-512b" name="Sd Kfz 251 (MG) half-track (LG112)" hidden="false" collective="false" import="true" targetId="ce7b-b471-4b83-8f1d" type="selectionEntry"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4a1c-c167-e362-1ed8" name="2x sMG34 HMG" hidden="false" collective="false" import="true" type="model">
               <selectionEntryGroups>
                 <selectionEntryGroup id="8801-1966-d0a8-278d" name="Command Card:" hidden="false" collective="false" import="true">
                   <entryLinks>
@@ -5302,7 +5299,26 @@ Heavy WeaponAssault 4+</characteristic>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
               </costs>
             </selectionEntry>
-            </selectionEntries>
+            <selectionEntry id="500e-470a-f3e2-0d03" name="4x sMG34 HMG" hidden="false" collective="false" import="true" type="model">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="ba11-fdcc-f97b-38f9" name="Command Card:" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="2cca-34f1-72a8-1c58" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="a439-60eb-f975-594d" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="name" value="2x Softskin Transport"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d02f-64d3-78a0-758a" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -5313,10 +5329,11 @@ Heavy WeaponAssault 4+</characteristic>
       <profiles>
         <profile id="ba63-5a52-33b0-bc07" name="Armoured 8cm Mortar Section" publicationId="b8e5-51cf-456c-eafb" page="48" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Third ReichLast Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-SP GunAssault 5+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Counterattack 6 
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
             <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -5329,7 +5346,7 @@ SP GunAssault 5+</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
           </characteristics>
         </profile>
-      <profile id="fb23-442b-0e1d-4774" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG115</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="7eeb-f7da-86cb-0a97" name="Sd Kfz 251 (8cm)" hidden="false" targetId="2c6d-9fed-ba61-c66a" type="profile"/>
         <infoLink id="1bb5-3f5a-5233-bb65" name="Sd Kfz 251 (MG)" hidden="false" targetId="bc49-2aaa-e580-e424" type="profile"/>
@@ -5345,17 +5362,17 @@ SP GunAssault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aa4-fc9e-6ff2-a5fc" type="max"/>
           </constraints>
           <selectionEntries>
+            <selectionEntry id="068e-2d52-b05b-052e" name="2x Sd Kfz 251 (8cm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="cc7f-b657-bb37-3bf7" name="4x Sd Kfz 251 (8cm)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
-          <selectionEntry id="068e-2d52-b05b-052e" name="2x Sd Kfz 251 (8cm)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-              </costs>
-            </selectionEntry>
-            </selectionEntries>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -5366,10 +5383,10 @@ SP GunAssault 5+</characteristic>
       <profiles>
         <profile id="4068-fbef-a369-f32e" name="8cm mortar" publicationId="b8e5-51cf-456c-eafb" page="48" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Third ReichLast Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
-Heavy WeaponAssault 4+</characteristic>
+            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
+Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
             <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
             <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">4&quot;/10cm</characteristic>
@@ -5380,7 +5397,7 @@ Heavy WeaponAssault 4+</characteristic>
             <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Heavy Weapon</characteristic>
           </characteristics>
         </profile>
-      <profile id="6378-0640-5fef-4b99" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG116</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="a649-bb93-f115-a1b3" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
         <infoLink id="ebc7-0eb2-369d-fe71" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
@@ -5423,10 +5440,11 @@ Heavy WeaponAssault 4+</characteristic>
       <profiles>
         <profile id="6c7d-8245-b648-1193" name="Armoured 7.5cm Gun Platoon" publicationId="b8e5-51cf-456c-eafb" page="49" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Third ReichLast Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-SP GunAssault 5+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Counterattack 6 
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
             <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -5439,7 +5457,7 @@ SP GunAssault 5+</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
           </characteristics>
         </profile>
-      <profile id="9fc5-1169-3ded-e21f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG117</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="a841-16b8-3982-59fd" name="Sd Kfz 251 (7.5cm)" hidden="false" targetId="ba86-3dc5-274b-e29d" type="profile"/>
         <infoLink id="cdd4-b17c-d634-1c5a" name="Sd Kfz 251 (Flame) (MG)" hidden="false" targetId="9887-5c01-ae65-7138" type="profile"/>
@@ -5454,22 +5472,22 @@ SP GunAssault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0400-a2d3-6d82-22b0" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3910-c2cb-8599-85c4" name="6x Sd Kfz 251 (7.5cm)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-              </costs>
-            </selectionEntry>
-          <selectionEntry id="b183-8df9-8e9b-b1a0" name="4x Sd Kfz 251 (7.5cm)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="2c3f-4554-ad32-92ed" name="2x Sd Kfz 251 (7.5cm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
               </costs>
             </selectionEntry>
-            </selectionEntries>
+            <selectionEntry id="b183-8df9-8e9b-b1a0" name="4x Sd Kfz 251 (7.5cm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3910-c2cb-8599-85c4" name="6x Sd Kfz 251 (7.5cm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -5480,10 +5498,10 @@ SP GunAssault 5+</characteristic>
       <profiles>
         <profile id="4abb-5a3f-32ba-b6af" name="7.5cm Gun Platoon" publicationId="b8e5-51cf-456c-eafb" page="53" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
-Third ReichLast Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
-GunAssault 4+</characteristic>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
+Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
             <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
             <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
@@ -5494,7 +5512,7 @@ GunAssault 4+</characteristic>
             <characteristic name="Notes" typeId="28aa-390d-006a-1776">Gun Shield</characteristic>
           </characteristics>
         </profile>
-      <profile id="f1a2-268f-380f-546b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG126</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="90c9-a695-2d0b-794e" name="7.5cm infantry gun [Indirect]" hidden="false" targetId="1116-fca1-73b6-e93f" type="profile"/>
         <infoLink id="81ed-6519-8604-abba" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
@@ -5558,10 +5576,11 @@ GunAssault 4+</characteristic>
       <profiles>
         <profile id="ab7d-09c0-928e-e0b8" name="Grille 15cm Gun Platoon" publicationId="b8e5-51cf-456c-eafb" page="49" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Third ReichLast Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-SP GunAssault 5+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Counterattack 6 
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
             <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -5574,7 +5593,7 @@ SP GunAssault 5+</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
           </characteristics>
         </profile>
-      <profile id="2c82-3475-66d3-7540" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG118</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="e7f6-84a8-f859-7813" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="865e-31b0-7a49-087e" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
@@ -5607,10 +5626,10 @@ SP GunAssault 5+</characteristic>
       <profiles>
         <profile id="1078-98aa-b7ac-2237" name="15cm Gun Platoon" publicationId="b8e5-51cf-456c-eafb" page="53" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
-Third ReichLast Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
-GunAssault 4+</characteristic>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
+Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
             <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
             <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -5621,7 +5640,7 @@ GunAssault 4+</characteristic>
             <characteristic name="Notes" typeId="28aa-390d-006a-1776">Gun Shield, Large Gun</characteristic>
           </characteristics>
         </profile>
-      <profile id="1c27-56a9-f1b1-0314" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG127</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="e22e-c2f8-cd33-fc39" name="15cm infantry gun Artillery" hidden="false" targetId="4caf-48ab-91c3-a840" type="profile"/>
         <infoLink id="5425-f329-8478-8f97" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
@@ -5664,14 +5683,14 @@ GunAssault 4+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6e6c-f521-3715-179b" name="Armoured Flame-thrower Platoon (LG119)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6e6c-f521-3715-179b" name="Armoured Flame-Thrower Platoon (LG119)" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3641-b107-b6dd-68ee" name="Armoured Flame-Thrower Platoon" publicationId="b8e5-51cf-456c-eafb" page="49" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
-Third ReichLast Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-Flame TankAssault 5+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
             <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -5684,7 +5703,7 @@ Flame TankAssault 5+</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985">Flame Tank, Stormtroopers</characteristic>
           </characteristics>
         </profile>
-      <profile id="409f-0958-3520-e783" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG119</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="2371-af37-48d6-4a56" name="Sd Kfz 251 (Flame)" hidden="false" targetId="3e82-7abe-e7f9-c71d" type="profile"/>
         <infoLink id="e185-c813-53b2-2526" name="Sd Kfz 251 (Flame) (MG)" hidden="false" targetId="6abb-a4b5-24c3-d602" type="profile"/>
@@ -5700,17 +5719,22 @@ Flame TankAssault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf0c-af3a-cec6-9eb3" type="max"/>
           </constraints>
           <selectionEntries>
+            <selectionEntry id="e5d0-dce5-07d7-ef0e" name="2x Sd Kfz 251 (Flame)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="35df-f391-3176-12b7" name="4x Sd Kfz 251(Flame)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="70e6-5506-d551-7a2b" name="6x Sd Kfz 251 (Flame)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
               </costs>
             </selectionEntry>
-          <selectionEntry id="ddee-4f94-8b73-2cd4" name="4x Sd Kfz 251 (Flame)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/></costs></selectionEntry><selectionEntry id="e5d0-dce5-07d7-ef0e" name="2x Sd Kfz 251 (Flame)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-              </costs>
-            </selectionEntry>
-            </selectionEntries>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -6110,14 +6134,14 @@ Third ReichLast Stand 3+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b67-00d6-b128-5cb0" name="sMG34 Machine-gun Platoon (LG122)" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2b67-00d6-b128-5cb0" name="sMG34 Machine-Gun Platoon (LG122)" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b96e-ae58-0541-8203" name="sMG34 Machine-Gun Platoon" publicationId="b8e5-51cf-456c-eafb" page="52" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Third ReichLast Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
-Heavy WeaponAssault 4+</characteristic>
+            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
+Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
             <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
             <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -6128,7 +6152,7 @@ Heavy WeaponAssault 4+</characteristic>
             <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Heavy Weapon, Stormtroopers</characteristic>
           </characteristics>
         </profile>
-      <profile id="3c96-fd94-3526-3aad" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG122</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="8e8b-51f9-a891-f8a4" name="Heavy Weapon" hidden="false" targetId="edf7-ad9c-029c-94fe" type="rule"/>
         <infoLink id="90e6-b887-222f-0dc4" name="sMG34 HMG" hidden="false" targetId="1bb9-cb85-a6e6-7ae0" type="profile"/>
@@ -7704,11 +7728,11 @@ A Salvo Template may not be placed within 6&quot;/15cm of a friendly Team.</desc
     <profile id="bd43-f9ad-4ad3-93f7" name="Grille (15cm) [Direct]" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, Slow Firing</characteristic>
       </characteristics>
     </profile>
     <profile id="0f4c-5edd-5825-c7cf" name="MG34 &amp; K98 rifle team" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
