@@ -1938,7 +1938,7 @@ Blood &apos;n GutsLast Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="6a77-8435-ca11-dd56" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="d06f-c3ce-b70e-caa5" name="Armoured Rifle Platoon (from CC) (LU109)" hidden="false" collective="false" import="true" type="unit">
+</selectionEntry><selectionEntry id="d06f-c3ce-b70e-caa5" name="Armoured Rifle Platoon (LU109)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="b1c0-a78f-1ca5-6e1e" name="Armoured Rifle Platoon (from CC)" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -2447,7 +2447,7 @@ SP GunAssault 5+</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="edf2-ca3e-977b-e24d" name="M4 Sherman (Late) OP Observation Post (LU235)" publicationId="afae-8f3f-0f99-8376" page="86" hidden="false" collective="false" import="true" type="unit">
-      <comment>added in v1 by willus8888</comment>
+      <profiles><profile id="6ac4-a596-d898-c12d" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LU235</characteristic></characteristics></profile></profiles><comment>added in v1 by willus8888</comment>
       <infoLinks>
         <infoLink id="f64e-4b9f-b3a8-7c86" name="Observer" hidden="false" targetId="8153-56ce-71c0-391b" type="rule"/>
         <infoLink id="01b8-9566-e883-0fcd" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
@@ -2549,7 +2549,7 @@ SP GunAssault 5+</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="bf6d-6770-b2f9-1516" name="M12 155mm Artillery Battery (LU177)" publicationId="afae-8f3f-0f99-8376" page="85" hidden="false" collective="false" import="true" type="unit">
-      <comment>added in v1 by willus8888</comment>
+      <profiles><profile id="7a31-cdd7-9c4f-9d6a" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LU177</characteristic></characteristics></profile></profiles><comment>added in v1 by willus8888</comment>
       <infoLinks>
         <infoLink id="f3ea-9f7b-0aca-1749" name="M12" hidden="false" targetId="6b47-2e38-2111-fdb8" type="profile"/>
         <infoLink id="98bc-fd97-2ca1-511d" name="M12 (155mm) [Indirect]" hidden="false" targetId="172d-7cbf-0b26-af43" type="profile"/>
@@ -2570,19 +2570,19 @@ SP GunAssault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c094-bf8d-cf0a-e1c7" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="924a-100f-447d-df00" name="2x M12 (155mm)" publicationId="afae-8f3f-0f99-8376" page="85" hidden="false" collective="false" import="true" type="unit">
-              <comment>added in v1 by willus8888</comment>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="75b7-749b-f440-4336" name="4x M12 (155mm)" publicationId="afae-8f3f-0f99-8376" page="85" hidden="false" collective="false" import="true" type="unit">
               <comment>added in v1 by willus8888</comment>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
+          <selectionEntry id="924a-100f-447d-df00" name="2x M12 (155mm)" publicationId="afae-8f3f-0f99-8376" page="85" hidden="false" collective="false" import="true" type="unit">
+              <comment>added in v1 by willus8888</comment>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -2590,7 +2590,7 @@ SP GunAssault 5+</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="e702-7142-b6b4-c6ab" name="M7 Priest Artillery Battery (LU121)" publicationId="afae-8f3f-0f99-8376" page="85" hidden="false" collective="false" import="true" type="unit">
-      <comment>added in v1 by willus8888</comment>
+      <profiles><profile id="ae54-7e23-7014-7936" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LU121</characteristic></characteristics></profile></profiles><comment>added in v1 by willus8888</comment>
       <infoLinks>
         <infoLink id="fbe7-3b9d-0eb9-14dc" name="M7 Priest" hidden="false" targetId="869b-8f8d-b0ff-2747" type="profile"/>
         <infoLink id="f4ff-a119-ac0f-8b3b" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
@@ -2615,19 +2615,19 @@ SP GunAssault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c684-05a7-1355-e710" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="a345-88b9-6752-eb8e" name="3x M7 Priest (105mm)" publicationId="afae-8f3f-0f99-8376" page="85" hidden="false" collective="false" import="true" type="unit">
-              <comment>added in v1 by willus8888</comment>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="c438-95fe-23b0-d5a9" name="6x M7 Priest (105mm)" publicationId="afae-8f3f-0f99-8376" page="85" hidden="false" collective="false" import="true" type="unit">
               <comment>added in v1 by willus8888</comment>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
+          <selectionEntry id="a345-88b9-6752-eb8e" name="3x M7 Priest (105mm)" publicationId="afae-8f3f-0f99-8376" page="85" hidden="false" collective="false" import="true" type="unit">
+              <comment>added in v1 by willus8888</comment>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -2807,8 +2807,8 @@ SP GunAssault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9291-8b13-0b14-9268" name="Airbourne Jeep Recon Patrol (LU130)" publicationId="afae-8f3f-0f99-8376" page="65" hidden="false" collective="false" import="true" type="unit">
-      <comment>added in v1 by willus8888</comment>
+    <selectionEntry id="9291-8b13-0b14-9268" name="Airborne Jeep Recon Patrol (LU130)" publicationId="afae-8f3f-0f99-8376" page="65" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="4262-54a0-177d-2077" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LU130</characteristic></characteristics></profile></profiles><comment>added in v1 by willus8888</comment>
       <infoLinks>
         <infoLink id="ab33-d080-2b83-42d8" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
         <infoLink id="29ea-9ac1-e121-282b" name="Jeep (.50 cal MG)" hidden="false" targetId="b561-6ff6-6eca-4c3c" type="profile"/>
@@ -3325,7 +3325,7 @@ SP GunAssault 5+</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="27a1-d028-a5b1-b705" name="M8 Greyhound Cavalry Recon Patrol (LU174)" publicationId="afae-8f3f-0f99-8376" page="83" hidden="false" collective="false" import="true" type="unit">
-      <comment>added in v1 by willus8888</comment>
+      <profiles><profile id="f316-fd14-3201-67f6" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LU174</characteristic></characteristics></profile></profiles><comment>added in v1 by willus8888</comment>
       <infoLinks>
         <infoLink id="2489-b7ce-61a2-0bdf" name="Observer" hidden="false" targetId="8153-56ce-71c0-391b" type="rule"/>
         <infoLink id="b2cc-988c-9ee4-e57c" name="Scout" hidden="false" targetId="967a-118e-dc01-7e0b" type="rule"/>
@@ -3351,19 +3351,7 @@ SP GunAssault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b303-942c-4686-cf7e" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="34d1-eb5c-f7d0-1958" name="2x M8 Greyhound (37mm), 1x Jeep (MG) [LU107], 1x Jeep (60mm mortar) [LU107]" publicationId="afae-8f3f-0f99-8376" page="83" hidden="false" collective="false" import="true" type="unit">
-              <comment>added in v1 by willus8888</comment>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="93c2-8c65-fc5b-edba" name="1x M8 Greyhound (37mm), 1x Jeep (MG) [LU107], 1x Jeep (60mm mortar) [LU107]" publicationId="afae-8f3f-0f99-8376" page="83" hidden="false" collective="false" import="true" type="unit">
-              <comment>added in v1 by willus8888</comment>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+            <selectionEntry id="1b31-0b1e-5eed-5184" name="2x M8 Greyhound (37mm)1x Jeep (MG) (LU107)1x Jeep (60mm) (LU107)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry><selectionEntry id="58ad-aa53-bd04-ee31" name="1x M8 Greyhound (37mm)1x Jeep (MG) (LU107)1x Jeep (60mm) (LU107)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -4206,7 +4194,7 @@ SP GunAssault 5+</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="7c7d-a59a-c9f5-5c95" name="M8 Scott Assault Gun Platoon (LU158)" publicationId="afae-8f3f-0f99-8376" page="39" hidden="false" collective="false" import="true" type="unit">
-      <comment>added in v1 by willus8888</comment>
+      <profiles><profile id="8ea2-6144-ab94-742b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LU158</characteristic></characteristics></profile></profiles><comment>added in v1 by willus8888</comment>
       <infoLinks>
         <infoLink id="3c00-83b5-d1a2-c46f" name="M8 Scott" hidden="false" targetId="6c21-a9bc-0160-dd53" type="profile"/>
         <infoLink id="327c-2d5b-2fc4-fbb4" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
@@ -4224,19 +4212,19 @@ SP GunAssault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79e6-79b4-8fd2-2059" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="34c6-a383-b858-8938" name="2x M8 Scott (75mm)" publicationId="afae-8f3f-0f99-8376" page="39" hidden="false" collective="false" import="true" type="unit">
-              <comment>added in v1 by willus8888</comment>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="56d5-eed8-f6bc-e69a" name="3x M8 Scott (75mm)" publicationId="afae-8f3f-0f99-8376" page="39" hidden="false" collective="false" import="true" type="unit">
               <comment>added in v1 by willus8888</comment>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
+          <selectionEntry id="34c6-a383-b858-8938" name="2x M8 Scott (75mm)" publicationId="afae-8f3f-0f99-8376" page="39" hidden="false" collective="false" import="true" type="unit">
+              <comment>added in v1 by willus8888</comment>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -4320,8 +4308,8 @@ SP GunAssault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ee68-3308-ac84-3888" name="Veteran M8 Scott Assault Gun Platoon (LU170)" publicationId="afae-8f3f-0f99-8376" page="29" hidden="false" collective="false" import="true" type="unit">
-      <comment>added in v1 by willus8888</comment>
+    <selectionEntry id="ee68-3308-ac84-3888" name="Veteran M8 Scott Assault Gun Platoon (from CC) (LU170)" publicationId="afae-8f3f-0f99-8376" page="29" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="9cd0-af2a-fae6-1815" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LU170</characteristic></characteristics></profile></profiles><comment>added in v1 by willus8888</comment>
       <infoLinks>
         <infoLink id="4c73-f01b-0f2e-0606" name="Veteran M8 Scott" hidden="false" targetId="9270-c78b-1a0b-b383" type="profile"/>
         <infoLink id="a948-5564-5d35-156f" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
@@ -4339,19 +4327,19 @@ SP GunAssault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9acf-5b49-763f-84b9" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d4c0-8ce6-df7f-bf08" name="2x M8 Scott (75mm)" publicationId="afae-8f3f-0f99-8376" page="29" hidden="false" collective="false" import="true" type="unit">
-              <comment>added in v1 by willus8888</comment>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="3770-3b4d-3097-79cb" name="3x M8 Scott (75mm)" publicationId="afae-8f3f-0f99-8376" page="29" hidden="false" collective="false" import="true" type="unit">
               <comment>added in v1 by willus8888</comment>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
+          <selectionEntry id="d4c0-8ce6-df7f-bf08" name="2x M8 Scott (75mm)" publicationId="afae-8f3f-0f99-8376" page="29" hidden="false" collective="false" import="true" type="unit">
+              <comment>added in v1 by willus8888</comment>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -4697,7 +4685,7 @@ SP GunAssault 5+</characteristic>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f6b-af7f-9621-200f" name="Armoured 81mm Mortar Platoon (LU113)" publicationId="afae-8f3f-0f99-8376" page="36" hidden="false" collective="false" import="true" type="unit">
-      <comment>added in v1 by willus8888</comment>
+      <profiles><profile id="7f6f-ea6c-bd50-041d" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LU113</characteristic></characteristics></profile></profiles><comment>added in v1 by willus8888</comment>
       <infoLinks>
         <infoLink id="4201-2e20-43cd-eb4c" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
         <infoLink id="259e-c225-dfea-7c80" name="Rear Firing" hidden="false" targetId="e9e5-f5de-e0ef-9e90" type="rule"/>
@@ -5396,8 +5384,8 @@ SP GunAssault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4ac8-9892-c080-de43" name="Veteran Armoured 81mm Mortar Platoon (LU171)" publicationId="afae-8f3f-0f99-8376" page="27" hidden="false" collective="false" import="true" type="unit">
-      <comment>added in v1 by willus8888</comment>
+    <selectionEntry id="4ac8-9892-c080-de43" name="Veteran Armoured M4 81mm Mortar Platoon (LU171)" publicationId="afae-8f3f-0f99-8376" page="27" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="7646-ae4d-55dc-a2b8" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LU171</characteristic></characteristics></profile></profiles><comment>added in v1 by willus8888</comment>
       <infoLinks>
         <infoLink id="ce93-a6cd-6c31-c8fa" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
         <infoLink id="99db-6014-cd17-919f" name="Rear Firing" hidden="false" targetId="e9e5-f5de-e0ef-9e90" type="rule"/>
@@ -6052,23 +6040,23 @@ Tactics 3+</characteristic>
     <profile id="5bae-7ab9-e969-ec02" name="M26 Pershing (90mm)" publicationId="afae-8f3f-0f99-8376" page="25" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <comment>added in v1 by willus8888</comment>
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8aea-85b6-5974-68dc" name="M26 Pershing (.50 cal MG)" publicationId="afae-8f3f-0f99-8376" page="25" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <comment>added in v1 by willus8888</comment>
-      <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="8aea-85b6-5974-68dc" name="M26 Pershing (.50 cal MG)" publicationId="afae-8f3f-0f99-8376" page="25" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <comment>added in v1 by willus8888</comment>
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
     <profile id="2df1-8d24-dd1a-2f36" name="M26 Pershing (MGs)" publicationId="afae-8f3f-0f99-8376" page="25" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -6158,23 +6146,23 @@ Tactics 3+</characteristic>
     <profile id="5b29-a90c-3801-ba44" name="M5 Stuart (MGs)" publicationId="afae-8f3f-0f99-8376" page="26" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <comment>added in v1 by willus8888</comment>
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Stabiliser</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="50b6-2d1a-31e5-31e1" name="M5 Stuart (37mm)" publicationId="afae-8f3f-0f99-8376" page="26" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <comment>added in v1 by willus8888</comment>
-      <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">5</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="50b6-2d1a-31e5-31e1" name="M5 Stuart (37mm)" publicationId="afae-8f3f-0f99-8376" page="26" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <comment>added in v1 by willus8888</comment>
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Stabiliser</characteristic>
       </characteristics>
     </profile>
     <profile id="ba7e-178c-3fbc-c8fc" name="Veteran M4 (Calliope)" publicationId="afae-8f3f-0f99-8376" page="27" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
@@ -6273,23 +6261,23 @@ Tactics 3+</characteristic>
     <profile id="31cb-3b02-753b-fdf6" name="M24 Chaffee (75mm)" publicationId="afae-8f3f-0f99-8376" page="29" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <comment>added in v1 by willus8888</comment>
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ccf5-7239-97dc-1ebf" name="M24 Chaffee (.50 cal MG)" publicationId="afae-8f3f-0f99-8376" page="29" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <comment>added in v1 by willus8888</comment>
-      <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke, Stabiliser</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ccf5-7239-97dc-1ebf" name="M24 Chaffee (.50 cal MG)" publicationId="afae-8f3f-0f99-8376" page="29" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <comment>added in v1 by willus8888</comment>
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
     <profile id="9ad6-8f09-1d39-5d23" name="M24 Chaffee (MGs)" publicationId="afae-8f3f-0f99-8376" page="29" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -6652,17 +6640,6 @@ Tactics 3+</characteristic>
     <profile id="0754-8612-7ec2-e957" name="M1 Garand rifle team" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <comment>added in v1 by willus8888</comment>
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">8&quot;/20cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Slow Firing</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4c70-c7eb-992d-3a2e" name="M1919 LMG team" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <comment>added in v1 by willus8888</comment>
-      <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
@@ -6671,18 +6648,7 @@ Tactics 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="5ad8-11ec-262c-94b7" name="M1 Bazooka team" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <comment>added in v1 by willus8888</comment>
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Heavy Weapon</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="d315-2777-bfbe-6894" name="60mm mortar team" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+    <profile id="4c70-c7eb-992d-3a2e" name="M1919 LMG team" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <comment>added in v1 by willus8888</comment>
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
@@ -6690,6 +6656,28 @@ Tactics 3+</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Heavy Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5ad8-11ec-262c-94b7" name="M1 Bazooka team" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <comment>added in v1 by willus8888</comment>
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">8&quot;/20cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d315-2777-bfbe-6894" name="60mm mortar team" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <comment>added in v1 by willus8888</comment>
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Heavy Weapon</characteristic>
       </characteristics>
     </profile>
@@ -7035,23 +7023,23 @@ Last Stand 2+</characteristic>
     <profile id="edab-57ef-bc40-ac7c" name="M1919 &amp; M1 Garand rifle team" publicationId="afae-8f3f-0f99-8376" page="63" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <comment>added in v1 by willus8888</comment>
       <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="b40c-0c6a-f437-ca65" name="M1 Bazooka team" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <comment>added in v1 by willus8888</comment>
+      <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">8&quot;/20cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Slow Firing</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b40c-0c6a-f437-ca65" name="M1 Bazooka team" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <comment>added in v1 by willus8888</comment>
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Heavy Weapon</characteristic>
       </characteristics>
     </profile>
     <profile id="9c26-8b8d-63c4-a64c" name="60mm mortar" publicationId="afae-8f3f-0f99-8376" page="52" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -7212,11 +7200,11 @@ Last Stand 3+</characteristic>
       <comment>added in v1 by willus8888</comment>
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Heavy Weapon</characteristic>
       </characteristics>
     </profile>
     <profile id="8038-6363-98cf-8186" name="60mm mortar team" publicationId="afae-8f3f-0f99-8376" page="44" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -7911,22 +7899,22 @@ Assault 6</characteristic>
       <comment>added in v1 by willus8888</comment>
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA, Slow Firing</characteristic>
       </characteristics>
     </profile>
     <profile id="de5d-a55f-96a5-97bb" name="M16 (Quad .50 cal)" publicationId="afae-8f3f-0f99-8376" page="87" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <comment>added in v1 by willus8888</comment>
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA, Slow Firing</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">5</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA</characteristic>
       </characteristics>
     </profile>
     <profile id="7621-50fa-21dc-82cd" name=".50 cal MGs" publicationId="afae-8f3f-0f99-8376" page="87" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">

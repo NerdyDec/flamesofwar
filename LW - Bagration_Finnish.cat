@@ -1217,7 +1217,7 @@ Rear MGAssault 2+</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
-      </profiles>
+      <profile id="4a4a-7228-870c-1597" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LFI103</characteristic></characteristics></profile></profiles>
       <infoLinks>
         <infoLink id="1319-e543-e286-0e2c" name="T-34 (85mm)" hidden="false" targetId="c8a1-1492-980c-83e3" type="profile"/>
         <infoLink id="1767-d34f-3e43-33ea" name="T-34 (MGs)" hidden="false" targetId="5986-9fc6-fb9b-97fa" type="profile"/>
@@ -1231,7 +1231,7 @@ Rear MGAssault 2+</characteristic>
           <selectionEntries>
             <selectionEntry id="97a7-91fe-514c-6616" name="3x T-34 (85mm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2706,21 +2706,21 @@ Each time this Unit rolls To Hit in an assault, one of its Teams may attack with
     <profile id="41d7-ee0e-b28e-be35" name="ISU-152 (152mm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="db4d-0758-756a-cb3e" name="ISU-152 (12.7mm AA MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">13</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="db4d-0758-756a-cb3e" name="ISU-152 (12.7mm AA MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
     <profile id="9d56-4e69-f035-ef37" name="BT-42 (114mm) [Indirect]" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">

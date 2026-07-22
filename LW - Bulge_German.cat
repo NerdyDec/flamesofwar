@@ -8858,7 +8858,7 @@ Heavy WeaponAssault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="be8d-b0da-f7ee-f681" name="Armoured 7.5cm SS Gun Platoon (CC) (LG204)" publicationId="3bbf-3707-35dd-b1f5" page="53" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="be8d-b0da-f7ee-f681" name="Armoured 7.5cm SS Gun Platoon (LG204)" publicationId="3bbf-3707-35dd-b1f5" page="53" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="73ec-ce46-1742-1df3" name="Armoured 7.5cm SS Gun Platoon" publicationId="3bbf-3707-35dd-b1f5" page="53" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
@@ -9674,24 +9674,23 @@ Assault 4+</characteristic>
       <profiles>
         <profile id="a3b2-ee52-0870-00be" name="Armoured 8cm Mortar Section" publicationId="3bbf-3707-35dd-b1f5" page="70" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
-Counterattack 6
-Last Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+
-Assault 5+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+SP GunAssault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
             <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
             <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
-            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10”/25cm</characteristic>
-            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10”/25cm</characteristic>
+            <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+            <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
             <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
             <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
           </characteristics>
         </profile>
-      </profiles>
+      <profile id="9266-48a0-6cb3-e33e" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG115</characteristic></characteristics></profile></profiles>
       <infoLinks>
         <infoLink id="e091-0808-2194-c52b" name="Sd Kfz 251 (MG)" hidden="false" targetId="304a-897b-2e19-d852" type="profile"/>
         <infoLink id="8637-d4b0-2ad2-b1ce" name="Smoke Bombardment" hidden="false" targetId="76e4-8497-fb4a-21c2" type="rule"/>
@@ -9710,17 +9709,17 @@ Assault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="341a-0124-7e07-820f" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="0def-ad05-8022-ed25" name="2x Sd Kfz 251 (8cm)" publicationId="3bbf-3707-35dd-b1f5" page="70" hidden="false" collective="false" import="true" type="unit">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="288d-870d-5811-dc79" name="4x Sd Kfz 251 (8cm)" publicationId="3bbf-3707-35dd-b1f5" page="70" hidden="false" collective="false" import="true" type="unit">
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
+          <selectionEntry id="0def-ad05-8022-ed25" name="2x Sd Kfz 251 (8cm)" publicationId="3bbf-3707-35dd-b1f5" page="70" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -11305,7 +11304,7 @@ Last Stand 4+</characteristic>
         <categoryLink id="52ae-fa07-0562-a658" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="efc3-9423-ad23-064c" name="Volksgrenadier Company" publicationId="3bbf-3707-35dd-b1f5" page="77" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="efc3-9423-ad23-064c" name="Volksgrenadier Company HQ (LG404)" publicationId="3bbf-3707-35dd-b1f5" page="77" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0971-0486-b565-6767" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40f5-ccdd-7502-b00d" type="max"/>
@@ -11430,7 +11429,7 @@ Third ReichLast Stand 4+</characteristic>
         <categoryLink id="704b-6457-ed33-f3d2" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f893-eb8d-9c69-18f2" name="Tiger II Tank Company" publicationId="3bbf-3707-35dd-b1f5" page="57" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="f893-eb8d-9c69-18f2" name="Tiger II Tank Company HQ (LG351)" publicationId="3bbf-3707-35dd-b1f5" page="57" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2143-78c6-928d-e9eb" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="295d-e6b4-e9e8-c301" type="max"/>
@@ -11545,7 +11544,7 @@ Tiger AceLast Stand 2+</characteristic>
         <categoryLink id="4e68-c068-cf27-1c0c" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d341-9892-5b5e-4c5b" name="Tiger II SS Tank Company" publicationId="3bbf-3707-35dd-b1f5" page="45" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="d341-9892-5b5e-4c5b" name="Tiger II SS Tank Company HQ (LG426)" publicationId="3bbf-3707-35dd-b1f5" page="45" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fe4-3ffe-da9d-7b4d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92b4-4a2b-aec4-5d9d" type="max"/>
@@ -11748,7 +11747,7 @@ Tiger AceLast Stand 2+</characteristic>
         <categoryLink id="d3e6-a1f1-287b-6483" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b605-60f7-aa69-06fd" name="Panther (Late) Tank Company" publicationId="3bbf-3707-35dd-b1f5" page="65" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="b605-60f7-aa69-06fd" name="Panther (Late) Tank Company HQ (LG359)" publicationId="3bbf-3707-35dd-b1f5" page="65" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="315d-0fa1-20a2-1fbc" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a66-986c-8f65-a93a" type="max"/>
@@ -11873,7 +11872,7 @@ Third ReichLast Stand 3+</characteristic>
         <categoryLink id="8ce9-d045-76b2-482b" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="72e7-d8ba-ea56-49ca" name="Panther (Late) SS Tank Company" publicationId="3bbf-3707-35dd-b1f5" page="47" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="72e7-d8ba-ea56-49ca" name="Panther (Late) SS Tank Company HQ (LG428)" publicationId="3bbf-3707-35dd-b1f5" page="47" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99fd-a09c-8a16-6bb7" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67db-b320-322b-6ed9" type="max"/>
@@ -12368,7 +12367,7 @@ Last Stand 4+</characteristic>
         <categoryLink id="5da6-b7ed-662e-d363" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="368b-5875-04ac-0de5" name="Brigade Panzer IV Tank Company" publicationId="3bbf-3707-35dd-b1f5" page="26" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="368b-5875-04ac-0de5" name="Brigade Panzer IV Tank Company HQ (LG363)" publicationId="3bbf-3707-35dd-b1f5" page="26" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44ea-098c-6cc3-86a2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f443-efcf-9214-35b0" type="max"/>
@@ -12496,7 +12495,7 @@ Third ReichLast Stand 4+</characteristic>
         <categoryLink id="18d7-64d6-ded9-11a9" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6239-6236-1c31-3464" name="Brigade Panzergrenadier Company" publicationId="3bbf-3707-35dd-b1f5" page="35" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="6239-6236-1c31-3464" name="Brigade Panzergrenadier Company HQ (LG378)" publicationId="3bbf-3707-35dd-b1f5" page="35" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c78-0f96-3a07-ef30" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c759-09d7-49bd-1920" type="max"/>
@@ -12629,7 +12628,7 @@ Third ReichLast Stand 4+</characteristic>
         <categoryLink id="b66a-548c-9c55-51b4" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c739-c0bf-31b8-9c36" name="Jagdpanther Tank-hunter Company" publicationId="3bbf-3707-35dd-b1f5" page="83" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="c739-c0bf-31b8-9c36" name="Jagdpanther Tank-hunter Company HQ (LG400)" publicationId="3bbf-3707-35dd-b1f5" page="83" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7291-aae0-f80d-9e0b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3c2-8e65-1667-adda" type="max"/>
@@ -12748,7 +12747,7 @@ SP GunAssault 4+</characteristic>
         <categoryLink id="5a4c-bdf7-f59c-9106" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="642e-5056-842d-7444" name="Jagdtiger Tank-hunter Company" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="642e-5056-842d-7444" name="Jagdtiger Tank-hunter Company HQ (LG402)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acc8-bd0c-098d-e90b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d30e-13db-5f92-bf2b" type="max"/>
@@ -13193,7 +13192,7 @@ Mounted Assault (2 pass.) 3+</characteristic>
             <characteristic name="Notes" typeId="173e-6395-d37b-31a2">HQ Transport, Old Hand, Stormtroopers</characteristic>
           </characteristics>
         </profile>
-      </profiles>
+      <profile id="4e54-4037-b126-6d56" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG217</characteristic></characteristics></profile></profiles>
       <infoLinks>
         <infoLink id="1209-5eb8-3fcf-722d" name="MP40 SMG team" hidden="false" targetId="fe2a-8811-1a02-9985" type="profile"/>
         <infoLink id="050d-45aa-7abe-bd1c" name="Panzerfaust anti-tank (Ltd.1)" hidden="false" targetId="0715-7640-5f74-4974" type="profile"/>
@@ -13213,88 +13212,16 @@ Mounted Assault (2 pass.) 3+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2575-8a23-b94c-522a" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="111b-c7c1-a7c1-fe6f" name="2x MP40 SMG team" hidden="false" collective="false" import="true" type="unit">
-              <selectionEntries>
-                <selectionEntry id="693f-e75c-ddc0-93bb" name="Command Card: Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0287-7b35-6da4-ea10" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="44f2-9f6b-9420-f9b3" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="aa29-e384-3f5f-4742" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="name" value="1x Softskin Transport"/>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22a7-1d49-dda9-7069" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2b5-3b62-f230-161d" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+            <selectionEntry id="d867-e106-f0fe-a029" name="2x MP40 SMG team2x Sd Kfz 250 (MG) half-track (LG219)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry><selectionEntry id="111b-c7c1-a7c1-fe6f" name="2x MP40 SMG team" hidden="false" collective="false" import="true" type="unit">
               <selectionEntryGroups>
                 <selectionEntryGroup id="424e-44c0-2168-8308" name="Options" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="abf1-87a0-d08c-8efd" name="Equip MP40 SMG teams with Panzerfaust anti-tank for +2 points." hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c9d-804a-a22d-d253" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
+                  </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ba66-ed1c-f2dd-f190" name="2x MP40 SMG team; 2x Sd Kfz 250 (MG) half-track (LG219)" hidden="false" collective="false" import="true" type="unit">
-              <selectionEntries>
-                <selectionEntry id="a35a-76b9-ae1b-b29d" name="2x MP40 SMG team" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b297-5bc1-92ef-3c77" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1f9e-0dba-112c-747a" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="7d04-2bc4-d9d9-d710" name="Options" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="5a54-918d-f318-3eb9" name="Equip MP40 SMG teams with Panzerfaust anti-tank for +2 points." hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ac9-5663-232f-4dff" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="5993-a5d0-5063-68a6" name="Sd Kfz 250 SS Half-Track Transport (LG219)" hidden="false" collective="false" import="true" targetId="7f43-248b-84d5-b06e" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="name" value="2x Sd Kfz 250 (MG) half-track (LG219)"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8f74-9f3e-8ab2-eaae" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="78e1-2792-4de9-9580" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -13354,8 +13281,8 @@ ScoutLast Stand 4+</characteristic>
       <profiles>
         <profile id="14ea-017d-02b0-e48d" name="Panzer IV SS Tank Company HQ" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+
-Remount 2+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ 
+Protected AmmoRemount 2+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
@@ -13369,7 +13296,7 @@ Remount 2+</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985">Bazooka Skirts, Old Hand, Stormtroopers</characteristic>
           </characteristics>
         </profile>
-      </profiles>
+      <profile id="7017-c5c8-3957-ddd3" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG195</characteristic></characteristics></profile></profiles>
       <infoLinks>
         <infoLink id="d3bf-f983-a1c5-3263" name="Stormtroopers" hidden="false" targetId="c852-7729-56c6-f404" type="rule"/>
         <infoLink id="3d4b-4777-8f73-708c" name="Panzer IV (7.5cm)" hidden="false" targetId="c64f-6666-dcc0-4a7d" type="profile"/>
@@ -13412,7 +13339,7 @@ Remount 2+</characteristic>
             <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Old Hand, Stormtroopers</characteristic>
           </characteristics>
         </profile>
-      </profiles>
+      <profile id="f325-041c-d315-82c2" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG207</characteristic></characteristics></profile></profiles>
       <infoLinks>
         <infoLink id="ab8a-15da-10bb-baa3" name="MP40 SMG team" hidden="false" targetId="fe2a-8811-1a02-9985" type="profile"/>
         <infoLink id="a73b-b821-8e60-6f10" name="Panzerfaust anti-tank (Ltd.1)" hidden="false" targetId="0715-7640-5f74-4974" type="profile"/>
@@ -13433,27 +13360,6 @@ Remount 2+</characteristic>
           </constraints>
           <selectionEntries>
             <selectionEntry id="3682-565d-f13f-36c1" name="2x MP40 SMG team" hidden="false" collective="false" import="true" type="unit">
-              <selectionEntries>
-                <selectionEntry id="c353-43ae-bfa4-412d" name="Command Card: Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d645-d7d4-3499-af0b" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="cf35-d9ed-150c-de62" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="aa29-e384-3f5f-4742" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="name" value="1x Softskin Transport"/>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b46-2476-da32-1e64" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e73-d8ee-4b61-16ab" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
               </costs>
@@ -13519,9 +13425,8 @@ Heavy WeaponAssault 5+</characteristic>
       <profiles>
         <profile id="34b0-92ee-0c60-22a4" name="Panzer IV Tank Company HQ" publicationId="10a4-8008-66c3-952e" page="45" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
-Last Stand 3+
-Remount 3+ (LFTF)</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
@@ -13535,7 +13440,7 @@ Remount 3+ (LFTF)</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985">Bazooka Skirts, Stormtroopers</characteristic>
           </characteristics>
         </profile>
-      </profiles>
+      <profile id="ffc3-4e22-9f92-8dad" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG166</characteristic></characteristics></profile></profiles>
       <infoLinks>
         <infoLink id="5961-4ece-f615-83c3" name="Stormtroopers" hidden="false" targetId="c852-7729-56c6-f404" type="rule"/>
         <infoLink id="1724-0759-c079-1775" name="Panzer IV (7.5cm)" hidden="false" targetId="c64f-6666-dcc0-4a7d" type="profile"/>
@@ -13551,7 +13456,7 @@ Remount 3+ (LFTF)</characteristic>
           <selectionEntries>
             <selectionEntry id="8446-a746-b97a-9f49" name="2x Panzer IV (7.5cm)" publicationId="10a4-8008-66c3-952e" page="45" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -13916,8 +13821,8 @@ SP GunAssault 5+</characteristic>
       <profiles>
         <profile id="ea56-2dc2-6e26-4c38" name="Panzergrenadier Company HQ" publicationId="10a4-8008-66c3-952e" page="55" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+
-Last Stand 3+</characteristic>
+            <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
+Third ReichLast Stand 3+</characteristic>
             <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+</characteristic>
             <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
             <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
@@ -13929,7 +13834,7 @@ Last Stand 3+</characteristic>
             <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Infantry Formation, Stormtroopers</characteristic>
           </characteristics>
         </profile>
-      </profiles>
+      <profile id="af07-a9e3-1ec8-25c8" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG170</characteristic></characteristics></profile></profiles>
       <infoLinks>
         <infoLink id="c9a8-b333-90e6-df5c" name="MP40 SMG team" hidden="false" targetId="fe2a-8811-1a02-9985" type="profile"/>
         <infoLink id="6995-874e-33bf-4519" name="Panzerfaust anti-tank (Ltd.1)" hidden="false" targetId="0715-7640-5f74-4974" type="profile"/>
@@ -13941,52 +13846,6 @@ Last Stand 3+</characteristic>
       <categoryLinks>
         <categoryLink id="adf6-e518-8418-49cd" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="5462-dad0-1083-f2be" name="2x MP40 SMG team with Panzerfaust" publicationId="10a4-8008-66c3-952e" page="55" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aca1-a494-a89a-6976" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e67f-f282-12fb-da23" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="9226-ac25-a470-3058" name="Command Card: Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0712-37e9-49ad-20b2" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="e5a7-cb24-48a3-262f" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="aa29-e384-3f5f-4742" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="name" value="1x Softskin Transport"/>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8c6-1f3d-ebf7-16b7" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce5d-122a-5a21-6bb3" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="18b4-3781-9ce0-76cb" name="Options" hidden="false" collective="false" import="true">
-              <selectionEntries>
-                <selectionEntry id="0712-b9e4-b7a3-ea75" name="Equip MP40 SMG teams with Panzerfaust anti-tank for +2 points." hidden="false" collective="false" import="true" type="upgrade">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3ef-b411-9629-ccd5" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
@@ -14445,7 +14304,7 @@ Remount 2+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c933-34fa-3221-8c2c" name="Fallschirmjager Company HQ (LG157)" publicationId="10a4-8008-66c3-952e" page="27" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c933-34fa-3221-8c2c" name="Fallschirmjäger Company HQ (LG157)" publicationId="10a4-8008-66c3-952e" page="27" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="683f-31ac-b301-27dd" name="Fallschirmjager Company HQ" publicationId="10a4-8008-66c3-952e" page="27" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
           <characteristics>
@@ -14461,7 +14320,7 @@ Remount 2+</characteristic>
             <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Stormtroopers</characteristic>
           </characteristics>
         </profile>
-      </profiles>
+      <profile id="ef9c-12ad-f561-b984" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG157</characteristic></characteristics></profile></profiles>
       <infoLinks>
         <infoLink id="cfc8-75ef-d5dd-da9d" name="MP40 SMG team" hidden="false" targetId="fe2a-8811-1a02-9985" type="profile"/>
         <infoLink id="6b02-fe9f-60eb-d341" name="Optional: Panzerfaust anti-tank (Ltd.1)" hidden="false" targetId="aa8f-b373-a419-8c6a" type="profile"/>
@@ -14483,36 +14342,7 @@ Remount 2+</characteristic>
             <selectionEntry id="1ef3-038f-c37f-5a95" name="2x MP40 SMG team" hidden="false" collective="false" import="true" type="unit">
               <selectionEntryGroups>
                 <selectionEntryGroup id="257e-caa6-ef15-4827" name="Options" hidden="false" collective="false" import="true">
-                  <selectionEntries>
-                    <selectionEntry id="be52-d057-51bb-fb66" name="Equip all MP40 SMG teams with Panzerfaust anti-tank for +2 points." hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b068-97ff-a8bf-1c62" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4772-349a-972c-43d9" name="Command Card: Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c72-e0dc-94d9-9f94" type="max"/>
-                      </constraints>
-                      <entryLinks>
-                        <entryLink id="931f-3719-544a-9ec1" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="aa29-e384-3f5f-4742" type="selectionEntry">
-                          <modifiers>
-                            <modifier type="set" field="name" value="1x Softskin Transport"/>
-                          </modifiers>
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a95e-57b8-2856-1cea" type="max"/>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b41-7e27-4869-d1b4" type="min"/>
-                          </constraints>
-                        </entryLink>
-                      </entryLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
+                  </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
@@ -14920,22 +14750,22 @@ When Deploying their remaining Units, a player may treat the area entirely withi
     </profile>
     <profile id="1745-762d-bad6-3a18" name="Sturmtiger (38cm rocket)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="603b-f5b6-1655-0643" name="Sturmtiger (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">56&quot;/140cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Bunker Killer, Forward Firing, Rocket Howitzer</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="603b-f5b6-1655-0643" name="Sturmtiger (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
       </characteristics>
     </profile>
     <profile id="eb8b-3eca-1ba5-cb20" name="Brummbar (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -15000,12 +14830,12 @@ When Deploying their remaining Units, a player may treat the area entirely withi
     </profile>
     <profile id="ab77-18c5-bd11-87d9" name="Sd Kfz 234 (2cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self Defence AA</characteristic>
       </characteristics>
     </profile>
     <profile id="c969-dda3-6f68-aebd" name="Sd Kfz 234 &amp; Puma (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -15020,12 +14850,12 @@ When Deploying their remaining Units, a player may treat the area entirely withi
     </profile>
     <profile id="23fd-b38b-8668-208b" name="Puma (5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self Defence AA</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
     <profile id="d4a4-2a0c-42c7-1b66" name="Grille (late) (15cm) [Indirect]" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -15270,16 +15100,6 @@ When Deploying their remaining Units, a player may treat the area entirely withi
     </profile>
     <profile id="304a-897b-2e19-d852" name="Sd Kfz 251 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="2d3e-0a9a-a88e-63d4" name="Sd Kfz 251 (8cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
@@ -15288,14 +15108,24 @@ When Deploying their remaining Units, a player may treat the area entirely withi
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
+    <profile id="2d3e-0a9a-a88e-63d4" name="Sd Kfz 251 (8cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
+      </characteristics>
+    </profile>
     <profile id="e5d3-16ea-151d-4ed1" name="Sd Kfz 251 (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, HEAT</characteristic>
       </characteristics>
     </profile>
     <profile id="ce31-9ca6-3675-0725" name="Sd Kfz 251 (7.5cm) (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -15310,22 +15140,22 @@ When Deploying their remaining Units, a player may treat the area entirely withi
     </profile>
     <profile id="b5b6-41bc-8251-b448" name="Sd Kfz 251 (Flame) (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Flame-thrower</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="61c5-821a-b8fd-2741" name="Sd Kfz 251 (Flame) (Flame-throwers)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="61c5-821a-b8fd-2741" name="Sd Kfz 251 (Flame) (Flame-throwers)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Flame-thrower</characteristic>
       </characteristics>
     </profile>
     <profile id="7231-0440-70f7-da45" name="12cm mortar" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -15660,6 +15490,16 @@ When Deploying their remaining Units, a player may treat the area entirely withi
     </profile>
     <profile id="599d-f9b7-7f3c-78a2" name="Sd Kfz 231 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="25a6-699b-64b0-665a" name="Sd Kfz 231 (2cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
@@ -15668,27 +15508,7 @@ When Deploying their remaining Units, a player may treat the area entirely withi
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="25a6-699b-64b0-665a" name="Sd Kfz 231 (2cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
     <profile id="98a9-30e7-c9dc-c027" name="Sd Kfz 250 (8cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b117-0bb0-e509-598b" name="Sd Kfz 250 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
@@ -15696,6 +15516,16 @@ When Deploying their remaining Units, a player may treat the area entirely withi
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b117-0bb0-e509-598b" name="Sd Kfz 250 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
     <profile id="329a-1105-b849-93e1" name="Sd Kfz 250 (7.5cm) (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -15710,12 +15540,12 @@ When Deploying their remaining Units, a player may treat the area entirely withi
     </profile>
     <profile id="e9d5-b2f5-1a83-2968" name="Sd Kfz 250 (7.5cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, HEAT</characteristic>
       </characteristics>
     </profile>
     <profile id="db2c-56dd-54f6-29b1" name="Sd Kfz 234 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
@@ -15780,21 +15610,21 @@ When Deploying their remaining Units, a player may treat the area entirely withi
     </profile>
     <profile id="e703-a6c0-7ce4-53e5" name="Sd Kfz 222 (2cm)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="9679-ea25-e443-6d37" name="Sd Kfz 221 &amp; 222 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
-      <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9679-ea25-e443-6d37" name="Sd Kfz 221 &amp; 222 (MG)" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
@@ -18311,23 +18141,23 @@ Only one Ardennes SS Reconnaissance Platoon may have Sd Kfz250 (MG) half-tracks.
           <profiles>
             <profile id="f34c-661f-3440-263f" name="Armoured 7.5cm SS Gun Platoon" publicationId="3bbf-3707-35dd-b1f5" page="53" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
               <characteristics>
-                <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+
-Counterattack 5+</characteristic>
-                <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
-Assault 5+</characteristic>
+                <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ 
+SP GunCounterattack 5+</characteristic>
+                <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
+SP GunAssault 5+</characteristic>
                 <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
                 <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
                 <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
                 <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
-                <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10”/25cm</characteristic>
-                <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10”/25cm</characteristic>
+                <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+                <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
                 <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">16&quot;/40cm</characteristic>
                 <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic>
                 <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
                 <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
               </characteristics>
             </profile>
-          </profiles>
+          <profile id="f217-61e9-90e3-f7fa" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG204</characteristic></characteristics></profile></profiles>
           <infoLinks>
             <infoLink id="cdbf-abd1-a2d1-cbf2" name="Sd Kfz 251 (7.5cm) (MG)" hidden="false" targetId="ce31-9ca6-3675-0725" type="profile"/>
             <infoLink id="4e1c-81b9-2cf3-8956" name="Stormtroopers" hidden="false" targetId="c852-7729-56c6-f404" type="rule"/>
@@ -18345,12 +18175,7 @@ Assault 5+</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f2f-605b-87f5-e8d8" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="a3d1-0bed-f15d-5c0f" name="3x Sd Kfz 251 (7.5cm)" hidden="false" collective="false" import="true" type="unit">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                <selectionEntry id="468b-2e24-ed49-7bfd" name="6x Sd Kfz 251 (7.5cm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/></costs></selectionEntry><selectionEntry id="bb20-c553-e239-aa50" name="4x Sd Kfz 251 (7.5cm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/></costs></selectionEntry><selectionEntry id="0a1f-2885-fcd4-8418" name="2x Sd Kfz 251 (7.5cm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
@@ -18366,8 +18191,8 @@ Assault 5+</characteristic>
             <profile id="4613-76fe-ac7b-0514" name="Ardennes SS Reconnaissance Platoon" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
               <characteristics>
                 <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
-                <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+
-Assault 3+</characteristic>
+                <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
+Waffen-SSAssault 3+</characteristic>
                 <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
                 <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
                 <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -18378,7 +18203,7 @@ Assault 3+</characteristic>
                 <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Stormtroopers</characteristic>
               </characteristics>
             </profile>
-          </profiles>
+          <profile id="3d4c-53fe-8642-9e77" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG444</characteristic></characteristics></profile></profiles>
           <infoLinks>
             <infoLink id="81e0-e59b-6012-15a7" name="MG42 team" hidden="false" targetId="a7bd-eace-0072-5f7e" type="profile"/>
             <infoLink id="2895-544f-ebab-c16c" name="Panzerfaust anti-tank (Ltd. 2)" hidden="false" targetId="e67f-384d-52f9-f92b" type="profile"/>
@@ -18396,167 +18221,31 @@ Assault 3+</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2b1-723c-bf81-7785" type="min"/>
               </constraints>
               <selectionEntries>
+                <selectionEntry id="f13d-a0d4-8ef9-4838" name="7x MG42 team with Panzerfaust7x Sd Kfz 250 (MG) half-track (LG219)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/></costs></selectionEntry><selectionEntry id="8c44-fa21-026a-fdf7" name="5x MG42 team with Panzerfaust5x Sd Kfz 250 (MG) half-track (LG219)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/></costs></selectionEntry><selectionEntry id="23eb-d15c-2091-b916" name="7x MG42 team with Panzerfaust" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="0187-b82f-5249-d2ff" name="Command Card: (Transport)" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa75-fcbc-4295-98f7" type="max"/>
+                      </constraints>
+                      </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+                  </costs>
+                </selectionEntry>
                 <selectionEntry id="e7f4-a178-aa7c-31cd" name="5x MG42 team with Panzerfaust" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
                   <selectionEntryGroups>
                     <selectionEntryGroup id="01b7-1559-2db0-faff" name="Command Card: (Transport)" hidden="false" collective="false" import="true">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30f6-69d6-ca13-000c" type="max"/>
                       </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="cf88-02ca-b18b-7836" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0101-76fe-baa6-d80f" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="efca-8e47-7b8e-3438" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="aa29-e384-3f5f-4742" type="selectionEntry">
-                              <modifiers>
-                                <modifier type="set" field="name" value="3x Softskin Transport"/>
-                              </modifiers>
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="819a-5c70-ba86-ff75" type="min"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="153e-2ca3-31e6-e3ee" type="max"/>
-                              </constraints>
-                            </entryLink>
-                          </entryLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="9a2e-140c-df7d-6260" name="Kampfgruppe Grabner Armoured Trucks" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ec6-5772-9baa-1f7c" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="2690-e3ea-27ae-c650" name="Kampfgruppe Grabner Armoured Trucks" hidden="false" collective="false" import="true" targetId="9d59-8e83-3213-3751" type="selectionEntry">
-                              <modifiers>
-                                <modifier type="set" field="name" value="3x Armoured Truck"/>
-                              </modifiers>
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="24ff-0fa3-ed04-4a10" type="min"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c70-a2ad-34f3-3109" type="max"/>
-                              </constraints>
-                            </entryLink>
-                          </entryLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
+                      </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="23eb-d15c-2091-b916" name="7x MG42 team with Panzerfaust" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="0187-b82f-5249-d2ff" name="Command Card: (Transport)" hidden="false" collective="false" import="true">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa75-fcbc-4295-98f7" type="max"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="e64e-3dec-1ede-6c1b" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fc0-d053-d2cb-e8c7" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="f364-0f77-3ecd-70e5" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="aa29-e384-3f5f-4742" type="selectionEntry">
-                              <modifiers>
-                                <modifier type="set" field="name" value="4x Softskin Transport"/>
-                              </modifiers>
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c9e-1376-69f0-e993" type="min"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa08-70d6-bda4-2d4e" type="max"/>
-                              </constraints>
-                            </entryLink>
-                          </entryLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="1d95-77be-a049-893b" name="Kampfgruppe Grabner Armoured Trucks" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6241-2db2-6334-c1bd" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="6047-8a4d-cac7-a3f5" name="Kampfgruppe Grabner Armoured Trucks" hidden="false" collective="false" import="true" targetId="9d59-8e83-3213-3751" type="selectionEntry">
-                              <modifiers>
-                                <modifier type="set" field="name" value="4x Armoured Truck"/>
-                              </modifiers>
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c3a3-b98e-175e-1e10" type="min"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4536-c6c2-8494-72f3" type="max"/>
-                              </constraints>
-                            </entryLink>
-                          </entryLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="6fc5-e68d-95c1-0da8" name="7x MG42 team with Panzerfaust; 7x Sd Kfz 250 (MG) half-track (LG219)" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
-                  <selectionEntries>
-                    <selectionEntry id="8d29-feda-2318-21cd" name="7x MG42 team with Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f7d7-3d77-1e8b-fece" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="efb5-d339-22cb-4f9c" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <entryLinks>
-                    <entryLink id="c0eb-defe-85d4-6eeb" name="Sd Kfz 250 SS Half-Track Transport (LG219)" hidden="false" collective="false" import="true" targetId="7f43-248b-84d5-b06e" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="name" value="7x Sd Kfz 250 (MG) half-track (LG219)"/>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b6ab-6ad5-5369-33e7" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cce3-1b72-ff3d-cc6e" type="max"/>
-                        <constraint field="selections" scope="736c-2e61-cfcf-9b21" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1065-effa-0a56-3ae2" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="f81f-9b71-47bd-2e63" name="5x MG42 team with Panzerfaust; 5x Sd Kfz 250 (MG) half-track (LG219)" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
-                  <selectionEntries>
-                    <selectionEntry id="f948-9aea-ea42-2f8c" name="5x MG42 team with Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e44-0932-5bd3-78fe" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a2e9-3b7d-df69-75b0" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <entryLinks>
-                    <entryLink id="42d0-a784-bc93-65b2" name="Sd Kfz 250 SS Half-Track Transport (LG219)" hidden="false" collective="false" import="true" targetId="7f43-248b-84d5-b06e" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="name" value="5x Sd Kfz 250 (MG) half-track (LG219)"/>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cd9c-4461-c7f0-68e3" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cc4e-289f-6230-6c94" type="max"/>
-                        <constraint field="selections" scope="736c-2e61-cfcf-9b21" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9f79-53c6-e045-b0eb" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
@@ -18572,8 +18261,8 @@ Assault 3+</characteristic>
             <profile id="7c1f-6569-fa29-207b" name="Ardennes SS Reconnaissance Platoon" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
               <characteristics>
                 <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
-                <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+
-Assault 3+</characteristic>
+                <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
+Waffen-SSAssault 3+</characteristic>
                 <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
                 <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
                 <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -18584,7 +18273,7 @@ Assault 3+</characteristic>
                 <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Stormtroopers</characteristic>
               </characteristics>
             </profile>
-          </profiles>
+          <profile id="4e53-80be-2394-8fc3" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG444</characteristic></characteristics></profile></profiles>
           <infoLinks>
             <infoLink id="00cd-d21a-d04f-7e14" name="MG42 team" hidden="false" targetId="a7bd-eace-0072-5f7e" type="profile"/>
             <infoLink id="e2cf-459a-118d-688a" name="Panzerfaust anti-tank (Ltd. 2)" hidden="false" targetId="e67f-384d-52f9-f92b" type="profile"/>
@@ -18602,167 +18291,31 @@ Assault 3+</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c15-7563-ee0b-40c2" type="min"/>
               </constraints>
               <selectionEntries>
+                <selectionEntry id="ef0c-9a1b-fbad-23cb" name="7x MG42 team with Panzerfaust7x Sd Kfz 250 (MG) half-track (LG219)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/></costs></selectionEntry><selectionEntry id="1b3b-fb14-af7d-30a9" name="5x MG42 team with Panzerfaust5x Sd Kfz 250 (MG) half-track (LG219)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/></costs></selectionEntry><selectionEntry id="cf89-59dc-7d75-466d" name="7x MG42 team with Panzerfaust" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="93ec-a549-6078-89cf" name="Command Card: (Transport)" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa9-a39d-367c-f971" type="max"/>
+                      </constraints>
+                      </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+                  </costs>
+                </selectionEntry>
                 <selectionEntry id="0b38-f2aa-155f-6501" name="5x MG42 team with Panzerfaust" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
                   <selectionEntryGroups>
                     <selectionEntryGroup id="6f94-27d4-b685-e52d" name="Command Card: (Transport)" hidden="false" collective="false" import="true">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73d4-293e-432f-e34c" type="max"/>
                       </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="38a8-32d5-0955-9589" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d2d-dbbc-817b-e1de" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="1eba-ca46-0d56-0310" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="aa29-e384-3f5f-4742" type="selectionEntry">
-                              <modifiers>
-                                <modifier type="set" field="name" value="3x Softskin Transport"/>
-                              </modifiers>
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3825-c405-2c90-f6c4" type="min"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9cd-e1ee-651e-b7bc" type="max"/>
-                              </constraints>
-                            </entryLink>
-                          </entryLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="d137-050d-9d08-030c" name="Kampfgruppe Grabner Armoured Trucks" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba34-51fa-f07c-6a3d" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="3b8f-f99a-b134-4213" name="Kampfgruppe Grabner Armoured Trucks" hidden="false" collective="false" import="true" targetId="9d59-8e83-3213-3751" type="selectionEntry">
-                              <modifiers>
-                                <modifier type="set" field="name" value="3x Armoured Truck"/>
-                              </modifiers>
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7f8a-41c3-ff81-0d82" type="min"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a3e5-01b7-a23b-0154" type="max"/>
-                              </constraints>
-                            </entryLink>
-                          </entryLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
+                      </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="cf89-59dc-7d75-466d" name="7x MG42 team with Panzerfaust" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="93ec-a549-6078-89cf" name="Command Card: (Transport)" hidden="false" collective="false" import="true">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa9-a39d-367c-f971" type="max"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="8549-dbcb-d2fd-ff82" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ea6-c9a6-3ed0-512c" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="4161-aa2b-3e36-5e98" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="aa29-e384-3f5f-4742" type="selectionEntry">
-                              <modifiers>
-                                <modifier type="set" field="name" value="4x Softskin Transport"/>
-                              </modifiers>
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad52-a213-aeca-f640" type="min"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0175-9136-c60f-4931" type="max"/>
-                              </constraints>
-                            </entryLink>
-                          </entryLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="c04d-8863-5b2a-3002" name="Kampfgruppe Grabner Armoured Trucks" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d3-781e-782b-0bfe" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="9691-1239-ed48-4cb2" name="Kampfgruppe Grabner Armoured Trucks" hidden="false" collective="false" import="true" targetId="9d59-8e83-3213-3751" type="selectionEntry">
-                              <modifiers>
-                                <modifier type="set" field="name" value="4x Armoured Truck"/>
-                              </modifiers>
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6922-d800-8af4-1b07" type="min"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0aea-178b-c332-ff61" type="max"/>
-                              </constraints>
-                            </entryLink>
-                          </entryLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="7efd-ee82-86a8-4b58" name="7x MG42 team with Panzerfaust; 7x Sd Kfz 250 (MG) half-track (LG219)" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
-                  <selectionEntries>
-                    <selectionEntry id="68be-dbe0-4bd5-58b6" name="7x MG42 team with Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b76-a6d7-dda2-396d" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="96cd-63ab-27b1-9f34" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <entryLinks>
-                    <entryLink id="2d28-b9d8-1180-9f95" name="Sd Kfz 250 SS Half-Track Transport (LG219)" hidden="false" collective="false" import="true" targetId="7f43-248b-84d5-b06e" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="name" value="7x Sd Kfz 250 (MG) half-track (LG219)"/>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6cc3-a5ee-32c2-92b6" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d1f1-3ef4-e2f1-dab1" type="max"/>
-                        <constraint field="selections" scope="736c-2e61-cfcf-9b21" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="02c5-57a7-c096-9634" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="b88a-892a-323c-7ef7" name="5x MG42 team with Panzerfaust; 5x Sd Kfz 250 (MG) half-track (LG219)" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
-                  <selectionEntries>
-                    <selectionEntry id="cc52-83c4-bfbd-d221" name="5x MG42 team with Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1f7e-b451-26d6-a9a6" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5a24-ff8c-2e05-a0e1" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <entryLinks>
-                    <entryLink id="c54a-b851-ec96-afd0" name="Sd Kfz 250 SS Half-Track Transport (LG219)" hidden="false" collective="false" import="true" targetId="7f43-248b-84d5-b06e" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="name" value="5x Sd Kfz 250 (MG) half-track (LG219)"/>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0f1-10c2-433f-7e25" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="93a4-3132-d55a-e5b1" type="max"/>
-                        <constraint field="selections" scope="736c-2e61-cfcf-9b21" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d23-47f9-fc69-413b" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
@@ -18777,8 +18330,8 @@ Assault 3+</characteristic>
             <profile id="2ca9-a71b-948e-e428" name="Ardennes SS Reconnaissance Platoon" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
               <characteristics>
                 <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
-                <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+
-Assault 3+</characteristic>
+                <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
+Waffen-SSAssault 3+</characteristic>
                 <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
                 <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
                 <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -18789,7 +18342,7 @@ Assault 3+</characteristic>
                 <characteristic name="Notes" typeId="173e-6395-d37b-31a2">Stormtroopers</characteristic>
               </characteristics>
             </profile>
-          </profiles>
+          <profile id="ea77-e664-661a-aaa7" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG444</characteristic></characteristics></profile></profiles>
           <infoLinks>
             <infoLink id="09b2-5cc5-26a0-a853" name="MG42 team" hidden="false" targetId="a7bd-eace-0072-5f7e" type="profile"/>
             <infoLink id="1668-9d12-c413-1724" name="Panzerfaust anti-tank (Ltd. 2)" hidden="false" targetId="e67f-384d-52f9-f92b" type="profile"/>
@@ -18807,167 +18360,31 @@ Assault 3+</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdee-6ba7-45bd-a98e" type="min"/>
               </constraints>
               <selectionEntries>
+                <selectionEntry id="1f81-cd4d-d9cb-efef" name="7x MG42 team with Panzerfaust7x Sd Kfz 250 (MG) half-track (LG219)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/></costs></selectionEntry><selectionEntry id="2445-e469-2b98-fed9" name="5x MG42 team with Panzerfaust5x Sd Kfz 250 (MG) half-track (LG219)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/></costs></selectionEntry><selectionEntry id="f975-42db-cc52-9404" name="7x MG42 team with Panzerfaust" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="ea65-2531-f494-1136" name="Command Card: (Transport)" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cab-d4d1-561d-f574" type="max"/>
+                      </constraints>
+                      </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+                  </costs>
+                </selectionEntry>
                 <selectionEntry id="f22e-510b-7a8a-0c5f" name="5x MG42 team with Panzerfaust" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
                   <selectionEntryGroups>
                     <selectionEntryGroup id="6d9f-dfb3-c457-a20e" name="Command Card: (Transport)" hidden="false" collective="false" import="true">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="742a-76a2-1f7c-8622" type="max"/>
                       </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="e1c3-d385-64ea-c9cd" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c901-97ec-fc1e-1471" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="9145-3df5-425e-e3c0" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="aa29-e384-3f5f-4742" type="selectionEntry">
-                              <modifiers>
-                                <modifier type="set" field="name" value="3x Softskin Transport"/>
-                              </modifiers>
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1aef-0434-9637-8f03" type="min"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0aa-b983-95c5-ba2a" type="max"/>
-                              </constraints>
-                            </entryLink>
-                          </entryLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="8127-5724-63d6-5110" name="Kampfgruppe Grabner Armoured Trucks" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac3-fb50-5440-2d5c" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="c4e2-658c-96a1-60f5" name="Kampfgruppe Grabner Armoured Trucks" hidden="false" collective="false" import="true" targetId="9d59-8e83-3213-3751" type="selectionEntry">
-                              <modifiers>
-                                <modifier type="set" field="name" value="3x Armoured Truck"/>
-                              </modifiers>
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c75e-71b6-c0d3-a731" type="min"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b9f1-ec45-238c-8f0a" type="max"/>
-                              </constraints>
-                            </entryLink>
-                          </entryLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
+                      </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
                     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="f975-42db-cc52-9404" name="7x MG42 team with Panzerfaust" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="ea65-2531-f494-1136" name="Command Card: (Transport)" hidden="false" collective="false" import="true">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cab-d4d1-561d-f574" type="max"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="e734-2b97-ae04-880c" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6005-e222-6063-be39" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="29fd-4648-3560-6974" name="Softskin Transport" hidden="false" collective="false" import="true" targetId="aa29-e384-3f5f-4742" type="selectionEntry">
-                              <modifiers>
-                                <modifier type="set" field="name" value="4x Softskin Transport"/>
-                              </modifiers>
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a33-dee1-130c-69d5" type="min"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1657-c352-3404-8434" type="max"/>
-                              </constraints>
-                            </entryLink>
-                          </entryLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="49e2-1b9f-f89a-2df9" name="Kampfgruppe Grabner Armoured Trucks" hidden="false" collective="false" import="true" type="upgrade">
-                          <constraints>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5334-0e36-2403-aed7" type="max"/>
-                          </constraints>
-                          <entryLinks>
-                            <entryLink id="62d7-a4d2-388b-36c5" name="Kampfgruppe Grabner Armoured Trucks" hidden="false" collective="false" import="true" targetId="9d59-8e83-3213-3751" type="selectionEntry">
-                              <modifiers>
-                                <modifier type="set" field="name" value="4x Armoured Truck"/>
-                              </modifiers>
-                              <constraints>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6758-0edd-11ea-bbcd" type="min"/>
-                                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dede-5694-b31a-9a5d" type="max"/>
-                              </constraints>
-                            </entryLink>
-                          </entryLinks>
-                          <costs>
-                            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="3deb-acc7-2260-7bb9" name="7x MG42 team with Panzerfaust; 7x Sd Kfz 250 (MG) half-track (LG219)" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
-                  <selectionEntries>
-                    <selectionEntry id="a7c6-fdcd-ca69-1371" name="7x MG42 team with Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="faa2-8729-16cd-ee4c" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="15f0-a929-5566-1da0" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <entryLinks>
-                    <entryLink id="4f08-8ffa-8085-c120" name="Sd Kfz 250 SS Half-Track Transport (LG219)" hidden="false" collective="false" import="true" targetId="7f43-248b-84d5-b06e" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="name" value="7x Sd Kfz 250 (MG) half-track (LG219)"/>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2d32-7d69-b104-c1ec" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="54d8-3d24-0e1d-e377" type="max"/>
-                        <constraint field="selections" scope="736c-2e61-cfcf-9b21" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7813-79f1-248e-3c9e" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="cb8c-7056-62e8-44d6" name="5x MG42 team with Panzerfaust; 5x Sd Kfz 250 (MG) half-track (LG219)" publicationId="3bbf-3707-35dd-b1f5" page="48" hidden="false" collective="false" import="true" type="unit">
-                  <selectionEntries>
-                    <selectionEntry id="df9f-9bb0-d635-a947" name="5x MG42 team with Panzerfaust" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7976-0b34-34c6-cbc5" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a452-b5b1-5d1c-0cca" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <entryLinks>
-                    <entryLink id="5b0f-62d3-00b5-314c" name="Sd Kfz 250 SS Half-Track Transport (LG219)" hidden="false" collective="false" import="true" targetId="7f43-248b-84d5-b06e" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="name" value="5x Sd Kfz 250 (MG) half-track (LG219)"/>
-                      </modifiers>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eae5-27f7-9680-689b" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d5e-6ad0-82df-b4eb" type="max"/>
-                        <constraint field="selections" scope="736c-2e61-cfcf-9b21" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="25f3-5683-c3c7-fd93" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
@@ -19314,15 +18731,14 @@ You must use this card in conjunction with the other 12. Volksgrenadierdivision 
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-        <selectionEntry id="83a5-a1d3-9d62-9093" name="Mobelwagen AA Tank Platoon (LG165)" publicationId="10a4-8008-66c3-952e" page="46" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="83a5-a1d3-9d62-9093" name="Möbelwagen AA Tank Platoon (LG165)" publicationId="10a4-8008-66c3-952e" page="46" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="005f-2868-b063-85ab" name="Mobelwagen AA Tank Platoon" publicationId="10a4-8008-66c3-952e" page="46" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
-Counterattack 6
-Last Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+
-Assault 5+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+AA TankAssault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
             <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -19342,7 +18758,7 @@ Assault 5+</characteristic>
             <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Unit (Wirbelwind AA Tank Platoon, Ostwind AA Tank Platoon)</characteristic>
           </characteristics>
         </profile>
-      </profiles>
+      <profile id="fb18-cecd-6042-275c" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG165</characteristic></characteristics></profile></profiles>
       <infoLinks>
         <infoLink id="3138-393e-86a3-7aba" name="Mobelwagen (3.7cm)" hidden="false" targetId="3914-8d81-c087-cac0" type="profile"/>
         <infoLink id="6f81-db1d-5b30-9c14" name="Dedicated AA" hidden="false" targetId="1dd7-fccf-17ce-7b74" type="rule"/>
@@ -19358,22 +18774,7 @@ Assault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8967-cfcd-f3b7-22ef" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="c846-ab30-ae91-d528" name="2x Mobelwagen (3.7cm)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="08c6-914f-b250-456f" name="4x Mobelwagen (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="25e4-2224-fe84-6289" name="3x Mobelwagen (3.7cm)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+            <selectionEntry id="04e7-6dd4-6c07-2de3" name="4x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/></costs></selectionEntry><selectionEntry id="2b35-7540-8554-19ee" name="3x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/></costs></selectionEntry><selectionEntry id="b606-5fb1-0f8c-9247" name="2x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/></costs></selectionEntry></selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -19402,7 +18803,7 @@ Other units in this Formation retain their original ratings.
         <categoryLink id="98e2-ae7f-69c0-1394" name="New CategoryLink" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="67c8-a4b9-2ad4-eafe" name="Jagdtiger Tank-hunter Company" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="67c8-a4b9-2ad4-eafe" name="Jagdtiger Tank-hunter Company HQ (LG402)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a52-b851-e531-870a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4384-e39b-9903-f588" type="max"/>
@@ -19410,18 +18811,17 @@ Other units in this Formation retain their original ratings.
           <profiles>
             <profile id="fa8e-849a-3370-91c0" name="Jagdtiger Tank-Hunter Compay HQ" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
               <characteristics>
-                <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+
-Counterattack 6
-Last Stand 4+</characteristic>
-                <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
-Assault 5+</characteristic>
+                <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
+                <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+SP GunAssault 4+</characteristic>
                 <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
                 <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">17</characteristic>
                 <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">8</characteristic>
                 <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
                 <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">8&quot;/20cm</characteristic>
                 <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
-                <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35</characteristic>
+                <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
                 <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">16&quot;/40cm</characteristic>
                 <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
                 <characteristic name="Notes" typeId="33d6-6375-9564-9985">Tank Formation, Stormtroopers</characteristic>
@@ -19448,12 +18848,12 @@ Assault 5+</characteristic>
               <selectionEntries>
                 <selectionEntry id="16f7-eaf8-1775-1888" name="2x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="31.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="8d91-b4b5-042f-bdbc" name="1x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -19463,18 +18863,17 @@ Assault 5+</characteristic>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         <entryLinks><entryLink id="946a-f56e-6a6b-df69" name="Panzer IV Tank Platoon (LG167)" hidden="false" collective="false" import="true" targetId="dbb7-a9b5-df1b-f566" type="selectionEntry"/><entryLink id="a295-889c-a789-0526" name="Jagdtiger Tank-hunter Company HQ (LG402)" hidden="false" collective="false" import="true" targetId="642e-5056-842d-7444" type="selectionEntry"/><entryLink id="1ce1-fdef-e111-a8d1" name="Jagdtiger Tank-hunter Platoon (LG403)" hidden="false" collective="false" import="true" targetId="768d-4f2e-a238-56da" type="selectionEntry"/><entryLink id="d354-d336-51cd-27b7" name="StuG Tank Platoon (LG247)" hidden="false" collective="false" import="true" targetId="2876-3693-d39d-6c68" type="selectionEntry"/><entryLink id="56b8-6b44-4a24-bec2" name="Ostwind AA Tank Platoon (LG251)" hidden="false" collective="false" import="true" targetId="b829-227f-31be-e0d3" type="selectionEntry"/><entryLink id="c530-7faf-fe61-7962" name="Wirbelwind AA Tank Platoon (LG250)" hidden="false" collective="false" import="true" targetId="d449-68d3-76b2-734b" type="selectionEntry"/></entryLinks></selectionEntry>
-        <selectionEntry id="0ac0-d753-e1db-6f35" name="Jagdtiger Tank-Hunter Platoon (LG403)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="0ac0-d753-e1db-6f35" name="Jagdtiger Tank-hunter Platoon (LG403)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ee34-1854-1e6e-b7da" type="max"/>
           </constraints>
           <profiles>
             <profile id="3a17-733f-282b-93f4" name="Jagdtiger Tank-Hunter Platoon" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
               <characteristics>
-                <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+
-Counterattack 6
-Last Stand 4+</characteristic>
-                <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
-Assault 5+</characteristic>
+                <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
+                <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+SP GunAssault 4+</characteristic>
                 <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
                 <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">17</characteristic>
                 <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">8</characteristic>
@@ -19487,7 +18886,7 @@ Assault 5+</characteristic>
                 <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
               </characteristics>
             </profile>
-          </profiles>
+          <profile id="3875-cfd2-c45a-f291" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG403</characteristic></characteristics></profile></profiles>
           <infoLinks>
             <infoLink id="50a2-b373-65ce-043c" name="Stormtroopers" hidden="false" targetId="c852-7729-56c6-f404" type="rule"/>
             <infoLink id="f0b3-3807-fac0-e9c9" name="Jagdtiger (12.8cm)" hidden="false" targetId="0428-ca1f-bd72-7c5b" type="profile"/>
@@ -19503,29 +18902,29 @@ Assault 5+</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67f8-d12a-a590-d3ce" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="4eb2-5de1-1198-6828" name="2x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="7915-6f74-d9c5-85dd" name="3x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="41.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="eab0-f664-6f14-f9cf" name="4x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="63" hidden="false" collective="false" import="true" type="unit">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="55.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="63.0"/>
                   </costs>
                 </selectionEntry>
-              </selectionEntries>
+              <selectionEntry id="7915-6f74-d9c5-85dd" name="3x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="47.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4eb2-5de1-1198-6828" name="2x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="31.0"/>
+                  </costs>
+                </selectionEntry>
+                </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1d85-06d2-34e6-600e" name="Jagdtiger Tank-Hunter Platoon (LG403)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="1d85-06d2-34e6-600e" name="Jagdtiger Tank-hunter Platoon (LG403)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="919e-fe54-f55e-b985" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8529-cbd1-f21d-7199" type="min"/>
@@ -19533,11 +18932,10 @@ Assault 5+</characteristic>
           <profiles>
             <profile id="8922-eccf-0a9e-11dd" name="Jagdtiger Tank-Hunter Platoon" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
               <characteristics>
-                <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+
-Counterattack 6
-Last Stand 4+</characteristic>
-                <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
-Assault 5+</characteristic>
+                <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
+                <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+SP GunAssault 4+</characteristic>
                 <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
                 <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">17</characteristic>
                 <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">8</characteristic>
@@ -19550,7 +18948,7 @@ Assault 5+</characteristic>
                 <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
               </characteristics>
             </profile>
-          </profiles>
+          <profile id="7e2b-184f-34f0-9095" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG403</characteristic></characteristics></profile></profiles>
           <infoLinks>
             <infoLink id="ae82-4ab8-253d-9494" name="Stormtroopers" hidden="false" targetId="c852-7729-56c6-f404" type="rule"/>
             <infoLink id="018f-90d4-5927-300b" name="Jagdtiger (12.8cm)" hidden="false" targetId="0428-ca1f-bd72-7c5b" type="profile"/>
@@ -19566,22 +18964,22 @@ Assault 5+</characteristic>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd54-c888-3e9d-2aaa" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="ec02-5f4e-bec3-18b3" name="2x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="ec4f-bf3e-e373-aa53" name="3x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="41.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="4c73-ff59-1d3e-3895" name="4x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="63" hidden="false" collective="false" import="true" type="unit">
                   <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="55.0"/>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="63.0"/>
                   </costs>
                 </selectionEntry>
-              </selectionEntries>
+              <selectionEntry id="ec4f-bf3e-e373-aa53" name="3x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="47.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ec02-5f4e-bec3-18b3" name="2x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
+                  <costs>
+                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="31.0"/>
+                  </costs>
+                </selectionEntry>
+                </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
@@ -19595,15 +18993,14 @@ Assault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8333-a19d-094c-acf4" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="993f-2d74-0dbd-f0ac" name="Command Card - Mobelwagen AA Tank Platoon (LG165)" publicationId="10a4-8008-66c3-952e" page="46" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="993f-2d74-0dbd-f0ac" name="Möbelwagen AA Tank Platoon (LG165)" publicationId="10a4-8008-66c3-952e" page="46" hidden="false" collective="false" import="true" type="unit">
               <profiles>
                 <profile id="24cc-0ec0-cff2-d66d" name="Mobelwagen AA Tank Platoon" publicationId="10a4-8008-66c3-952e" page="46" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
                   <characteristics>
-                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+
-Counterattack 6
-Last Stand 4+</characteristic>
-                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
-Assault 5+</characteristic>
+                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
+                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+AA TankAssault 5+</characteristic>
                     <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
                     <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
                     <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -19623,7 +19020,7 @@ Assault 5+</characteristic>
                     <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Unit (Wirbelwind AA Tank Platoon, Ostwind AA Tank Platoon)</characteristic>
                   </characteristics>
                 </profile>
-              </profiles>
+              <profile id="0b3e-3a1a-6788-a03c" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG165</characteristic></characteristics></profile></profiles>
               <infoLinks>
                 <infoLink id="53bc-85d3-890d-da73" name="Mobelwagen (3.7cm)" hidden="false" targetId="3914-8d81-c087-cac0" type="profile"/>
                 <infoLink id="5952-8733-facd-457e" name="Dedicated AA" hidden="false" targetId="1dd7-fccf-17ce-7b74" type="rule"/>
@@ -19639,22 +19036,7 @@ Assault 5+</characteristic>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f18-2394-bb81-caa9" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="333a-0a92-aab1-6d4b" name="2x Mobelwagen (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="20a3-f607-8907-f7d6" name="4x Mobelwagen (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="cd22-5868-8a0a-384a" name="3x Mobelwagen (3.7cm)" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
+                    <selectionEntry id="a05e-a81b-ef33-b21b" name="4x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/></costs></selectionEntry><selectionEntry id="0522-74e8-90bc-cf0d" name="3x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/></costs></selectionEntry><selectionEntry id="e9cf-bada-3c37-8124" name="2x Möbelwagen (3.7cm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/></costs></selectionEntry></selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
@@ -19665,11 +19047,10 @@ Assault 5+</characteristic>
               <profiles>
                 <profile id="ea56-115c-2f49-4dbf" name="Ostwind AA Tank Platoon" publicationId="3bbf-3707-35dd-b1f5" page="66" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
                   <characteristics>
-                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+
-Counterattack 6
-Last Stand 4+</characteristic>
-                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
-Assault 5+</characteristic>
+                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
+                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+SP GunAssault 5+</characteristic>
                     <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
                     <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
                     <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
@@ -19682,7 +19063,7 @@ Assault 5+</characteristic>
                     <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
                   </characteristics>
                 </profile>
-              </profiles>
+              <profile id="a358-d687-879b-b106" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG251</characteristic></characteristics></profile></profiles>
               <infoLinks>
                 <infoLink id="46f0-11a3-7d50-a73b" name="Stormtroopers" hidden="false" targetId="c852-7729-56c6-f404" type="rule"/>
                 <infoLink id="89dc-f8db-d00a-1a19" name="Dedicated AA" hidden="false" targetId="1dd7-fccf-17ce-7b74" type="rule"/>
@@ -19698,22 +19079,22 @@ Assault 5+</characteristic>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8c7-f0f8-4630-4050" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="1212-9421-ae0c-f858" name="2x Ostwind (3.7cm)" publicationId="3bbf-3707-35dd-b1f5" page="66" hidden="false" collective="false" import="true" type="unit">
+                    <selectionEntry id="8218-271d-af36-c348" name="4x Ostwind (3.7cm)" publicationId="3bbf-3707-35dd-b1f5" page="66" hidden="false" collective="false" import="true" type="unit">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="50e5-b4ca-c1ae-9f3d" name="3x Ostwind (3.7cm)" publicationId="3bbf-3707-35dd-b1f5" page="66" hidden="false" collective="false" import="true" type="unit">
+                  <selectionEntry id="50e5-b4ca-c1ae-9f3d" name="3x Ostwind (3.7cm)" publicationId="3bbf-3707-35dd-b1f5" page="66" hidden="false" collective="false" import="true" type="unit">
+                      <costs>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1212-9421-ae0c-f858" name="2x Ostwind (3.7cm)" publicationId="3bbf-3707-35dd-b1f5" page="66" hidden="false" collective="false" import="true" type="unit">
                       <costs>
                         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="8218-271d-af36-c348" name="4x Ostwind (3.7cm)" publicationId="3bbf-3707-35dd-b1f5" page="66" hidden="false" collective="false" import="true" type="unit">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
+                    </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
@@ -19724,11 +19105,10 @@ Assault 5+</characteristic>
               <profiles>
                 <profile id="bd52-3f58-5e72-ab45" name="Wirbelwind AA Tank Platoon" publicationId="3bbf-3707-35dd-b1f5" page="66" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
                   <characteristics>
-                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+
-Counterattack 6
-Last Stand 4+</characteristic>
-                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
-Assault 5+</characteristic>
+                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
+                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+SP GunAssault 5+</characteristic>
                     <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
                     <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
                     <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
@@ -19741,7 +19121,7 @@ Assault 5+</characteristic>
                     <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
                   </characteristics>
                 </profile>
-              </profiles>
+              <profile id="7ebe-331e-6ab8-dec0" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG250</characteristic></characteristics></profile></profiles>
               <infoLinks>
                 <infoLink id="90d7-c83a-b59f-dc25" name="Stormtroopers" hidden="false" targetId="c852-7729-56c6-f404" type="rule"/>
                 <infoLink id="15ce-b16a-50b0-b627" name="Dedicated AA" hidden="false" targetId="1dd7-fccf-17ce-7b74" type="rule"/>
@@ -19757,22 +19137,7 @@ Assault 5+</characteristic>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ff9-ff96-ec55-8f06" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="48bb-c12b-3d1e-6567" name="2x Wirbelwind (Quad 2cm)" publicationId="3bbf-3707-35dd-b1f5" page="66" hidden="false" collective="false" import="true" type="unit">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="06f9-e05f-99ba-aaee" name="3x Wirbelwind (Quad 2cm)" publicationId="3bbf-3707-35dd-b1f5" page="49" hidden="false" collective="false" import="true" type="unit">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4e08-fc37-3918-fa0e" name="4x Wirbelwind (Quad 2cm)" publicationId="3bbf-3707-35dd-b1f5" page="66" hidden="false" collective="false" import="true" type="unit">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
+                    <selectionEntry id="7f62-0980-5b60-4d02" name="4x Wirbelwind (2cm Quad)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/></costs></selectionEntry><selectionEntry id="9193-289b-bed6-4406" name="3x Wirbelwind (2cm Quad)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/></costs></selectionEntry><selectionEntry id="1e74-7913-5674-78ca" name="2x Wirbelwind (2cm Quad)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
@@ -19787,15 +19152,14 @@ Assault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5728-f78f-95c7-c846" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="419e-361c-59e7-1c41" name="Jagdtiger Tank-Hunter Platoon (LG403)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="419e-361c-59e7-1c41" name="Jagdtiger Tank-hunter Platoon (LG403)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
               <profiles>
                 <profile id="d959-7b7d-6523-bc44" name="Jagdtiger Tank-Hunter Platoon" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
                   <characteristics>
-                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+
-Counterattack 6
-Last Stand 4+</characteristic>
-                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+
-Assault 5+</characteristic>
+                    <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
+                    <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+SP GunAssault 4+</characteristic>
                     <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
                     <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">17</characteristic>
                     <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">8</characteristic>
@@ -19808,7 +19172,7 @@ Assault 5+</characteristic>
                     <characteristic name="Notes" typeId="33d6-6375-9564-9985">Stormtroopers</characteristic>
                   </characteristics>
                 </profile>
-              </profiles>
+              <profile id="a2a7-8b30-a113-18df" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG403</characteristic></characteristics></profile></profiles>
               <infoLinks>
                 <infoLink id="e93e-b682-3c8b-97f2" name="Stormtroopers" hidden="false" targetId="c852-7729-56c6-f404" type="rule"/>
                 <infoLink id="ab3e-c5ce-8fd7-42d4" name="Jagdtiger (12.8cm)" hidden="false" targetId="0428-ca1f-bd72-7c5b" type="profile"/>
@@ -19824,22 +19188,22 @@ Assault 5+</characteristic>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d7a-12c1-c0b5-e039" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="4137-7b9d-5974-9d4e" name="2x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="27.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="ef71-a6ea-24fe-600b" name="3x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="41.0"/>
-                      </costs>
-                    </selectionEntry>
                     <selectionEntry id="76df-a293-6e3a-8927" name="4x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="63" hidden="false" collective="false" import="true" type="unit">
                       <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="55.0"/>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="63.0"/>
                       </costs>
                     </selectionEntry>
-                  </selectionEntries>
+                  <selectionEntry id="ef71-a6ea-24fe-600b" name="3x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
+                      <costs>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="47.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="4137-7b9d-5974-9d4e" name="2x Jagdtiger (12.8cm)" publicationId="3bbf-3707-35dd-b1f5" page="91" hidden="false" collective="false" import="true" type="unit">
+                      <costs>
+                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="31.0"/>
+                      </costs>
+                    </selectionEntry>
+                    </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
