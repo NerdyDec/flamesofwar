@@ -1911,463 +1911,7 @@ A Tiger Heavy Tanks Platoon has a Last Stand rating of 2+, whether or not it has
   <catalogueLinks>
     <catalogueLink id="f63a-e78f-47e5-b939" name="Mid-War; Fallschirmjager" targetId="4e61-1b9e-452b-7fe1" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
-<selectionEntries><selectionEntry id="0a2b-d793-c62c-4e54" name="Panzer IV Tank Company" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="c4a7-9953-2d9c-4fd5" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">MG108</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="379c-07d2-0ac4-26f2" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d468-33e3-28e3-e758" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3136-7dbd-3cc6-da7a" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="1865-01a2-9cdc-df20" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81e8-ce78-9aec-145b" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ca-0b62-b4b6-cd9a" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="51bb-60fe-1103-42d0" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2a1-c42a-51fc-ff76" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9ed-580e-d2a5-4577" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="35ee-c8d8-d627-4bfa" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8008-d865-8e33-14df" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbe5-2710-0479-2f2d" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="a935-0461-b0d7-3fa3" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17ed-66bb-7bc0-f27a" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2695-e468-7769-5d93" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="c6f3-de19-968b-b970" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="071d-23b4-9877-8a1e" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ee-05a7-0cd5-35f7" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="8594-b6e7-3279-2e72" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b562-0bb4-96d4-742e" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7ef-0956-c99b-f1b0" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3b9d-f534-fe7a-8bba" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e35c-7b70-10c6-52ef" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61d9-d0cc-e2cf-e68f" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="e966-fcb7-6d9e-13f7" name="Wildcard" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5905-24c8-1277-6634" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2c9-eda6-6963-7bc2" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="e8a7-7c54-8be5-db85" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="691e-8ef8-e47c-0483" name="Panzer III Tank Company" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="d32b-b6fb-1a1a-5a62" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">MG101</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="78b8-1aed-0314-c1a1" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="127e-4e61-9584-5e81" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8a1-c23b-4f9e-e18f" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="704d-b9fd-3d77-3115" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b8d-5415-1a79-5fa0" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2002-504a-e4c1-2068" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="bf26-1c06-49af-e465" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2ba-017e-72a4-917d" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc53-7d6f-615d-c1a0" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="cf2c-5be7-34ee-62f2" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="743c-7fd1-474c-b3c7" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44b9-da2a-af97-640e" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="615b-387b-2ea1-8b2d" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c5b-93ec-4679-ac18" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d09-9d9f-271a-ed06" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="8855-3371-69bf-aeb5" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07a3-69f6-fe63-fa31" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a62-1f56-a250-c8ae" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="9907-7c91-fe42-d301" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d4-9e49-cdd2-9831" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="babb-ac18-4d45-f5b4" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="e4a0-84bf-1708-06bb" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0c7-dfe5-a586-c763" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89eb-aec9-e8f6-c22d" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3ac1-8063-1a3e-568c" name="Wildcard" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53b3-4894-4341-210e" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fd1-d233-c765-cae8" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="38e1-506e-0f39-5b3e" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="81c6-2923-e4bc-e430" name="Panzer III (Uparmoured) Tank Company" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="4ea6-c130-ed18-c591" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">MG102</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="4856-9ea3-a0c6-64cf" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ffd-920e-3bb5-becb" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb6d-faa8-c90c-e9d9" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="a21f-da36-6e89-804e" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0da3-bf89-85d2-1002" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11a9-17bf-b277-d6a3" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="62fc-51de-2703-fbc9" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5407-3d68-7744-5bd2" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d32b-9078-bf19-0937" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="8375-9390-3b03-4906" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1502-cb53-b96e-9cda" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c0c-8e98-ad87-22a2" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="4004-483c-1d4e-edc1" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43a8-82af-e0e1-385c" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9ba-1a9d-88b6-ffe8" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3580-2640-659b-83db" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d27-42ee-266b-31c1" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6841-b428-220f-800d" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="49fb-6ade-92f2-b277" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb1b-97aa-a69d-5f2a" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff09-b74e-5d36-df39" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="2dba-f55e-7248-65c5" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb7c-4917-bc7a-fea2" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cc8-9052-9f20-9c44" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="b788-2840-02ae-3a49" name="Wildcard" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d11-2a24-a212-3b22" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1733-2ac7-061e-73f4" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="c6a5-c66f-caab-08fb" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="1510-b0f9-0186-c323" name="Africa Rifle Company" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="d58f-d912-389c-94fa" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">MG112</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="7b46-c096-1b22-222b" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b57-1829-ba8d-bbe9" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="852f-8a6d-ba3f-681d" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="c93a-068b-3e0e-924d" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1970-f5fd-9eeb-4703" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc27-8170-7653-16a5" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="e5b7-6eee-3494-1f7a" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8cf-c9ba-28a3-e586" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b270-5d8a-ef96-c2f1" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="f402-7395-21ca-389b" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5876-efbd-1bca-fcbc" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9593-a639-6230-1807" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="c5a7-e8ee-c063-aff3" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="558a-e52d-b492-a342" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eed9-bd90-3364-e6d3" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="256e-f6e0-63ae-2d3b" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32de-7c3c-f80d-ee0b" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a85-5123-823b-a42d" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="0a64-06d1-9632-fdcb" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0223-d1ec-3343-f277" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c774-7fd2-860b-adb1" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="b1a5-aa0f-e319-5886" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2096-cea2-4f60-7dc1" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="964b-c96b-ca1d-db83" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="35a2-b013-a8fc-76c6" name="Wildcard" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d6a-5819-db13-99c3" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d61-3517-96b5-9bf4" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="32d5-3e9d-ad89-40ba" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="7a3e-d287-6ef9-c6c9" name="90th Light Rifle Company" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="921a-8ec5-714f-c3d9" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">MG124</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="2108-0ed5-dc2b-aa66" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f17c-3ba7-fb6f-3ce6" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8313-251d-29d1-3bf9" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="1f44-199a-e6e5-67e8" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3d8-13fa-b9aa-dbb4" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b98a-c71f-cedd-21a9" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="b338-1977-150b-b47c" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f4e-9c9c-7035-7878" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffd6-7da1-5aec-a43a" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="8fd6-fc32-82d8-596e" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d843-5be0-77fe-3ef0" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d492-af0f-9af4-4833" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="f6a3-87e2-7315-95bf" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f772-951c-9b3d-7ecc" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e766-6e45-9849-4a41" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="53f3-e813-9fe4-fa16" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8c1-3145-7009-53bc" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30e3-72a5-2add-004e" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="ed2d-71cb-53d8-c32c" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af9-ee56-fe02-6056" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d01a-f7e0-2075-f13d" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="5d5f-d813-6a58-6541" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc94-ad65-4e79-eb0b" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65f8-67ef-1334-c349" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="4bc6-acae-d466-d413" name="Wildcard" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acc8-777d-049d-8b0a" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d8c-097a-50fd-683b" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="22fd-b175-9eee-1896" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="b556-c92a-63b0-ee7d" name="Fallschirmjäger Company" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="2421-3c9e-290a-41ee" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">MG301</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="8d3b-6807-ba11-cd3c" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0475-7ff9-9d24-6b98" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="898b-d1e4-0940-69ac" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="317b-42c7-f0c6-dc27" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8852-932b-53a8-97f4" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8124-5391-cdc2-2558" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3306-4af4-b041-98b1" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a409-20de-e94e-77a2" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a95-f0fe-a5f8-a8b4" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="36e2-9fed-d56e-a9f0" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dbf-2604-521d-5a20" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1be-fa08-4f8b-9c22" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="b833-df52-01dc-a279" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b89d-6061-8418-bdb0" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfa6-3a7b-817c-8df3" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="2b07-8ec8-a04a-138a" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be36-b678-50d5-442a" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9773-8564-1adc-ceed" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="78e3-6f61-3dfc-7b21" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d29-1f7b-eb9b-6035" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cc4-b5da-aa11-0509" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="5214-90ff-dc0c-71fa" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4969-b726-f2e5-8eb0" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5279-8ff9-0ea0-5653" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="7b60-7aaf-4f01-9a91" name="Wildcard" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7857-49b5-17d7-526b" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41e7-db52-fdab-f914" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="f5c9-53dd-043b-5dba" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="11f0-d244-600a-5537" name="Afrikakorps Command Cards" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="11f0-d244-600a-5537" name="Afrikakorps Command Cards" hidden="false" collective="false" import="true" type="unit">
   <selectionEntryGroups>
     <selectionEntryGroup id="0eb5-c929-fe76-a4a1" name="Anti-tank" hidden="false" collective="false" import="true">
       <constraints>
@@ -2436,7 +1980,7 @@ A Tiger Heavy Tanks Platoon has a Last Stand rating of 2+, whether or not it has
   <categoryLinks>
     <categoryLink id="c8d7-78b6-e91b-83bf" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="becd-b91f-ed63-a2dd" name="Death From Above Command Cards" hidden="false" collective="false" import="true" type="unit">
+<entryLinks><entryLink id="304b-a675-77e0-c5c9" name="Fallschirm Pioneer Platoon (MG309)" hidden="false" collective="false" import="true" targetId="7df4-9db0-393f-8de5" type="selectionEntry"/><entryLink id="e335-7f62-91a6-eece" name="Fallschirmjäger 7.5cm Tank-hunter Platoon (MG308)" hidden="false" collective="false" import="true" targetId="7153-9864-2d6c-86db" type="selectionEntry"/><entryLink id="2300-76a9-f428-f2fa" name="Fallschirmjäger Observation Post (MG313)" hidden="false" collective="false" import="true" targetId="1485-0c87-e46d-a4a7" type="selectionEntry"/><entryLink id="1097-b2ae-0b47-1bab" name="Panzer I Infantry Tank Platoon (MG605)" hidden="false" collective="false" import="true" targetId="8c46-61c6-e8ee-efd3" type="selectionEntry"/><entryLink id="03db-6c52-a13f-7228" name="Fallschirmjäger 5cm Tank-hunter Platoon (MG307)" hidden="false" collective="false" import="true" targetId="7960-f7cd-fdbf-2590" type="selectionEntry"/><entryLink id="b5aa-7907-0b50-43e1" name="Fallschirmjäger Platoon (MG302)" hidden="false" collective="false" import="true" targetId="14ea-a84d-26c4-2316" type="selectionEntry"/><entryLink id="621b-0967-763a-3ce8" name="Fallschirmjäger 7.5cm Artillery Battery (MG311)" hidden="false" collective="false" import="true" targetId="9e52-af9c-da0f-b8ce" type="selectionEntry"/><entryLink id="2f28-389d-d1f9-e5a5" name="Fallschirmjäger 2cm Anti-aircraft Platoon (MG310)" hidden="false" collective="false" import="true" targetId="4319-84b3-4dda-71f5" type="selectionEntry"/><entryLink id="2fc8-b60f-d2c3-ce8b" name="Marder (7.62cm) Tank-Hunter Platoon (MG118)" hidden="false" collective="false" import="true" targetId="8833-63b4-c9ed-714b" type="selectionEntry"/><entryLink id="c119-cc74-f9d2-819d" name="Tiger (P) Heavy Tank Platoon (MG601)" hidden="false" collective="false" import="true" targetId="fc40-517c-ccc2-d5c5" type="selectionEntry"/><entryLink id="d230-f4c5-43b2-3792" name="Panzer III Tank Platoon (MG104)" hidden="false" collective="false" import="true" targetId="460d-d5ca-b202-ae45" type="selectionEntry"/><entryLink id="0313-844b-5425-a860" name="Fallschirmjäger 10.5cm Recoilless Battery (MG316)" hidden="false" collective="false" import="true" targetId="224a-54fe-9cea-f058" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="becd-b91f-ed63-a2dd" name="Death From Above Command Cards" hidden="false" collective="false" import="true" type="unit">
   <selectionEntryGroups>
     <selectionEntryGroup id="05d8-55f4-c2c5-79ae" name="Anti-tank" hidden="false" collective="false" import="true">
       <constraints>
@@ -2505,7 +2049,7 @@ A Tiger Heavy Tanks Platoon has a Last Stand rating of 2+, whether or not it has
   <categoryLinks>
     <categoryLink id="21eb-7269-b42b-f98d" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="8833-63b4-c9ed-714b" name="Marder (7.62cm) Tank-Hunter Platoon (MG118)" hidden="false" collective="false" import="true" type="unit">
+<entryLinks><entryLink id="dd04-b758-7fe2-4b55" name="Fallschirm Pioneer Platoon (MG309)" hidden="false" collective="false" import="true" targetId="7df4-9db0-393f-8de5" type="selectionEntry"/><entryLink id="597c-14a5-56e1-3be4" name="Fallschirmjäger 7.5cm Tank-hunter Platoon (MG308)" hidden="false" collective="false" import="true" targetId="7153-9864-2d6c-86db" type="selectionEntry"/><entryLink id="135b-434f-7ef0-4bc1" name="Fallschirmjäger Observation Post (MG313)" hidden="false" collective="false" import="true" targetId="1485-0c87-e46d-a4a7" type="selectionEntry"/><entryLink id="c71d-62fa-9b35-4e3a" name="Panzer I Infantry Tank Platoon (MG605)" hidden="false" collective="false" import="true" targetId="8c46-61c6-e8ee-efd3" type="selectionEntry"/><entryLink id="c130-1c92-ffc8-c0e1" name="Fallschirmjäger 5cm Tank-hunter Platoon (MG307)" hidden="false" collective="false" import="true" targetId="7960-f7cd-fdbf-2590" type="selectionEntry"/><entryLink id="994f-8b6b-9f58-c889" name="Fallschirmjäger Platoon (MG302)" hidden="false" collective="false" import="true" targetId="14ea-a84d-26c4-2316" type="selectionEntry"/><entryLink id="bc65-7ca3-b9ae-d6ff" name="Fallschirmjäger 7.5cm Artillery Battery (MG311)" hidden="false" collective="false" import="true" targetId="9e52-af9c-da0f-b8ce" type="selectionEntry"/><entryLink id="cd4e-8ca7-9215-50b1" name="Fallschirmjäger 2cm Anti-aircraft Platoon (MG310)" hidden="false" collective="false" import="true" targetId="4319-84b3-4dda-71f5" type="selectionEntry"/><entryLink id="907b-ebfb-4913-20b3" name="Marder (7.62cm) Tank-Hunter Platoon (MG118)" hidden="false" collective="false" import="true" targetId="8833-63b4-c9ed-714b" type="selectionEntry"/><entryLink id="4ddf-9ced-b212-5db4" name="Tiger (P) Heavy Tank Platoon (MG601)" hidden="false" collective="false" import="true" targetId="fc40-517c-ccc2-d5c5" type="selectionEntry"/><entryLink id="38fa-e2a0-9e8b-ddc8" name="Panzer III Tank Platoon (MG104)" hidden="false" collective="false" import="true" targetId="460d-d5ca-b202-ae45" type="selectionEntry"/><entryLink id="996f-6d4a-d051-2e4a" name="Fallschirmjäger 10.5cm Recoilless Battery (MG316)" hidden="false" collective="false" import="true" targetId="224a-54fe-9cea-f058" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="8833-63b4-c9ed-714b" name="Marder (7.62cm) Tank-Hunter Platoon (MG118)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="ba0f-fa0b-cd90-5f57" name="Marder (7.62cm) Tank-Hunter Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -4074,5 +3618,575 @@ SP GunAssault 4+</characteristic>
   </costs>
   <categoryLinks>
     <categoryLink id="08a4-a4bc-2d5b-1851" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="0a2b-d793-c62c-4e54" name="Panzer IV Tank Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="743c-7fd1-474c-b3c7" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">MG108</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="379c-07d2-0ac4-26f2" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d468-33e3-28e3-e758" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3136-7dbd-3cc6-da7a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1865-01a2-9cdc-df20" name="Marder (7.62cm) Tank-Hunter Platoon (MG118)" hidden="false" collective="false" import="true" targetId="8833-63b4-c9ed-714b" type="selectionEntry"/>
+        <entryLink id="81e8-ce78-9aec-145b" name="Fallschirmjäger 5cm Tank-hunter Platoon (MG307)" hidden="false" collective="false" import="true" targetId="7960-f7cd-fdbf-2590" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="60ca-0b62-b4b6-cd9a" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51bb-60fe-1103-42d0" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2a1-c42a-51fc-ff76" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="a9ed-580e-d2a5-4577" name="Panzer III Tank Platoon (MG104)" hidden="false" collective="false" import="true" targetId="460d-d5ca-b202-ae45" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="35ee-c8d8-d627-4bfa" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8008-d865-8e33-14df" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbe5-2710-0479-2f2d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a935-0461-b0d7-3fa3" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17ed-66bb-7bc0-f27a" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2695-e468-7769-5d93" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c6f3-de19-968b-b970" name="Fallschirmjäger 2cm Anti-aircraft Platoon (MG310)" hidden="false" collective="false" import="true" targetId="4319-84b3-4dda-71f5" type="selectionEntry"/>
+        <entryLink id="071d-23b4-9877-8a1e" name="Fallschirmjäger 7.5cm Tank-hunter Platoon (MG308)" hidden="false" collective="false" import="true" targetId="7153-9864-2d6c-86db" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="04ee-05a7-0cd5-35f7" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8594-b6e7-3279-2e72" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b562-0bb4-96d4-742e" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c7ef-0956-c99b-f1b0" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b9d-f534-fe7a-8bba" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e35c-7b70-10c6-52ef" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="61d9-d0cc-e2cf-e68f" name="Fallschirmjäger 7.5cm Artillery Battery (MG311)" hidden="false" collective="false" import="true" targetId="9e52-af9c-da0f-b8ce" type="selectionEntry"/>
+        <entryLink id="e966-fcb7-6d9e-13f7" name="Fallschirmjäger 10.5cm Recoilless Battery (MG316)" hidden="false" collective="false" import="true" targetId="224a-54fe-9cea-f058" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5905-24c8-1277-6634" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2c9-eda6-6963-7bc2" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8a7-7c54-8be5-db85" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c4a7-9953-2d9c-4fd5" name="Fallschirmjäger Observation Post (MG313)" hidden="false" collective="false" import="true" targetId="1485-0c87-e46d-a4a7" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="691e-8ef8-e47c-0483" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b8-1aed-0314-c1a1" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="127e-4e61-9584-5e81" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="a8a1-c23b-4f9e-e18f" name="Fallschirm Pioneer Platoon (MG309)" hidden="false" collective="false" import="true" targetId="7df4-9db0-393f-8de5" type="selectionEntry"/>
+        <entryLink id="704d-b9fd-3d77-3115" name="Fallschirmjäger Platoon (MG302)" hidden="false" collective="false" import="true" targetId="14ea-a84d-26c4-2316" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2b8d-5415-1a79-5fa0" name="Wildcard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2002-504a-e4c1-2068" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf26-1c06-49af-e465" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="a2ba-017e-72a4-917d" name="Tiger (P) Heavy Tank Platoon (MG601)" hidden="false" collective="false" import="true" targetId="fc40-517c-ccc2-d5c5" type="selectionEntry"/>
+        <entryLink id="bc53-7d6f-615d-c1a0" name="Panzer I Infantry Tank Platoon (MG605)" hidden="false" collective="false" import="true" targetId="8c46-61c6-e8ee-efd3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="cf2c-5be7-34ee-62f2" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="44b9-da2a-af97-640e" name="Panzer III Tank Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="cb7c-4917-bc7a-fea2" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">MG101</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="615b-387b-2ea1-8b2d" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c5b-93ec-4679-ac18" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d09-9d9f-271a-ed06" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8855-3371-69bf-aeb5" name="Marder (7.62cm) Tank-Hunter Platoon (MG118)" hidden="false" collective="false" import="true" targetId="8833-63b4-c9ed-714b" type="selectionEntry"/>
+        <entryLink id="07a3-69f6-fe63-fa31" name="Fallschirmjäger 5cm Tank-hunter Platoon (MG307)" hidden="false" collective="false" import="true" targetId="7960-f7cd-fdbf-2590" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3a62-1f56-a250-c8ae" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9907-7c91-fe42-d301" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d4-9e49-cdd2-9831" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="babb-ac18-4d45-f5b4" name="Panzer III Tank Platoon (MG104)" hidden="false" collective="false" import="true" targetId="460d-d5ca-b202-ae45" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e4a0-84bf-1708-06bb" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0c7-dfe5-a586-c763" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89eb-aec9-e8f6-c22d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3ac1-8063-1a3e-568c" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53b3-4894-4341-210e" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fd1-d233-c765-cae8" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="38e1-506e-0f39-5b3e" name="Fallschirmjäger 2cm Anti-aircraft Platoon (MG310)" hidden="false" collective="false" import="true" targetId="4319-84b3-4dda-71f5" type="selectionEntry"/>
+        <entryLink id="d32b-b6fb-1a1a-5a62" name="Fallschirmjäger 7.5cm Tank-hunter Platoon (MG308)" hidden="false" collective="false" import="true" targetId="7153-9864-2d6c-86db" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="81c6-2923-e4bc-e430" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4856-9ea3-a0c6-64cf" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ffd-920e-3bb5-becb" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fb6d-faa8-c90c-e9d9" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a21f-da36-6e89-804e" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0da3-bf89-85d2-1002" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="11a9-17bf-b277-d6a3" name="Fallschirmjäger 7.5cm Artillery Battery (MG311)" hidden="false" collective="false" import="true" targetId="9e52-af9c-da0f-b8ce" type="selectionEntry"/>
+        <entryLink id="62fc-51de-2703-fbc9" name="Fallschirmjäger 10.5cm Recoilless Battery (MG316)" hidden="false" collective="false" import="true" targetId="224a-54fe-9cea-f058" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5407-3d68-7744-5bd2" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d32b-9078-bf19-0937" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8375-9390-3b03-4906" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1502-cb53-b96e-9cda" name="Fallschirmjäger Observation Post (MG313)" hidden="false" collective="false" import="true" targetId="1485-0c87-e46d-a4a7" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7c0c-8e98-ad87-22a2" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4004-483c-1d4e-edc1" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43a8-82af-e0e1-385c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c9ba-1a9d-88b6-ffe8" name="Fallschirm Pioneer Platoon (MG309)" hidden="false" collective="false" import="true" targetId="7df4-9db0-393f-8de5" type="selectionEntry"/>
+        <entryLink id="3580-2640-659b-83db" name="Fallschirmjäger Platoon (MG302)" hidden="false" collective="false" import="true" targetId="14ea-a84d-26c4-2316" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8d27-42ee-266b-31c1" name="Wildcard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6841-b428-220f-800d" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49fb-6ade-92f2-b277" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="cb1b-97aa-a69d-5f2a" name="Tiger (P) Heavy Tank Platoon (MG601)" hidden="false" collective="false" import="true" targetId="fc40-517c-ccc2-d5c5" type="selectionEntry"/>
+        <entryLink id="ff09-b74e-5d36-df39" name="Panzer I Infantry Tank Platoon (MG605)" hidden="false" collective="false" import="true" targetId="8c46-61c6-e8ee-efd3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="2dba-f55e-7248-65c5" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="9cc8-9052-9f20-9c44" name="Panzer III (Uparmoured) Tank Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="f3d8-13fa-b9aa-dbb4" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">MG102</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="b788-2840-02ae-3a49" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d11-2a24-a212-3b22" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1733-2ac7-061e-73f4" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c6a5-c66f-caab-08fb" name="Marder (7.62cm) Tank-Hunter Platoon (MG118)" hidden="false" collective="false" import="true" targetId="8833-63b4-c9ed-714b" type="selectionEntry"/>
+        <entryLink id="4ea6-c130-ed18-c591" name="Fallschirmjäger 5cm Tank-hunter Platoon (MG307)" hidden="false" collective="false" import="true" targetId="7960-f7cd-fdbf-2590" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1510-b0f9-0186-c323" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b46-c096-1b22-222b" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b57-1829-ba8d-bbe9" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="852f-8a6d-ba3f-681d" name="Panzer III Tank Platoon (MG104)" hidden="false" collective="false" import="true" targetId="460d-d5ca-b202-ae45" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c93a-068b-3e0e-924d" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1970-f5fd-9eeb-4703" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc27-8170-7653-16a5" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e5b7-6eee-3494-1f7a" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8cf-c9ba-28a3-e586" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b270-5d8a-ef96-c2f1" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f402-7395-21ca-389b" name="Fallschirmjäger 2cm Anti-aircraft Platoon (MG310)" hidden="false" collective="false" import="true" targetId="4319-84b3-4dda-71f5" type="selectionEntry"/>
+        <entryLink id="5876-efbd-1bca-fcbc" name="Fallschirmjäger 7.5cm Tank-hunter Platoon (MG308)" hidden="false" collective="false" import="true" targetId="7153-9864-2d6c-86db" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9593-a639-6230-1807" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a7-e8ee-c063-aff3" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="558a-e52d-b492-a342" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="eed9-bd90-3364-e6d3" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="256e-f6e0-63ae-2d3b" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32de-7c3c-f80d-ee0b" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="7a85-5123-823b-a42d" name="Fallschirmjäger 7.5cm Artillery Battery (MG311)" hidden="false" collective="false" import="true" targetId="9e52-af9c-da0f-b8ce" type="selectionEntry"/>
+        <entryLink id="0a64-06d1-9632-fdcb" name="Fallschirmjäger 10.5cm Recoilless Battery (MG316)" hidden="false" collective="false" import="true" targetId="224a-54fe-9cea-f058" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0223-d1ec-3343-f277" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c774-7fd2-860b-adb1" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1a5-aa0f-e319-5886" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="2096-cea2-4f60-7dc1" name="Fallschirmjäger Observation Post (MG313)" hidden="false" collective="false" import="true" targetId="1485-0c87-e46d-a4a7" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="964b-c96b-ca1d-db83" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35a2-b013-a8fc-76c6" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d6a-5819-db13-99c3" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="3d61-3517-96b5-9bf4" name="Fallschirm Pioneer Platoon (MG309)" hidden="false" collective="false" import="true" targetId="7df4-9db0-393f-8de5" type="selectionEntry"/>
+        <entryLink id="32d5-3e9d-ad89-40ba" name="Fallschirmjäger Platoon (MG302)" hidden="false" collective="false" import="true" targetId="14ea-a84d-26c4-2316" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d58f-d912-389c-94fa" name="Wildcard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a3e-d287-6ef9-c6c9" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2108-0ed5-dc2b-aa66" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f17c-3ba7-fb6f-3ce6" name="Tiger (P) Heavy Tank Platoon (MG601)" hidden="false" collective="false" import="true" targetId="fc40-517c-ccc2-d5c5" type="selectionEntry"/>
+        <entryLink id="8313-251d-29d1-3bf9" name="Panzer I Infantry Tank Platoon (MG605)" hidden="false" collective="false" import="true" targetId="8c46-61c6-e8ee-efd3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="1f44-199a-e6e5-67e8" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="b98a-c71f-cedd-21a9" name="Africa Rifle Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="be36-b678-50d5-442a" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">MG112</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="b338-1977-150b-b47c" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f4e-9c9c-7035-7878" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffd6-7da1-5aec-a43a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8fd6-fc32-82d8-596e" name="Marder (7.62cm) Tank-Hunter Platoon (MG118)" hidden="false" collective="false" import="true" targetId="8833-63b4-c9ed-714b" type="selectionEntry"/>
+        <entryLink id="d843-5be0-77fe-3ef0" name="Fallschirmjäger 5cm Tank-hunter Platoon (MG307)" hidden="false" collective="false" import="true" targetId="7960-f7cd-fdbf-2590" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d492-af0f-9af4-4833" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6a3-87e2-7315-95bf" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f772-951c-9b3d-7ecc" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e766-6e45-9849-4a41" name="Panzer III Tank Platoon (MG104)" hidden="false" collective="false" import="true" targetId="460d-d5ca-b202-ae45" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="53f3-e813-9fe4-fa16" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8c1-3145-7009-53bc" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30e3-72a5-2add-004e" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ed2d-71cb-53d8-c32c" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1af9-ee56-fe02-6056" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d01a-f7e0-2075-f13d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="5d5f-d813-6a58-6541" name="Fallschirmjäger 2cm Anti-aircraft Platoon (MG310)" hidden="false" collective="false" import="true" targetId="4319-84b3-4dda-71f5" type="selectionEntry"/>
+        <entryLink id="bc94-ad65-4e79-eb0b" name="Fallschirmjäger 7.5cm Tank-hunter Platoon (MG308)" hidden="false" collective="false" import="true" targetId="7153-9864-2d6c-86db" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="65f8-67ef-1334-c349" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bc6-acae-d466-d413" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acc8-777d-049d-8b0a" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3d8c-097a-50fd-683b" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22fd-b175-9eee-1896" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="921a-8ec5-714f-c3d9" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b556-c92a-63b0-ee7d" name="Fallschirmjäger 7.5cm Artillery Battery (MG311)" hidden="false" collective="false" import="true" targetId="9e52-af9c-da0f-b8ce" type="selectionEntry"/>
+        <entryLink id="8d3b-6807-ba11-cd3c" name="Fallschirmjäger 10.5cm Recoilless Battery (MG316)" hidden="false" collective="false" import="true" targetId="224a-54fe-9cea-f058" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0475-7ff9-9d24-6b98" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="898b-d1e4-0940-69ac" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="317b-42c7-f0c6-dc27" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8852-932b-53a8-97f4" name="Fallschirmjäger Observation Post (MG313)" hidden="false" collective="false" import="true" targetId="1485-0c87-e46d-a4a7" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8124-5391-cdc2-2558" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3306-4af4-b041-98b1" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a409-20de-e94e-77a2" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="2a95-f0fe-a5f8-a8b4" name="Fallschirm Pioneer Platoon (MG309)" hidden="false" collective="false" import="true" targetId="7df4-9db0-393f-8de5" type="selectionEntry"/>
+        <entryLink id="36e2-9fed-d56e-a9f0" name="Fallschirmjäger Platoon (MG302)" hidden="false" collective="false" import="true" targetId="14ea-a84d-26c4-2316" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1dbf-2604-521d-5a20" name="Wildcard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1be-fa08-4f8b-9c22" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b833-df52-01dc-a279" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b89d-6061-8418-bdb0" name="Tiger (P) Heavy Tank Platoon (MG601)" hidden="false" collective="false" import="true" targetId="fc40-517c-ccc2-d5c5" type="selectionEntry"/>
+        <entryLink id="cfa6-3a7b-817c-8df3" name="Panzer I Infantry Tank Platoon (MG605)" hidden="false" collective="false" import="true" targetId="8c46-61c6-e8ee-efd3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="2b07-8ec8-a04a-138a" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="9773-8564-1adc-ceed" name="90th Light Rifle Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="c570-7928-795c-39f0" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">MG124</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="78e3-6f61-3dfc-7b21" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d29-1f7b-eb9b-6035" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cc4-b5da-aa11-0509" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="5214-90ff-dc0c-71fa" name="Marder (7.62cm) Tank-Hunter Platoon (MG118)" hidden="false" collective="false" import="true" targetId="8833-63b4-c9ed-714b" type="selectionEntry"/>
+        <entryLink id="4969-b726-f2e5-8eb0" name="Fallschirmjäger 5cm Tank-hunter Platoon (MG307)" hidden="false" collective="false" import="true" targetId="7960-f7cd-fdbf-2590" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5279-8ff9-0ea0-5653" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b60-7aaf-4f01-9a91" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7857-49b5-17d7-526b" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="41e7-db52-fdab-f914" name="Panzer III Tank Platoon (MG104)" hidden="false" collective="false" import="true" targetId="460d-d5ca-b202-ae45" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f5c9-53dd-043b-5dba" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2421-3c9e-290a-41ee" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9781-5d64-66cd-11c8" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7bed-adb8-c591-9f88" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eab8-7639-7432-1531" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51a1-9e2f-8d4f-cfd4" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c167-90c2-9fd7-49b2" name="Fallschirmjäger 2cm Anti-aircraft Platoon (MG310)" hidden="false" collective="false" import="true" targetId="4319-84b3-4dda-71f5" type="selectionEntry"/>
+        <entryLink id="8abc-86df-3c24-26cc" name="Fallschirmjäger 7.5cm Tank-hunter Platoon (MG308)" hidden="false" collective="false" import="true" targetId="7153-9864-2d6c-86db" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6ea3-a9ec-96d0-0732" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2268-c8bb-ef1d-d95f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42aa-753f-d5fe-cf29" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ed30-a69e-aa52-5911" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bba7-7b68-b3c0-fb73" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd45-c95c-cc44-1f98" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="2a0c-8090-06f0-da8f" name="Fallschirmjäger 7.5cm Artillery Battery (MG311)" hidden="false" collective="false" import="true" targetId="9e52-af9c-da0f-b8ce" type="selectionEntry"/>
+        <entryLink id="beb6-94d1-79fc-198a" name="Fallschirmjäger 10.5cm Recoilless Battery (MG316)" hidden="false" collective="false" import="true" targetId="224a-54fe-9cea-f058" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1fee-6b30-89bb-7a04" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee54-9bb9-2bb7-7aae" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2d6-9430-4fe9-269d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6e7c-291d-2f49-84f0" name="Fallschirmjäger Observation Post (MG313)" hidden="false" collective="false" import="true" targetId="1485-0c87-e46d-a4a7" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4145-de2c-7931-378b" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9061-8775-e6b6-f2f0" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02c7-2170-93e3-4bc3" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="2ba3-43d7-6aeb-aac9" name="Fallschirm Pioneer Platoon (MG309)" hidden="false" collective="false" import="true" targetId="7df4-9db0-393f-8de5" type="selectionEntry"/>
+        <entryLink id="bdca-6ff9-5906-2639" name="Fallschirmjäger Platoon (MG302)" hidden="false" collective="false" import="true" targetId="14ea-a84d-26c4-2316" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3394-6f96-92f7-589e" name="Wildcard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07f4-f8be-99cf-d1ad" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4251-100c-bb48-d8a1" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="9b8a-6cb4-40d7-f995" name="Tiger (P) Heavy Tank Platoon (MG601)" hidden="false" collective="false" import="true" targetId="fc40-517c-ccc2-d5c5" type="selectionEntry"/>
+        <entryLink id="8528-cd70-9aca-172b" name="Panzer I Infantry Tank Platoon (MG605)" hidden="false" collective="false" import="true" targetId="8c46-61c6-e8ee-efd3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="d5f6-f67a-b95d-120b" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="d5c7-912a-bcf7-925a" name="Fallschirmjäger Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="fe1c-0dc8-0f83-fc80" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">MG301</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="e089-c7b0-41e3-2b5d" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b140-7faa-3825-6368" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7785-2dc8-9701-5b23" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="0bfa-dcec-5645-f981" name="Marder (7.62cm) Tank-Hunter Platoon (MG118)" hidden="false" collective="false" import="true" targetId="8833-63b4-c9ed-714b" type="selectionEntry"/>
+        <entryLink id="3170-ff5c-0a32-a45d" name="Fallschirmjäger 5cm Tank-hunter Platoon (MG307)" hidden="false" collective="false" import="true" targetId="7960-f7cd-fdbf-2590" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="482f-92be-db5a-92cc" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1918-8695-6c21-4bdd" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0249-ec0e-1ea2-e6d3" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="04d2-e12b-5c69-7efd" name="Panzer III Tank Platoon (MG104)" hidden="false" collective="false" import="true" targetId="460d-d5ca-b202-ae45" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e4f9-96cb-3ab8-9171" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0351-37c3-b48d-7b81" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf28-3b0b-654d-d13e" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1e62-7d06-eb46-8aa2" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ada-e167-ab0d-ebed" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f300-6d09-263d-cde5" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f5e6-9ae6-1ed6-f753" name="Fallschirmjäger 2cm Anti-aircraft Platoon (MG310)" hidden="false" collective="false" import="true" targetId="4319-84b3-4dda-71f5" type="selectionEntry"/>
+        <entryLink id="eda9-865d-9b0d-63c5" name="Fallschirmjäger 7.5cm Tank-hunter Platoon (MG308)" hidden="false" collective="false" import="true" targetId="7153-9864-2d6c-86db" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7f56-c400-df68-3897" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5257-7d67-50f6-1975" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12b4-ae91-00c0-f71f" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="210c-79fb-1e95-fec3" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9c0-23d7-b6d9-6533" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d052-91eb-7ebf-0ea7" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="cdf8-223c-95d3-26cf" name="Fallschirmjäger 7.5cm Artillery Battery (MG311)" hidden="false" collective="false" import="true" targetId="9e52-af9c-da0f-b8ce" type="selectionEntry"/>
+        <entryLink id="086a-2e33-651a-beb7" name="Fallschirmjäger 10.5cm Recoilless Battery (MG316)" hidden="false" collective="false" import="true" targetId="224a-54fe-9cea-f058" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e0e6-ac88-87e2-fe4c" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30db-e872-9276-1e3c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd13-14d8-f6bb-54d4" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e456-4908-f4ec-4d33" name="Fallschirmjäger Observation Post (MG313)" hidden="false" collective="false" import="true" targetId="1485-0c87-e46d-a4a7" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="50f9-f8b0-1faf-71ff" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c814-71f9-c486-11f7" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0558-0a0d-4445-0b98" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8729-966d-fc12-3567" name="Fallschirm Pioneer Platoon (MG309)" hidden="false" collective="false" import="true" targetId="7df4-9db0-393f-8de5" type="selectionEntry"/>
+        <entryLink id="55fc-3002-6b52-1a83" name="Fallschirmjäger Platoon (MG302)" hidden="false" collective="false" import="true" targetId="14ea-a84d-26c4-2316" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="826e-b85f-5987-a40f" name="Wildcard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2fe-b21d-8a3b-b698" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1010-d913-7daa-317f" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="eec0-bbd5-f657-6640" name="Tiger (P) Heavy Tank Platoon (MG601)" hidden="false" collective="false" import="true" targetId="fc40-517c-ccc2-d5c5" type="selectionEntry"/>
+        <entryLink id="cf0f-45e2-41bd-da47" name="Panzer I Infantry Tank Platoon (MG605)" hidden="false" collective="false" import="true" targetId="8c46-61c6-e8ee-efd3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="a0a2-9e99-c634-b0db" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
 </selectionEntry></selectionEntries></catalogue>

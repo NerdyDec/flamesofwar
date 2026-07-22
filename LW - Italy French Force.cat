@@ -228,145 +228,7 @@ GunAssault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="11d2-8f44-5e13-8e28" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-<selectionEntries><selectionEntry id="d6d1-deb4-363f-458c" name="2x P-47 Thunderbolt" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="8192-8e79-2cb2-1421" name="Campagnie de Tirailleurs" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="a019-9cfa-6caf-9870" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LF101</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="8232-e95a-2787-f4ca" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0cb-bf3c-5f84-471d" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1020-0a6b-905d-e150" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="b5a7-7bb1-6c62-ef1d" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d95-b021-8512-7f1e" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="440a-bb08-6eb7-14ca" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="1383-f6b4-93a1-320c" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="972b-b4e9-a573-9d3d" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c24e-a8e9-85e6-ed83" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="46b6-4622-c9b0-4f7f" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bd0-1a52-36d6-1418" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aff4-b9be-20b7-92c7" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="0cae-4b9c-a1cc-6174" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f918-fb3d-6f79-174c" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af6f-9d7c-68a1-f96b" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="de09-59d2-fd5a-5692" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e21-d7a8-5e15-d688" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b40-6574-5c3f-2a94" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="288b-3669-fa89-95b0" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3709-0b04-181c-259a" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6bc-99ba-5950-edbf" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="ec7d-23b4-46ff-c682" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01bd-c0a9-8517-0d1c" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b40-b3c0-ac2f-1a2b" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="a71b-bc3c-15b9-c719" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="db88-1bb4-cfa8-7276" name="L4 Grasshopper OP Observation Post (LU178)" hidden="false" collective="false" import="true" targetId="da67-12e8-af8e-d497" type="selectionEntry"/><entryLink id="c2e7-c179-100e-a894" name="P-47 Thunderbolt Fighter Flight (LU180)" hidden="false" collective="false" import="true" targetId="dd7d-1bbc-9cba-adae" type="selectionEntry"/><entryLink id="abf2-d994-8a2b-bba7" name="M7 Priest Artillery Battery (LU121)" hidden="false" collective="false" import="true" targetId="d176-962b-6ee1-f0d4" type="selectionEntry"/><entryLink id="538b-222d-a7d1-0801" name="M4 Sherman OP Observation Post (LU122)" hidden="false" collective="false" import="true" targetId="ce91-4078-42d1-6e5c" type="selectionEntry"/><entryLink id="73e8-f7c4-9094-1419" name="3-inch Towed Tank Destroyer Platoon (LU175)" hidden="false" collective="false" import="true" targetId="f50c-62fb-6afc-5ea6" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="670a-9402-387d-ad83" name="Goum" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="f1ad-1e47-0a1e-9c5b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LF107</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="3eaf-2455-61d0-c06f" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbf5-cdef-9235-bbbd" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0951-0f18-09cd-243a" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="db00-069e-165d-fbbb" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c572-7bbc-81da-9dee" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c79-1c3f-a845-ebd0" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="21f7-6367-e550-d7a3" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe04-d1f6-bb93-1979" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb86-9753-8b4a-6ab9" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3df2-f828-c1dc-010e" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc30-87ad-c476-5024" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99a3-563c-c68d-dfea" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="973f-2a8d-b593-7b57" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37b0-a300-3471-c562" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cee2-0a07-1725-8d33" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="f595-6b06-17f6-b838" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e83-991d-829f-e45a" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f55-d647-305b-5114" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3486-0a1a-53c1-7f2c" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="362a-5f90-f912-9e98" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a5f-73a3-59f9-2dbe" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="4a47-989f-aef9-0886" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b47-7d39-3213-5571" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e62-f481-daef-67bd" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="93d4-73a6-2548-ff55" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="bf1b-6cde-b75d-6831" name="L4 Grasshopper OP Observation Post (LU178)" hidden="false" collective="false" import="true" targetId="da67-12e8-af8e-d497" type="selectionEntry"/><entryLink id="63a1-a040-5619-c1d7" name="P-47 Thunderbolt Fighter Flight (LU180)" hidden="false" collective="false" import="true" targetId="dd7d-1bbc-9cba-adae" type="selectionEntry"/><entryLink id="4bfa-f079-4be4-9142" name="M7 Priest Artillery Battery (LU121)" hidden="false" collective="false" import="true" targetId="d176-962b-6ee1-f0d4" type="selectionEntry"/><entryLink id="3f9c-1511-9ed1-5f97" name="M4 Sherman OP Observation Post (LU122)" hidden="false" collective="false" import="true" targetId="ce91-4078-42d1-6e5c" type="selectionEntry"/><entryLink id="f040-9fd6-df73-9150" name="3-inch Towed Tank Destroyer Platoon (LU175)" hidden="false" collective="false" import="true" targetId="f50c-62fb-6afc-5ea6" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="109e-24db-245f-0b98" name="Italy: French Command Cards" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="d6d1-deb4-363f-458c" name="2x P-47 Thunderbolt" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="109e-24db-245f-0b98" name="Italy: French Command Cards" hidden="false" collective="false" import="true" type="unit">
   <selectionEntryGroups>
     <selectionEntryGroup id="455f-7bde-f645-681a" name="Reconnaissance" hidden="false" collective="false" import="true">
       <constraints>
@@ -428,4 +290,160 @@ GunAssault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="499a-06fd-3048-f7d3" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-<entryLinks><entryLink id="f0bc-908d-4f6a-7a66" name="L4 Grasshopper OP Observation Post (LU178)" hidden="false" collective="false" import="true" targetId="da67-12e8-af8e-d497" type="selectionEntry"/><entryLink id="7b14-4a4a-c522-1d2b" name="P-47 Thunderbolt Fighter Flight (LU180)" hidden="false" collective="false" import="true" targetId="dd7d-1bbc-9cba-adae" type="selectionEntry"/><entryLink id="ccc5-766d-5388-37dd" name="M7 Priest Artillery Battery (LU121)" hidden="false" collective="false" import="true" targetId="d176-962b-6ee1-f0d4" type="selectionEntry"/><entryLink id="94b6-30d5-b8f6-628e" name="M4 Sherman OP Observation Post (LU122)" hidden="false" collective="false" import="true" targetId="ce91-4078-42d1-6e5c" type="selectionEntry"/><entryLink id="c057-e09c-0775-2248" name="3-inch Towed Tank Destroyer Platoon (LU175)" hidden="false" collective="false" import="true" targetId="f50c-62fb-6afc-5ea6" type="selectionEntry"/></entryLinks></selectionEntry></selectionEntries></catalogue>
+<entryLinks><entryLink id="f0bc-908d-4f6a-7a66" name="L4 Grasshopper OP Observation Post (LU178)" hidden="false" collective="false" import="true" targetId="da67-12e8-af8e-d497" type="selectionEntry"/><entryLink id="7b14-4a4a-c522-1d2b" name="P-47 Thunderbolt Fighter Flight (LU180)" hidden="false" collective="false" import="true" targetId="dd7d-1bbc-9cba-adae" type="selectionEntry"/><entryLink id="ccc5-766d-5388-37dd" name="M7 Priest Artillery Battery (LU121)" hidden="false" collective="false" import="true" targetId="d176-962b-6ee1-f0d4" type="selectionEntry"/><entryLink id="94b6-30d5-b8f6-628e" name="M4 Sherman OP Observation Post (LU122)" hidden="false" collective="false" import="true" targetId="ce91-4078-42d1-6e5c" type="selectionEntry"/><entryLink id="c057-e09c-0775-2248" name="3-inch Towed Tank Destroyer Platoon (LU175)" hidden="false" collective="false" import="true" targetId="f50c-62fb-6afc-5ea6" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="8192-8e79-2cb2-1421" name="Campagnie de Tirailleurs" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="db00-069e-165d-fbbb" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LF101</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="8232-e95a-2787-f4ca" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0cb-bf3c-5f84-471d" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1020-0a6b-905d-e150" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b5a7-7bb1-6c62-ef1d" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d95-b021-8512-7f1e" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="440a-bb08-6eb7-14ca" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1383-f6b4-93a1-320c" name="M7 Priest Artillery Battery (LU121)" hidden="false" collective="false" import="true" targetId="d176-962b-6ee1-f0d4" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="972b-b4e9-a573-9d3d" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c24e-a8e9-85e6-ed83" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46b6-4622-c9b0-4f7f" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4bd0-1a52-36d6-1418" name="M4 Sherman OP Observation Post (LU122)" hidden="false" collective="false" import="true" targetId="ce91-4078-42d1-6e5c" type="selectionEntry"/>
+        <entryLink id="aff4-b9be-20b7-92c7" name="L4 Grasshopper OP Observation Post (LU178)" hidden="false" collective="false" import="true" targetId="da67-12e8-af8e-d497" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0cae-4b9c-a1cc-6174" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f918-fb3d-6f79-174c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af6f-9d7c-68a1-f96b" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="de09-59d2-fd5a-5692" name="3-inch Towed Tank Destroyer Platoon (LU175)" hidden="false" collective="false" import="true" targetId="f50c-62fb-6afc-5ea6" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6e21-d7a8-5e15-d688" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b40-6574-5c3f-2a94" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="288b-3669-fa89-95b0" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3709-0b04-181c-259a" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6bc-99ba-5950-edbf" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec7d-23b4-46ff-c682" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="01bd-c0a9-8517-0d1c" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b40-b3c0-ac2f-1a2b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a71b-bc3c-15b9-c719" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="a019-9cfa-6caf-9870" name="P-47 Thunderbolt Fighter Flight (LU180)" hidden="false" collective="false" import="true" targetId="dd7d-1bbc-9cba-adae" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="670a-9402-387d-ad83" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eaf-2455-61d0-c06f" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbf5-cdef-9235-bbbd" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="0951-0f18-09cd-243a" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="c572-7bbc-81da-9dee" name="Goum" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="f040-9fd6-df73-9150" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LF107</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="1c79-1c3f-a845-ebd0" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21f7-6367-e550-d7a3" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe04-d1f6-bb93-1979" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bb86-9753-8b4a-6ab9" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3df2-f828-c1dc-010e" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc30-87ad-c476-5024" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="99a3-563c-c68d-dfea" name="M7 Priest Artillery Battery (LU121)" hidden="false" collective="false" import="true" targetId="d176-962b-6ee1-f0d4" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="973f-2a8d-b593-7b57" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37b0-a300-3471-c562" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cee2-0a07-1725-8d33" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f595-6b06-17f6-b838" name="M4 Sherman OP Observation Post (LU122)" hidden="false" collective="false" import="true" targetId="ce91-4078-42d1-6e5c" type="selectionEntry"/>
+        <entryLink id="3e83-991d-829f-e45a" name="L4 Grasshopper OP Observation Post (LU178)" hidden="false" collective="false" import="true" targetId="da67-12e8-af8e-d497" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9f55-d647-305b-5114" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3486-0a1a-53c1-7f2c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="362a-5f90-f912-9e98" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="7a5f-73a3-59f9-2dbe" name="3-inch Towed Tank Destroyer Platoon (LU175)" hidden="false" collective="false" import="true" targetId="f50c-62fb-6afc-5ea6" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4a47-989f-aef9-0886" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b47-7d39-3213-5571" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e62-f481-daef-67bd" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="93d4-73a6-2548-ff55" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1ad-1e47-0a1e-9c5b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db88-1bb4-cfa8-7276" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c2e7-c179-100e-a894" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abf2-d994-8a2b-bba7" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="538b-222d-a7d1-0801" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="73e8-f7c4-9094-1419" name="P-47 Thunderbolt Fighter Flight (LU180)" hidden="false" collective="false" import="true" targetId="dd7d-1bbc-9cba-adae" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bf1b-6cde-b75d-6831" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63a1-a040-5619-c1d7" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bfa-f079-4be4-9142" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="3f9c-1511-9ed1-5f97" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry></selectionEntries></catalogue>

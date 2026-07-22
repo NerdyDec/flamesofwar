@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="80bf-7e42-7351-cce3" name="Late-War - Fortress Europe: British" revision="7" battleScribeVersion="2.03" authorName="Ulf Bernestedt" authorContact="battlescribe@bernestedt.se" library="false" gameSystemId="976a-b687-1fdb-07ef" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="00d1-a6b9-a2d9-d031" name="Sherman Armoured Squadron" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles><profile id="9b5b-ae75-0ce9-293b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LB101</characteristic></characteristics></profile></profiles><categoryLinks>
-        <categoryLink id="baa9-2809-490f-eb60" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="0838-5720-4163-c3fc" name="Sherman Troop or Stuart Recce Patrol" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="6809-3f9a-bb6b-267c">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="987d-fc26-aa17-6a9f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9871-04ca-869d-1965" type="max"/>
-          </constraints>
-          <selectionEntries>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    <entryLinks><entryLink id="4faf-f331-8fd6-1f72" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="217a-e9d3-542d-fee4" type="selectionEntry"/><entryLink id="23fe-fc9f-38a9-bddd" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="2c65-b808-8adc-b71e" type="selectionEntry"/><entryLink id="afb1-dac1-4cc9-bd73" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="5660-fbd4-8ca1-b848" type="selectionEntry"/><entryLink id="f8c2-79b5-c8a9-41f6" name="Motor Platoon (LB111)" hidden="false" collective="false" import="true" targetId="55fb-6288-b646-8ec3" type="selectionEntry"/><entryLink id="0ac9-1ba9-ebfd-e9d4" name="Universal Carrier Patrol (LB112)" hidden="false" collective="false" import="true" targetId="6c16-2aba-cd85-419e" type="selectionEntry"/><entryLink id="05d7-3df0-5500-21d4" name="Italy Churchill Armoured Troop (LB105)" hidden="false" collective="false" import="true" targetId="2864-ee42-fbc0-048a" type="selectionEntry"/><entryLink id="8c42-2fa9-6de8-baa8" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="431a-7fd6-b350-434f" type="selectionEntry"/><entryLink id="655b-9a63-5626-4275" name="Rifle Platoon (LB108)" hidden="false" collective="false" import="true" targetId="2771-0f22-9797-9235" type="selectionEntry"/><entryLink id="9735-44d9-f7b2-fd83" name="Sherman OP Observation Post (LB118)" hidden="false" collective="false" import="true" targetId="10fa-85da-ea33-00bb" type="selectionEntry"/><entryLink id="c5c2-d652-1d3a-3f51" name="M10 SP Anti-tank Platoon (LB122)" hidden="false" collective="false" import="true" targetId="9ee7-8e18-f7c0-6f97" type="selectionEntry"/><entryLink id="6d9f-be76-6881-1426" name="Sherman Armoured Troop (LB102)" hidden="false" collective="false" import="true" targetId="eb67-cfc3-360f-cfa5" type="selectionEntry"/></entryLinks></selectionEntry>
     <selectionEntry id="ac34-9296-2af0-ed89" name="Churchill Italy Armoured Squadron" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="2654-29bd-a10f-71be" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
@@ -42,1151 +22,6 @@
           </constraints>
           <selectionEntries>
           </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5e14-2446-b1f9-4cef" name="Rifle Company" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles><profile id="414e-02ec-094b-dc1a" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LB107</characteristic></characteristics></profile></profiles><categoryLinks>
-        <categoryLink id="8de5-a888-6d6b-fa21" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="2260-c96b-c07a-397c" name="Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3188-9930-d852-399a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e7b-3910-41b4-922f" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="25df-780f-0a3d-d26e" name="Bulldog" hidden="false" targetId="430d-5c6b-152c-2ad2" type="rule"/>
-            <infoLink id="f448-a13b-4e0c-8000" name="Deadly" hidden="false" targetId="8c8a-cccd-bfe4-6964" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="e252-46c5-6c01-02fd" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="7d31-b54c-b759-39dc">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61c1-eb01-b20c-c3fb" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4329-8fa2-8fa6-66df" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="18ce-350c-05f8-5a44" name="7x Brengun &amp; SMLE rifle, 1x PIAT, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="8008-7148-d647-2542" name="1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51c5-b6e4-6471-4855" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6087-a23f-d14e-e16e" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="003c-91be-742b-e40e" name="PIAT anti-tank team" hidden="false" targetId="f909-bdec-c406-f7d6" type="profile"/>
-                        <infoLink id="05e1-3759-7df5-78f7" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="f44c-155d-b12b-ea00" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="d10d-9b06-1b38-ddc6" name="1x 2-inch mortar team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="079f-5bf2-6a12-865d" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="350c-1c77-3bab-5e93" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="e016-7715-7d68-23a7" name="2-inch mortar" hidden="false" targetId="b250-95aa-6675-3fe5" type="profile"/>
-                        <infoLink id="b619-c955-bde8-96a9" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                        <infoLink id="e7a4-fa80-b8c7-817a" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                        <infoLink id="6d03-2220-ba84-739a" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="7064-489c-ef2f-aa4e" name="Overhead fire" hidden="false" targetId="6015-3f65-cd0c-42cd" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="7d31-b54c-b759-39dc" name="5x Brengun &amp; SMLE rifle, 1x PIAT, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="0df4-0961-36ef-c784" name="1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a75d-6e15-77d5-5153" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="314a-cb05-9db6-9466" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="4875-6c9e-3a5e-4a43" name="PIAT anti-tank team" hidden="false" targetId="f909-bdec-c406-f7d6" type="profile"/>
-                        <infoLink id="8dd8-2901-7340-d485" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="9991-641d-bba7-7f14" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="caf5-9abf-26e4-ffb4" name="1x 2-inch mortar team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a331-dfd7-cf2d-eda0" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8356-ddc3-1ecb-081f" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="8074-c373-a1a8-57ea" name="2-inch mortar" hidden="false" targetId="b250-95aa-6675-3fe5" type="profile"/>
-                        <infoLink id="e441-d276-bbc4-be30" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                        <infoLink id="bf42-022e-af91-ea86" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                        <infoLink id="4e9d-cd26-a436-17ed" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="8bed-e31d-5939-4dde" name="Overhead fire" hidden="false" targetId="6015-3f65-cd0c-42cd" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c0df-d4d8-4a00-259b" name="3-inch Mortar Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e16-dfb9-d290-ea3a" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="a80e-461d-a05b-1f75" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="8abb-64c2-ef96-e6d6">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bd9-48a3-305b-3a5e" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8bf-414f-04ce-6560" type="max"/>
-              </constraints>
-              <selectionEntries>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d9fa-f6b0-571f-8296" name="Vickers Machine-Gun Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaaa-0c26-54bb-5ea4" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="0ba2-9f7f-e5c5-8139" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="fe63-892d-5901-baa3">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fdd-0797-62cb-03bb" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebc9-f7b1-3fc7-84e6" type="max"/>
-              </constraints>
-              <selectionEntries>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5884-4cb9-82ef-4525" name="6 pdr Anti-Tank Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5fc-ea9e-2b3a-f37d" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="94f7-864c-498a-be41" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="329b-1e4f-e298-1362">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4914-7154-163b-82c2" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8653-1777-0ba0-c6b1" type="max"/>
-              </constraints>
-              <selectionEntries>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="15b2-8132-b0e9-21a9" name="Universal Carrier Patrol" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa5b-b8ef-d0a0-4b27" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="4660-2444-2b94-eab9" name="Add Boys AT Rifle for any team" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b991-b5b1-3544-aa27" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="dd79-3786-7f81-1c24" name="Boys AT rifle" hidden="false" targetId="1f9f-9e8f-3fd2-badb" type="profile"/>
-                <infoLink id="9744-8a96-d454-c476" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-                <infoLink id="0c61-74e3-481e-ad4f" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="281f-cbba-d514-c382" name="Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f44-09de-e135-cfbc" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="185d-694a-5db9-5d8c" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="3b1b-486d-e899-c038" name="Bulldog" hidden="false" targetId="430d-5c6b-152c-2ad2" type="rule"/>
-            <infoLink id="1799-595a-52e5-e2c4" name="Deadly" hidden="false" targetId="8c8a-cccd-bfe4-6964" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="2c47-20f9-fc98-41f5" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="a15a-dee0-1437-bb9b">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0668-e163-dd96-be74" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20b8-709c-3b6d-bbbc" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="8d1e-0812-2a0f-362f" name="7x Brengun &amp; SMLE rifle, 1x PIAT, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="509f-6adb-5d4e-62d4" name="1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="875f-ef9d-d226-db25" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1043-5398-e8ec-48c1" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="376b-96e1-9649-036e" name="PIAT anti-tank team" hidden="false" targetId="f909-bdec-c406-f7d6" type="profile"/>
-                        <infoLink id="530d-6dce-599c-f09e" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="b0a3-00eb-bc85-77fc" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="e2d2-2c6e-2e5d-9710" name="1x 2-inch mortar team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="073c-326d-ec79-a75b" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58f1-ef08-e75a-de59" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="1c92-3282-f0bc-8d04" name="2-inch mortar" hidden="false" targetId="b250-95aa-6675-3fe5" type="profile"/>
-                        <infoLink id="d31f-49c5-9d24-f56d" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                        <infoLink id="5774-7de3-ef62-ce75" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                        <infoLink id="8db9-6d38-4bda-70c1" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="12d0-48f5-261c-31c0" name="Overhead fire" hidden="false" targetId="6015-3f65-cd0c-42cd" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="a15a-dee0-1437-bb9b" name="5x Brengun &amp; SMLE rifle, 1x PIAT, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="b489-c8b2-7800-3ab3" name="1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41a5-73c7-fb49-7f49" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcde-d9fb-37b3-b7b9" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="16e9-8462-2de3-4547" name="PIAT anti-tank team" hidden="false" targetId="f909-bdec-c406-f7d6" type="profile"/>
-                        <infoLink id="69ce-5b09-c8a5-cdaf" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="c7e6-2859-6426-3451" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="7d35-6be2-9b76-c59f" name="1x 2-inch mortar team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="556f-e251-e79e-7c4c" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a2a-43dc-0b0c-2e05" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="2617-b7c6-852a-ee8a" name="2-inch mortar" hidden="false" targetId="b250-95aa-6675-3fe5" type="profile"/>
-                        <infoLink id="5797-41bd-531b-6d23" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                        <infoLink id="9f1b-185b-2da4-26f8" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                        <infoLink id="c09b-f1cf-bfe5-41d3" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="6b25-2870-20bb-d3c4" name="Overhead fire" hidden="false" targetId="6015-3f65-cd0c-42cd" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d2dd-5b4f-2fb1-6e1e" name="Rifle Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df47-059e-ccc9-1848" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="8e06-98ff-9f68-feb1" name="Bulldog" hidden="false" targetId="430d-5c6b-152c-2ad2" type="rule"/>
-            <infoLink id="edd3-ed22-3ceb-a816" name="Deadly" hidden="false" targetId="8c8a-cccd-bfe4-6964" type="rule"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="9fab-f380-d144-9c38" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="c2f6-22d9-0ffa-0647">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="696a-0ec6-617d-0775" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0d1-7986-10f8-3aad" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="44fc-486f-2a0f-36da" name="7x Brengun &amp; SMLE rifle, 1x PIAT, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="450b-03e7-361d-9439" name="1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3564-6a3d-0488-04e6" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="201a-bf81-dec3-1f35" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="63db-a2d2-4970-8d3d" name="PIAT anti-tank team" hidden="false" targetId="f909-bdec-c406-f7d6" type="profile"/>
-                        <infoLink id="5de8-4c93-6082-ee20" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="0c61-2b1e-942d-5a63" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="a737-8907-1736-1baf" name="1x 2-inch mortar team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a59-2d21-cee0-c6b5" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3ed-5448-fca1-33c6" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="08b1-c948-2a5a-8691" name="2-inch mortar" hidden="false" targetId="b250-95aa-6675-3fe5" type="profile"/>
-                        <infoLink id="d313-4fbe-8139-9835" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                        <infoLink id="7776-5e5b-2c17-0614" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                        <infoLink id="1616-0308-a618-d49c" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="0084-3325-6ff9-c4b4" name="Overhead fire" hidden="false" targetId="6015-3f65-cd0c-42cd" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="c2f6-22d9-0ffa-0647" name="5x Brengun &amp; SMLE rifle, 1x PIAT, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="497b-ab2a-e099-3489" name="1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d43b-447b-29f0-316b" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7248-9a09-2338-c97e" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="f682-b491-c309-2086" name="PIAT anti-tank team" hidden="false" targetId="f909-bdec-c406-f7d6" type="profile"/>
-                        <infoLink id="2779-ef7d-8fc2-0312" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="9e66-a3fa-9f8f-ab22" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="fd5c-89b2-14b8-fb07" name="1x 2-inch mortar team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f169-c2ec-57b5-fc6a" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f13f-290f-58e1-e159" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="794b-6baf-c977-abfc" name="2-inch mortar" hidden="false" targetId="b250-95aa-6675-3fe5" type="profile"/>
-                        <infoLink id="6621-962a-3546-18a5" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                        <infoLink id="3f25-71fc-0e8e-da0f" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                        <infoLink id="c8e3-4db2-5199-aa68" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="190b-f499-48c9-fa8f" name="Overhead fire" hidden="false" targetId="6015-3f65-cd0c-42cd" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f20e-1192-f183-0c82" name="Vickers Machine-Gun Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="317f-fb08-7965-4412" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="2fba-9dd0-8fa4-429b" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="ccad-2854-ea66-2dfb">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a84f-3c75-ca4f-9cf2" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe36-4709-f93d-5f2e" type="max"/>
-              </constraints>
-              <selectionEntries>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5e3d-73d9-72e5-de14" name="Universal Carrier Patrol" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="394c-d90c-75a0-5976" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="40c4-c4ba-ec76-af7e" name="Add Boys AT Rifle for any team" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee65-a2a8-6585-b45a" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="9098-c75b-5e30-c32a" name="Boys AT rifle" hidden="false" targetId="1f9f-9e8f-3fd2-badb" type="profile"/>
-                <infoLink id="91aa-efc7-0d1a-59a5" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-                <infoLink id="1fc3-089f-e082-c5c2" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4337-a9dd-00c4-e576" name="Universal Carrier Patrol" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e97b-d752-ed12-ba4c" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="9004-52bc-d02f-ef84" name="Add Boys AT Rifle for any team" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d574-4680-4959-3434" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="c8af-9c83-a07a-3dd0" name="Boys AT rifle" hidden="false" targetId="1f9f-9e8f-3fd2-badb" type="profile"/>
-                <infoLink id="337c-3650-9072-6b2b" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-                <infoLink id="96c2-a17e-fbc7-a0cf" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f6fc-3f62-190e-1c5e" name="Universal Carrier Patrol" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3acc-7be8-41e9-b60b" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="0504-ac54-a09f-615a" name="Add Boys AT Rifle for any team" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0521-8b54-c2da-3bb7" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="e828-7fcb-4ff9-ae15" name="Boys AT rifle" hidden="false" targetId="1f9f-9e8f-3fd2-badb" type="profile"/>
-                <infoLink id="23a1-327a-c6f7-c0ce" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-                <infoLink id="a647-84cd-0847-0f5e" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    <entryLinks><entryLink id="8dad-8905-f1ff-6d06" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="217a-e9d3-542d-fee4" type="selectionEntry"/><entryLink id="69ae-07e9-cb0e-b166" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="2c65-b808-8adc-b71e" type="selectionEntry"/><entryLink id="758b-05bd-3dca-af04" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="5660-fbd4-8ca1-b848" type="selectionEntry"/><entryLink id="5566-48d4-6e96-a8a2" name="Motor Platoon (LB111)" hidden="false" collective="false" import="true" targetId="55fb-6288-b646-8ec3" type="selectionEntry"/><entryLink id="2652-2271-e440-813a" name="Universal Carrier Patrol (LB112)" hidden="false" collective="false" import="true" targetId="6c16-2aba-cd85-419e" type="selectionEntry"/><entryLink id="11a6-b091-82f2-81ca" name="Italy Churchill Armoured Troop (LB105)" hidden="false" collective="false" import="true" targetId="2864-ee42-fbc0-048a" type="selectionEntry"/><entryLink id="db7d-6abf-be72-af0f" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="431a-7fd6-b350-434f" type="selectionEntry"/><entryLink id="7f6e-fefa-bc23-8a53" name="Rifle Platoon (LB108)" hidden="false" collective="false" import="true" targetId="2771-0f22-9797-9235" type="selectionEntry"/><entryLink id="e415-3549-7b80-6e33" name="Sherman OP Observation Post (LB118)" hidden="false" collective="false" import="true" targetId="10fa-85da-ea33-00bb" type="selectionEntry"/><entryLink id="e757-0841-cc95-dbe9" name="M10 SP Anti-tank Platoon (LB122)" hidden="false" collective="false" import="true" targetId="9ee7-8e18-f7c0-6f97" type="selectionEntry"/><entryLink id="f148-ed09-1266-b1c7" name="Sherman Armoured Troop (LB102)" hidden="false" collective="false" import="true" targetId="eb67-cfc3-360f-cfa5" type="selectionEntry"/></entryLinks></selectionEntry>
-    <selectionEntry id="2e93-9c34-2a78-4add" name="Motor Company" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles><profile id="a517-baf7-de17-167c" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LB110</characteristic></characteristics></profile></profiles><categoryLinks>
-        <categoryLink id="57d3-8d75-0d3e-b1b8" name="Combat Platoons" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8688-69c5-e0d5-c20b" name="Motor Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df9a-adc5-7e4a-e746" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="137e-5e21-34b1-c839" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="cb26-f0b2-33cb-020f" name="Bulldog" hidden="false" targetId="430d-5c6b-152c-2ad2" type="rule"/>
-            <infoLink id="fa24-2ace-12f2-90a1" name="Deadly" hidden="false" targetId="8c8a-cccd-bfe4-6964" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="9f76-6395-21cb-75b9" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a2d-628a-8e26-d7e4" type="max"/>
-              </constraints>
-              <entryLinks>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="9de2-07e8-3f6e-6935" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="2d17-40a1-5a12-51e2">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb70-f023-b02d-2e44" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a25-6785-5da4-9886" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="7df0-2872-1e1c-e02c" name="4x Bren Gun, 1x PIAT, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="4acb-5826-210c-7dd3" name="1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b6f-9089-d419-6fb1" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="610b-2e4d-abc4-0b92" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="ba8e-3e51-e8b9-a425" name="PIAT anti-tank team" hidden="false" targetId="f909-bdec-c406-f7d6" type="profile"/>
-                        <infoLink id="343c-d8b1-9d49-f57c" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="d131-0332-2c1f-7816" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="d867-69ef-ebae-2e5d" name="1x 2-inch mortar team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a6d-d129-f9d6-82d9" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87f3-f61f-dbde-26e9" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="b9e8-d43a-7c94-3ef6" name="2-inch mortar" hidden="false" targetId="b250-95aa-6675-3fe5" type="profile"/>
-                        <infoLink id="1288-c30c-e811-aef7" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                        <infoLink id="dfbb-67a0-1fd5-424d" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                        <infoLink id="8281-fbfc-05b4-412d" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="d963-696e-85bf-ede0" name="Overhead fire" hidden="false" targetId="6015-3f65-cd0c-42cd" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="2d17-40a1-5a12-51e2" name="3x Bren Gun, 1x PIAT, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="5ef0-76ee-d9a6-a84c" name="1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5af3-9ac2-2757-d49a" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8774-d1d8-6cf3-573c" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="d30e-c4d8-e77a-d372" name="PIAT anti-tank team" hidden="false" targetId="f909-bdec-c406-f7d6" type="profile"/>
-                        <infoLink id="4c82-c684-f8cf-fe79" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="a448-e494-41c2-9db3" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="9caa-6627-0925-5e95" name="1x 2-inch mortar team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfa6-3160-5e51-2a76" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="576e-7763-3d29-2f0a" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="0ef2-f0d8-5bf1-2f6f" name="2-inch mortar" hidden="false" targetId="b250-95aa-6675-3fe5" type="profile"/>
-                        <infoLink id="b346-48d4-fa13-06d1" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                        <infoLink id="7964-67ab-a8a4-dda4" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                        <infoLink id="9e35-ae0f-645c-0b00" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="a49d-da21-a2e4-2597" name="Overhead fire" hidden="false" targetId="6015-3f65-cd0c-42cd" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5776-f73b-fd58-6896" name="3-inch Mortar Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7a1-0503-9d81-61b7" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="9fe1-df9a-673b-f0dc" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8218-392c-7a1c-9385" type="max"/>
-              </constraints>
-              <entryLinks>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="011f-ceb1-5d50-4bf7" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="eb7c-9c58-d695-8bc4">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29c8-06f6-de6b-873c" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30c4-2b43-a47b-1ddd" type="max"/>
-              </constraints>
-              <selectionEntries>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ccaf-cde6-3c79-0a6b" name="Vickers Machine-Gun Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d3b-0161-d88f-8192" type="max"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="e5c1-c0eb-e1e9-c2f6" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="01b3-0b2d-9cf7-fb59">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="963c-72ec-d958-51a4" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dea-7d13-33ff-8ff6" type="max"/>
-              </constraints>
-              <selectionEntries>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="52f2-ab01-26fc-4530" name="6 pdr Anti-Tank Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f53-3138-67d5-5856" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="66bb-7a26-194e-68a9" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c33-953e-9f27-42ae" type="max"/>
-              </constraints>
-              <entryLinks>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="930e-00c3-5bc5-82f4" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="ca7d-70d8-454e-dfce">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="700c-d47e-9a88-4936" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4455-3d6c-74ad-d390" type="max"/>
-              </constraints>
-              <selectionEntries>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e599-a810-5e8e-9d3b" name="Universal Carrier Patrol" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0997-c31d-cf18-9276" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="df36-2301-6b04-8c0a" name="Add Boys AT Rifle for any team" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3179-a46d-04f3-fb4e" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="1244-f618-ba38-10c6" name="Boys AT rifle" hidden="false" targetId="1f9f-9e8f-3fd2-badb" type="profile"/>
-                <infoLink id="4363-919b-1c3b-a530" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-                <infoLink id="831a-d3d9-74e6-ffec" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8e0f-52de-631e-52ce" name="Universal Carrier Patrol" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0423-f959-70a5-86f2" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="ffd8-3193-6e00-d421" name="Add Boys AT Rifle for any team" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7fc-1e6a-530a-2d03" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="dd59-8242-f5ff-5ad2" name="Boys AT rifle" hidden="false" targetId="1f9f-9e8f-3fd2-badb" type="profile"/>
-                <infoLink id="f405-8524-4a63-83e6" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-                <infoLink id="fb6e-1dce-7ed2-fef6" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5d87-6ace-8296-2756" name="Universal Carrier Patrol" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8309-d8ca-350e-9477" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0808-0fd6-c9ac-811d" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="b657-ea18-9e00-04de" name="Add Boys AT Rifle for any team" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb49-abe9-8cfa-eb02" type="max"/>
-              </constraints>
-              <infoLinks>
-                <infoLink id="e5cf-e27c-8858-3bec" name="Boys AT rifle" hidden="false" targetId="1f9f-9e8f-3fd2-badb" type="profile"/>
-                <infoLink id="c7fd-54c8-5ef8-0865" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-                <infoLink id="d1d1-c77d-590e-93f1" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3a98-51a7-8614-54a8" name="Motor Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7e5-c5ac-a7a4-871f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eab-9eff-b6c0-f530" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="1f7b-c3a2-7158-64c3" name="Bulldog" hidden="false" targetId="430d-5c6b-152c-2ad2" type="rule"/>
-            <infoLink id="383f-c4a2-ceaa-a6fd" name="Deadly" hidden="false" targetId="8c8a-cccd-bfe4-6964" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="0f2a-0b7d-9277-758d" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f32-67e8-b436-caa5" type="max"/>
-              </constraints>
-              <entryLinks>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="d73b-d112-d094-5cc2" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="b3fc-6bee-3906-e193">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c7f-0272-0495-55e1" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db70-3437-2837-7d08" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="0308-b243-63d0-dec5" name="4x Bren Gun, 1x PIAT, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="a9dd-84f9-d276-9bf5" name="1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2e8-292a-94a9-cc62" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c94b-f2b2-20a5-ef82" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="8bec-1249-1295-8e8c" name="PIAT anti-tank team" hidden="false" targetId="f909-bdec-c406-f7d6" type="profile"/>
-                        <infoLink id="647d-c704-2438-6dfe" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="f1c3-5558-6da1-a9f9" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="315e-e0d9-d5ad-1950" name="1x 2-inch mortar team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab8d-d336-693e-ffcd" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae5a-ef89-7260-cc97" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="d270-f994-a643-b2cb" name="2-inch mortar" hidden="false" targetId="b250-95aa-6675-3fe5" type="profile"/>
-                        <infoLink id="2f11-fbc4-30a9-d1b1" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                        <infoLink id="ec65-f060-7f16-2c90" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                        <infoLink id="2fa5-9156-9456-4142" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="9449-b9c1-1fb6-d5db" name="Overhead fire" hidden="false" targetId="6015-3f65-cd0c-42cd" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="b3fc-6bee-3906-e193" name="3x Bren Gun, 1x PIAT, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="c81a-c0da-5ce4-4f5f" name="1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6f5-8bad-66bc-abda" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93cd-7cfd-0f87-45a4" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="bdf0-094f-72b3-3e59" name="PIAT anti-tank team" hidden="false" targetId="f909-bdec-c406-f7d6" type="profile"/>
-                        <infoLink id="d839-7156-a000-0af8" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="4d7c-e9d7-e2fb-d533" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="bcbe-c56c-c927-0e38" name="1x 2-inch mortar team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="699f-f4e0-b4f9-ed59" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47e3-632a-2a26-d793" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="02de-5ef9-2efa-1d00" name="2-inch mortar" hidden="false" targetId="b250-95aa-6675-3fe5" type="profile"/>
-                        <infoLink id="6672-04a5-043a-a0cf" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                        <infoLink id="7fce-3b78-1c58-bbed" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                        <infoLink id="5c75-97db-111a-6bc8" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="3644-442a-6f0f-eac7" name="Overhead fire" hidden="false" targetId="6015-3f65-cd0c-42cd" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="17c0-db21-7e24-8010" name="Motor Platoon" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fff-e451-d677-b9c3" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="076e-b80b-1083-6565" name="Bulldog" hidden="false" targetId="430d-5c6b-152c-2ad2" type="rule"/>
-            <infoLink id="ac76-bc0e-ec8a-7ce9" name="Deadly" hidden="false" targetId="8c8a-cccd-bfe4-6964" type="rule"/>
-          </infoLinks>
-          <selectionEntries>
-            <selectionEntry id="625f-fdf9-8662-b6fa" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d476-b1bb-2ca4-d0d9" type="max"/>
-              </constraints>
-              <entryLinks>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="eae5-ba85-c116-4959" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="148f-36e1-ae06-528c">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7be9-558d-a208-7201" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a45-74ba-d57d-7686" type="max"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="675b-f2c8-c2dc-6991" name="4x Bren Gun, 1x PIAT, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="f738-7b1a-438e-e6db" name="1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acad-3c9a-39c8-9240" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09a7-25ee-fa49-fd08" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="26d8-2cb5-4732-8aca" name="PIAT anti-tank team" hidden="false" targetId="f909-bdec-c406-f7d6" type="profile"/>
-                        <infoLink id="ca43-d842-3038-8011" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="e8aa-1c17-a386-aa67" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="7f23-b1bb-cb27-a070" name="1x 2-inch mortar team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7d5-3261-324d-fef5" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b261-893a-48b0-a5f9" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="3c29-7f83-9cb6-cfa3" name="2-inch mortar" hidden="false" targetId="b250-95aa-6675-3fe5" type="profile"/>
-                        <infoLink id="22a7-e264-658b-242a" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                        <infoLink id="1259-1400-2ed0-35f7" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                        <infoLink id="0c0f-2bed-8670-3a69" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="a8a5-42a4-f4d3-523e" name="Overhead fire" hidden="false" targetId="6015-3f65-cd0c-42cd" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="148f-36e1-ae06-528c" name="3x Bren Gun, 1x PIAT, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="upgrade">
-                  <selectionEntries>
-                    <selectionEntry id="b2db-0bca-5347-62e8" name="1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0786-b6f0-c153-d6ba" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4c4-c3a2-e02b-852a" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="0552-f612-da41-41cd" name="PIAT anti-tank team" hidden="false" targetId="f909-bdec-c406-f7d6" type="profile"/>
-                        <infoLink id="d208-61ff-d017-19b2" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="5677-0243-f39a-bf4c" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="4915-9f0d-2364-9cdd" name="1x 2-inch mortar team" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="228c-c07e-ef58-2f40" type="min"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c576-af6b-3736-26ff" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="3820-c2a7-7791-b3da" name="2-inch mortar" hidden="false" targetId="b250-95aa-6675-3fe5" type="profile"/>
-                        <infoLink id="99a5-c3f3-004a-97c2" name="Assault 4+" hidden="false" targetId="dc00-41ba-b4dd-f068" type="rule"/>
-                        <infoLink id="7b1e-9f86-8392-c7e0" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-                        <infoLink id="9071-d35d-dbac-ad46" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-                        <infoLink id="bb81-e3ab-6290-888b" name="Overhead fire" hidden="false" targetId="6015-3f65-cd0c-42cd" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <costs>
-                    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="83a4-1e8e-7751-2dc6" name="6 pdr Anti-Tank Platoon" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b40-0e84-ac1a-ad57" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="3e35-3a36-031c-b63f" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86f5-ac81-b5c5-4f1a" type="max"/>
-              </constraints>
-              <entryLinks>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="a9d6-6f90-d2da-8be3" name="Unit Size" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" defaultSelectionEntryId="3156-39a9-6f1c-9032">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7281-5273-98b1-bd85" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9af-4a91-5f04-96ec" type="max"/>
-              </constraints>
-              <selectionEntries>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    <entryLinks><entryLink id="73ba-28a8-10a5-91be" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="217a-e9d3-542d-fee4" type="selectionEntry"/><entryLink id="4689-5dc9-bdd9-0d59" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="2c65-b808-8adc-b71e" type="selectionEntry"/><entryLink id="86ee-32c0-77d7-331a" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="5660-fbd4-8ca1-b848" type="selectionEntry"/><entryLink id="bcc0-8513-8a3a-c3ee" name="Motor Platoon (LB111)" hidden="false" collective="false" import="true" targetId="55fb-6288-b646-8ec3" type="selectionEntry"/><entryLink id="5760-b3fb-be6e-8c85" name="Universal Carrier Patrol (LB112)" hidden="false" collective="false" import="true" targetId="6c16-2aba-cd85-419e" type="selectionEntry"/><entryLink id="6822-d1b8-87c3-663f" name="Italy Churchill Armoured Troop (LB105)" hidden="false" collective="false" import="true" targetId="2864-ee42-fbc0-048a" type="selectionEntry"/><entryLink id="2648-3e43-b943-1696" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="431a-7fd6-b350-434f" type="selectionEntry"/><entryLink id="82a7-0aa3-3c44-7bcb" name="Rifle Platoon (LB108)" hidden="false" collective="false" import="true" targetId="2771-0f22-9797-9235" type="selectionEntry"/><entryLink id="1e81-f01b-ca36-1919" name="Sherman OP Observation Post (LB118)" hidden="false" collective="false" import="true" targetId="10fa-85da-ea33-00bb" type="selectionEntry"/><entryLink id="e0e2-8d96-a0f1-f95d" name="M10 SP Anti-tank Platoon (LB122)" hidden="false" collective="false" import="true" targetId="9ee7-8e18-f7c0-6f97" type="selectionEntry"/><entryLink id="be9e-21c8-837e-2fcb" name="Sherman Armoured Troop (LB102)" hidden="false" collective="false" import="true" targetId="eb67-cfc3-360f-cfa5" type="selectionEntry"/></entryLinks></selectionEntry>
-    <selectionEntry id="217a-e9d3-542d-fee4" name="Priest Field Troop (LB116)" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-      <profiles><profile id="bc37-04bd-e6a2-63de" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LB116</characteristic></characteristics></profile></profiles><modifierGroups>
-        <modifierGroup>
-          <modifiers>
-            <modifier type="set" field="5618-c946-6000-8f77" value="1">
-              <conditions>
-                <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c65-b808-8adc-b71e" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="5618-c946-6000-8f77" value="2">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c65-b808-8adc-b71e" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="5618-c946-6000-8f77" value="0">
-              <conditions>
-                <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c65-b808-8adc-b71e" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
-      <constraints>
-        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5618-c946-6000-8f77" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="bcd5-b88a-5011-c997" name="Priest (105mm) Artillery" hidden="false" targetId="fe7d-91b2-44d0-f7da" type="profile"/>
-        <infoLink id="39a3-6f02-8c7c-48d5" name="Priest (105mm) Direct Fire" hidden="false" targetId="5754-2e25-b429-b544" type="profile"/>
-        <infoLink id="13f6-d075-49e0-d87b" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-        <infoLink id="6bdb-73c4-e1fc-bbaa" name="Priest (.50 cal MG)" hidden="false" targetId="2960-debe-485d-03ed" type="profile"/>
-        <infoLink id="3984-955a-f58b-db6d" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
-        <infoLink id="ff13-dbd1-6e9b-97d6" name="Slow Firing" hidden="false" targetId="e215-d5bf-83ce-606a" type="rule"/>
-        <infoLink id="cec1-1d60-c1ed-d60a" name="Brutal" hidden="false" targetId="97da-9a33-4ff1-56f2" type="rule"/>
-        <infoLink id="1829-ef71-1ef9-cfbf" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-        <infoLink id="76c3-f2a4-d39a-6ef3" name="Priest (105mm)" hidden="false" targetId="cf2b-8dc7-ee7c-2bbd" type="profile"/>
-        <infoLink id="dd78-b447-a001-8348" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
-        <infoLink id="6042-853a-53de-92ea" name="Mike Target" hidden="false" targetId="0240-e103-61e3-0932" type="rule"/>
-        <infoLink id="3d48-2994-884e-0709" name="SP Gun" hidden="false" targetId="8f04-5766-b365-655a" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="30fd-a590-f4f4-3886" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="5852-a67a-2b9b-07d9" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="4828-a452-3d98-196e">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b2c-68e8-7173-83b6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10a2-d9ca-d3ec-50e2" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="4405-e248-8099-7209" name="4x Priest (105mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-              </costs>
-            </selectionEntry>
-          <selectionEntry id="4828-a452-3d98-196e" name="2x Priest (105mm)" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-              </costs>
-            </selectionEntry>
-            </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2c65-b808-8adc-b71e" name="25 pdr Field Troop (LB117)" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-      <profiles><profile id="719e-7302-cb4a-9cd8" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LB117</characteristic></characteristics></profile></profiles><modifierGroups>
-        <modifierGroup>
-          <modifiers>
-            <modifier type="set" field="f927-6228-127c-76bb" value="1">
-              <conditions>
-                <condition field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="217a-e9d3-542d-fee4" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="f927-6228-127c-76bb" value="2">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="217a-e9d3-542d-fee4" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="f927-6228-127c-76bb" value="0">
-              <conditions>
-                <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="217a-e9d3-542d-fee4" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
-      <constraints>
-        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f927-6228-127c-76bb" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="4d64-fabe-acfd-9efc" name="25 pdr gun" hidden="false" targetId="1dfd-febe-5fd5-a039" type="profile"/>
-        <infoLink id="449f-4657-cbb5-f5d2" name="25 pdr gun Artillery" hidden="false" targetId="5fec-5e9b-918c-0cdb" type="profile"/>
-        <infoLink id="ef4b-0b18-51ba-7131" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-        <infoLink id="977b-3141-cf7d-ad1b" name="Mike Target" hidden="false" targetId="0240-e103-61e3-0932" type="rule"/>
-        <infoLink id="c60c-2f1d-f496-d1b1" name="25 pdr gun Direct Fire" hidden="false" targetId="6423-df5e-9855-8f7d" type="profile"/>
-        <infoLink id="d7b4-92de-3059-5c65" name="Smoke" hidden="false" targetId="6f51-dbfe-55b0-a6d0" type="rule"/>
-        <infoLink id="42bf-e1ae-53f1-d4cb" name="Smoke Bombardment" hidden="false" targetId="5450-1722-5ad1-1d61" type="rule"/>
-        <infoLink id="70ca-8fbe-6e5c-27e2" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
-        <infoLink id="c3f4-0533-c5c1-e4ac" name="Gun" hidden="false" targetId="139e-9d64-28a3-a3dd" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="adc4-8dd4-8ebe-c194" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="76ad-ec02-194a-8e87" name="Unit Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="c0ab-ea0e-3be4-37d2">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cab-02b9-8b9b-adfe" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed92-8f98-914c-4c14" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="f029-3b69-b607-112e" name="4x 25 pdr gun" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
-              </costs>
-            </selectionEntry>
-          <selectionEntry id="c0ab-ea0e-3be4-37d2" name="2x 25 pdr gun" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-              </costs>
-            </selectionEntry>
-            </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5660-fbd4-8ca1-b848" name="Bofors Light AA Troop (LB120)" publicationId="b8e5-51cf-456c-eafb" hidden="false" collective="false" import="true" type="unit">
-      <profiles><profile id="31c2-3960-defb-aa0f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LB120</characteristic></characteristics></profile></profiles><constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b156-cfff-5ffa-d22b" type="max"/>
-      </constraints>
-      <infoLinks>
-        <infoLink id="76d3-d69b-d157-035d" name="Bofors 40mm AA gun" hidden="false" targetId="3f90-a93e-efd2-3ee3" type="profile"/>
-        <infoLink id="a25b-5027-c43b-ca25" name="40mm AA gun" hidden="false" targetId="c111-76ca-a699-3e15" type="profile"/>
-        <infoLink id="60f7-23a0-1c81-c398" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
-        <infoLink id="c21a-807c-caea-5d9e" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
-        <infoLink id="5d01-6705-b72b-bf32" name="Dedicated AA" hidden="false" targetId="f4bc-db53-7a0d-0aeb" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="bed6-6ab0-968d-720b" name="Support Platoons" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="2e2a-3b54-d38b-b7d0" name="Unit Size" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dd0-f738-0881-7167" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b0c-a57a-a11d-0f99" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="d26f-fb37-90b2-da04" name="6x Bofors 40mm AA gun" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-              </costs>
-            </selectionEntry>
-          <selectionEntry id="86f9-2032-3fb7-ecc8" name="3x Bofors 40mm AA gun" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-              </costs>
-            </selectionEntry>
-            </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -1683,12 +518,12 @@ ScoutLast Stand 6</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="f69f-642b-5299-a8e4" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="4c11-763e-b0be-50a2" name="Firefly (17 pdr)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE</characteristic></characteristics></profile>
+  <profile id="2ebd-720b-2b77-b6ba" name="Firefly (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile><profile id="f69f-642b-5299-a8e4" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB102</characteristic>
       </characteristics>
-    </profile>
-  <profile id="4c11-763e-b0be-50a2" name="Firefly (17 pdr)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE</characteristic></characteristics></profile><profile id="2ebd-720b-2b77-b6ba" name="Firefly (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile></profiles>
+    </profile></profiles>
   <selectionEntries>
     <selectionEntry id="5281-20af-c0a3-2b62" name="3x Sherman (75mm)1x Firefly (17 pdr) (LB103)" hidden="false" collective="false" import="true" type="unit">
       <costs>
@@ -2482,12 +1317,12 @@ Protected AmmoRemount 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="96af-c934-369b-ab3f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="db2a-64df-718d-f56a" name="Challenger (17 pdr)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE</characteristic></characteristics></profile>
+  <profile id="90ae-02a2-f29f-e549" name="Challenger (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile><profile id="96af-c934-369b-ab3f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB151</characteristic>
       </characteristics>
-    </profile>
-  <profile id="db2a-64df-718d-f56a" name="Challenger (17 pdr)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE</characteristic></characteristics></profile><profile id="90ae-02a2-f29f-e549" name="Challenger (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile></profiles>
+    </profile></profiles>
   <selectionEntries>
     <selectionEntry id="f1bc-7ee7-1ee6-b419" name="3x Cromwell (75mm)" hidden="false" collective="false" import="true" type="unit">
       <costs>
@@ -2543,12 +1378,12 @@ Protected AmmoRemount 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="dabc-f9d8-03c0-c223" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="0f8b-d5eb-1302-d225" name="Firefly (17 pdr)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE</characteristic></characteristics></profile>
+  <profile id="f7ed-6439-b2b9-7605" name="Firefly (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile><profile id="dabc-f9d8-03c0-c223" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB149</characteristic>
       </characteristics>
-    </profile>
-  <profile id="0f8b-d5eb-1302-d225" name="Firefly (17 pdr)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE</characteristic></characteristics></profile><profile id="f7ed-6439-b2b9-7605" name="Firefly (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile></profiles>
+    </profile></profiles>
   <selectionEntries>
     <selectionEntry id="6d48-4eef-5ca3-8a0e" name="3x Sherman (75mm)1x Firefly (17 pdr) (LB103)" hidden="false" collective="false" import="true" type="unit">
       <costs>
@@ -2734,12 +1569,12 @@ Cautious Not StupidRemount 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="4dd5-b3bf-68a3-325f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="4901-72ce-e60a-6d8f" name="Firefly (17 pdr)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE</characteristic></characteristics></profile>
+  <profile id="182b-737b-69e9-10d7" name="Firefly (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile><profile id="5f70-7426-6fdc-55f7" name="Challenger (17 pdr)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE</characteristic></characteristics></profile><profile id="4538-48cd-c6fb-93ad" name="Challenger (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile><profile id="4dd5-b3bf-68a3-325f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB156</characteristic>
       </characteristics>
-    </profile>
-  <profile id="4901-72ce-e60a-6d8f" name="Firefly (17 pdr)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE</characteristic></characteristics></profile><profile id="182b-737b-69e9-10d7" name="Firefly (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile><profile id="5f70-7426-6fdc-55f7" name="Challenger (17 pdr)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">14</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE</characteristic></characteristics></profile><profile id="4538-48cd-c6fb-93ad" name="Challenger (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile></profiles>
+    </profile></profiles>
   <selectionEntries>
     <selectionEntry id="7c52-4487-8085-b31c" name="3x Cromwell (75mm)1x Firefly (17 pdr) (LB157)" hidden="false" collective="false" import="true" type="unit">
       <costs>
@@ -3088,82 +1923,498 @@ Protected AmmoRemount 2+</characteristic>
   <categoryLinks>
     <categoryLink id="7fab-2385-bb3c-735d" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="7a40-a02a-cb6a-dd81" name="Italy Churchill Tank Squadron" hidden="false" collective="false" import="true" type="unit">
+</selectionEntry><selectionEntry id="719e-7302-cb4a-9cd8" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
-    <profile id="18ae-71fd-ffa1-5c55" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="bc37-04bd-e6a2-63de" name="25 pdr Field Troop" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LB104</characteristic>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
+Large GunAssault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="31c2-3960-defb-aa0f" name="25 pdr gun" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">80&quot;/200cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="aa71-15c3-1652-a086" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB117</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="f957-7587-8f40-d03a" name="4x 25 pdr gun" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="18a5-08fa-fcf5-c66e" name="2x 25 pdr gun" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="2a72-7796-3e45-cd39" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="b97b-9f6d-16d5-7e03" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="0ee7-5fbb-ee0a-267b" name="Priest Field Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ 
+SP GunCounterattack 5+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+SP GunAssault 5+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7b96-2c7b-97d7-e4ad" name="Priest (105mm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">72&quot;/180cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6f61-275e-dd6b-7cb9" name="Priest (.50 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d48e-ad42-2794-7148" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB116</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="fca3-0b6a-51c9-9914" name="4x Priest (105mm)" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="99a3-dc6a-54e6-b320" name="2x Priest (105mm)" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="10cd-1ca3-f217-a580" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="62d8-6cbd-86e8-f38d" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="0978-14c4-95ad-425f" name="Bofors Light AA Troop" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
+Large GunAssault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7f8a-144e-0923-6425" name="40mm AA gun" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Dedicated AA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e33d-9e92-2b15-c655" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB120</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="61d5-6f56-43ed-b42c" name="6x Bofors 40mm AA gun" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f20-2ec8-d05a-98f7" name="3x Bofors 40mm AA gun" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="3aa8-6b19-9468-fe7c" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="1649-5e67-2e86-deea" name="Sherman Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="6d9f-be76-6881-1426" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB101</characteristic>
       </characteristics>
     </profile>
   </profiles>
   <selectionEntryGroups>
-    <selectionEntryGroup id="1aa6-8511-5283-908b" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="890b-679b-d4ac-76bd" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e4d-da66-92c8-f32e" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="b605-118d-2a67-bf9d" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faee-e7e3-7115-8089" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2030-b9c7-f382-ca57" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="a3ff-33dd-3839-2bdb" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd58-f43b-9f07-7db2" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7628-2d9b-60f1-5a2b" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="0a61-cef3-dbae-dfa7" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="2c65-b808-8adc-b71e" type="selectionEntry"/>
-        <entryLink id="c75b-4166-c546-87ca" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="217a-e9d3-542d-fee4" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="a16e-ab65-966c-74c4" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b57-aa0d-3881-c414" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1649-5e67-2e86-deea" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="1bc4-e7e9-bb8d-254d" name="Anti-aircraft" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="1bc4-e7e9-bb8d-254d" name="Reconnaissance" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="126f-55cf-4571-b375" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c45a-f178-3696-45f6" type="max"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c45a-f178-3696-45f6" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="1c6e-c1a7-5cff-31c1" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="5660-fbd4-8ca1-b848" type="selectionEntry"/>
+        <entryLink id="1c6e-c1a7-5cff-31c1" name="Universal Carrier Patrol (LB112)" hidden="false" collective="false" import="true" targetId="6c16-2aba-cd85-419e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="bc8a-047d-1d86-97d8" name="Aircraft" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="bc8a-047d-1d86-97d8" name="Anti-tank" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c61-075e-9f5f-6193" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d496-4c44-7185-b97d" type="max"/>
       </constraints>
       <entryLinks>
+        <entryLink id="143e-2b7f-f825-e9a0" name="M10 SP Anti-tank Platoon (LB122)" hidden="false" collective="false" import="true" targetId="9ee7-8e18-f7c0-6f97" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="a94c-a57d-c3e6-a406" name="Armour" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="a94c-a57d-c3e6-a406" name="Artillery" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50fa-0b2e-2038-8c21" type="min"/>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08b2-0732-39d5-35db" type="max"/>
       </constraints>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="feeb-815a-a2db-7a2f" name="Infantry" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="feeb-815a-a2db-7a2f" name="Observer" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64de-2e1c-ee78-ae2b" type="min"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d47-c191-1088-80a0" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d47-c191-1088-80a0" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="48e4-09c5-503e-955d" name="Sherman OP Observation Post (LB118)" hidden="false" collective="false" import="true" targetId="10fa-85da-ea33-00bb" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="18ae-71fd-ffa1-5c55" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dad-8905-f1ff-6d06" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="833a-682c-ba14-da5c" type="max"/>
       </constraints>
       <entryLinks/>
     </selectionEntryGroup>
+    <selectionEntryGroup id="69ae-07e9-cb0e-b166" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="758b-05bd-3dca-af04" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="414e-02ec-094b-dc1a" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="73ba-28a8-10a5-91be" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a341-416f-0ee6-48aa" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4689-5dc9-bdd9-0d59" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="86ee-32c0-77d7-331a" name="Sherman Armoured Troop (LB102)" hidden="false" collective="false" import="true" targetId="eb67-cfc3-360f-cfa5" type="selectionEntry"/>
+        <entryLink id="a517-baf7-de17-167c" name="Italy Churchill Armoured Troop (LB105)" hidden="false" collective="false" import="true" targetId="2864-ee42-fbc0-048a" type="selectionEntry"/>
+        <entryLink id="f8c2-79b5-c8a9-41f6" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="431a-7fd6-b350-434f" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0ac9-1ba9-ebfd-e9d4" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05d7-3df0-5500-21d4" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c42-2fa9-6de8-baa8" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="655b-9a63-5626-4275" name="Rifle Platoon (LB108)" hidden="false" collective="false" import="true" targetId="2771-0f22-9797-9235" type="selectionEntry"/>
+        <entryLink id="9735-44d9-f7b2-fd83" name="Motor Platoon (LB111)" hidden="false" collective="false" import="true" targetId="55fb-6288-b646-8ec3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </selectionEntryGroups>
   <categoryLinks>
-    <categoryLink id="48e4-09c5-503e-955d" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+    <categoryLink id="c5c2-d652-1d3a-3f51" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-<entryLinks><entryLink id="fbb3-92db-e4c6-8ddb" name="Motor Platoon (LB111)" hidden="false" collective="false" import="true" targetId="55fb-6288-b646-8ec3" type="selectionEntry"/><entryLink id="c695-51f9-20ab-bb6a" name="Universal Carrier Patrol (LB112)" hidden="false" collective="false" import="true" targetId="6c16-2aba-cd85-419e" type="selectionEntry"/><entryLink id="4967-ab1a-7676-4938" name="Italy Churchill Armoured Troop (LB105)" hidden="false" collective="false" import="true" targetId="2864-ee42-fbc0-048a" type="selectionEntry"/><entryLink id="5996-8f8d-efd4-65a7" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="431a-7fd6-b350-434f" type="selectionEntry"/><entryLink id="86a2-53cc-879e-c339" name="Rifle Platoon (LB108)" hidden="false" collective="false" import="true" targetId="2771-0f22-9797-9235" type="selectionEntry"/><entryLink id="b017-9fb8-985b-bfc2" name="Sherman OP Observation Post (LB118)" hidden="false" collective="false" import="true" targetId="10fa-85da-ea33-00bb" type="selectionEntry"/><entryLink id="598a-f8f0-ae28-d5ba" name="M10 SP Anti-tank Platoon (LB122)" hidden="false" collective="false" import="true" targetId="9ee7-8e18-f7c0-6f97" type="selectionEntry"/><entryLink id="f6a8-aa19-6a9d-1e5b" name="Sherman Armoured Troop (LB102)" hidden="false" collective="false" import="true" targetId="eb67-cfc3-360f-cfa5" type="selectionEntry"/></entryLinks></selectionEntry></selectionEntries>
+</selectionEntry><selectionEntry id="fbb3-92db-e4c6-8ddb" name="Italy Churchill Tank Squadron" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="c182-5103-d7df-2983" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB104</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="c695-51f9-20ab-bb6a" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4967-ab1a-7676-4938" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5996-8f8d-efd4-65a7" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="86a2-53cc-879e-c339" name="Universal Carrier Patrol (LB112)" hidden="false" collective="false" import="true" targetId="6c16-2aba-cd85-419e" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b017-9fb8-985b-bfc2" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="598a-f8f0-ae28-d5ba" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6a8-aa19-6a9d-1e5b" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="5566-48d4-6e96-a8a2" name="M10 SP Anti-tank Platoon (LB122)" hidden="false" collective="false" import="true" targetId="9ee7-8e18-f7c0-6f97" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2652-2271-e440-813a" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11a6-b091-82f2-81ca" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db7d-6abf-be72-af0f" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7f6e-fefa-bc23-8a53" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e415-3549-7b80-6e33" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e757-0841-cc95-dbe9" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f148-ed09-1266-b1c7" name="Sherman OP Observation Post (LB118)" hidden="false" collective="false" import="true" targetId="10fa-85da-ea33-00bb" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bcc0-8513-8a3a-c3ee" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5760-b3fb-be6e-8c85" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6822-d1b8-87c3-663f" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2648-3e43-b943-1696" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82a7-0aa3-3c44-7bcb" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e81-f01b-ca36-1919" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e0e2-8d96-a0f1-f95d" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be9e-21c8-837e-2fcb" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ce7-3b65-3e41-a090" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="d8a4-eada-e7ad-0835" name="Sherman Armoured Troop (LB102)" hidden="false" collective="false" import="true" targetId="eb67-cfc3-360f-cfa5" type="selectionEntry"/>
+        <entryLink id="f0e4-77d2-7d63-2042" name="Italy Churchill Armoured Troop (LB105)" hidden="false" collective="false" import="true" targetId="2864-ee42-fbc0-048a" type="selectionEntry"/>
+        <entryLink id="06c3-586e-1c38-7778" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="431a-7fd6-b350-434f" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a121-db94-5c57-2d57" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a69-f130-2ac5-0c7a" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5285-1c9c-87ba-f528" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6282-3c61-b7d1-e163" name="Rifle Platoon (LB108)" hidden="false" collective="false" import="true" targetId="2771-0f22-9797-9235" type="selectionEntry"/>
+        <entryLink id="c0a1-6918-9324-e06b" name="Motor Platoon (LB111)" hidden="false" collective="false" import="true" targetId="55fb-6288-b646-8ec3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="155e-159c-e07e-c228" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="dcb0-4dee-91e7-595e" name="Rifle Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="8136-e098-b903-bde8" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB107</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="d54b-03ca-4a0a-7a85" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1657-dc03-75bf-fc41" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2091-e55f-8fd4-846c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="7fec-7ef0-f4fd-6fd8" name="Universal Carrier Patrol (LB112)" hidden="false" collective="false" import="true" targetId="6c16-2aba-cd85-419e" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1d33-2572-74a5-5022" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb34-2e1c-d40f-3744" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1280-6947-5fbe-a507" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="dd87-a2bf-c9ab-4847" name="M10 SP Anti-tank Platoon (LB122)" hidden="false" collective="false" import="true" targetId="9ee7-8e18-f7c0-6f97" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e288-96a8-348d-2c84" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbbf-0121-9e3b-3de1" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="737d-7537-3577-3d7d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3fe1-3e82-9862-b010" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b40a-4649-a1d2-902f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dab6-c439-abfb-47f1" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="bfdf-0969-4c89-73f5" name="Sherman OP Observation Post (LB118)" hidden="false" collective="false" import="true" targetId="10fa-85da-ea33-00bb" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b306-2827-3068-a6da" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41e9-c5d3-0990-77a1" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a844-cfa7-637b-485d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f9bf-24bc-6e06-44c3" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e39-6789-4ac6-031f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cb0-05b3-d426-81bb" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0e36-14e0-0423-bf57" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7814-02a1-6aeb-6436" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bda-57cf-8bbf-493a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c254-4c3b-d053-b4c2" name="Sherman Armoured Troop (LB102)" hidden="false" collective="false" import="true" targetId="eb67-cfc3-360f-cfa5" type="selectionEntry"/>
+        <entryLink id="f6f0-6ea2-e0da-9e5a" name="Italy Churchill Armoured Troop (LB105)" hidden="false" collective="false" import="true" targetId="2864-ee42-fbc0-048a" type="selectionEntry"/>
+        <entryLink id="47d2-56cf-9530-6a54" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="431a-7fd6-b350-434f" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="be4f-37d0-7d3f-d4c7" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f918-c971-a8e6-581c" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cac-e766-f033-2d79" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1bed-c596-f62e-0f53" name="Rifle Platoon (LB108)" hidden="false" collective="false" import="true" targetId="2771-0f22-9797-9235" type="selectionEntry"/>
+        <entryLink id="d10c-4107-6778-4092" name="Motor Platoon (LB111)" hidden="false" collective="false" import="true" targetId="55fb-6288-b646-8ec3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="f147-f143-ca03-380b" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="b03e-090c-7f00-ae9a" name="Motor Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="9a0d-7c82-f2c0-f9af" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB110</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="d7cd-6e70-fad1-df66" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dc5-1eed-948f-6897" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0304-7b05-a346-197c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="80e4-2c94-b1c7-5969" name="Universal Carrier Patrol (LB112)" hidden="false" collective="false" import="true" targetId="6c16-2aba-cd85-419e" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6975-a099-d41f-4d79" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d34-13d5-c249-d124" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b251-91a2-66bb-af4d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="9507-4818-a292-e685" name="M10 SP Anti-tank Platoon (LB122)" hidden="false" collective="false" import="true" targetId="9ee7-8e18-f7c0-6f97" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d6d3-839a-06af-a296" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5414-be10-b919-0bdf" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cb8-91e1-d73a-b82b" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9185-1a69-6a27-d2b1" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b518-6194-0cc3-9c37" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0be0-290b-a813-255e" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4d2f-e66e-ccb5-e4b3" name="Sherman OP Observation Post (LB118)" hidden="false" collective="false" import="true" targetId="10fa-85da-ea33-00bb" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f50a-9abd-d43f-4487" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84a2-dfdd-cda7-8fb0" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32bc-ae5f-e1e3-940d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1ab9-0e9e-034b-c0fb" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3bd-3b2d-0070-2bf5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ffa-ae81-b2d1-1745" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d8b1-8f40-d941-ec33" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86bf-6aba-6b6e-287a" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f14-bc32-258f-5afb" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="eca9-1e5e-3579-3df8" name="Sherman Armoured Troop (LB102)" hidden="false" collective="false" import="true" targetId="eb67-cfc3-360f-cfa5" type="selectionEntry"/>
+        <entryLink id="7245-49bf-c93c-7686" name="Italy Churchill Armoured Troop (LB105)" hidden="false" collective="false" import="true" targetId="2864-ee42-fbc0-048a" type="selectionEntry"/>
+        <entryLink id="eb84-6053-d8c1-32de" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="431a-7fd6-b350-434f" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a462-c5d3-5b49-694e" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6b6-5f6d-34d9-b771" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74b4-7ced-0c53-a14c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="2258-421e-622b-2928" name="Rifle Platoon (LB108)" hidden="false" collective="false" import="true" targetId="2771-0f22-9797-9235" type="selectionEntry"/>
+        <entryLink id="14ec-f0a4-c9b0-3c61" name="Motor Platoon (LB111)" hidden="false" collective="false" import="true" targetId="55fb-6288-b646-8ec3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="f914-c6fc-c3b7-a16e" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry></selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="ee4c-9ce8-f484-7807" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -3892,9 +3143,9 @@ British Units from a Formation with  Night Attack can move freely from the start
       </characteristics>
     </profile>
   </sharedProfiles>
-<sharedSelectionEntryGroups><selectionEntryGroup id="e03c-3877-455a-dc5f" name="Fortress Europe: British Force Command Cards" hidden="false" collective="false" import="true"><selectionEntries><selectionEntry id="f957-7587-8f40-d03a" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
+<sharedSelectionEntryGroups><selectionEntryGroup id="e03c-3877-455a-dc5f" name="Fortress Europe: British Force Command Cards" hidden="false" collective="false" import="true"><selectionEntries><selectionEntry id="3e32-0524-70d2-b750" name="Softskin Transport" hidden="false" collective="false" import="true" type="upgrade">
   <profiles>
-    <profile id="18a5-08fa-fcf5-c66e" name="Softskin Transport" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
+    <profile id="a462-6bfa-348f-6b30" name="Softskin Transport" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
         <characteristic name="Details" typeId="4091-e11a-c858-f46e">This Infantry or Gun Unit may add a Softskin Transport Attachment. The number of vehicles in the Unit is as follows:Add one Softskin Transport for every two Infantry Teams in the Unit.Add one Softskin Transport for each Gun Team in the UnitThe characteristics of a Softskin Transport are shown of the back of this card.
 MOTIVATIONCONFIDENT4+
@@ -3906,7 +3157,7 @@ Unarmoured: Team cannot Charge into Contact and must Break Off if Assaulted.</ch
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">British, Build, Unit (Infantry or Gun)</characteristic>
       </characteristics>
     </profile>
-    <profile id="aa71-15c3-1652-a086" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="b7ed-70e8-b8a3-d546" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">88a7cb89-1d9f-5eb6-859e-8050454ce0dc</characteristic>
       </characteristics>
@@ -3916,17 +3167,17 @@ Unarmoured: Team cannot Charge into Contact and must Break Off if Assaulted.</ch
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
   </costs>
   <categoryLinks>
-    <categoryLink id="2a72-7796-3e45-cd39" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+    <categoryLink id="0f19-1af3-ccbb-451b" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="b97b-9f6d-16d5-7e03" name="Indian Motor Company" hidden="false" collective="false" import="true" type="upgrade">
+</selectionEntry><selectionEntry id="23eb-dee2-6870-d64a" name="Indian Motor Company" hidden="false" collective="false" import="true" type="upgrade">
   <profiles>
-    <profile id="0ee7-5fbb-ee0a-267b" name="Indian Motor Company" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
+    <profile id="4faf-f331-8fd6-1f72" name="Indian Motor Company" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
         <characteristic name="Details" typeId="4091-e11a-c858-f46e">Enemy Units must re-roll their first successful Motivation Test to Counterattack an Infantry Unit in this Formation.</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">British, Build, Formation (Motor Company)</characteristic>
       </characteristics>
     </profile>
-    <profile id="6f61-275e-dd6b-7cb9" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="23fe-fc9f-38a9-bddd" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">bd519aea-dd3e-5c44-9ece-4b3f8f385f7b</characteristic>
       </characteristics>
@@ -3936,11 +3187,11 @@ Unarmoured: Team cannot Charge into Contact and must Break Off if Assaulted.</ch
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
   </costs>
   <categoryLinks>
-    <categoryLink id="7b96-2c7b-97d7-e4ad" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+    <categoryLink id="92c8-4681-462a-9e4b" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="fca3-0b6a-51c9-9914" name="New Zealand Rifle Company" hidden="false" collective="false" import="true" type="upgrade">
+</selectionEntry><selectionEntry id="afb1-dac1-4cc9-bd73" name="New Zealand Rifle Company" hidden="false" collective="false" import="true" type="upgrade">
   <profiles>
-    <profile id="99a3-dc6a-54e6-b320" name="New Zealand Rifle Company" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
+    <profile id="9b5b-ae75-0ce9-293b" name="New Zealand Rifle Company" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
         <characteristic name="Details" typeId="4091-e11a-c858-f46e">Rifle Company HQ and Rifle Platoons in this formation gain the Kiwi rating for +2 points per Rifle Platoon.
 
@@ -3953,7 +3204,7 @@ Unarmoured: Team cannot Charge into Contact and must Break Off if Assaulted.</ch
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">British, Build, Formation (Rifle Company)</characteristic>
       </characteristics>
     </profile>
-    <profile id="d48e-ad42-2794-7148" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="1aa6-8511-5283-908b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">96dff80c-fabe-53fb-b7d3-93f87e32abe5</characteristic>
       </characteristics>
@@ -3963,17 +3214,17 @@ Unarmoured: Team cannot Charge into Contact and must Break Off if Assaulted.</ch
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
   </costs>
   <categoryLinks>
-    <categoryLink id="10cd-1ca3-f217-a580" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+    <categoryLink id="7a40-a02a-cb6a-dd81" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="62d8-6cbd-86e8-f38d" name="Indian Rifle Company" hidden="false" collective="false" import="true" type="upgrade">
+</selectionEntry><selectionEntry id="890b-679b-d4ac-76bd" name="Indian Rifle Company" hidden="false" collective="false" import="true" type="upgrade">
   <profiles>
-    <profile id="0978-14c4-95ad-425f" name="Indian Rifle Company" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
+    <profile id="2e4d-da66-92c8-f32e" name="Indian Rifle Company" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
         <characteristic name="Details" typeId="4091-e11a-c858-f46e">Enemy Units must re-roll their first successful Motivation Test to Counter-attack an Infantry Unit in this Formation.</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">British, Build, Formation (Rifle Company)</characteristic>
       </characteristics>
     </profile>
-    <profile id="61d5-6f56-43ed-b42c" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="faee-e7e3-7115-8089" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">4edcb36f-d9b7-599a-a4e6-310274848f79</characteristic>
       </characteristics>
@@ -3983,17 +3234,17 @@ Unarmoured: Team cannot Charge into Contact and must Break Off if Assaulted.</ch
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
   </costs>
   <categoryLinks>
-    <categoryLink id="7f8a-144e-0923-6425" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+    <categoryLink id="b605-118d-2a67-bf9d" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="9f20-2ec8-d05a-98f7" name="Artillery Expert" hidden="false" collective="false" import="true" type="upgrade">
+</selectionEntry><selectionEntry id="2030-b9c7-f382-ca57" name="Artillery Expert" hidden="false" collective="false" import="true" type="upgrade">
   <profiles>
-    <profile id="3aa8-6b19-9468-fe7c" name="Artillery Expert" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
+    <profile id="a3ff-33dd-3839-2bdb" name="Artillery Expert" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
         <characteristic name="Details" typeId="4091-e11a-c858-f46e">At the start of a game, after deployment, reposition one of your Ranged In markers anywhere on the table.</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">British, Force, Limited</characteristic>
       </characteristics>
     </profile>
-    <profile id="3e32-0524-70d2-b750" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="7628-2d9b-60f1-5a2b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">686629f0-2805-554a-b75c-6faab4e4bebf</characteristic>
       </characteristics>
@@ -4003,17 +3254,17 @@ Unarmoured: Team cannot Charge into Contact and must Break Off if Assaulted.</ch
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
   </costs>
   <categoryLinks>
-    <categoryLink id="e33d-9e92-2b15-c655" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+    <categoryLink id="dd58-f43b-9f07-7db2" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="a462-6bfa-348f-6b30" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
+</selectionEntry><selectionEntry id="0a61-cef3-dbae-dfa7" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
   <profiles>
-    <profile id="0f19-1af3-ccbb-451b" name="Lucky" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
+    <profile id="c75b-4166-c546-87ca" name="Lucky" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
         <characteristic name="Details" typeId="4091-e11a-c858-f46e">Discard this card to re-roll any one die. The second result must be used.</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">British, Force, Limited</characteristic>
       </characteristics>
     </profile>
-    <profile id="23eb-dee2-6870-d64a" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="7b57-aa0d-3881-c414" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">b3ab4b8a-7f20-5116-b64e-bce2bb8791ca</characteristic>
       </characteristics>
@@ -4023,6 +3274,6 @@ Unarmoured: Team cannot Charge into Contact and must Break Off if Assaulted.</ch
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
   </costs>
   <categoryLinks>
-    <categoryLink id="b7ed-70e8-b8a3-d546" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
+    <categoryLink id="a16e-ab65-966c-74c4" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
   </categoryLinks>
 </selectionEntry></selectionEntries></selectionEntryGroup></sharedSelectionEntryGroups></catalogue>
