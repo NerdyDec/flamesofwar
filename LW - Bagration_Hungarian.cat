@@ -991,8 +991,13 @@ HuszárFollow Me 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="a62f-b4fe-45cd-5876" name="9x 31M MG &amp; 95M rifle team" hidden="false" collective="false" import="true" type="unit">
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="63bc-54d2-d8d2-34c9" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+<selectionEntryGroups><selectionEntryGroup id="28d8-cd76-143f-605a" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f860-43f6-d18e-9ff6" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d52-379b-58bf-ee5e" type="max"/></constraints><selectionEntries><selectionEntry id="a62f-b4fe-45cd-5876" name="9x 31M MG &amp; 95M rifle team" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
       </costs>
@@ -1002,14 +1007,7 @@ HuszárFollow Me 3+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-  </costs>
-  <categoryLinks>
-    <categoryLink id="63bc-54d2-d8d2-34c9" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="e2b5-0dd7-1634-a219" name="Zrínyi Tank-hunter Platoon (LH142)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="e2b5-0dd7-1634-a219" name="Zrínyi Tank-hunter Platoon (LH142)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="5bfc-51d1-7f84-3f8b" name="Zrínyi Tank-hunter Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -1054,20 +1052,18 @@ SP GunAssault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="2f14-252f-6015-66ad" name="3x Zrínyi (75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="e8f5-26f1-17d6-2253" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="c077-24c7-b6e9-31a9" name="Bagration: Hungarian Command Cards" hidden="false" collective="false" import="true" type="unit">
+<selectionEntryGroups><selectionEntryGroup id="9aac-cf1f-b962-4bae" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fda-ca54-1ea8-5d0c" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b0b-909f-caac-6dd9" type="max"/></constraints><selectionEntries><selectionEntry id="2f14-252f-6015-66ad" name="3x Zrínyi (75mm)" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="c077-24c7-b6e9-31a9" name="Bagration: Hungarian Command Cards" hidden="false" collective="false" import="true" type="unit">
   <selectionEntryGroups>
     <selectionEntryGroup id="7576-f314-da95-3dd8" name="Artillery" hidden="false" collective="false" import="true">
       <constraints>
@@ -1139,7 +1135,7 @@ SP GunAssault 4+</characteristic>
   <categoryLinks>
     <categoryLink id="46f8-5faa-05c7-7f18" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-<entryLinks><entryLink id="d61a-0ae1-be35-7b85" name="Zrínyi Tank-hunter Platoon (LH142)" hidden="false" collective="false" import="true" targetId="e2b5-0dd7-1634-a219" type="selectionEntry"/><entryLink id="2024-99a8-6d37-0e7e" name="Motorised Rifle Platoon (LH202)" hidden="false" collective="false" import="true" targetId="c706-ddb9-aff1-a2a3" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="8958-4f35-da88-7ab2" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" type="unit">
+<entryLinks><entryLink id="d61a-0ae1-be35-7b85" name="Zrínyi Tank-hunter Platoon (LH142)" hidden="false" collective="false" import="true" targetId="e2b5-0dd7-1634-a219" type="selectionEntry"/><entryLink id="2024-99a8-6d37-0e7e" name="Motorised Rifle Platoon (LH202)" hidden="false" collective="false" import="true" targetId="c706-ddb9-aff1-a2a3" type="selectionEntry"/><entryLink id="71e7-515e-cf8f-5155" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" targetId="3d91-359f-104e-96ad" type="selectionEntry"/><entryLink id="0789-a62a-dc7b-0cfb" name="40mm Bofors Anti-aircraft Platoon (LH133)" hidden="false" collective="false" import="true" targetId="b837-4ab4-0a7b-2d86" type="selectionEntry"/><entryLink id="26cc-99f1-6cef-71bc" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" targetId="a392-9d60-7374-b4d8" type="selectionEntry"/><entryLink id="2840-7a9b-1c6d-47cb" name="Huszár Troop (LH127)" hidden="false" collective="false" import="true" targetId="1ae7-cbd2-cf91-991c" type="selectionEntry"/><entryLink id="1a3b-23f0-5205-0e7c" name="7.5cm Heavy Anti-tank Platoon (LH126)" hidden="false" collective="false" import="true" targetId="b394-7104-1be5-3362" type="selectionEntry"/><entryLink id="1aa0-42c1-9e27-63e7" name="Ju 87 Stuka Dive Bomber Flight (LH135)" hidden="false" collective="false" import="true" targetId="985d-5931-6c05-5b6b" type="selectionEntry"/><entryLink id="1af7-4101-82df-d44c" name="Turán Tank Platoon (LH106)" hidden="false" collective="false" import="true" targetId="3cc6-dfdc-528e-7d0a" type="selectionEntry"/><entryLink id="0cec-a493-00e3-a654" name="150mm Rocket Launcher Battery (LH131)" hidden="false" collective="false" import="true" targetId="85be-5cc0-5517-4bb9" type="selectionEntry"/><entryLink id="4dcf-28cf-a55b-7d5d" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" targetId="8958-4f35-da88-7ab2" type="selectionEntry"/><entryLink id="6613-8e48-6e5a-e2c6" name="Toldi OP Observation Post (LH132)" hidden="false" collective="false" import="true" targetId="acf3-6807-be7b-ae17" type="selectionEntry"/><entryLink id="dbcf-43d1-6d91-a005" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" targetId="cf8d-f540-14d0-fd5f" type="selectionEntry"/><entryLink id="b30f-932a-eeaa-ef04" name="Panzer III Tank Platoon (LH110)" hidden="false" collective="false" import="true" targetId="6a32-d8e5-5e4d-855b" type="selectionEntry"/><entryLink id="15d3-2540-eaf8-d16c" name="Rifle Platoon (LH120)" hidden="false" collective="false" import="true" targetId="4412-9887-a08f-733e" type="selectionEntry"/><entryLink id="22c6-bf23-a21e-d046" name="Scout Platoon (LH128)" hidden="false" collective="false" import="true" targetId="955b-2f5c-c13c-8e37" type="selectionEntry"/><entryLink id="4d14-9b49-b730-fd79" name="Panther Tank Platoon (LH102)" hidden="false" collective="false" import="true" targetId="3081-b6da-8334-6710" type="selectionEntry"/><entryLink id="b1b3-ebb3-92a4-5238" name="Panzer IV Tank Platoon (LH109)" hidden="false" collective="false" import="true" targetId="f4cd-8e7c-746e-bd6e" type="selectionEntry"/><entryLink id="9339-4883-2cf4-803d" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" targetId="72dd-22d6-9123-e187" type="selectionEntry"/><entryLink id="7080-ad8c-d59e-8ed4" name="Tiger Tank Platoon (LH104)" hidden="false" collective="false" import="true" targetId="ff2d-5ca9-8502-f712" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="8958-4f35-da88-7ab2" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="48f2-72a9-07ce-683f" name="105mm Artillery Battery" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
@@ -1171,8 +1167,13 @@ GunAssault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="9247-fefc-3438-bd02" name="4x 105mm howitzer" hidden="false" collective="false" import="true" type="unit">
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="04d3-adca-802d-c984" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+<selectionEntryGroups><selectionEntryGroup id="b157-b50c-4fda-3f77" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6df0-fe95-823d-95e4" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b6b-f403-1da8-e975" type="max"/></constraints><selectionEntries><selectionEntry id="9247-fefc-3438-bd02" name="4x 105mm howitzer" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
       </costs>
@@ -1182,14 +1183,7 @@ GunAssault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-  </costs>
-  <categoryLinks>
-    <categoryLink id="04d3-adca-802d-c984" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="3d91-359f-104e-96ad" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="3d91-359f-104e-96ad" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="0432-208b-9fca-7b07" name="100mm Artillery Battery" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
@@ -1221,8 +1215,13 @@ GunAssault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="bb4a-b0af-2fd6-804a" name="4x 100mm howitzer" hidden="false" collective="false" import="true" type="unit">
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="3e8a-e131-ca8b-796b" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+<selectionEntryGroups><selectionEntryGroup id="af41-9581-9aae-c6c2" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5c1-145b-10fb-1e75" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f534-d4d2-c94d-fbaf" type="max"/></constraints><selectionEntries><selectionEntry id="bb4a-b0af-2fd6-804a" name="4x 100mm howitzer" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
       </costs>
@@ -1232,14 +1231,7 @@ GunAssault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-  </costs>
-  <categoryLinks>
-    <categoryLink id="3e8a-e131-ca8b-796b" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="85be-5cc0-5517-4bb9" name="150mm Rocket Launcher Battery (LH131)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="85be-5cc0-5517-4bb9" name="150mm Rocket Launcher Battery (LH131)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="bd11-9d08-85b2-e199" name="150mm Rocket Launcher Battery" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
@@ -1271,8 +1263,13 @@ GunAssault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="efd5-5021-8271-f945" name="6x 150mm rocket launcher" hidden="false" collective="false" import="true" type="unit">
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="b489-1b46-ee10-5c9c" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+<selectionEntryGroups><selectionEntryGroup id="29b3-4bc9-98f2-b100" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf24-a117-20e7-4b90" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4334-b61d-f746-4481" type="max"/></constraints><selectionEntries><selectionEntry id="efd5-5021-8271-f945" name="6x 150mm rocket launcher" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
       </costs>
@@ -1282,14 +1279,7 @@ GunAssault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-  </costs>
-  <categoryLinks>
-    <categoryLink id="b489-1b46-ee10-5c9c" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="acf3-6807-be7b-ae17" name="Toldi OP Observation Post (LH132)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="acf3-6807-be7b-ae17" name="Toldi OP Observation Post (LH132)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="f6eb-0df0-b36d-225b" name="Toldi OP Observation Post" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -1323,20 +1313,18 @@ ScoutLast Stand 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="fdc0-e9e0-4174-d330" name="1x Toldi OP (MG)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="93ae-feae-56a6-604e" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="b837-4ab4-0a7b-2d86" name="40mm Bofors Anti-aircraft Platoon (LH133)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntryGroups><selectionEntryGroup id="cde8-22b0-8ed8-9f76" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab79-a029-e1db-d0ae" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb36-cce2-0873-66e3" type="max"/></constraints><selectionEntries><selectionEntry id="fdc0-e9e0-4174-d330" name="1x Toldi OP (MG)" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="b837-4ab4-0a7b-2d86" name="40mm Bofors Anti-aircraft Platoon (LH133)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="2268-5ab0-1b91-1ccb" name="40mm Bofors Anti-aircraft Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
@@ -1368,20 +1356,18 @@ GunAssault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="b25f-40c3-e833-1f84" name="2x 40mm AA gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="f0cc-1741-56bf-1805" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="955b-2f5c-c13c-8e37" name="Scout Platoon (LH128)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntryGroups><selectionEntryGroup id="9c5d-b73c-b42b-89e6" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a65-1697-7832-430a" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bdc-1230-13f1-aeed" type="max"/></constraints><selectionEntries><selectionEntry id="b25f-40c3-e833-1f84" name="2x 40mm AA gun" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="955b-2f5c-c13c-8e37" name="Scout Platoon (LH128)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="a1a8-07bf-2705-0c44" name="Scout Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
@@ -1424,8 +1410,13 @@ ScoutAssault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="e55f-917d-43a5-fb49" name="7x 31M MG &amp; 95M rifle team" hidden="false" collective="false" import="true" type="unit">
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="9fda-4dbe-5094-cea2" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+<selectionEntryGroups><selectionEntryGroup id="8fa7-3178-fca9-c345" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fb3-0c6f-5cde-11e0" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e69-c120-3af4-f92f" type="max"/></constraints><selectionEntries><selectionEntry id="e55f-917d-43a5-fb49" name="7x 31M MG &amp; 95M rifle team" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
       </costs>
@@ -1435,14 +1426,7 @@ ScoutAssault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-  </costs>
-  <categoryLinks>
-    <categoryLink id="9fda-4dbe-5094-cea2" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="1ae7-cbd2-cf91-991c" name="Huszár Troop (LH127)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="1ae7-cbd2-cf91-991c" name="Huszár Troop (LH127)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="ea23-f74c-ac97-eec0" name="Huszár Troop" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
@@ -1484,8 +1468,13 @@ HuszárFollow Me 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="37d4-4972-7c57-2415" name="7x 31M MG &amp; 95M rifle team" hidden="false" collective="false" import="true" type="unit">
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="4b8c-920e-6e27-0ea6" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+<selectionEntryGroups><selectionEntryGroup id="eb86-028a-6d2e-f591" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8909-0068-2057-e8be" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b93-2866-2302-66ed" type="max"/></constraints><selectionEntries><selectionEntry id="37d4-4972-7c57-2415" name="7x 31M MG &amp; 95M rifle team" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
       </costs>
@@ -1495,14 +1484,7 @@ HuszárFollow Me 3+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-  </costs>
-  <categoryLinks>
-    <categoryLink id="4b8c-920e-6e27-0ea6" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="b394-7104-1be5-3362" name="7.5cm Heavy Anti-tank Platoon (LH126)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="b394-7104-1be5-3362" name="7.5cm Heavy Anti-tank Platoon (LH126)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="ac92-f082-65a4-ba73" name="7.5cm Heavy Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
@@ -1535,8 +1517,13 @@ GunAssault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="5d55-547f-2782-a4ab" name="3x 7.5cm gun" hidden="false" collective="false" import="true" type="unit">
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="9157-efe5-31a0-3d18" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+<selectionEntryGroups><selectionEntryGroup id="0c32-cec5-8f9e-6989" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a254-1507-f74d-e497" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e5b-ad8e-02e6-e6d4" type="max"/></constraints><selectionEntries><selectionEntry id="5d55-547f-2782-a4ab" name="3x 7.5cm gun" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
       </costs>
@@ -1546,14 +1533,7 @@ GunAssault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-  </costs>
-  <categoryLinks>
-    <categoryLink id="9157-efe5-31a0-3d18" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="985d-5931-6c05-5b6b" name="Ju 87 Stuka Dive Bomber Flight (LH135)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="985d-5931-6c05-5b6b" name="Ju 87 Stuka Dive Bomber Flight (LH135)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="c0ab-d277-8ec4-7f78" name="Ju 87 Stuka Dive Bomber Flight" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft Unit" hidden="false">
       <characteristics>
@@ -1581,20 +1561,18 @@ GunAssault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="33cb-9326-e625-cd82" name="2x Ju 87 Stuka" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="b57d-aa4a-ce70-241b" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="3081-b6da-8334-6710" name="Panther Tank Platoon (LH102)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntryGroups><selectionEntryGroup id="888f-e125-60d7-16ae" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="158d-aed9-6727-4382" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0127-6660-faa6-372c" type="max"/></constraints><selectionEntries><selectionEntry id="33cb-9326-e625-cd82" name="2x Ju 87 Stuka" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="3081-b6da-8334-6710" name="Panther Tank Platoon (LH102)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="d97b-6d6a-ce74-93a5" name="Panther Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -1638,8 +1616,13 @@ HuszárFollow Me 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="96b9-e982-482e-d3df" name="3x Panther (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="5a43-4373-22b3-d410" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+<selectionEntryGroups><selectionEntryGroup id="4f35-083f-721c-4c7f" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cab5-7fd9-0fbb-f727" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a574-0588-cff0-121e" type="max"/></constraints><selectionEntries><selectionEntry id="96b9-e982-482e-d3df" name="3x Panther (7.5cm)" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
       </costs>
@@ -1649,14 +1632,7 @@ HuszárFollow Me 3+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-  </costs>
-  <categoryLinks>
-    <categoryLink id="5a43-4373-22b3-d410" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="ff2d-5ca9-8502-f712" name="Tiger Tank Platoon (LH104)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="ff2d-5ca9-8502-f712" name="Tiger Tank Platoon (LH104)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="e54c-10bb-235e-f34b" name="Tiger Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -1700,8 +1676,13 @@ Protected AmmoRemount 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="d93a-7270-0237-6102" name="3x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="unit">
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="84ba-77d0-0d8f-8e98" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+<selectionEntryGroups><selectionEntryGroup id="82d8-e078-b638-76ed" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ee8-ba32-e878-b27d" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60d8-2735-2c5f-b7f8" type="max"/></constraints><selectionEntries><selectionEntry id="d93a-7270-0237-6102" name="3x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
       </costs>
@@ -1711,14 +1692,7 @@ Protected AmmoRemount 3+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-  </costs>
-  <categoryLinks>
-    <categoryLink id="84ba-77d0-0d8f-8e98" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="3cc6-dfdc-528e-7d0a" name="Turán Tank Platoon (LH106)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="3cc6-dfdc-528e-7d0a" name="Turán Tank Platoon (LH106)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="36fc-3d8f-d5a2-a7b5" name="Turán Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -1772,8 +1746,13 @@ Protected AmmoRemount 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="a070-127b-f1e7-9741" name="5x Turán I (40mm)" hidden="false" collective="false" import="true" type="unit">
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="26fa-4d7e-dd8c-4ff9" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+<selectionEntryGroups><selectionEntryGroup id="3eb2-1122-8e3e-61d9" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8004-a996-e35b-8e6e" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1523-7bc9-c187-4c65" type="max"/></constraints><selectionEntries><selectionEntry id="a070-127b-f1e7-9741" name="5x Turán I (40mm)" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
       </costs>
@@ -1793,14 +1772,7 @@ Protected AmmoRemount 3+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-  </costs>
-  <categoryLinks>
-    <categoryLink id="26fa-4d7e-dd8c-4ff9" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="f4cd-8e7c-746e-bd6e" name="Panzer IV Tank Platoon (LH109)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="f4cd-8e7c-746e-bd6e" name="Panzer IV Tank Platoon (LH109)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="f337-537c-7a47-3594" name="Panzer IV Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -1844,8 +1816,13 @@ Protected AmmoRemount 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="03fa-dad3-f94a-c24c" name="4x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="de63-1632-6fec-7f82" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+<selectionEntryGroups><selectionEntryGroup id="b9ae-12d8-2a6d-80d8" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3be3-d2a4-e17c-1319" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7be-db1d-2d8e-7ba8" type="max"/></constraints><selectionEntries><selectionEntry id="03fa-dad3-f94a-c24c" name="4x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
       </costs>
@@ -1855,14 +1832,7 @@ Protected AmmoRemount 3+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-  </costs>
-  <categoryLinks>
-    <categoryLink id="de63-1632-6fec-7f82" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="6a32-d8e5-5e4d-855b" name="Panzer III Tank Platoon (LH110)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="6a32-d8e5-5e4d-855b" name="Panzer III Tank Platoon (LH110)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="705b-5b1d-ffc6-9cfd" name="Panzer III Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -1906,8 +1876,13 @@ Protected AmmoRemount 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="e1eb-b91f-1797-b6db" name="4x Panzer III (5cm)" hidden="false" collective="false" import="true" type="unit">
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="020a-d619-bbb2-782a" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+<selectionEntryGroups><selectionEntryGroup id="131e-ad31-2f24-4f7a" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a865-3190-ad25-cd3f" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c78c-b3a6-b8bb-d7fc" type="max"/></constraints><selectionEntries><selectionEntry id="e1eb-b91f-1797-b6db" name="4x Panzer III (5cm)" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
       </costs>
@@ -1917,14 +1892,7 @@ Protected AmmoRemount 3+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-  </costs>
-  <categoryLinks>
-    <categoryLink id="020a-d619-bbb2-782a" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="72dd-22d6-9123-e187" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="72dd-22d6-9123-e187" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="b2b1-acb0-b53a-aa5b" name="Zrínyi Assault Gun Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -1969,20 +1937,18 @@ SP GunAssault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="2f7c-6a0c-79f1-89e0" name="3x Zrínyi (105mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="b941-5ca7-a9eb-88d8" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="a392-9d60-7374-b4d8" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntryGroups><selectionEntryGroup id="6c8f-dcdd-51fb-7373" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="125a-8682-41c0-da8e" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19b4-28a6-dd7b-1b6b" type="max"/></constraints><selectionEntries><selectionEntry id="2f7c-6a0c-79f1-89e0" name="3x Zrínyi (105mm)" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="a392-9d60-7374-b4d8" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="bb60-b5ba-ed1b-6b0f" name="StuG Assault Gun Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -2027,20 +1993,18 @@ SP GunAssault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="6c25-3fc7-d557-0656" name="3x StuG (7.5cm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="a3ee-ad4e-91de-a7a0" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="cf8d-f540-14d0-fd5f" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntryGroups><selectionEntryGroup id="6c4b-7e05-4372-b4dd" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="718d-620e-2169-ba5f" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a6b-37b2-ca50-12a8" type="max"/></constraints><selectionEntries><selectionEntry id="6c25-3fc7-d557-0656" name="3x StuG (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="cf8d-f540-14d0-fd5f" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="2d65-4390-0e9a-94c5" name="Hetzer Assault Gun Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -2085,8 +2049,13 @@ SP GunAssault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="7861-7eb4-5478-abfb" name="5x Hetzer (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="8725-18bf-c999-4291" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+<selectionEntryGroups><selectionEntryGroup id="6417-334c-53f2-e76a" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cff3-dd75-0101-e023" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c0f-82c2-c891-05b2" type="max"/></constraints><selectionEntries><selectionEntry id="7861-7eb4-5478-abfb" name="5x Hetzer (7.5cm)" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
       </costs>
@@ -2101,14 +2070,7 @@ SP GunAssault 4+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-  </costs>
-  <categoryLinks>
-    <categoryLink id="8725-18bf-c999-4291" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="4412-9887-a08f-733e" name="Rifle Platoon (LH120)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="4412-9887-a08f-733e" name="Rifle Platoon (LH120)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="3671-0e75-1021-863d" name="Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
@@ -2170,8 +2132,13 @@ Home DefenceLast Stand 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="2592-cb65-9953-88f6" name="10x 31M MG &amp; 95M rifle team" hidden="false" collective="false" import="true" type="unit">
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="4e4a-ad3a-b639-b021" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+<selectionEntryGroups><selectionEntryGroup id="90c0-426b-b1c1-f909" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21f8-dfe9-7640-c788" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0216-8ad2-8904-dde6" type="max"/></constraints><selectionEntries><selectionEntry id="2592-cb65-9953-88f6" name="10x 31M MG &amp; 95M rifle team" hidden="false" collective="false" import="true" type="unit">
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
       </costs>
@@ -2181,14 +2148,7 @@ Home DefenceLast Stand 3+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <costs>
-    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-  </costs>
-  <categoryLinks>
-    <categoryLink id="4e4a-ad3a-b639-b021" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
-  </categoryLinks>
-</selectionEntry><selectionEntry id="6fad-b8da-eacd-44d3" name="Panther Tank Company" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="6fad-b8da-eacd-44d3" name="Panther Tank Company" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="9371-ebc0-f6e2-85b3" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
@@ -2265,7 +2225,7 @@ Home DefenceLast Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="a765-c6bb-ee62-4c6c" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="c78a-0602-7c45-91fd" name="Tiger Tank Company" hidden="false" collective="false" import="true" type="unit">
+<entryLinks><entryLink id="560b-bdf6-4a03-8386" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" targetId="3d91-359f-104e-96ad" type="selectionEntry"/><entryLink id="2a08-0cea-538a-2457" name="40mm Bofors Anti-aircraft Platoon (LH133)" hidden="false" collective="false" import="true" targetId="b837-4ab4-0a7b-2d86" type="selectionEntry"/><entryLink id="2d64-fb06-4e3f-a7d9" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" targetId="a392-9d60-7374-b4d8" type="selectionEntry"/><entryLink id="fe15-adbf-d5b1-bc83" name="Huszár Troop (LH127)" hidden="false" collective="false" import="true" targetId="1ae7-cbd2-cf91-991c" type="selectionEntry"/><entryLink id="d55c-721f-7ae7-a6ee" name="7.5cm Heavy Anti-tank Platoon (LH126)" hidden="false" collective="false" import="true" targetId="b394-7104-1be5-3362" type="selectionEntry"/><entryLink id="d0d6-3e82-11a6-e3b8" name="Ju 87 Stuka Dive Bomber Flight (LH135)" hidden="false" collective="false" import="true" targetId="985d-5931-6c05-5b6b" type="selectionEntry"/><entryLink id="5a34-6a57-e7f4-9045" name="Turán Tank Platoon (LH106)" hidden="false" collective="false" import="true" targetId="3cc6-dfdc-528e-7d0a" type="selectionEntry"/><entryLink id="57c3-7e0a-0aab-c0f1" name="150mm Rocket Launcher Battery (LH131)" hidden="false" collective="false" import="true" targetId="85be-5cc0-5517-4bb9" type="selectionEntry"/><entryLink id="4cc1-8313-78a8-edfa" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" targetId="8958-4f35-da88-7ab2" type="selectionEntry"/><entryLink id="6d9f-987d-c17a-a326" name="Toldi OP Observation Post (LH132)" hidden="false" collective="false" import="true" targetId="acf3-6807-be7b-ae17" type="selectionEntry"/><entryLink id="1b44-114a-6c8b-5624" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" targetId="cf8d-f540-14d0-fd5f" type="selectionEntry"/><entryLink id="5f50-3bed-382f-a58a" name="Panzer III Tank Platoon (LH110)" hidden="false" collective="false" import="true" targetId="6a32-d8e5-5e4d-855b" type="selectionEntry"/><entryLink id="4e74-3c05-d233-67ff" name="Rifle Platoon (LH120)" hidden="false" collective="false" import="true" targetId="4412-9887-a08f-733e" type="selectionEntry"/><entryLink id="99f2-e919-8b2d-df69" name="Scout Platoon (LH128)" hidden="false" collective="false" import="true" targetId="955b-2f5c-c13c-8e37" type="selectionEntry"/><entryLink id="f4dc-41a8-5865-7931" name="Panther Tank Platoon (LH102)" hidden="false" collective="false" import="true" targetId="3081-b6da-8334-6710" type="selectionEntry"/><entryLink id="6982-17af-3e28-3b45" name="Panzer IV Tank Platoon (LH109)" hidden="false" collective="false" import="true" targetId="f4cd-8e7c-746e-bd6e" type="selectionEntry"/><entryLink id="a5b9-6284-c0b0-c0a9" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" targetId="72dd-22d6-9123-e187" type="selectionEntry"/><entryLink id="2f39-565a-e84d-0e26" name="Tiger Tank Platoon (LH104)" hidden="false" collective="false" import="true" targetId="ff2d-5ca9-8502-f712" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="c78a-0602-7c45-91fd" name="Tiger Tank Company" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="f975-0b1a-cfa4-ca12" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
@@ -2342,7 +2302,7 @@ Home DefenceLast Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="b357-9a8b-b0da-4dc0" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="83a6-3374-2ca7-f0b9" name="Zrínyi Assault Gun Company" hidden="false" collective="false" import="true" type="unit">
+<entryLinks><entryLink id="a925-314e-2b10-2199" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" targetId="3d91-359f-104e-96ad" type="selectionEntry"/><entryLink id="0e7b-7cc3-a594-10e4" name="40mm Bofors Anti-aircraft Platoon (LH133)" hidden="false" collective="false" import="true" targetId="b837-4ab4-0a7b-2d86" type="selectionEntry"/><entryLink id="ecf6-a414-4d35-60bc" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" targetId="a392-9d60-7374-b4d8" type="selectionEntry"/><entryLink id="22c9-5061-d0fc-c584" name="Huszár Troop (LH127)" hidden="false" collective="false" import="true" targetId="1ae7-cbd2-cf91-991c" type="selectionEntry"/><entryLink id="79b0-d144-18d2-c551" name="7.5cm Heavy Anti-tank Platoon (LH126)" hidden="false" collective="false" import="true" targetId="b394-7104-1be5-3362" type="selectionEntry"/><entryLink id="2dd8-4350-6d85-df99" name="Ju 87 Stuka Dive Bomber Flight (LH135)" hidden="false" collective="false" import="true" targetId="985d-5931-6c05-5b6b" type="selectionEntry"/><entryLink id="5aee-9a9e-172f-6b25" name="Turán Tank Platoon (LH106)" hidden="false" collective="false" import="true" targetId="3cc6-dfdc-528e-7d0a" type="selectionEntry"/><entryLink id="49fe-1bef-4d63-722c" name="150mm Rocket Launcher Battery (LH131)" hidden="false" collective="false" import="true" targetId="85be-5cc0-5517-4bb9" type="selectionEntry"/><entryLink id="ddfe-70ba-7c06-f467" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" targetId="8958-4f35-da88-7ab2" type="selectionEntry"/><entryLink id="c0f3-3f66-457d-93ac" name="Toldi OP Observation Post (LH132)" hidden="false" collective="false" import="true" targetId="acf3-6807-be7b-ae17" type="selectionEntry"/><entryLink id="c648-467b-70ea-5e40" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" targetId="cf8d-f540-14d0-fd5f" type="selectionEntry"/><entryLink id="adbe-d116-4bf4-38aa" name="Panzer III Tank Platoon (LH110)" hidden="false" collective="false" import="true" targetId="6a32-d8e5-5e4d-855b" type="selectionEntry"/><entryLink id="9724-a4dc-553b-5a14" name="Rifle Platoon (LH120)" hidden="false" collective="false" import="true" targetId="4412-9887-a08f-733e" type="selectionEntry"/><entryLink id="e9ca-76a0-7260-87d6" name="Scout Platoon (LH128)" hidden="false" collective="false" import="true" targetId="955b-2f5c-c13c-8e37" type="selectionEntry"/><entryLink id="1bc9-02d8-e614-273b" name="Panther Tank Platoon (LH102)" hidden="false" collective="false" import="true" targetId="3081-b6da-8334-6710" type="selectionEntry"/><entryLink id="4396-2b63-71ac-64db" name="Panzer IV Tank Platoon (LH109)" hidden="false" collective="false" import="true" targetId="f4cd-8e7c-746e-bd6e" type="selectionEntry"/><entryLink id="5337-47bf-bf71-5feb" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" targetId="72dd-22d6-9123-e187" type="selectionEntry"/><entryLink id="fae8-7159-945e-c094" name="Tiger Tank Platoon (LH104)" hidden="false" collective="false" import="true" targetId="ff2d-5ca9-8502-f712" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="83a6-3374-2ca7-f0b9" name="Zrínyi Assault Gun Company" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="ecd3-c65c-7aae-03d4" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
@@ -2419,7 +2379,7 @@ Home DefenceLast Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="3b42-4d70-e242-dd28" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="0f42-713e-f644-2cbc" name="StuG Assault Gun Company" hidden="false" collective="false" import="true" type="unit">
+<entryLinks><entryLink id="59c8-9fc6-9986-c895" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" targetId="3d91-359f-104e-96ad" type="selectionEntry"/><entryLink id="a8bc-b705-4eda-965c" name="40mm Bofors Anti-aircraft Platoon (LH133)" hidden="false" collective="false" import="true" targetId="b837-4ab4-0a7b-2d86" type="selectionEntry"/><entryLink id="75a2-a4fa-0cf6-1819" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" targetId="a392-9d60-7374-b4d8" type="selectionEntry"/><entryLink id="4f5a-2836-7325-96a8" name="Huszár Troop (LH127)" hidden="false" collective="false" import="true" targetId="1ae7-cbd2-cf91-991c" type="selectionEntry"/><entryLink id="447e-d66b-f9e1-e80a" name="7.5cm Heavy Anti-tank Platoon (LH126)" hidden="false" collective="false" import="true" targetId="b394-7104-1be5-3362" type="selectionEntry"/><entryLink id="658e-8e05-a50f-78d1" name="Ju 87 Stuka Dive Bomber Flight (LH135)" hidden="false" collective="false" import="true" targetId="985d-5931-6c05-5b6b" type="selectionEntry"/><entryLink id="30cc-e0ce-c8fb-3e5d" name="Turán Tank Platoon (LH106)" hidden="false" collective="false" import="true" targetId="3cc6-dfdc-528e-7d0a" type="selectionEntry"/><entryLink id="a046-ca74-2c94-82d5" name="150mm Rocket Launcher Battery (LH131)" hidden="false" collective="false" import="true" targetId="85be-5cc0-5517-4bb9" type="selectionEntry"/><entryLink id="620d-564d-1296-db2f" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" targetId="8958-4f35-da88-7ab2" type="selectionEntry"/><entryLink id="b306-a99b-181b-1529" name="Toldi OP Observation Post (LH132)" hidden="false" collective="false" import="true" targetId="acf3-6807-be7b-ae17" type="selectionEntry"/><entryLink id="b007-7dc8-426a-cfa5" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" targetId="cf8d-f540-14d0-fd5f" type="selectionEntry"/><entryLink id="4f04-3503-5bf9-3ef4" name="Panzer III Tank Platoon (LH110)" hidden="false" collective="false" import="true" targetId="6a32-d8e5-5e4d-855b" type="selectionEntry"/><entryLink id="757a-4001-6e84-2367" name="Rifle Platoon (LH120)" hidden="false" collective="false" import="true" targetId="4412-9887-a08f-733e" type="selectionEntry"/><entryLink id="584d-37f9-5ba9-1b1b" name="Scout Platoon (LH128)" hidden="false" collective="false" import="true" targetId="955b-2f5c-c13c-8e37" type="selectionEntry"/><entryLink id="1413-b74d-c3b6-52c4" name="Panther Tank Platoon (LH102)" hidden="false" collective="false" import="true" targetId="3081-b6da-8334-6710" type="selectionEntry"/><entryLink id="7c57-8df3-6e57-85c8" name="Panzer IV Tank Platoon (LH109)" hidden="false" collective="false" import="true" targetId="f4cd-8e7c-746e-bd6e" type="selectionEntry"/><entryLink id="a6f9-9356-a618-2ebf" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" targetId="72dd-22d6-9123-e187" type="selectionEntry"/><entryLink id="eb40-be39-f5e8-e51b" name="Tiger Tank Platoon (LH104)" hidden="false" collective="false" import="true" targetId="ff2d-5ca9-8502-f712" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="0f42-713e-f644-2cbc" name="StuG Assault Gun Company" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="1031-ea4d-a8ef-714c" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
@@ -2496,7 +2456,7 @@ Home DefenceLast Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="d61e-1ad8-0159-4524" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="be06-b85b-39db-b62d" name="Turán Tank Company" hidden="false" collective="false" import="true" type="unit">
+<entryLinks><entryLink id="faf6-fd05-5240-a9d3" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" targetId="3d91-359f-104e-96ad" type="selectionEntry"/><entryLink id="88c7-7dc7-07be-e80a" name="40mm Bofors Anti-aircraft Platoon (LH133)" hidden="false" collective="false" import="true" targetId="b837-4ab4-0a7b-2d86" type="selectionEntry"/><entryLink id="fc38-c699-8782-189c" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" targetId="a392-9d60-7374-b4d8" type="selectionEntry"/><entryLink id="219d-6bb2-7706-cbfb" name="Huszár Troop (LH127)" hidden="false" collective="false" import="true" targetId="1ae7-cbd2-cf91-991c" type="selectionEntry"/><entryLink id="8406-0c52-0309-013a" name="7.5cm Heavy Anti-tank Platoon (LH126)" hidden="false" collective="false" import="true" targetId="b394-7104-1be5-3362" type="selectionEntry"/><entryLink id="432d-08b8-b7e7-7c9a" name="Ju 87 Stuka Dive Bomber Flight (LH135)" hidden="false" collective="false" import="true" targetId="985d-5931-6c05-5b6b" type="selectionEntry"/><entryLink id="bce9-ed22-f819-9f04" name="Turán Tank Platoon (LH106)" hidden="false" collective="false" import="true" targetId="3cc6-dfdc-528e-7d0a" type="selectionEntry"/><entryLink id="2f9d-da54-abb2-ec4c" name="150mm Rocket Launcher Battery (LH131)" hidden="false" collective="false" import="true" targetId="85be-5cc0-5517-4bb9" type="selectionEntry"/><entryLink id="cc99-6bc7-7d08-7c3c" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" targetId="8958-4f35-da88-7ab2" type="selectionEntry"/><entryLink id="02c3-1074-dcbe-1a5c" name="Toldi OP Observation Post (LH132)" hidden="false" collective="false" import="true" targetId="acf3-6807-be7b-ae17" type="selectionEntry"/><entryLink id="d3ae-447a-d334-5b5e" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" targetId="cf8d-f540-14d0-fd5f" type="selectionEntry"/><entryLink id="92c2-b5c4-8688-d12b" name="Panzer III Tank Platoon (LH110)" hidden="false" collective="false" import="true" targetId="6a32-d8e5-5e4d-855b" type="selectionEntry"/><entryLink id="92e7-0939-7ce7-5679" name="Rifle Platoon (LH120)" hidden="false" collective="false" import="true" targetId="4412-9887-a08f-733e" type="selectionEntry"/><entryLink id="1548-5a94-d028-dc94" name="Scout Platoon (LH128)" hidden="false" collective="false" import="true" targetId="955b-2f5c-c13c-8e37" type="selectionEntry"/><entryLink id="aa84-1170-a9ec-7b8f" name="Panther Tank Platoon (LH102)" hidden="false" collective="false" import="true" targetId="3081-b6da-8334-6710" type="selectionEntry"/><entryLink id="955d-2bb4-1e8b-406f" name="Panzer IV Tank Platoon (LH109)" hidden="false" collective="false" import="true" targetId="f4cd-8e7c-746e-bd6e" type="selectionEntry"/><entryLink id="be5a-6384-cdec-d449" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" targetId="72dd-22d6-9123-e187" type="selectionEntry"/><entryLink id="38a7-5d14-ccd6-4b06" name="Tiger Tank Platoon (LH104)" hidden="false" collective="false" import="true" targetId="ff2d-5ca9-8502-f712" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="be06-b85b-39db-b62d" name="Turán Tank Company" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="d910-9b6b-b8ed-a152" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
@@ -2573,7 +2533,7 @@ Home DefenceLast Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="57de-d0e5-4c8f-4d66" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="0d18-f120-7151-3201" name="Panzer IV Tank Company" hidden="false" collective="false" import="true" type="unit">
+<entryLinks><entryLink id="592f-51eb-1cae-7321" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" targetId="3d91-359f-104e-96ad" type="selectionEntry"/><entryLink id="63a0-28e4-ce0f-570d" name="40mm Bofors Anti-aircraft Platoon (LH133)" hidden="false" collective="false" import="true" targetId="b837-4ab4-0a7b-2d86" type="selectionEntry"/><entryLink id="6ecd-63cd-de86-dca9" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" targetId="a392-9d60-7374-b4d8" type="selectionEntry"/><entryLink id="30e5-e815-7da5-9a10" name="Huszár Troop (LH127)" hidden="false" collective="false" import="true" targetId="1ae7-cbd2-cf91-991c" type="selectionEntry"/><entryLink id="3f21-39d1-aeb6-69b2" name="7.5cm Heavy Anti-tank Platoon (LH126)" hidden="false" collective="false" import="true" targetId="b394-7104-1be5-3362" type="selectionEntry"/><entryLink id="ab03-f313-2635-cd1d" name="Ju 87 Stuka Dive Bomber Flight (LH135)" hidden="false" collective="false" import="true" targetId="985d-5931-6c05-5b6b" type="selectionEntry"/><entryLink id="dcc1-663e-04da-407f" name="Turán Tank Platoon (LH106)" hidden="false" collective="false" import="true" targetId="3cc6-dfdc-528e-7d0a" type="selectionEntry"/><entryLink id="e2d3-075a-860e-759f" name="150mm Rocket Launcher Battery (LH131)" hidden="false" collective="false" import="true" targetId="85be-5cc0-5517-4bb9" type="selectionEntry"/><entryLink id="56c1-f9a0-d1d6-a861" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" targetId="8958-4f35-da88-7ab2" type="selectionEntry"/><entryLink id="c56e-f8a2-b778-1a23" name="Toldi OP Observation Post (LH132)" hidden="false" collective="false" import="true" targetId="acf3-6807-be7b-ae17" type="selectionEntry"/><entryLink id="eb7f-0f23-b62e-f14e" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" targetId="cf8d-f540-14d0-fd5f" type="selectionEntry"/><entryLink id="a7d0-bd47-cead-66cc" name="Panzer III Tank Platoon (LH110)" hidden="false" collective="false" import="true" targetId="6a32-d8e5-5e4d-855b" type="selectionEntry"/><entryLink id="1dbe-f913-5508-1573" name="Rifle Platoon (LH120)" hidden="false" collective="false" import="true" targetId="4412-9887-a08f-733e" type="selectionEntry"/><entryLink id="8ca9-b0ee-f979-5f2f" name="Scout Platoon (LH128)" hidden="false" collective="false" import="true" targetId="955b-2f5c-c13c-8e37" type="selectionEntry"/><entryLink id="84f6-2350-b525-6243" name="Panther Tank Platoon (LH102)" hidden="false" collective="false" import="true" targetId="3081-b6da-8334-6710" type="selectionEntry"/><entryLink id="1ada-993b-8b62-0e06" name="Panzer IV Tank Platoon (LH109)" hidden="false" collective="false" import="true" targetId="f4cd-8e7c-746e-bd6e" type="selectionEntry"/><entryLink id="7f19-08e0-fcb0-c5f7" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" targetId="72dd-22d6-9123-e187" type="selectionEntry"/><entryLink id="9383-5483-f73c-0343" name="Tiger Tank Platoon (LH104)" hidden="false" collective="false" import="true" targetId="ff2d-5ca9-8502-f712" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="0d18-f120-7151-3201" name="Panzer IV Tank Company" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="f76a-c599-5750-f3a5" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
@@ -2650,7 +2610,7 @@ Home DefenceLast Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="19b6-71b5-a163-33ba" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="c32e-535c-a02e-97a7" name="Hetzer Assault Gun Company" hidden="false" collective="false" import="true" type="unit">
+<entryLinks><entryLink id="92df-3c4e-218b-e482" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" targetId="3d91-359f-104e-96ad" type="selectionEntry"/><entryLink id="79f0-9695-0dd6-c81b" name="40mm Bofors Anti-aircraft Platoon (LH133)" hidden="false" collective="false" import="true" targetId="b837-4ab4-0a7b-2d86" type="selectionEntry"/><entryLink id="9235-0ff8-155e-6d06" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" targetId="a392-9d60-7374-b4d8" type="selectionEntry"/><entryLink id="37b7-c856-a016-7557" name="Huszár Troop (LH127)" hidden="false" collective="false" import="true" targetId="1ae7-cbd2-cf91-991c" type="selectionEntry"/><entryLink id="e69f-67d8-ac52-2640" name="7.5cm Heavy Anti-tank Platoon (LH126)" hidden="false" collective="false" import="true" targetId="b394-7104-1be5-3362" type="selectionEntry"/><entryLink id="0311-355a-a207-b34f" name="Ju 87 Stuka Dive Bomber Flight (LH135)" hidden="false" collective="false" import="true" targetId="985d-5931-6c05-5b6b" type="selectionEntry"/><entryLink id="fd11-871e-82e9-7fd3" name="Turán Tank Platoon (LH106)" hidden="false" collective="false" import="true" targetId="3cc6-dfdc-528e-7d0a" type="selectionEntry"/><entryLink id="0a3c-4705-216d-5043" name="150mm Rocket Launcher Battery (LH131)" hidden="false" collective="false" import="true" targetId="85be-5cc0-5517-4bb9" type="selectionEntry"/><entryLink id="44ee-85f0-7ad4-b494" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" targetId="8958-4f35-da88-7ab2" type="selectionEntry"/><entryLink id="ca0b-98ac-b7c9-e717" name="Toldi OP Observation Post (LH132)" hidden="false" collective="false" import="true" targetId="acf3-6807-be7b-ae17" type="selectionEntry"/><entryLink id="3e23-3854-ba89-0dcb" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" targetId="cf8d-f540-14d0-fd5f" type="selectionEntry"/><entryLink id="178a-66c2-f4de-4eef" name="Panzer III Tank Platoon (LH110)" hidden="false" collective="false" import="true" targetId="6a32-d8e5-5e4d-855b" type="selectionEntry"/><entryLink id="8502-35d7-d24d-8d2d" name="Rifle Platoon (LH120)" hidden="false" collective="false" import="true" targetId="4412-9887-a08f-733e" type="selectionEntry"/><entryLink id="0812-3bd7-d0f1-0f92" name="Scout Platoon (LH128)" hidden="false" collective="false" import="true" targetId="955b-2f5c-c13c-8e37" type="selectionEntry"/><entryLink id="8f88-489d-3703-4e39" name="Panther Tank Platoon (LH102)" hidden="false" collective="false" import="true" targetId="3081-b6da-8334-6710" type="selectionEntry"/><entryLink id="8e3f-3788-5513-8dd3" name="Panzer IV Tank Platoon (LH109)" hidden="false" collective="false" import="true" targetId="f4cd-8e7c-746e-bd6e" type="selectionEntry"/><entryLink id="75d4-164a-67cb-b99b" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" targetId="72dd-22d6-9123-e187" type="selectionEntry"/><entryLink id="f772-3570-50d3-7c38" name="Tiger Tank Platoon (LH104)" hidden="false" collective="false" import="true" targetId="ff2d-5ca9-8502-f712" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="c32e-535c-a02e-97a7" name="Hetzer Assault Gun Company" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="ded7-0b92-472d-1b40" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
@@ -2727,7 +2687,7 @@ Home DefenceLast Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="28ce-f3a7-3c4a-a78a" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="e926-1854-a374-929c" name="Rifle Company" hidden="false" collective="false" import="true" type="unit">
+<entryLinks><entryLink id="f240-56e3-8961-7c4c" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" targetId="3d91-359f-104e-96ad" type="selectionEntry"/><entryLink id="a468-c270-5ef1-14cc" name="40mm Bofors Anti-aircraft Platoon (LH133)" hidden="false" collective="false" import="true" targetId="b837-4ab4-0a7b-2d86" type="selectionEntry"/><entryLink id="7cc0-a84b-4fdb-a987" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" targetId="a392-9d60-7374-b4d8" type="selectionEntry"/><entryLink id="26f3-16b0-b7d6-88ae" name="Huszár Troop (LH127)" hidden="false" collective="false" import="true" targetId="1ae7-cbd2-cf91-991c" type="selectionEntry"/><entryLink id="5a42-6491-dbd6-9281" name="7.5cm Heavy Anti-tank Platoon (LH126)" hidden="false" collective="false" import="true" targetId="b394-7104-1be5-3362" type="selectionEntry"/><entryLink id="404e-e979-4132-c20d" name="Ju 87 Stuka Dive Bomber Flight (LH135)" hidden="false" collective="false" import="true" targetId="985d-5931-6c05-5b6b" type="selectionEntry"/><entryLink id="7a09-5fe5-70e0-71aa" name="Turán Tank Platoon (LH106)" hidden="false" collective="false" import="true" targetId="3cc6-dfdc-528e-7d0a" type="selectionEntry"/><entryLink id="cb85-00d2-28c9-030c" name="150mm Rocket Launcher Battery (LH131)" hidden="false" collective="false" import="true" targetId="85be-5cc0-5517-4bb9" type="selectionEntry"/><entryLink id="7acc-1fb3-0de5-f2b1" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" targetId="8958-4f35-da88-7ab2" type="selectionEntry"/><entryLink id="301d-74ed-fd27-4e5e" name="Toldi OP Observation Post (LH132)" hidden="false" collective="false" import="true" targetId="acf3-6807-be7b-ae17" type="selectionEntry"/><entryLink id="e6f0-2108-94dc-8ff0" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" targetId="cf8d-f540-14d0-fd5f" type="selectionEntry"/><entryLink id="4521-d211-9f9a-64db" name="Panzer III Tank Platoon (LH110)" hidden="false" collective="false" import="true" targetId="6a32-d8e5-5e4d-855b" type="selectionEntry"/><entryLink id="eac5-d00b-788e-6054" name="Rifle Platoon (LH120)" hidden="false" collective="false" import="true" targetId="4412-9887-a08f-733e" type="selectionEntry"/><entryLink id="16db-7220-1d39-7df7" name="Scout Platoon (LH128)" hidden="false" collective="false" import="true" targetId="955b-2f5c-c13c-8e37" type="selectionEntry"/><entryLink id="9cd3-ed63-e2b1-8d47" name="Panther Tank Platoon (LH102)" hidden="false" collective="false" import="true" targetId="3081-b6da-8334-6710" type="selectionEntry"/><entryLink id="5509-8c44-bb0b-3e90" name="Panzer IV Tank Platoon (LH109)" hidden="false" collective="false" import="true" targetId="f4cd-8e7c-746e-bd6e" type="selectionEntry"/><entryLink id="0d1f-6ed0-a77c-32c4" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" targetId="72dd-22d6-9123-e187" type="selectionEntry"/><entryLink id="5162-d063-02ae-5d35" name="Tiger Tank Platoon (LH104)" hidden="false" collective="false" import="true" targetId="ff2d-5ca9-8502-f712" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="e926-1854-a374-929c" name="Rifle Company" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="1b44-da57-9bd9-442e" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
@@ -2804,7 +2764,7 @@ Home DefenceLast Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="1ea1-d18f-1e61-e379" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="fe4d-652c-b683-9a3b" name="Zrínyi Tank-hunter Battery" hidden="false" collective="false" import="true" type="unit">
+<entryLinks><entryLink id="9657-595e-f33d-12cf" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" targetId="3d91-359f-104e-96ad" type="selectionEntry"/><entryLink id="fd12-cbec-43ef-4473" name="40mm Bofors Anti-aircraft Platoon (LH133)" hidden="false" collective="false" import="true" targetId="b837-4ab4-0a7b-2d86" type="selectionEntry"/><entryLink id="1d09-9a9e-fd99-7c4e" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" targetId="a392-9d60-7374-b4d8" type="selectionEntry"/><entryLink id="0d0a-0829-7c2b-b11a" name="Huszár Troop (LH127)" hidden="false" collective="false" import="true" targetId="1ae7-cbd2-cf91-991c" type="selectionEntry"/><entryLink id="cca9-4b78-26c1-9cd1" name="7.5cm Heavy Anti-tank Platoon (LH126)" hidden="false" collective="false" import="true" targetId="b394-7104-1be5-3362" type="selectionEntry"/><entryLink id="b06b-f840-eda5-3ee3" name="Ju 87 Stuka Dive Bomber Flight (LH135)" hidden="false" collective="false" import="true" targetId="985d-5931-6c05-5b6b" type="selectionEntry"/><entryLink id="1e53-789f-ee39-f07e" name="Turán Tank Platoon (LH106)" hidden="false" collective="false" import="true" targetId="3cc6-dfdc-528e-7d0a" type="selectionEntry"/><entryLink id="6b87-b3fa-9950-77ba" name="150mm Rocket Launcher Battery (LH131)" hidden="false" collective="false" import="true" targetId="85be-5cc0-5517-4bb9" type="selectionEntry"/><entryLink id="d12f-1880-74bf-6659" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" targetId="8958-4f35-da88-7ab2" type="selectionEntry"/><entryLink id="92c8-2a69-00f8-4663" name="Toldi OP Observation Post (LH132)" hidden="false" collective="false" import="true" targetId="acf3-6807-be7b-ae17" type="selectionEntry"/><entryLink id="bc7b-dbf9-37d1-13ce" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" targetId="cf8d-f540-14d0-fd5f" type="selectionEntry"/><entryLink id="1fdd-4ef0-ca21-b82d" name="Panzer III Tank Platoon (LH110)" hidden="false" collective="false" import="true" targetId="6a32-d8e5-5e4d-855b" type="selectionEntry"/><entryLink id="10a3-989a-2262-b7ff" name="Rifle Platoon (LH120)" hidden="false" collective="false" import="true" targetId="4412-9887-a08f-733e" type="selectionEntry"/><entryLink id="cd8c-da39-63a1-ddaa" name="Scout Platoon (LH128)" hidden="false" collective="false" import="true" targetId="955b-2f5c-c13c-8e37" type="selectionEntry"/><entryLink id="bd01-9d59-ec16-b737" name="Panther Tank Platoon (LH102)" hidden="false" collective="false" import="true" targetId="3081-b6da-8334-6710" type="selectionEntry"/><entryLink id="64cc-e2ce-94ac-eab4" name="Panzer IV Tank Platoon (LH109)" hidden="false" collective="false" import="true" targetId="f4cd-8e7c-746e-bd6e" type="selectionEntry"/><entryLink id="50dd-114c-2850-cf1c" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" targetId="72dd-22d6-9123-e187" type="selectionEntry"/><entryLink id="e913-e99a-7482-13f2" name="Tiger Tank Platoon (LH104)" hidden="false" collective="false" import="true" targetId="ff2d-5ca9-8502-f712" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="fe4d-652c-b683-9a3b" name="Zrínyi Tank-hunter Battery" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="ace4-e8ec-7d1c-7ae4" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
@@ -2881,7 +2841,7 @@ Home DefenceLast Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="fa77-c804-81b0-0868" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="f1e5-f6e0-39d4-80d2" name="Motorised Rifle Company" hidden="false" collective="false" import="true" type="unit">
+<entryLinks><entryLink id="51e8-8fc2-bc48-8664" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" targetId="3d91-359f-104e-96ad" type="selectionEntry"/><entryLink id="3e62-f833-7232-1a98" name="40mm Bofors Anti-aircraft Platoon (LH133)" hidden="false" collective="false" import="true" targetId="b837-4ab4-0a7b-2d86" type="selectionEntry"/><entryLink id="6cb4-59ca-b3cd-feaf" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" targetId="a392-9d60-7374-b4d8" type="selectionEntry"/><entryLink id="5048-d531-2c91-0c2a" name="Huszár Troop (LH127)" hidden="false" collective="false" import="true" targetId="1ae7-cbd2-cf91-991c" type="selectionEntry"/><entryLink id="1a96-0e27-9fe8-a335" name="7.5cm Heavy Anti-tank Platoon (LH126)" hidden="false" collective="false" import="true" targetId="b394-7104-1be5-3362" type="selectionEntry"/><entryLink id="aa24-f233-1fbc-38ab" name="Ju 87 Stuka Dive Bomber Flight (LH135)" hidden="false" collective="false" import="true" targetId="985d-5931-6c05-5b6b" type="selectionEntry"/><entryLink id="6062-9d00-a425-e062" name="Turán Tank Platoon (LH106)" hidden="false" collective="false" import="true" targetId="3cc6-dfdc-528e-7d0a" type="selectionEntry"/><entryLink id="00a2-d162-e60c-f75a" name="150mm Rocket Launcher Battery (LH131)" hidden="false" collective="false" import="true" targetId="85be-5cc0-5517-4bb9" type="selectionEntry"/><entryLink id="d494-0c59-13b9-dfcf" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" targetId="8958-4f35-da88-7ab2" type="selectionEntry"/><entryLink id="b1ae-817d-cc4b-dd2a" name="Toldi OP Observation Post (LH132)" hidden="false" collective="false" import="true" targetId="acf3-6807-be7b-ae17" type="selectionEntry"/><entryLink id="b13a-22ae-6d41-195f" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" targetId="cf8d-f540-14d0-fd5f" type="selectionEntry"/><entryLink id="48ba-bdc2-8759-0d33" name="Panzer III Tank Platoon (LH110)" hidden="false" collective="false" import="true" targetId="6a32-d8e5-5e4d-855b" type="selectionEntry"/><entryLink id="d20c-9867-37bb-5f7e" name="Rifle Platoon (LH120)" hidden="false" collective="false" import="true" targetId="4412-9887-a08f-733e" type="selectionEntry"/><entryLink id="5a7e-50ee-3f52-521c" name="Scout Platoon (LH128)" hidden="false" collective="false" import="true" targetId="955b-2f5c-c13c-8e37" type="selectionEntry"/><entryLink id="a994-4844-35b6-1cab" name="Panther Tank Platoon (LH102)" hidden="false" collective="false" import="true" targetId="3081-b6da-8334-6710" type="selectionEntry"/><entryLink id="49e1-e409-5c9f-7c17" name="Panzer IV Tank Platoon (LH109)" hidden="false" collective="false" import="true" targetId="f4cd-8e7c-746e-bd6e" type="selectionEntry"/><entryLink id="4f61-64cb-4f10-1ed8" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" targetId="72dd-22d6-9123-e187" type="selectionEntry"/><entryLink id="0a7f-9809-25af-bbfc" name="Tiger Tank Platoon (LH104)" hidden="false" collective="false" import="true" targetId="ff2d-5ca9-8502-f712" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="f1e5-f6e0-39d4-80d2" name="Motorised Rifle Company" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="9bb5-33cb-8df6-e914" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
@@ -2958,4 +2918,4 @@ Home DefenceLast Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="ea7c-859f-4ebd-23ca" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
   </categoryLinks>
-</selectionEntry></selectionEntries></catalogue>
+<entryLinks><entryLink id="e9e5-afa5-451d-e8d1" name="100mm Artillery Battery (LH129)" hidden="false" collective="false" import="true" targetId="3d91-359f-104e-96ad" type="selectionEntry"/><entryLink id="8f8b-3410-e9a7-1056" name="40mm Bofors Anti-aircraft Platoon (LH133)" hidden="false" collective="false" import="true" targetId="b837-4ab4-0a7b-2d86" type="selectionEntry"/><entryLink id="7d01-7dc3-e8a1-bac3" name="StuG Assault Gun Platoon (LH115)" hidden="false" collective="false" import="true" targetId="a392-9d60-7374-b4d8" type="selectionEntry"/><entryLink id="98ee-297b-b27e-22db" name="Huszár Troop (LH127)" hidden="false" collective="false" import="true" targetId="1ae7-cbd2-cf91-991c" type="selectionEntry"/><entryLink id="0cd8-ef60-46dc-5ee8" name="7.5cm Heavy Anti-tank Platoon (LH126)" hidden="false" collective="false" import="true" targetId="b394-7104-1be5-3362" type="selectionEntry"/><entryLink id="f382-cd52-c024-5d46" name="Ju 87 Stuka Dive Bomber Flight (LH135)" hidden="false" collective="false" import="true" targetId="985d-5931-6c05-5b6b" type="selectionEntry"/><entryLink id="23ca-8df7-564a-49e2" name="Turán Tank Platoon (LH106)" hidden="false" collective="false" import="true" targetId="3cc6-dfdc-528e-7d0a" type="selectionEntry"/><entryLink id="77a8-262e-4594-b847" name="150mm Rocket Launcher Battery (LH131)" hidden="false" collective="false" import="true" targetId="85be-5cc0-5517-4bb9" type="selectionEntry"/><entryLink id="9618-7872-19df-0d86" name="105mm Artillery Battery (LH130)" hidden="false" collective="false" import="true" targetId="8958-4f35-da88-7ab2" type="selectionEntry"/><entryLink id="536f-597e-d810-ec3c" name="Toldi OP Observation Post (LH132)" hidden="false" collective="false" import="true" targetId="acf3-6807-be7b-ae17" type="selectionEntry"/><entryLink id="4c2a-715b-42e8-5e8d" name="Hetzer Assault Gun Platoon (LH118)" hidden="false" collective="false" import="true" targetId="cf8d-f540-14d0-fd5f" type="selectionEntry"/><entryLink id="3856-a959-d81a-e515" name="Panzer III Tank Platoon (LH110)" hidden="false" collective="false" import="true" targetId="6a32-d8e5-5e4d-855b" type="selectionEntry"/><entryLink id="ab10-5fb1-8ea9-cf57" name="Rifle Platoon (LH120)" hidden="false" collective="false" import="true" targetId="4412-9887-a08f-733e" type="selectionEntry"/><entryLink id="54e2-87ac-f4dd-c3cc" name="Scout Platoon (LH128)" hidden="false" collective="false" import="true" targetId="955b-2f5c-c13c-8e37" type="selectionEntry"/><entryLink id="5021-844f-32f2-11bb" name="Panther Tank Platoon (LH102)" hidden="false" collective="false" import="true" targetId="3081-b6da-8334-6710" type="selectionEntry"/><entryLink id="74d8-f6d1-31f9-f468" name="Panzer IV Tank Platoon (LH109)" hidden="false" collective="false" import="true" targetId="f4cd-8e7c-746e-bd6e" type="selectionEntry"/><entryLink id="b1b8-e45d-ca10-37be" name="Zrínyi Assault Gun Platoon (LH113)" hidden="false" collective="false" import="true" targetId="72dd-22d6-9123-e187" type="selectionEntry"/><entryLink id="f184-6548-58ec-38ee" name="Tiger Tank Platoon (LH104)" hidden="false" collective="false" import="true" targetId="ff2d-5ca9-8502-f712" type="selectionEntry"/></entryLinks></selectionEntry></selectionEntries></catalogue>
