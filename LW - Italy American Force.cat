@@ -237,9 +237,9 @@ TransportAssault 6</characteristic>
     <profile id="8152-fe7b-596a-e667" name="Armoured M1917 Machine-gun Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Blood &apos;n Guts Rally 3+</characteristic>
+Blood &apos;n GutsRally 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Heavy Weapon Assault 5+</characteristic>
+Heavy WeaponAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -264,21 +264,21 @@ Heavy Weapon Assault 5+</characteristic>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LU110</characteristic>
       </characteristics>
     </profile>
-  </profiles>
+  <profile id="605d-ac45-8d70-d9d3" name="M3 (.50 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="8e4d-2dd4-95f4-7ede" name="M3 (.30 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="53be-0b2f-8fc8-0d57" name="Passenger MG" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">MG Transport</characteristic></characteristics></profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="6e9c-6fe0-ba53-0639" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="26a7-646f-bcb1-de37" name="Armoured 81mm Mortar Platoon (LU113)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="8a4f-dcf1-b1b5-625a" name="4x M1917 HMG2x M3 half-track (.50 cal MG) (LU112)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry><selectionEntry id="dcf3-da0f-df6c-deaa" name="4x M1917 HMG" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="26a7-646f-bcb1-de37" name="Armoured 81mm Mortar Platoon (LU113)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="ac01-e265-1cdf-7814" name="Armoured 81mm Mortar Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-SP Gun Counterattack 6</characteristic>
+SP GunCounterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-SP Gun Assault 6</characteristic>
+SP GunAssault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
@@ -322,7 +322,7 @@ SP Gun Assault 6</characteristic>
   <categoryLinks>
     <categoryLink id="f10f-6e24-f972-fc5d" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="6d01-af64-4310-95f9" name="Rifle Platoon (LU116)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="2b75-89d0-da54-bf1b" name="3x M4 (81mm mortar)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="6d01-af64-4310-95f9" name="Rifle Platoon (LU116)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="50d8-cc43-40e8-0844" name="Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
@@ -395,9 +395,9 @@ Blood &apos;n GutsRally 3+</characteristic>
     <profile id="5b90-fcf8-b0ce-ab2a" name="M1917 Machine-gun Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Blood &apos;n Guts Rally 3+</characteristic>
+Blood &apos;n GutsRally 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Heavy Weapon Assault 5+</characteristic>
+Heavy WeaponAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -429,14 +429,14 @@ Heavy Weapon Assault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="5d58-6199-8969-c190" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="334a-53cd-574e-a6fb" name="Mortar Platoon (LU118)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="7678-c270-fecd-13e6" name="4x M1917 HMG" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="334a-53cd-574e-a6fb" name="Mortar Platoon (LU118)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="695e-b591-71bb-22a5" name="Mortar Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Blood &apos;n Guts Rally 3+</characteristic>
+Blood &apos;n GutsRally 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Heavy Weapon Assault 5+</characteristic>
+Heavy WeaponAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">4&quot;/10cm</characteristic>
@@ -478,13 +478,13 @@ Heavy Weapon Assault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="2065-88b4-b588-92ee" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="d49c-80dd-5e85-9b54" name="105mm Field Artillery Battery (LU120)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="a793-1c89-5427-24fe" name="6x 81mm mortar" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry><selectionEntry id="e1b3-3df7-a1af-69f6" name="4x 81mm mortar" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry><selectionEntry id="e047-532f-727a-a60f" name="2x 81mm mortar" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry><selectionEntry id="514c-3705-43c7-47a4" name="3x 60mm mortar" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="d49c-80dd-5e85-9b54" name="105mm Field Artillery Battery (LU120)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="afc7-0e1d-26ab-c94e" name="105mm Field Artillery Battery" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
-Large Gun Assault 5+</characteristic>
+Large GunAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
@@ -516,14 +516,14 @@ Large Gun Assault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="549f-a632-be35-0143" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="d0d4-b2b7-3f43-b7c6" name="M7 Priest Artillery Battery (LU121)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="455c-1580-44d1-7976" name="4x 105mm howitzer" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/></costs></selectionEntry><selectionEntry id="ecc7-5a6c-9349-1058" name="2x 105mm howitzer" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="d0d4-b2b7-3f43-b7c6" name="M7 Priest Artillery Battery (LU121)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="fc8a-cbda-7736-ca75" name="M7 Priest Artillery Battery" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-SP Gun Counterattack 6</characteristic>
+SP GunCounterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-SP Gun Assault 6</characteristic>
+SP GunAssault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -567,14 +567,14 @@ SP Gun Assault 6</characteristic>
   <categoryLinks>
     <categoryLink id="163d-41f0-70cf-897f" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="28a8-fb67-36f9-12f8" name="M4 Sherman OP Observation Post (LU122)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="0f73-6310-7cf1-3952" name="6x M7 Priest (105mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/></costs></selectionEntry><selectionEntry id="3498-54ae-1a16-33c6" name="3x M7 Priest (105mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="28a8-fb67-36f9-12f8" name="M4 Sherman OP Observation Post (LU122)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="4176-bf1b-8f13-4c65" name="M4 Sherman OP Observation Post" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Scout Last Stand 5+</characteristic>
+ScoutLast Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-Observer Ranging 3+</characteristic>
+ObserverRanging 3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
@@ -628,7 +628,7 @@ Observer Ranging 3+</characteristic>
   <categoryLinks>
     <categoryLink id="812c-7b21-d990-baeb" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="573f-75ad-c765-f21a" name="Parachute Rifle Company HQ (LU125)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="61f1-5ba2-06f4-12a9" name="1x M4 Sherman OP (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="573f-75ad-c765-f21a" name="Parachute Rifle Company HQ (LU125)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="c8a5-f1ee-e964-0c21" name="Parachute Rifle Company HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
@@ -665,7 +665,7 @@ Observer Ranging 3+</characteristic>
   <categoryLinks>
     <categoryLink id="8cf5-0444-a3c5-e91a" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="84eb-279c-df92-c0a9" name="Parachute Rifle Platoon (LU126)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="4639-bdd1-2c4e-7a9b" name="2x Thompson SMG team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="84eb-279c-df92-c0a9" name="Parachute Rifle Platoon (LU126)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="f10a-dea1-1e54-2067" name="Parachute Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
@@ -738,7 +738,7 @@ Observer Ranging 3+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
-Heavy Weapon Assault 4+</characteristic>
+Heavy WeaponAssault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">4&quot;/10cm</characteristic>
@@ -770,13 +770,13 @@ Heavy Weapon Assault 4+</characteristic>
   <categoryLinks>
     <categoryLink id="c41e-4e44-2a76-44ab" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="08d4-ba87-7227-559e" name="Parachute 75mm Artillery Battery (LU128)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="7704-cdbf-2623-1f64" name="4x 81mm mortar" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/></costs></selectionEntry><selectionEntry id="1a82-402b-0f25-05f2" name="2x 81mm mortar" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="08d4-ba87-7227-559e" name="Parachute 75mm Artillery Battery (LU128)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="649b-4dcf-197a-adcf" name="Parachute 75mm Artillery Battery" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
-Gun Assault 4+</characteristic>
+GunAssault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
@@ -808,13 +808,13 @@ Gun Assault 4+</characteristic>
   <categoryLinks>
     <categoryLink id="f07f-392f-a942-4480" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="d52b-62e1-acf4-3933" name="Airborne 57mm Anti-tank Platoon (LU129)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="e5eb-7f49-e6ef-bd20" name="4x 75mm pack howitzer" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/></costs></selectionEntry><selectionEntry id="b95c-230a-341b-65b3" name="2x 75mm pack howitzer" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="d52b-62e1-acf4-3933" name="Airborne 57mm Anti-tank Platoon (LU129)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="2c60-eff4-0dcf-241a" name="Airborne 57mm Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
-Gun Assault 4+</characteristic>
+GunAssault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -846,12 +846,12 @@ Gun Assault 4+</characteristic>
   <categoryLinks>
     <categoryLink id="08bd-2a37-1a75-6f06" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="216e-9fe4-1764-4a29" name="Airborne Jeep Recon Patrol (LU130)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="9f85-8f0a-1500-32f9" name="4x 57mm gun" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/></costs></selectionEntry><selectionEntry id="ec07-c261-3a5d-1e64" name="2x 57mm gun" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="216e-9fe4-1764-4a29" name="Airborne Jeep Recon Patrol (LU130)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="ae0e-c4c6-0bc5-dd73" name="Airborne Jeep Recon Patrol" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="55ef-8653-887d-4642">3+ 
-Scout Last Stand 4+</characteristic>
+ScoutLast Stand 4+</characteristic>
         <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">3+</characteristic>
         <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">4+</characteristic>
         <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">4+</characteristic>
@@ -884,12 +884,12 @@ Scout Last Stand 4+</characteristic>
   <categoryLinks>
     <categoryLink id="4891-d18d-df10-6ee2" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="9647-95a2-6e82-cf4b" name="Glider Rifle Company HQ (LU131)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="2e8f-2bc7-6e5c-45bf" name="4x Jeep (.50 cal MG)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry><selectionEntry id="e078-1057-80f4-5dde" name="2x Jeep (.50 cal MG)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="9647-95a2-6e82-cf4b" name="Glider Rifle Company HQ (LU131)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="9e88-9253-b9fa-185d" name="Glider Rifle Company HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Blood &apos;n Guts Rally 3+</characteristic>
+Blood &apos;n GutsRally 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
@@ -922,7 +922,7 @@ Blood &apos;n Guts Rally 3+</characteristic>
   <categoryLinks>
     <categoryLink id="9855-31b9-7b01-c51e" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="ae4a-4d70-02fb-6be2" name="Glider Rifle Platoon (LU132)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="ee36-dab4-c859-f456" name="2x Thompson SMG team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="ae4a-4d70-02fb-6be2" name="Glider Rifle Platoon (LU132)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="e644-45bb-186f-dbe4" name="Glider Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
@@ -995,9 +995,9 @@ Blood &apos;n GutsRally 3+</characteristic>
     <profile id="8469-da3d-16e8-8e5d" name="Glider 75mm Artillery Battery" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
-Blood &apos;n Guts Rally 3+</characteristic>
+Blood &apos;n GutsRally 3+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
-Gun Assault 4+</characteristic>
+GunAssault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
@@ -1029,14 +1029,14 @@ Gun Assault 4+</characteristic>
   <categoryLinks>
     <categoryLink id="ec50-020a-9efc-ccb5" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="045b-ffe8-1cc9-e2f0" name="Ranger Company HQ (LU134)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="d008-f199-227a-a5e7" name="6x 75mm pack howitzer" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/></costs></selectionEntry><selectionEntry id="5760-76ae-48c5-4e98" name="4x 75mm pack howitzer" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/></costs></selectionEntry><selectionEntry id="34e9-8892-87ef-e4b9" name="2x 75mm pack howitzer" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="045b-ffe8-1cc9-e2f0" name="Ranger Company HQ (LU134)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="48da-033d-9bad-e6d2" name="Ranger Company HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ 
-Blood &apos;n Guts Rally 2+</characteristic>
+Blood &apos;n GutsRally 2+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
-Deadly Assault 2+</characteristic>
+DeadlyAssault 2+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -1068,7 +1068,7 @@ Deadly Assault 2+</characteristic>
   <categoryLinks>
     <categoryLink id="847c-a66c-e8d6-b0e9" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="e6b4-4247-be56-3a4f" name="Ranger Platoon (LU135)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="f40f-c46d-7a3a-021d" name="1x Thompson SMG team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="e6b4-4247-be56-3a4f" name="Ranger Platoon (LU135)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="9a78-2020-2dc3-1d30" name="Ranger Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
@@ -1132,9 +1132,9 @@ DeadlyAssault 2+</characteristic>
     <profile id="340c-072f-b764-1d54" name="Ranger Mortar Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ 
-Blood &apos;n Guts Rally 2+</characteristic>
+Blood &apos;n GutsRally 2+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
-Heavy Weapon Assault 4+</characteristic>
+Heavy WeaponAssault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">4&quot;/10cm</characteristic>
@@ -1166,12 +1166,12 @@ Heavy Weapon Assault 4+</characteristic>
   <categoryLinks>
     <categoryLink id="4885-6c30-8a81-dcf1" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="173e-f386-b267-254a" name="Assault Company HQ (LU137)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="c551-4346-d390-0044" name="4x 81mm mortar" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry><selectionEntry id="78a0-ad1a-1fe7-1996" name="2x 81mm mortar" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="173e-f386-b267-254a" name="Assault Company HQ (LU137)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="191c-a561-2a14-cede" name="Assault Company HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Blood &apos;n Guts Rally 3+</characteristic>
+Blood &apos;n GutsRally 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
@@ -1204,7 +1204,7 @@ Blood &apos;n Guts Rally 3+</characteristic>
   <categoryLinks>
     <categoryLink id="99bc-92fb-0c44-0920" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="a7c5-5fdb-ee16-157c" name="Assault Boat Section (LU138)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="bcf9-6f1d-e1f8-0fef" name="2x Thompson SMG team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="a7c5-5fdb-ee16-157c" name="Assault Boat Section (LU138)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="58e0-41af-8838-f482" name="Assault Boat Section" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
@@ -1287,7 +1287,7 @@ Blood &apos;n GutsRally 3+</characteristic>
     <profile id="4b59-56a7-b472-4c86" name="Support Boat Section" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Blood &apos;n Guts Rally 3+</characteristic>
+Blood &apos;n GutsRally 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
@@ -1340,12 +1340,12 @@ Blood &apos;n Guts Rally 3+</characteristic>
   <categoryLinks>
     <categoryLink id="b763-7e4b-ca64-0f52" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="557c-fd8f-af40-868b" name="Rifle Company HQ (LU140)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="70a1-9fd4-4253-c786" name="4x M1 Garand rifle team1x 81mm mortar1x M1917 HMG" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="557c-fd8f-af40-868b" name="Rifle Company HQ (LU140)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="6c1c-0de2-6488-7ca7" name="Rifle Company HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Blood &apos;n Guts Rally 3+</characteristic>
+Blood &apos;n GutsRally 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
@@ -1378,14 +1378,14 @@ Blood &apos;n Guts Rally 3+</characteristic>
   <categoryLinks>
     <categoryLink id="ae53-5c59-8ac7-7505" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="8000-5853-b1fe-6587" name="57mm Anti-tank Platoon (LU141)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="65aa-3330-9d8c-d37f" name="2x Thompson SMG team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="8000-5853-b1fe-6587" name="57mm Anti-tank Platoon (LU141)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="7493-8973-1e42-a132" name="57mm Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
-Blood &apos;n Guts Rally 3+</characteristic>
+Blood &apos;n GutsRally 3+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-Gun Assault 5+</characteristic>
+GunAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -1417,14 +1417,14 @@ Gun Assault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="58b1-d9aa-02f8-7b6c" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="a833-5e3c-4750-7f1c" name="105mm Cannon Platoon (LU142)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="77c9-bbd3-c378-7689" name="3x 57mm gun" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/></costs></selectionEntry><selectionEntry id="a982-9fed-bda1-f593" name="2x 57mm gun" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="a833-5e3c-4750-7f1c" name="105mm Cannon Platoon (LU142)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="b16b-1278-008c-6b5e" name="105mm Cannon Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
-Blood &apos;n Guts Rally 3+</characteristic>
+Blood &apos;n GutsRally 3+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-Gun Assault 5+</characteristic>
+GunAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -1456,13 +1456,13 @@ Gun Assault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="95c7-cdeb-e2cf-0004" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="67c5-e84e-8d4c-ea36" name="Veteran Assault Company HQ (LU143)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="9c3d-6591-3dfa-bc5c" name="6x 105mm light howitzer" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/></costs></selectionEntry><selectionEntry id="1497-b48d-46be-e1af" name="4x 105mm light howitzer" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/></costs></selectionEntry><selectionEntry id="00aa-673f-c893-20e5" name="2x 105mm light howitzer" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="67c5-e84e-8d4c-ea36" name="Veteran Assault Company HQ (LU143)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="bc38-cb27-6d2b-61a7" name="Veteran Assault Company HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Yankee Ingenuity Tactics 3+</characteristic>
+Yankee IngenuityTactics 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -1494,7 +1494,7 @@ Yankee Ingenuity Tactics 3+</characteristic>
   <categoryLinks>
     <categoryLink id="70bb-5716-2671-9be9" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="abf0-2275-79da-7b42" name="Veteran Assault Boat Section (LU144)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="adf2-fb88-b34e-6d58" name="2x Thompson SMG team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="abf0-2275-79da-7b42" name="Veteran Assault Boat Section (LU144)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="4adf-ab53-d3cd-0552" name="Veteran Assault Boat Section" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
@@ -1578,7 +1578,7 @@ Yankee IngenuityTactics 3+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Yankee Ingenuity Tactics 3+</characteristic>
+Yankee IngenuityTactics 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -1630,13 +1630,13 @@ Yankee Ingenuity Tactics 3+</characteristic>
   <categoryLinks>
     <categoryLink id="4d59-527d-0f06-7a10" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="c9db-a1bc-a2eb-f99f" name="Veteran Rifle Company HQ (LU146)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="a3ca-a5c3-0c28-c983" name="4x M1 Garand rifle team1x 81mm mortar1x M1917 HMG" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="c9db-a1bc-a2eb-f99f" name="Veteran Rifle Company HQ (LU146)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="055b-9fc8-284c-9fb9" name="Veteran Rifle Company HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Yankee Ingenuity Tactics 3+</characteristic>
+Yankee IngenuityTactics 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -1668,7 +1668,7 @@ Yankee Ingenuity Tactics 3+</characteristic>
   <categoryLinks>
     <categoryLink id="097a-ba82-370f-47a7" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="7765-ea9d-1e41-5408" name="Veteran Rifle Platoon (LU147)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="d902-e0f5-bcb2-afe4" name="2x Thompson SMG team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="7765-ea9d-1e41-5408" name="Veteran Rifle Platoon (LU147)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="03b0-3442-b43f-2746" name="Veteran Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
@@ -1742,7 +1742,7 @@ Yankee IngenuityTactics 3+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Heavy Weapon Assault 5+</characteristic>
+Heavy WeaponAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -1774,13 +1774,13 @@ Heavy Weapon Assault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="ff78-841a-8cbb-f193" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="9112-8813-df32-4c83" name="Veteran Mortar Platoon (LU149)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="38f3-5b57-891a-e54f" name="4x M1917 HMG" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="9112-8813-df32-4c83" name="Veteran Mortar Platoon (LU149)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="ecc9-c4cd-dfde-2cbf" name="Veteran Mortar Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Heavy Weapon Assault 5+</characteristic>
+Heavy WeaponAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">4&quot;/10cm</characteristic>
@@ -1822,13 +1822,13 @@ Heavy Weapon Assault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="861b-21f9-6515-7613" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="4874-4ceb-993c-9712" name="Veteran 57mm Anti-tank Platoon (LU150)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="1f58-6965-b3a0-f539" name="6x 81mm mortar" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/></costs></selectionEntry><selectionEntry id="c9ef-18ef-0e9c-c189" name="4x 81mm mortar" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry><selectionEntry id="dddd-4eb5-7994-5ca7" name="2x 81mm mortar" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry><selectionEntry id="038c-0d80-7b6d-728d" name="3x 60mm mortar" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="4874-4ceb-993c-9712" name="Veteran 57mm Anti-tank Platoon (LU150)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="99a5-0983-1dd3-b337" name="Veteran 57mm Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-Gun Assault 5+</characteristic>
+GunAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -1860,13 +1860,13 @@ Gun Assault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="a7a4-df39-0268-4e4e" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="8b0c-4820-558b-a6d8" name="Veteran 105mm Cannon Platoon (LU151)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="7c97-1c13-ba04-7b34" name="3x 57mm gun" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry><selectionEntry id="2ad9-d2dd-6d61-188b" name="2x 57mm gun" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="8b0c-4820-558b-a6d8" name="Veteran 105mm Cannon Platoon (LU151)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="188c-0803-f26c-c1fd" name="Veteran 105mm Cannon Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-Gun Assault 5+</characteristic>
+GunAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -1898,12 +1898,12 @@ Gun Assault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="aad5-16d1-3499-73c9" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="8fd3-4a8c-b898-2a5a" name="M4 Sherman Tank Company HQ (LU152)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="f456-94f9-6e1a-6dc5" name="6x 105mm light howitzer" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/></costs></selectionEntry><selectionEntry id="1611-c00b-204b-3f06" name="4x 105mm light howitzer" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/></costs></selectionEntry><selectionEntry id="fbd5-cce4-63d8-e1ff" name="2x 105mm light howitzer" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="8fd3-4a8c-b898-2a5a" name="M4 Sherman Tank Company HQ (LU152)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="3592-2cf8-b625-a7a5" name="M4 Sherman Tank Company HQ" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Blood &apos;n Guts Last Stand 3+</characteristic>
+Blood &apos;n GutsLast Stand 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
@@ -1958,7 +1958,7 @@ Blood &apos;n Guts Last Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="a4d9-4673-f42e-384f" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="cb3d-e2a5-c38c-8d2d" name="M4 Sherman (76mm) Tank Platoon (LU153)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="0d72-0678-5d50-4bbc" name="2x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="cb3d-e2a5-c38c-8d2d" name="M4 Sherman (76mm) Tank Platoon (LU153)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="abd7-15b0-d1fd-59db" name="M4 Sherman (76mm) Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -2023,7 +2023,7 @@ Protected AmmoRemount 3+</characteristic>
     <profile id="8da8-049e-2694-9d89" name="M4 Sherman (105mm) Assault Gun Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected Ammo Remount 3+</characteristic>
+Protected AmmoRemount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
@@ -2078,12 +2078,12 @@ Protected Ammo Remount 3+</characteristic>
   <categoryLinks>
     <categoryLink id="6369-a38e-d7f9-8917" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="65f0-8740-6986-78fc" name="M5 Stuart Tank Company HQ (LU155)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="f9f7-fc9b-1b40-fac0" name="6x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/></costs></selectionEntry><selectionEntry id="b498-c1b8-e3d4-699f" name="4x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/></costs></selectionEntry><selectionEntry id="b012-b55a-a1d7-d96b" name="2x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="65f0-8740-6986-78fc" name="M5 Stuart Tank Company HQ (LU155)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="5b31-a0d9-4f8c-bb1e" name="M5 Stuart Tank Company HQ" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Blood &apos;n Guts Last Stand 3+</characteristic>
+Blood &apos;n GutsLast Stand 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
@@ -2128,12 +2128,12 @@ Blood &apos;n Guts Last Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="bade-7e9a-a131-5c6b" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="b8a9-42e0-7c98-3cb8" name="Armoured Rifle Company HQ (LU156)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="f834-5b05-37ea-56bf" name="2x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="b8a9-42e0-7c98-3cb8" name="Armoured Rifle Company HQ (LU156)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="aceb-aef9-11e4-d4f2" name="Armoured Rifle Company HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Blood &apos;n Guts Rally 3+</characteristic>
+Blood &apos;n GutsRally 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
@@ -2159,21 +2159,21 @@ Blood &apos;n Guts Rally 3+</characteristic>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LU156</characteristic>
       </characteristics>
     </profile>
-  </profiles>
+  <profile id="5fcf-cf8d-d45b-8afa" name="Jeep (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="b473-d754-f897-dbc6" name="Jeep (60mm mortar)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile><profile id="11b0-76df-1c32-4aa8" name="M3 (.50 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="cb1a-fda0-1760-0c03" name="M3 (.30 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="fa6a-6df1-78f9-18c2" name="Passenger MG" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">MG Transport</characteristic></characteristics></profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="9fb8-a52a-3bcc-9a8b" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="a806-a5a5-1955-a4e8" name="Armoured 57mm Anti-tank Platoon (LU157)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="9086-71b6-a916-0dfb" name="2x Thompson SMG team1x M3 half-track (.50 cal MG) (LU112)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry><selectionEntry id="8b43-7884-3a1c-cd1a" name="2x Thompson SMG team2x Jeep (MG) (LU107)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="a806-a5a5-1955-a4e8" name="Armoured 57mm Anti-tank Platoon (LU157)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="ff6d-de92-1297-61db" name="Armoured 57mm Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
-Blood &apos;n Guts Rally 3+</characteristic>
+Blood &apos;n GutsRally 3+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-Gun Assault 5+</characteristic>
+GunAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -2205,14 +2205,14 @@ Gun Assault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="c3fa-4f62-a75a-cdd3" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="3df9-1687-b937-7de3" name="M8 Scott Assault Gun Platoon (LU158)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="e899-3cd2-bd91-0153" name="3x 57mm gun3x M3 Half-track (.50 cal MG) (LU112)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/></costs></selectionEntry><selectionEntry id="42f3-d8c7-8bfe-988a" name="2x 57mm gun2x M3 Half-track (.50 cal MG) (LU112)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry><selectionEntry id="af57-f8fe-1c70-e31d" name="3x 57mm gun" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/></costs></selectionEntry><selectionEntry id="7c0a-9f04-8a43-f9ea" name="2x 57mm gun" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="3df9-1687-b937-7de3" name="M8 Scott Assault Gun Platoon (LU158)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="030b-3c56-c2da-f69b" name="M8 Scott Assault Gun Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-SP Gun Counterattack 6</characteristic>
+SP GunCounterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-SP Gun Assault 6</characteristic>
+SP GunAssault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
@@ -2256,13 +2256,13 @@ SP Gun Assault 6</characteristic>
   <categoryLinks>
     <categoryLink id="3ace-57fb-ca6b-b32d" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="8b47-e741-868e-6a04" name="Veteran M4 Sherman Tank Company HQ (LU159)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="ea25-a09f-860d-2e91" name="3x M8 Scott (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/></costs></selectionEntry><selectionEntry id="258b-c54d-297b-3592" name="2x M8 Scott (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="8b47-e741-868e-6a04" name="Veteran M4 Sherman Tank Company HQ (LU159)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="89ef-a45b-2622-b899" name="Veteran M4 Sherman Tank Company HQ" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-Yankee Ingenuity Tactics 3+</characteristic>
+Yankee IngenuityTactics 3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
@@ -2316,7 +2316,7 @@ Yankee Ingenuity Tactics 3+</characteristic>
   <categoryLinks>
     <categoryLink id="73b9-fa9a-1861-0989" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="a3e2-1855-6fb3-ea32" name="Veteran M4 Sherman Tank Platoon (LU160)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="a94e-82aa-236f-1f72" name="2x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="a3e2-1855-6fb3-ea32" name="Veteran M4 Sherman Tank Platoon (LU160)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="dbd0-8321-2e34-1c74" name="Veteran M4 Sherman Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -2442,9 +2442,9 @@ Yankee IngenuityTactics 3+</characteristic>
     <profile id="b851-e193-f790-0bf1" name="Veteran M4 Sherman (105mm) Assault Gun Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected Ammo Remount 3+</characteristic>
+Protected AmmoRemount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-Yankee Ingenuity Tactics 3+</characteristic>
+Yankee IngenuityTactics 3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
@@ -2498,13 +2498,13 @@ Yankee Ingenuity Tactics 3+</characteristic>
   <categoryLinks>
     <categoryLink id="b0ed-e831-b7ce-618e" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="f5ac-0458-d449-0b9d" name="Veteran M5 Stuart Tank Company HQ (LU163)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="9916-d4d4-cdb9-4c9e" name="6x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="26.0"/></costs></selectionEntry><selectionEntry id="1fd8-7343-6683-452e" name="4x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/></costs></selectionEntry><selectionEntry id="b251-46ec-1218-359c" name="2x M4 Sherman (105mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="f5ac-0458-d449-0b9d" name="Veteran M5 Stuart Tank Company HQ (LU163)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="03f0-4d97-a239-9627" name="Veteran M5 Stuart Tank Company HQ" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-Yankee Ingenuity Tactics 3+</characteristic>
+Yankee IngenuityTactics 3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
@@ -2548,7 +2548,7 @@ Yankee Ingenuity Tactics 3+</characteristic>
   <categoryLinks>
     <categoryLink id="6f59-bb04-7b2e-90e4" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="f8ec-9378-1228-9beb" name="Veteran M5 Stuart Tank Platoon (LU164)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="de02-200b-bc1b-557d" name="2x M5 Stuart (37mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="f8ec-9378-1228-9beb" name="Veteran M5 Stuart Tank Platoon (LU164)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="86b3-1b85-93b6-0b76" name="Veteran M5 Stuart Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -2604,7 +2604,7 @@ Yankee IngenuityTactics 3+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Yankee Ingenuity Tactics 3+</characteristic>
+Yankee IngenuityTactics 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -2629,14 +2629,14 @@ Yankee Ingenuity Tactics 3+</characteristic>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LU165</characteristic>
       </characteristics>
     </profile>
-  </profiles>
+  <profile id="a3e5-1475-a9a2-6ca5" name="M3 (.50 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="86ea-3f1d-1c96-c1ab" name="M3 (.30 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="4339-1881-cee1-f308" name="Passenger MG" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">MG Transport</characteristic></characteristics></profile><profile id="8e9e-cc3b-05ca-61ad" name="Jeep (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="bdc5-5f2f-393b-6050" name="Jeep (60mm mortar)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="b2f8-7595-5664-a870" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="6f78-035c-c8b1-a962" name="Veteran Armoured Rifle Platoon (LU167)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="1836-e96c-99a8-4cc5" name="2x Thompson SMG team1x M3 half-track (.50 cal MG) (LU166)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry><selectionEntry id="0bc7-b8f6-d620-2c58" name="2x Thompson SMG team2x Jeep (MG) (LU107)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="6f78-035c-c8b1-a962" name="Veteran Armoured Rifle Platoon (LU167)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="d196-ba09-7ccc-c569" name="Veteran Armoured Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
@@ -2710,7 +2710,7 @@ Yankee IngenuityTactics 3+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Heavy Weapon Assault 5+</characteristic>
+Heavy WeaponAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -2735,20 +2735,20 @@ Heavy Weapon Assault 5+</characteristic>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LU168</characteristic>
       </characteristics>
     </profile>
-  </profiles>
+  <profile id="9213-d33e-8066-31c9" name="M3 (.50 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="c477-fcd2-0e1e-d9bb" name="M3 (.30 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="ad2f-fba8-a343-ff55" name="Passenger MG" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">MG Transport</characteristic></characteristics></profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="9057-1edf-32ea-e2d3" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="8715-41ab-8b16-f1b7" name="Veteran Armoured 57mm Anti-tank Platoon (LU169)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="5e1a-ffff-4e5c-eb87" name="4x M1917 HMG2x M3 Half-track (.50 cal MG) (LU166)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/></costs></selectionEntry><selectionEntry id="5bf3-dca7-bbe4-ab66" name="4x M1917 HMG" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="8715-41ab-8b16-f1b7" name="Veteran Armoured 57mm Anti-tank Platoon (LU169)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="f6f5-f903-02aa-6b57" name="Veteran Armoured 57mm Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-Gun Assault 5+</characteristic>
+GunAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -2773,21 +2773,21 @@ Gun Assault 5+</characteristic>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LU169</characteristic>
       </characteristics>
     </profile>
-  </profiles>
+  <profile id="8646-575f-8d55-6a2a" name="M3 (.50 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="e878-04a1-95b0-4c81" name="M3 (.30 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="04bf-6721-8ea2-1c34" name="Passenger MG" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">MG Transport</characteristic></characteristics></profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="fe25-ad7d-50ba-6665" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="73aa-cd7e-921d-47d3" name="Veteran M8 Scott Assault Gun Platoon (LU170)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="9ee8-8d48-bab2-baae" name="3x 57mm gun3x M3 Half-track (.50 cal MG) (LU166)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/></costs></selectionEntry><selectionEntry id="e353-c496-37e1-dd07" name="2x 57mm gun2x M3 Half-track (.50 cal MG) (LU166)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry><selectionEntry id="1643-e704-096d-65f8" name="3x 57mm gun" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry><selectionEntry id="d7b5-9d6c-b13a-4a0f" name="2x 57mm gun" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="73aa-cd7e-921d-47d3" name="Veteran M8 Scott Assault Gun Platoon (from CC) (LU170)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="1bd2-00b5-b463-c731" name="Veteran M8 Scott Assault Gun Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-SP Gun Counterattack 6</characteristic>
+SP GunCounterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-SP Gun Assault 6</characteristic>
+SP GunAssault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
@@ -2831,14 +2831,14 @@ SP Gun Assault 6</characteristic>
   <categoryLinks>
     <categoryLink id="ee4f-7029-2ddd-ac8c" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="9dfa-ea10-5b07-5750" name="Veteran Armoured M4 81mm Mortar Platoon (LU171)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="d852-75d9-9c24-81d4" name="3x M8 Scott (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry><selectionEntry id="34b7-7c71-9a58-0759" name="2x M8 Scott (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="9dfa-ea10-5b07-5750" name="Veteran Armoured M4 81mm Mortar Platoon (LU171)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="efcb-5d9d-d787-0019" name="Veteran Armoured M4 81mm Mortar Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-SP Gun Counterattack 6</characteristic>
+SP GunCounterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-SP Gun Assault 6</characteristic>
+SP GunAssault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
@@ -2882,14 +2882,14 @@ SP Gun Assault 6</characteristic>
   <categoryLinks>
     <categoryLink id="ae0e-3da0-b475-1b8f" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="9b97-6f65-3404-8f2d" name="M10 Tank Destroyer Company HQ (LU172)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="9905-9e1f-615b-41df" name="3x M4 (81mm mortar)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="9b97-6f65-3404-8f2d" name="M10 Tank Destroyer Company HQ (LU172)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="4b9a-3488-4994-9706" name="M10 Tank Destroyer Company HQ" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Scout Counterattack 6</characteristic>
+ScoutCounterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-Scout Assault 5+</characteristic>
+ScoutAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -2923,14 +2923,14 @@ Scout Assault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="604d-d76b-4174-af4c" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="e85f-ccd4-1b9f-0b7f" name="M20 Security Section (LU173)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="9a19-149a-5c7d-4265" name="2x M20 Scout Car" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="e85f-ccd4-1b9f-0b7f" name="M20 Security Section (LU173)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="fd07-d727-577c-1d22" name="M20 Security Section" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Scout Last Stand 5+</characteristic>
+ScoutLast Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-Scout Assault 5+</characteristic>
+ScoutAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -2957,21 +2957,21 @@ Scout Assault 5+</characteristic>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LU173</characteristic>
       </characteristics>
     </profile>
-  </profiles>
+  <profile id="1da7-6f39-8dbe-e07f" name="Jeep (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="2550-1570-c74f-b5a1" name="Jeep (60mm mortar)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="fa91-d0a5-102d-c2a6" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="dcac-ccd6-0df5-fef2" name="M8 Greyhound Cavalry Recon Patrol (LU174)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="3091-6121-6c49-a0f7" name="2x M20 Scout Car1x Jeep (.50 cal MG) (LU107)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="dcac-ccd6-0df5-fef2" name="M8 Greyhound Cavalry Recon Patrol (LU174)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="5f1c-191b-4c1f-29bf" name="M8 Greyhound Cavalry Recon Patrol" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Scout Last Stand 5+</characteristic>
+ScoutLast Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-Scout Assault 4+</characteristic>
+ScoutAssault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -3008,20 +3008,20 @@ Scout Assault 4+</characteristic>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LU174</characteristic>
       </characteristics>
     </profile>
-  </profiles>
+  <profile id="a788-6e0b-7a1d-f0ef" name="Jeep (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="39d9-20c8-249c-2b4a" name="Jeep (60mm mortar)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="1545-21f0-e167-cfd3" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="5cc7-56b5-e4a7-1cd1" name="3-inch Towed Tank Destroyer Platoon (LU175)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="6565-b066-64e6-3998" name="2x M8 Greyhound (37mm)1x Jeep (MG) (LU107)1x Jeep (60mm) (LU107)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry><selectionEntry id="29cc-672a-b768-2ca2" name="1x M8 Greyhound (37mm)1x Jeep (MG) (LU107)1x Jeep (60mm) (LU107)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="5cc7-56b5-e4a7-1cd1" name="3-inch Towed Tank Destroyer Platoon (LU175)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="88e2-b547-2c35-c004" name="3-inch Towed Tank Destroyer Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-Gun Assault 5+</characteristic>
+GunAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
@@ -3053,7 +3053,7 @@ Gun Assault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="4718-6d2d-7566-b77d" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="c084-dcb9-f017-d5e3" name="L4 Grasshopper OP Observation Post (LU178)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="b189-56f0-3069-3a32" name="4x 3-inch gun" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/></costs></selectionEntry><selectionEntry id="a6b5-e565-61f2-c615" name="2x 3-inch gun" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="c084-dcb9-f017-d5e3" name="L4 Grasshopper OP Observation Post (LU178)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="d7b2-095c-980b-c345" name="L4 Grasshopper OP Observation Post" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft Unit" hidden="false">
       <characteristics>
@@ -3077,14 +3077,14 @@ Gun Assault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="64a2-f728-dd70-2240" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="cfa4-cd2b-0dc4-3b42" name="M15 &amp; M16 AAA Platoon (LU179)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="6706-55e4-7d33-0bbe" name="1x L4 Grasshopper OP" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="cfa4-cd2b-0dc4-3b42" name="M15 &amp; M16 AAA Platoon (LU179)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="a288-194f-e647-f7f0" name="M15 &amp; M16 AAA Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-SP Gun Counterattack 6</characteristic>
+SP GunCounterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-SP Gun Assault 6</characteristic>
+SP GunAssault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
@@ -3128,7 +3128,7 @@ SP Gun Assault 6</characteristic>
   <categoryLinks>
     <categoryLink id="7ba0-654b-5c0d-25b2" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="bd8a-0eb0-6e87-9304" name="P-47 Thunderbolt Fighter Flight (LU180)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="3e0b-963b-a5e4-f63c" name="2x M15 (37mm &amp; .50 cal)2x M16 (Quad .50 cal)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry><selectionEntry id="a088-e4a5-3f85-a3ed" name="1x M15 (37mm &amp; .50 cal)1x M16 (Quad .50 cal)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="bd8a-0eb0-6e87-9304" name="P-47 Thunderbolt Fighter Flight (LU180)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="9bad-9a4f-b263-9247" name="P-47 Thunderbolt Fighter Flight" typeId="d8ed-85c5-35d4-eb3c" typeName="Aircraft Unit" hidden="false">
       <characteristics>
@@ -3182,12 +3182,12 @@ SP Gun Assault 6</characteristic>
   <categoryLinks>
     <categoryLink id="1eeb-fd72-1306-5d08" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="aaaa-ed32-6733-9c9d" name="M4 Sherman (Late) Tank Platoon (LU182)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="db32-d973-952d-2873" name="2x P-47 Thunderbolt" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="aaaa-ed32-6733-9c9d" name="M4 Sherman (Late) Tank Platoon (LU182)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="a630-b145-e88a-6443" name="M4 Sherman (Late) Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected Ammo Remount 3+</characteristic>
+Protected AmmoRemount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
@@ -3245,19 +3245,19 @@ Protected Ammo Remount 3+</characteristic>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LU182</characteristic>
       </characteristics>
     </profile>
-  </profiles>
+  <profile id="c187-40bf-d2b6-7c64" name="M4 Easy Eight (76mm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE, Stabiliser</characteristic></characteristics></profile><profile id="04f5-bcb4-6c0e-f6ac" name="M4 Easy Eight (.50 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="c261-b582-c775-9751" name="M4 Easy Eight (MGs)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile><profile id="b85b-812c-7b18-b37e" name="M4 Jumbo (75mm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke, Stabiliser</characteristic></characteristics></profile><profile id="8ddd-d4eb-0cb1-e1b5" name="M4 Jumbo (76mm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE, Stabiliser</characteristic></characteristics></profile><profile id="20a1-680d-2441-cac6" name="M4 Jumbo (.50 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="f0cb-3fda-3fb0-f6f1" name="M4 Jumbo (MGs)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="6079-fcdb-637d-1ec3" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="02a5-0720-788e-8033" name="M24 Chaffee Tank Platoon (LU188)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="e458-286e-5e08-6639" name="5x M4 Sherman (late 75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/></costs></selectionEntry><selectionEntry id="e98f-8739-8fc9-53e2" name="4x M4 Sherman (late 75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/></costs></selectionEntry><selectionEntry id="d40c-1ea6-6d70-f12e" name="3x M4 Sherman (late 75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="02a5-0720-788e-8033" name="M24 Chaffee Tank Platoon (LU188)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="5650-1bfa-31e1-fc3c" name="M24 Chaffee Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected Ammo Remount 3+</characteristic>
+Protected AmmoRemount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
@@ -3312,14 +3312,14 @@ Protected Ammo Remount 3+</characteristic>
   <categoryLinks>
     <categoryLink id="2753-7a0b-6e53-e821" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="6939-60fe-dc37-87c6" name="Veteran M4 Sherman (Late) Tank Platoon (LU190)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="3c64-5c61-f9e1-98e8" name="5x M24 Chaffee (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/></costs></selectionEntry><selectionEntry id="305d-ccc5-1641-dac2" name="4x M24 Chaffee (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/></costs></selectionEntry><selectionEntry id="47b8-5656-4f82-b3d7" name="3x M24 Chaffee (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="6939-60fe-dc37-87c6" name="Veteran M4 Sherman (Late) Tank Platoon (LU190)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="53e5-dd70-6112-4f23" name="Veteran M4 Sherman (Late) Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected Ammo Remount 3+</characteristic>
+Protected AmmoRemount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-Yankee Ingenuity Tactics 3+</characteristic>
+Yankee IngenuityTactics 3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
@@ -3376,20 +3376,20 @@ Yankee Ingenuity Tactics 3+</characteristic>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LU190</characteristic>
       </characteristics>
     </profile>
-  </profiles>
+  <profile id="f343-e1f7-c601-4a38" name="M4 Jumbo (75mm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke, Stabiliser</characteristic></characteristics></profile><profile id="7748-8ae4-5182-c5b7" name="M4 Jumbo (76mm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">36&quot;/90cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">No HE, Stabiliser</characteristic></characteristics></profile><profile id="cb6d-2dd8-7ef2-9558" name="M4 Jumbo (.50 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="566f-1813-3404-093c" name="M4 Jumbo (MGs)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="008c-f75e-4549-5156" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="f8e7-0e90-b544-0727" name="M26 Pershing Tank Platoon (LU195)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="335c-0d1c-970f-ff4c" name="5x M4 Sherman (late 75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/></costs></selectionEntry><selectionEntry id="5e6a-2be5-4b5b-1258" name="4x M4 Sherman (late 75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/></costs></selectionEntry><selectionEntry id="6666-c359-3658-bbf1" name="3x M4 Sherman (late 75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="f8e7-0e90-b544-0727" name="M26 Pershing Tank Platoon (LU195)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="fff3-482e-773b-5b94" name="M26 Pershing Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-Yankee Ingenuity Tactics 3+</characteristic>
+Yankee IngenuityTactics 3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">6</characteristic>
@@ -3443,14 +3443,14 @@ Yankee Ingenuity Tactics 3+</characteristic>
   <categoryLinks>
     <categoryLink id="39ac-d57a-78d2-cc20" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="0657-6a38-05aa-83da" name="Veteran M24 Chaffee Tank Platoon (LU198)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="2a95-2090-b151-004b" name="5x M26 Pershing (90mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="49.0"/></costs></selectionEntry><selectionEntry id="b682-abd3-f406-1608" name="4x M26 Pershing (90mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="39.0"/></costs></selectionEntry><selectionEntry id="4a76-b00b-fe6e-5b5a" name="3x M26 Pershing (90mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="29.0"/></costs></selectionEntry><selectionEntry id="2f31-607a-980c-4d79" name="2x M26 Pershing (90mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="0657-6a38-05aa-83da" name="Veteran M24 Chaffee Tank Platoon (LU198)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="b05a-2cee-e711-134a" name="Veteran M24 Chaffee Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected Ammo Remount 3+</characteristic>
+Protected AmmoRemount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-Yankee Ingenuity Tactics 3+</characteristic>
+Yankee IngenuityTactics 3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
@@ -3504,14 +3504,14 @@ Yankee Ingenuity Tactics 3+</characteristic>
   <categoryLinks>
     <categoryLink id="1b47-b30f-cfae-f560" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="67bd-2512-f787-03b8" name="Battle Weary Armoured Rifle Platoon (LU200)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="3c59-a220-a970-7f82" name="5x M24 Chaffee (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/></costs></selectionEntry><selectionEntry id="2d0e-c343-8593-150a" name="4x M24 Chaffee (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/></costs></selectionEntry><selectionEntry id="afff-f033-7465-f9a1" name="3x M24 Chaffee (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="67bd-2512-f787-03b8" name="Battle Weary Armoured Rifle Platoon (LU200)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="6a80-c57d-78f3-9225" name="Battle Weary Armoured Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ 
-Blood &apos;n Guts Rally 4+</characteristic>
+Blood &apos;n GutsRally 4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Yankee Ingenuity Tactics 3+</characteristic>
+Yankee IngenuityTactics 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -3566,21 +3566,21 @@ Yankee Ingenuity Tactics 3+</characteristic>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LU200</characteristic>
       </characteristics>
     </profile>
-  </profiles>
+  <profile id="c20d-8a62-b177-ff81" name="M3 (.50 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="1702-4f4d-e1a4-f1c7" name="M3 (.30 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile><profile id="e091-7c73-a5e7-fec0" name="Passenger MG" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">MG Transport</characteristic></characteristics></profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="99b9-2e64-1bb0-d57f" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="2403-a06a-b613-f626" name="Battle Weary Rifle Platoon (LU206)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="68b6-f78a-5f1c-0595" name="6x M1 Garand rifle team5x M1 Bazooka team2x M1919 LMG1x 60mm mortar" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/></costs></selectionEntry><selectionEntry id="b481-af2d-5c74-f292" name="6x M1 Garand rifle team5x M1 Bazooka team2x M1919 LMG1x 60mm mortar2x M3 Half-track (.50 cal MG) (LU201)3x M3 Half-track (.30 cal MG) (LU201)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/></costs></selectionEntry><selectionEntry id="2812-6d81-4972-21bf" name="4x M1 Garand rifle team4x M1 Bazooka team2x M1919 LMG1x 60mm mortar" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/></costs></selectionEntry><selectionEntry id="5bec-c91a-37d0-a54f" name="4x M1 Garand rifle team4x M1 Bazooka team2x M1919 LMG1x 60mm mortar2x M3 Half-track (.50 cal MG) (LU201)2x M3 Half-track (.30 cal MG) (LU201)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="2403-a06a-b613-f626" name="Battle Weary Rifle Platoon (LU206)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="56ac-b8ba-52b0-80bc" name="Battle Weary Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ 
-Blood &apos;n Guts Rally 4+</characteristic>
+Blood &apos;n GutsRally 4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Yankee Ingenuity Tactics 3+</characteristic>
+Yankee IngenuityTactics 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -3642,12 +3642,12 @@ Yankee Ingenuity Tactics 3+</characteristic>
   <categoryLinks>
     <categoryLink id="0b3a-2ed1-8756-9c81" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="7908-dd4e-d0fd-8a90" name="Bastogne Parachute Rifle Platoon (LU212)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="14db-9d4d-89a6-6a10" name="10x M1 Garand rifle team1x M1 Bazooka team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/></costs></selectionEntry><selectionEntry id="e2bf-271d-43e6-b6af" name="7x M1 Garand rifle team1x M1 Bazooka team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="7908-dd4e-d0fd-8a90" name="Bastogne Parachute Rifle Platoon (LU212)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="39df-76b5-e501-90de" name="Bastogne Parachute Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+ 
-Nuts! Last Stand 2+</characteristic>
+Nuts!Last Stand 2+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
@@ -3710,12 +3710,12 @@ Nuts! Last Stand 2+</characteristic>
   <categoryLinks>
     <categoryLink id="a65f-2665-046c-3ed7" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="dbfa-80fe-ad82-e4cf" name="Bastogne Glider Rifle  Platoon (LU217)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="6893-7ad6-78cb-6eb7" name="7x M1919 and M1 Garand rifle team1x 60mm mortar1x M1 Bazooka team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/></costs></selectionEntry><selectionEntry id="097d-dd45-2be0-ac13" name="5x M1919 and M1 Garand rifle team1x 60mm mortar1x M1 Bazooka team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="dbfa-80fe-ad82-e4cf" name="Bastogne Glider Rifle  Platoon (LU217)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="6ccf-022c-8045-79df" name="Bastogne Glider Rifle  Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Nuts! Last Stand 3+</characteristic>
+Nuts!Last Stand 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
@@ -3778,14 +3778,14 @@ Nuts! Last Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="3b42-61b3-13b9-d81d" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="e4ce-62a5-f9f3-fefd" name="M36 Tank Destroyer Platoon (LU224)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="7849-f17d-8870-acf3" name="10x M1 Garand rifle team1x M1 Bazooka team1x M1919 LMG team1x 60mm mortar team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/></costs></selectionEntry><selectionEntry id="8605-0e44-8931-5213" name="7x M1 Garand rifle team1x M1 Bazooka team1x M1919 LMG team1x 60mm mortar team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="e4ce-62a5-f9f3-fefd" name="M36 Tank Destroyer Platoon (LU224)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="7ad4-d94c-206f-85fa" name="M36 Tank Destroyer Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected Ammo Remount 3+</characteristic>
+Protected AmmoRemount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-SP Gun Assault 4+</characteristic>
+SP GunAssault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
@@ -3829,14 +3829,14 @@ SP Gun Assault 4+</characteristic>
   <categoryLinks>
     <categoryLink id="fa80-7ded-cce6-e3d4" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="3d00-003a-4710-9cfb" name="M18 Tank Destroyer Platoon (LU226)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="0942-a991-ee16-17e3" name="4x M36 (90mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/></costs></selectionEntry><selectionEntry id="626a-1e46-2e05-97db" name="2x M36 (90mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="3d00-003a-4710-9cfb" name="M18 Tank Destroyer Platoon (LU226)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="86f3-5901-a3a1-d6dd" name="M18 Tank Destroyer Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-SP Gun Counterattack 6</characteristic>
+SP GunCounterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-SP Gun Assault 4+</characteristic>
+SP GunAssault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -3880,14 +3880,14 @@ SP Gun Assault 4+</characteristic>
   <categoryLinks>
     <categoryLink id="159b-e5f7-98a7-70ee" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="9a4e-acae-a2ce-8eb0" name="Veteran M10 Tank Destroyer Platoon (LU233)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="70c7-8f60-b61c-6242" name="4x M18 (76mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/></costs></selectionEntry><selectionEntry id="0843-9270-4515-a7ce" name="2x M18 (76mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="9a4e-acae-a2ce-8eb0" name="Veteran M10 Tank Destroyer Platoon (LU233)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="1751-2077-e86f-f236" name="Veteran M10 Tank Destroyer Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-SP Gun Counterattack 6</characteristic>
+SP GunCounterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-SP Gun Assault 4+</characteristic>
+SP GunAssault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
@@ -3931,14 +3931,14 @@ SP Gun Assault 4+</characteristic>
   <categoryLinks>
     <categoryLink id="c45b-1fa7-878c-5646" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="1ce2-712b-664a-7d14" name="M18 Tank Destroyer Company HQ (LU237)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="1b27-61ab-7558-1e3e" name="4x M10 (3-inch)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/></costs></selectionEntry><selectionEntry id="a079-1aec-84c6-2ce8" name="2x M10 (3-inch)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="1ce2-712b-664a-7d14" name="M18 Tank Destroyer Company HQ (LU237)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="43dc-8ab5-c689-2cdc" name="M18 Tank Destroyer Company HQ" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Scout Counterattack 6</characteristic>
+ScoutCounterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-Scout Assault 5+</characteristic>
+ScoutAssault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -3972,7 +3972,7 @@ Scout Assault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="0a6b-f6ab-d658-e08c" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-</selectionEntry><selectionEntry id="8726-65a1-d26e-c219" name="M18 Tank Destroyer Platoon (LU238)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntries><selectionEntry id="3555-e2a7-4509-d999" name="2x M20 (.50 cal MG)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntry><selectionEntry id="8726-65a1-d26e-c219" name="M18 Tank Destroyer Platoon (LU238)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="aed2-2fb0-554b-17ae" name="M18 Tank Destroyer Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>

@@ -3284,8 +3284,8 @@ Assault 6</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3bfa-fc0a-9311-92e9" name="SU-85 Tank-Killer Battery [LS144]" publicationId="9f90-b6ea-6e0c-9aa3" page="26" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
+    <selectionEntry id="3bfa-fc0a-9311-92e9" name="SU-85 Tank-killer Battery (LS144)" publicationId="9f90-b6ea-6e0c-9aa3" page="26" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="8715-c21f-8c3f-97ff" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LS144</characteristic></characteristics></profile></profiles><infoLinks>
         <infoLink id="4f5e-3669-fc57-9646" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="e404-8343-5ba0-cfaa" name="SU-85" hidden="false" targetId="ed7d-4943-4ec8-b8b7" type="profile"/>
         <infoLink id="3906-0b73-146c-ada3" name="SU-85 (85mm)" hidden="false" targetId="a84d-c54f-0edc-ae27" type="profile"/>
@@ -3298,22 +3298,22 @@ Assault 6</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a491-e835-334e-4f18" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="8ba1-de4f-4aef-a7a6" name="3x SU-85 (85mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="26" hidden="false" collective="false" import="true" type="unit">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1e8c-0636-a081-c5c7" name="4x SU-85 (85mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="26" hidden="false" collective="false" import="true" type="unit">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="d363-1a35-238d-a71c" name="5x SU-85 (85mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="26" hidden="false" collective="false" import="true" type="unit">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
+          <selectionEntry id="1e8c-0636-a081-c5c7" name="4x SU-85 (85mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="26" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8ba1-de4f-4aef-a7a6" name="3x SU-85 (85mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="26" hidden="false" collective="false" import="true" type="unit">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+              </costs>
+            </selectionEntry>
+            </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -4700,8 +4700,8 @@ configured for Berlin by AncestralHeritage</comment>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2a43-4c27-a94e-ad6a" name="Hero T-70 Tank Company [LS107]" publicationId="4021-7322-ad7d-e1d9" page="65" hidden="false" collective="false" import="true" type="unit">
-      <comment>
+    <selectionEntry id="2a43-4c27-a94e-ad6a" name="Hero T-70 Tank Company (LS107)" publicationId="4021-7322-ad7d-e1d9" page="65" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="7f4d-d9be-6e2b-0385" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LS107</characteristic></characteristics></profile></profiles><comment>
 rectified by AncestralHeritage</comment>
       <infoLinks>
         <infoLink id="bf3b-0166-8ec5-40b6" name="Crafty" hidden="false" targetId="aa86-a5db-aa6d-9cce" type="rule"/>
@@ -8641,12 +8641,12 @@ Assault 5+</characteristic>
     </profile>
     <profile id="887b-3f9c-df3d-3381" name="T-70 (MG)" publicationId="9f90-b6ea-6e0c-9aa3" page="29" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overworked</characteristic>
       </characteristics>
     </profile>
     <profile id="fab3-19e8-fa30-854d" name="Engineer-Sapper Battalion HQ" publicationId="9f90-b6ea-6e0c-9aa3" page="31" hidden="false" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit">
@@ -9120,12 +9120,12 @@ Tactics 3+</characteristic>
     </profile>
     <profile id="10ea-61e7-657c-1f35" name="T-70 (45mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="47" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overworked</characteristic>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
     <profile id="382a-8d6b-4ae9-efef" name="Valentine (2 pdr)" publicationId="4021-7322-ad7d-e1d9" page="33" hidden="false" typeId="33b6-a72a-2bd8-2565" typeName="Weapon">
