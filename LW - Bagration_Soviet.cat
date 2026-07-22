@@ -4522,8 +4522,8 @@ Engineer-Sapper Company [LS164] Options restrictions a WIP</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3bfa-fc0a-9311-92e9" name="SU-85 Tank-killer Battery (LS144)" publicationId="9f90-b6ea-6e0c-9aa3" page="26" hidden="false" collective="false" import="true" type="unit">
-      <profiles><profile id="aedd-826b-bdd0-c1ab" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LS144</characteristic></characteristics></profile></profiles><comment>added in v1 by willus8888</comment>
+    <selectionEntry id="3bfa-fc0a-9311-92e9" name="SU-85 Tank-Killer Battery [LS144]" publicationId="9f90-b6ea-6e0c-9aa3" page="26" hidden="false" collective="false" import="true" type="unit">
+      <comment>added in v1 by willus8888</comment>
       <infoLinks>
         <infoLink id="4f5e-3669-fc57-9646" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="e404-8343-5ba0-cfaa" name="SU-85" hidden="false" targetId="ed7d-4943-4ec8-b8b7" type="profile"/>
@@ -4537,25 +4537,25 @@ Engineer-Sapper Company [LS164] Options restrictions a WIP</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a491-e835-334e-4f18" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d363-1a35-238d-a71c" name="5x SU-85 (85mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="26" hidden="false" collective="false" import="true" type="unit">
-              <comment>added in v1 by willus8888</comment>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
-              </costs>
-            </selectionEntry>
-          <selectionEntry id="1e8c-0636-a081-c5c7" name="4x SU-85 (85mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="26" hidden="false" collective="false" import="true" type="unit">
-              <comment>added in v1 by willus8888</comment>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="8ba1-de4f-4aef-a7a6" name="3x SU-85 (85mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="26" hidden="false" collective="false" import="true" type="unit">
               <comment>added in v1 by willus8888</comment>
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
               </costs>
             </selectionEntry>
-            </selectionEntries>
+            <selectionEntry id="1e8c-0636-a081-c5c7" name="4x SU-85 (85mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="26" hidden="false" collective="false" import="true" type="unit">
+              <comment>added in v1 by willus8888</comment>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d363-1a35-238d-a71c" name="5x SU-85 (85mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="26" hidden="false" collective="false" import="true" type="unit">
+              <comment>added in v1 by willus8888</comment>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -6017,8 +6017,8 @@ Engineer-Sapper Company [LS164] Options restrictions a WIP</readme>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2a43-4c27-a94e-ad6a" name="Hero T-70 Tank Company (LS107)" publicationId="9f90-b6ea-6e0c-9aa3" page="47" hidden="false" collective="false" import="true" type="unit">
-      <profiles><profile id="1269-0ce0-fcd0-5b9d" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LS107</characteristic></characteristics></profile></profiles><comment>added in v1 by willus8888</comment>
+    <selectionEntry id="2a43-4c27-a94e-ad6a" name="Hero T-70 Tank Company [LS107]" publicationId="9f90-b6ea-6e0c-9aa3" page="47" hidden="false" collective="false" import="true" type="unit">
+      <comment>added in v1 by willus8888</comment>
       <infoLinks>
         <infoLink id="bf3b-0166-8ec5-40b6" name="Crafty" hidden="false" targetId="0767-65b0-b024-e95a" type="rule"/>
         <infoLink id="0e5e-90c9-bf46-53b2" name="T-70 Hero" hidden="false" targetId="4300-70a1-35f6-f289" type="profile"/>
@@ -6033,7 +6033,13 @@ Engineer-Sapper Company [LS164] Options restrictions a WIP</readme>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="658f-8d6b-f602-7be6" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="306a-36eb-40d7-53db" name="3x T-70 (45mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries>
+            <selectionEntry id="4e8d-e890-2573-0b78" name="3x T-34 (76mm)" publicationId="9f90-b6ea-6e0c-9aa3" page="47" hidden="false" collective="false" import="true" type="unit">
+              <comment>added in v1 by willus8888</comment>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>

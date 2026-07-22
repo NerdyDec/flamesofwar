@@ -998,7 +998,7 @@ Follow Me 3+</characteristic>
         <profile id="df32-346e-67c3-a9f8" name="Panther Tank Platoon" publicationId="94b0-77e6-8d24-9f2b" page="47" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-HuszárFollow Me 3+</characteristic>
+Follow Me 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
@@ -1012,7 +1012,7 @@ HuszárFollow Me 3+</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
-      <profile id="4604-c248-5ea9-fa1f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LH102</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="6833-a430-621b-2ad6" name="Panther (7.5cm)" hidden="false" targetId="5cbd-6bd6-285d-2514" type="profile"/>
         <infoLink id="6820-a1e9-4bfb-893f" name="Panther (MGs)" hidden="false" targetId="f46b-814d-d319-6932" type="profile"/>
@@ -1026,12 +1026,12 @@ HuszárFollow Me 3+</characteristic>
           <selectionEntries>
             <selectionEntry id="5c08-4a11-daad-f868" name="3x Panther (7.5cm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="29.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="551f-d1fe-94c9-a41a" name="2x Panther (7.5cm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1134,7 +1134,8 @@ Remount 3+</characteristic>
         <profile id="a21b-7711-8b3f-f959" name="Tiger Tank Platoon" publicationId="10a4-8008-66c3-952e" page="39" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic>
+Follow Me 3+ 
+Remount 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
@@ -1148,7 +1149,7 @@ Protected AmmoRemount 3+</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
-      <profile id="c0e7-4eb0-dc6f-b177" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LH104</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="e3dc-0684-6f71-bab3" name="Tiger (8.8cm)" hidden="false" targetId="feb7-183c-8e36-c212" type="profile"/>
         <infoLink id="8356-b56c-4d30-f9e9" name="Tiger (MGs)" hidden="false" targetId="1b5b-7c16-0ebd-8124" type="profile"/>
@@ -1182,7 +1183,8 @@ Protected AmmoRemount 3+</characteristic>
         <profile id="88bd-5fce-e847-1fc2" name="Panzer III Tank Platoon" publicationId="94b0-77e6-8d24-9f2b" page="53" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic>
+Follow Me 3+ 
+Remount 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
@@ -1196,7 +1198,7 @@ Protected AmmoRemount 3+</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985">Bazooka Skirts</characteristic>
           </characteristics>
         </profile>
-      <profile id="9340-d0c9-e5ee-d60c" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LH110</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="c4d3-b017-0535-91ff" name="Bazooka Skirts" hidden="false" targetId="73c2-04f8-a9a1-9e85" type="rule"/>
         <infoLink id="249c-70ae-73f7-4138" name="Panzer III (5cm)" hidden="false" targetId="c7f3-f60e-b009-b61d" type="profile"/>
@@ -1209,17 +1211,17 @@ Protected AmmoRemount 3+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bef8-fd99-f77e-dd45" type="max"/>
           </constraints>
           <selectionEntries>
+            <selectionEntry id="969d-a92b-c95c-2870" name="3x Panzer III (5cm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="e601-fc22-3cc5-b10f" name="4x Panzer III (5cm)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
               </costs>
             </selectionEntry>
-          <selectionEntry id="969d-a92b-c95c-2870" name="3x Panzer III (5cm)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            </selectionEntries>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -1530,8 +1532,9 @@ Remount 3+</characteristic>
       <profiles>
         <profile id="3daa-0ad3-1edf-5568" name="Turán Tank Platoon" publicationId="94b0-77e6-8d24-9f2b" page="51" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+
+Follow Me 3+
+Remount 3+</characteristic>
             <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
@@ -1545,7 +1548,7 @@ Protected AmmoRemount 3+</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
-      <profile id="7d34-d698-efe1-4079" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LH106</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="b404-4024-fd46-5a9c" name="Turán I &amp; II (MGs)" hidden="false" targetId="47d3-0aba-1e38-6111" type="profile"/>
       </infoLinks>
@@ -1556,22 +1559,6 @@ Protected AmmoRemount 3+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c740-fadd-857a-dc36" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ba5e-fd38-9034-6c9e" name="5x Turán I (40mm)" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="1ae4-32a2-f698-9259" name="Turán I (40mm)" hidden="false" targetId="d8eb-0d41-2fe8-6d9f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-              </costs>
-            </selectionEntry>
-          <selectionEntry id="aa99-5712-49cc-f786" name="4x Turán I (40mm)" hidden="false" collective="false" import="true" type="model">
-              <infoLinks>
-                <infoLink id="72a6-736c-267b-d8be" name="Turán I (40mm)" hidden="false" targetId="d8eb-0d41-2fe8-6d9f" type="profile"/>
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="5039-baf6-5cae-895b" name="3x Turán I (40mm)" hidden="false" collective="false" import="true" type="model">
               <infoLinks>
                 <infoLink id="3e35-bbf4-e96d-c398" name="Turán I (40mm)" hidden="false" targetId="d8eb-0d41-2fe8-6d9f" type="profile"/>
@@ -1589,7 +1576,23 @@ Protected AmmoRemount 3+</characteristic>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
               </costs>
             </selectionEntry>
-            </selectionEntries>
+            <selectionEntry id="aa99-5712-49cc-f786" name="4x Turán I (40mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="72a6-736c-267b-d8be" name="Turán I (40mm)" hidden="false" targetId="d8eb-0d41-2fe8-6d9f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ba5e-fd38-9034-6c9e" name="5x Turán I (40mm)" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="1ae4-32a2-f698-9259" name="Turán I (40mm)" hidden="false" targetId="d8eb-0d41-2fe8-6d9f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -1894,10 +1897,10 @@ Assault 4+</characteristic>
       <profiles>
         <profile id="39c2-8ac7-a1fd-b067" name="Zrínyi Assault Gun Platoon" publicationId="94b0-77e6-8d24-9f2b" page="59" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ 
-SP GunCounterattack 5+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-SP GunAssault 4+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+
+Counterattack 5+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+
+Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
             <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
@@ -1910,7 +1913,7 @@ SP GunAssault 4+</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985">Bazooka Skirts</characteristic>
           </characteristics>
         </profile>
-      <profile id="df08-2183-a9ea-a406" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LH113</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="443d-e13e-b2fc-f8d0" name="Zrínyi (105mm) [Direct]" hidden="false" targetId="3fc2-72ec-78fd-5d7b" type="profile"/>
         <infoLink id="5651-7ae5-6190-9bcb" name="Zrínyi (105mm) [Indirect]" hidden="false" targetId="c8d4-c598-708d-4436" type="profile"/>
@@ -1990,10 +1993,11 @@ SP GunAssault 6</characteristic>
       <profiles>
         <profile id="aeaf-8544-a652-0206" name="Hetzer Assault Gun Platoon" publicationId="94b0-77e6-8d24-9f2b" page="61" hidden="false" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-SP GunCounterattack 5+</characteristic>
-            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-SP GunAssault 4+</characteristic>
+            <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Counterattack 5+
+Follow Me 3+</characteristic>
+            <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+Assault 4+</characteristic>
             <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
             <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
             <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
@@ -2006,7 +2010,7 @@ SP GunAssault 4+</characteristic>
             <characteristic name="Notes" typeId="33d6-6375-9564-9985"/>
           </characteristics>
         </profile>
-      <profile id="3534-ceb6-c456-95bf" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LH118</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="7d81-e533-b6af-6b96" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="f141-a9f0-5f80-ee51" name="Overworked" hidden="false" targetId="4c99-f2b8-5818-72b1" type="rule"/>
@@ -2020,22 +2024,22 @@ SP GunAssault 4+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c11-c79e-e6b4-c242" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="f487-e546-65e5-91d5" name="5x Hetzer (7.5cm)" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-              </costs>
-            </selectionEntry>
-          <selectionEntry id="1fe5-fb9b-9e50-4e4d" name="4x Hetzer (7.5cm)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="e837-6bfb-40db-278a" name="3x Hetzer (7.5cm)" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e837-6bfb-40db-278a" name="3x Hetzer (7.5cm)" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="1fe5-fb9b-9e50-4e4d" name="4x Hetzer (7.5cm)" hidden="false" collective="false" import="true" type="model">
               <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
               </costs>
             </selectionEntry>
-            </selectionEntries>
+            <selectionEntry id="f487-e546-65e5-91d5" name="5x Hetzer (7.5cm)" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -2323,14 +2327,14 @@ Assault 5+/4+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c393-0525-da7a-136a" name="7.5cm Heavy Anti-tank Platoon (LH126)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c393-0525-da7a-136a" name="7.5cm Heavy Anti-Tank Platoon (LH126)" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="43ce-5560-27c6-303e" name="7.5cm Heavy Anti-Tank Platoon" publicationId="94b0-77e6-8d24-9f2b" page="68" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
-            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
-Home DefenceLast Stand 3+</characteristic>
-            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+            <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+
+Last Stand 3+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
+Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
             <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
             <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -2341,7 +2345,7 @@ GunAssault 5+</characteristic>
             <characteristic name="Notes" typeId="28aa-390d-006a-1776">Gun Shield</characteristic>
           </characteristics>
         </profile>
-      <profile id="46bc-60fb-f800-25f1" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LH126</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="de9a-0817-e202-8466" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="85d7-3b4a-838c-2326" name="Gun Shield" hidden="false" targetId="2f2d-c5a9-ef7e-1b5e" type="rule"/>
@@ -2354,17 +2358,17 @@ GunAssault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb42-ccfb-d25c-2f67" type="min"/>
           </constraints>
           <selectionEntries>
+            <selectionEntry id="44cf-1bdd-3a44-a370" name="2x 7.5cm gun" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="2cbb-6d52-d721-2026" name="3x 7.5cm gun" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
               </costs>
             </selectionEntry>
-          <selectionEntry id="44cf-1bdd-3a44-a370" name="2x 7.5cm gun" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-              </costs>
-            </selectionEntry>
-            </selectionEntries>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -2714,8 +2718,8 @@ GunAssault 5+</characteristic>
         <profile id="3257-249b-8957-6df0" name="150mm Rocket Launcher Battery" publicationId="94b0-77e6-8d24-9f2b" page="71" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
-            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+
+Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
             <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
             <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -2726,7 +2730,7 @@ GunAssault 5+</characteristic>
             <characteristic name="Notes" typeId="28aa-390d-006a-1776">Large Gun</characteristic>
           </characteristics>
         </profile>
-      <profile id="b265-c642-9fdc-920b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LH131</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="9554-66a9-0a0b-e811" name="Forward Firing" hidden="false" targetId="fa9d-68f6-57d9-dc5d" type="rule"/>
         <infoLink id="b3de-e5c7-09d2-27b3" name="150mm rocket launcher" hidden="false" targetId="fef0-6d92-4456-15cf" type="profile"/>
@@ -2740,17 +2744,17 @@ GunAssault 5+</characteristic>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aded-270d-a67f-fc61" type="max"/>
           </constraints>
           <selectionEntries>
+            <selectionEntry id="fc20-92c5-956b-f841" name="3x 150mm rocket launcher" hidden="false" collective="false" import="true" type="model">
+              <costs>
+                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="8459-ca71-a537-15a1" name="6x 150mm rocket launcher" hidden="false" collective="false" import="true" type="model">
               <costs>
                 <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
               </costs>
             </selectionEntry>
-          <selectionEntry id="fc20-92c5-956b-f841" name="3x 150mm rocket launcher" hidden="false" collective="false" import="true" type="model">
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-              </costs>
-            </selectionEntry>
-            </selectionEntries>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -2854,24 +2858,24 @@ GunAssault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3094-8b4f-df81-a0a6" name="Heavy Anti-aircraft Platoon (LH134)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3094-8b4f-df81-a0a6" name="Heavy Anti-Aircraft Platoon (LH134)" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="64a1-d951-6f7e-367e" name="Heavy Anti-Aircraft Platoon" publicationId="94b0-77e6-8d24-9f2b" page="72" hidden="false" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit">
           <characteristics>
             <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
-            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+            <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+
+Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
             <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
             <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
             <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
             <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
             <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">4&quot;/10cm</characteristic>
-            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6+</characteristic>
+            <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">6</characteristic>
             <characteristic name="Notes" typeId="28aa-390d-006a-1776">Large Gun</characteristic>
           </characteristics>
         </profile>
-      <profile id="ba52-001b-59e4-bce1" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LH134</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink id="8fe5-0b48-0a99-c6b7" name="Self-Defence AA" hidden="false" targetId="6c0b-8d39-70b6-9d1c" type="rule"/>
         <infoLink id="d0b7-5268-11e9-ffa7" name="Large Gun" hidden="false" targetId="183b-aef0-86e1-693f" type="rule"/>
@@ -4333,7 +4337,7 @@ Once dismounted they are Infantry teams and cannot remount for the rest of the g
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Cavalry</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
