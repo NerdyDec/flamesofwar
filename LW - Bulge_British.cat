@@ -2085,937 +2085,7 @@ ScoutAssault 5+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="c602-bd79-e6ed-c599" name="Comet Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="297d-1868-8e2b-3c43" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LB179</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="84b4-972b-f7b8-bc2c" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="568f-7c8f-c634-45af" type="min"/>
-        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da47-922d-2f3f-dcad" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="4a9b-17a7-a2bf-da30" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
-        <entryLink id="7f6d-35df-d8de-7511" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
-        <entryLink id="71b3-8a39-c000-9b9a" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="76f8-b00e-8a18-e756" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b299-b403-f797-9d39" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d546-d275-9297-75ff" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="725a-0eb1-a2ac-2a6c" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
-        <entryLink id="ef29-7617-c389-d4ce" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
-        <entryLink id="c052-670d-d10f-68a6" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="5db6-854a-ca0c-f404" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d15-815a-74ca-5be2" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="969c-4ed7-7869-6b9b" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="d1ac-51d0-e102-82d9" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ec4-07d1-1897-6c49" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="625a-9a74-ffed-028b" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="50f8-9f4f-53c7-0781" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="5ce6-e582-7054-b5bb" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73ca-f1f2-2a76-da9f" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe3e-0c08-8da0-4c89" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="d4e2-e341-caf9-292b" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f3e-73ed-88dd-eefc" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d13-f406-98e7-9b72" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="5d34-6539-a72f-ed6b" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
-        <entryLink id="d65d-2a13-bbee-09b2" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="9186-bfb2-3131-ba70" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7906-d3bf-89c8-b378" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6b2-7f2a-a623-2e4b" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="b8c9-02d2-e8e3-77ae" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="d4f8-7bf7-145c-8fd8" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db5b-9f8d-0072-0784" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d36a-a472-089a-95a9" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="8df2-4548-1807-6a9a" name="Recon" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d6e-a8b1-0d62-0180" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e6f-9438-14d6-0aee" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="5013-c897-e4f7-20ff" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="c9e2-3511-c0f7-6713" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="83ea-330c-40b7-a5c0" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="b321-18fd-39dc-bb80" name="Hussars Cromwell Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="569b-b033-42e8-d6a9" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LB184</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="6202-25dc-47bb-6355" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c819-0792-c941-6c24" type="min"/>
-        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9286-ec8f-99fb-fdd9" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="f011-b7e1-d159-4f27" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
-        <entryLink id="90a2-d1e4-9c61-8181" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
-        <entryLink id="e21a-b9ed-dac9-0223" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3a94-2e7d-b70f-b6f9" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ba-8ef3-c694-beb3" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4afc-22b4-8a69-a104" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="f87b-dc27-5f8a-3aa1" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
-        <entryLink id="1d81-c0fb-2f35-89f4" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
-        <entryLink id="812b-d614-2790-85dc" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="84fe-48ea-8302-200b" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f26-639f-ac88-687e" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef23-068c-05f5-a483" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="6c5c-5f79-616d-81a0" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc06-eada-40a2-9599" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4db2-4ce6-981a-12a6" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="89ae-829d-7e10-b90e" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="8803-c721-ba5a-5762" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="961c-a24c-9ca6-3c85" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d41-925d-4c01-31ba" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3198-8510-b4d3-fcfc" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02e7-f158-9c6f-772f" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d87-9694-0920-ca57" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="9491-e4d8-cdc8-0d2e" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
-        <entryLink id="1025-990f-5d87-d469" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="af97-00bb-a77a-9f45" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec01-8d31-cdae-09fa" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a44a-fe4c-5e54-5b93" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="fcd2-2fae-7ef7-583d" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="2d7c-25ca-6bb0-164a" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acb1-f454-9e22-fe37" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9457-b69c-d39e-adc2" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="8207-395b-cece-2635" name="Recon" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cea-edbf-a26f-16d9" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbf7-cf09-776e-4eff" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="7e35-89df-2ae6-2f31" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="a66c-3be6-b56e-ea3a" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="1121-6d53-e757-d0c3" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="3daf-0d55-014c-d55f" name="Cromwell Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="8f90-5d68-52ef-1e29" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LB187</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="279c-91fd-d7eb-e371" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cae-aa94-c352-9b12" type="min"/>
-        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a503-843b-4994-4f67" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="49e8-a9ec-c23e-e569" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
-        <entryLink id="86ac-298f-bf16-b908" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
-        <entryLink id="e9e6-9411-3da1-5279" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="7308-7775-95bc-9037" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97a8-929b-e0b2-e909" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a6c-652b-1dbb-1997" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="9ec1-490d-9569-c4fc" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
-        <entryLink id="19bd-188d-76e5-b998" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
-        <entryLink id="0ba3-2ae9-a278-47e5" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="4ed1-dc76-171f-d8f6" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d754-ee14-c0c4-004f" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff5f-6846-1840-7e2b" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="c3dc-ff25-318f-9048" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4581-170a-bd7a-d1d5" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4de-161c-005b-1dfb" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="7385-e9cc-e136-fbf5" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="ef6c-d210-9aac-e13f" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0074-6eaf-2f27-3198" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f33b-095c-2bf7-ac0e" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="f553-60b4-12d3-e040" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9e4-0749-d04b-46ab" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c41f-dd2c-231b-c287" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="4250-671a-b1c9-bf66" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
-        <entryLink id="e7ca-2015-01ff-fb57" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="a15f-fccc-a3ce-9204" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9f9-4831-8f30-da86" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1a2-3f31-311d-544a" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="cc0d-06b9-b62e-8ea1" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="b91d-bfd9-9ca5-4b5e" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f0c-c96c-7198-95ff" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f063-8d51-4caa-3605" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3b04-bdd9-627e-d5d8" name="Recon" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a627-1ad9-5758-00b9" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55da-32fc-b5fa-edd8" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="3c19-9ae6-ce1e-4f0b" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="315d-5d3e-c7a2-9970" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="a07e-af92-b47e-f94b" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="df29-0ad9-84e3-cb6f" name="Guards Sherman Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="ca5e-b727-1606-6440" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LB191</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="b634-925b-5db6-58e1" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c356-7644-2045-7a7d" type="min"/>
-        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d9a-4999-e941-b849" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="10de-5405-f084-837e" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
-        <entryLink id="28a9-81f7-41af-c800" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
-        <entryLink id="19b0-5870-92d3-454d" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="bfc3-1578-f0d0-e92a" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c261-7ac2-8b3b-38c6" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1434-5433-b797-fb43" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="1443-3fac-af47-3424" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
-        <entryLink id="9cc4-f950-adf2-c78a" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
-        <entryLink id="8164-019a-07ad-bf63" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="b68e-a48d-bbd9-e869" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cd0-5378-8482-0034" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfb5-2898-4fa5-c284" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="e3b4-f1e0-6cf9-f36a" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e0a-b564-f284-8edb" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1afc-2265-5e07-9ff7" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="be91-5e84-c075-0af9" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="5f44-9d23-8d27-382b" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73a8-0af8-b7d7-fca1" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec79-fa0a-f82c-b058" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="e35a-03e3-79fb-0678" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a52-ec6a-7365-4b89" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feb8-baaa-972a-bf1f" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="cf25-530f-7e5f-b995" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
-        <entryLink id="4887-ef7c-906b-276a" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="4704-3707-b128-d865" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54cd-bcdc-7e9f-358a" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c472-78c4-d11e-d20e" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="e084-269e-b401-fd72" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="a09d-83c4-988f-85df" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8e7-010e-fe69-c929" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc46-a26b-a1ef-c009" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="1fd1-234b-5efa-66ba" name="Recon" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d46a-55fd-af78-5594" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e4b-0471-d0d1-59f4" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="4178-5045-9e4c-90c8" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="1de8-03dd-2956-a8fc" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="c9a1-c8ea-ed79-bf89" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="be27-be26-d9fd-f902" name="Ram Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="b078-3d7f-a6bf-47b6" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LB223</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="e345-1a2f-4eb3-ec62" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0426-7929-f896-87ef" type="min"/>
-        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74fa-312d-0121-c130" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="4b3f-9ebf-c567-ab4a" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
-        <entryLink id="6831-e55e-597b-17cf" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
-        <entryLink id="bfd9-d966-cfb7-dde9" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="c25f-9286-83e5-4fb8" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a711-b0b2-e05f-4e5c" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6a7-364b-0dee-c623" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="c226-648b-1d6f-e4b8" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
-        <entryLink id="0237-1573-db7a-3178" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
-        <entryLink id="5726-d34a-d436-eba6" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="9ff7-516b-be5f-abed" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4226-d45b-e21c-0fac" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="179e-013d-31d1-7ba2" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="7b11-18bf-d80c-a7d1" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2f6-f29a-017c-48ae" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19f3-b0e7-ac7c-7d9f" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="306d-42f2-17b2-322b" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="af12-2a41-47a9-b4b4" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe3c-9b5c-4141-5f29" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81cd-b991-03de-dc86" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="f3ec-7bb5-8dbb-6b32" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3622-3364-f8f5-adbe" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22f0-6025-f40d-921d" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="2852-9f29-ac3d-088c" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
-        <entryLink id="c66c-53f5-5d6b-b55b" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="43b2-4ba6-8b23-8e24" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff2f-38f4-9451-7e3a" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8c1-7a65-ef6f-3f6f" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="6138-0652-0a4d-95cd" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="9fec-df3f-0365-6fca" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ca1-35a7-47f2-299f" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac64-0562-493b-9e79" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="8754-dc35-e1e5-6514" name="Recon" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="beeb-8428-85ef-7d43" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f32f-b77f-0c9d-2e32" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="6d61-5d6c-9f5c-8d76" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="ec25-65c3-2a97-4b0d" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="47f6-6fa1-ce83-cf1e" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="3097-a67f-4bce-b676" name="Black Bull Motor Company" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="2c3b-5c65-ae31-f34d" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LB197</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="0195-fd61-c2eb-4e09" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="128c-0faa-8c28-2b24" type="min"/>
-        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="438c-36f3-477e-2319" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="a3e9-4207-9eb7-951d" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
-        <entryLink id="3dc5-bfb7-a600-bc86" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
-        <entryLink id="c991-72ee-cf19-d4b5" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="ce23-4535-cf2f-a860" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d785-7bb5-0c46-9ff6" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a40a-880d-fdda-0e7c" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="da71-8dab-7192-e193" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
-        <entryLink id="6d5d-9694-454f-2081" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
-        <entryLink id="e161-170d-7840-f64f" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="d2a8-13a8-246c-a5e8" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59fe-c215-be5b-c7a0" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d175-71e1-6af1-9460" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="de3e-c647-0d70-0469" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc2e-6cc1-2dcc-6361" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba31-949b-beaa-e95e" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="3d4b-c8db-b3bd-b7fd" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="4a73-2af4-ce21-1a55" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5969-5a19-a559-8c3a" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b657-4e55-f387-fa1c" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="e626-8c4d-6b51-03fe" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcde-ba5c-f336-c3c9" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2a2-6b17-e1e4-cc83" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="7896-ef14-2998-cd89" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
-        <entryLink id="3eae-b583-8759-356b" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="5340-550d-fefb-e18f" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="155f-f169-4bee-3eda" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3def-7971-38f4-750c" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="33eb-af3c-2cbb-9483" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="050c-827f-4a27-079e" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce0c-33f7-618e-8e70" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0204-f820-17e4-c4fc" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="c7f6-61a2-65c0-94f6" name="Recon" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8034-39fd-4a3d-2879" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="097a-f503-db1a-57a5" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="d891-4d58-79c2-d8fd" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="0fc5-8686-8f43-1f11" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="9d1b-9723-946f-b649" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="c155-28c9-a2fc-aded" name="Guards Churchill Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="e0d3-c175-83c7-1655" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LB194</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="cfc4-85be-a7e0-aefa" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf9-05a3-2df9-a739" type="min"/>
-        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8040-a697-0223-ba55" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="364d-0a00-bab6-1470" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
-        <entryLink id="98a3-c3b3-eb8f-1515" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
-        <entryLink id="cb77-68fd-eada-6b79" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="97a4-379a-fe42-f545" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="096f-3c9c-b838-f1e7" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a6f-04da-f74c-72e2" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="e669-dd3a-3f54-2dee" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
-        <entryLink id="0d9a-f6d3-f844-9418" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
-        <entryLink id="5a11-64fd-d023-bcfa" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="f76c-931d-954d-4afd" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22e7-2b52-a126-d652" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a67c-8ffb-16ab-af99" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="65d7-c3d8-a155-ae30" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f73-42c5-e359-a44b" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c294-8ab3-771f-7fa2" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="51c7-b725-fa5f-548e" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="a79b-fdf4-9ff0-12b0" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f00-4116-92c9-9324" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d30-b250-f554-0545" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="14b9-0a6a-4a85-63d0" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b73-d373-b6ad-43f6" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4da3-b19b-4d3c-9969" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="6963-2a07-2d0f-35cf" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
-        <entryLink id="fc02-9c3f-7af2-f0e3" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="1922-7b0f-e5a8-7f62" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf63-0308-c322-11b8" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d61-8a6b-9e47-081e" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="1e42-135b-d5d3-4b36" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="8c8f-dab1-ae2a-07f8" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b67-fcb1-df5c-5035" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b03-a66a-6295-ed16" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="758f-7032-2761-96a2" name="Recon" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="461f-f543-9fc9-2dc0" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d397-1367-2615-64e9" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="bba5-9391-8e35-5ca4" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="8eac-2876-6ae4-a0d6" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="c1af-ab86-ecb6-b557" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="45a8-993e-62d4-86aa" name="Kangaroo Rifle Company" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="fad2-ea17-a465-36ad" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LB200</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="fd89-8c94-bafe-0a62" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8be3-aaa6-cc96-1078" type="min"/>
-        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05b0-9458-38e3-d1f9" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="4e2c-e68e-0b35-ad87" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
-        <entryLink id="bc63-a47a-7e88-17b9" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
-        <entryLink id="5a05-85e6-e6f4-eb93" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="8efe-8857-c320-5a36" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da0c-fb48-818c-78ac" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d0a-1ad0-3d55-657e" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="27f7-a79b-6a9b-045a" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
-        <entryLink id="d140-c52c-0d6d-6044" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
-        <entryLink id="a1e1-4cbb-4ba1-c0a5" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="52fa-d521-97d3-24a6" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad12-ea8a-1545-d01a" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8567-2d3e-d82a-9f94" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="4262-358f-0569-33d5" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2c9-65d8-7e42-a666" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a2-60e6-d33f-f95b" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="bd2a-3f8a-3517-8f26" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="c67a-48e2-fa3f-0a54" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d93-c1e8-15cd-8e10" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfdd-26d7-94c2-bde9" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="9a8f-3333-68a6-3742" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b755-4405-aa0a-ffd7" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ef3-bd94-7ef7-b843" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="6c45-442e-ab49-917a" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
-        <entryLink id="74e6-d218-2336-7afa" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="e3c2-d2c5-3dfc-40f7" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f160-3a46-e968-bacd" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cef-e493-124f-77ff" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="aea6-8d5e-9e6b-e7a2" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="c1b5-5926-2702-5627" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f39-6cfa-f10e-bf5d" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b3-18d2-ca00-e0d9" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3990-0ad7-e7d1-4395" name="Recon" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d30f-a08d-570f-35a1" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2786-73eb-19e9-f275" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="140b-ee8a-261c-0959" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="4d68-4979-e6cb-6d5e" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="9517-5dbf-b026-c71b" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="d8fa-fc0d-b878-01f9" name="Frost&apos;s Parachute Company" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="a538-05e9-f0a3-bda6" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LB217</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="fe1a-509a-e7ff-cdf8" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4204-6b78-ffa2-04e8" type="min"/>
-        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b377-1a17-d7a0-b6c6" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="0021-2e54-9514-192f" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
-        <entryLink id="2d19-4d31-e662-903e" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
-        <entryLink id="6285-ef1a-0d60-ddd6" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="2b37-1bf9-626b-fe7e" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="debe-21da-6cc1-8e1d" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77af-399a-9627-5abd" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="3f2f-6a0c-33ad-e150" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
-        <entryLink id="834a-ff19-0e41-6fd2" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
-        <entryLink id="7386-6744-a64f-d7b3" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="77b2-8e37-f632-3e33" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a11b-3113-7ae8-d9dc" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4f5-afce-d2a2-4e12" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="b2c8-2826-3638-fc18" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c325-b623-26a3-4dab" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6660-c796-c3bf-7456" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="6dc6-f350-6aad-9d74" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3ad2-eba2-50dd-56d8" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1129-4e69-6856-511f" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2e8-6458-df13-ea02" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="40d9-acc3-a0ec-07aa" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="485d-3f47-8f68-088a" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f427-15bf-8f7d-73ba" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="5f66-80ec-8c2d-8d61" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
-        <entryLink id="9bc7-87c4-a58a-0db0" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="ee59-4fe5-037a-7293" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d11-242c-91bb-402a" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f62c-2a50-eea0-fe53" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="55b2-e24c-e641-be9e" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="2ea6-a8ae-ff09-2839" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="717c-dc96-31e3-9733" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca43-7a9d-f159-7c0c" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3b7a-c3db-87ba-6931" name="Recon" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a7a-560d-0e89-5444" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bec5-ae8c-891d-2e46" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="4822-d1d6-3d1c-631d" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="b1cd-a772-fd81-c9d9" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="a3f6-60ab-1826-b102" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="38da-380f-a6c0-aa52" name="Glider Pilot Squadron" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="477e-f162-e179-222c" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LB215</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="3ab4-dd5a-9ca0-ea8d" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0527-e8de-678a-a204" type="min"/>
-        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3982-c6f3-8a0e-0ef0" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="159f-aa8b-0d27-aadf" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
-        <entryLink id="9d62-1b54-d1a1-9a63" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
-        <entryLink id="c1b4-8ee7-9a3d-3665" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="ab5f-5b5d-a56d-4e23" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bac-8e5d-2cdb-4586" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48d2-582e-6f52-ef8a" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="f01b-27b3-a3f3-a8b9" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
-        <entryLink id="c227-9fd6-e36c-5612" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
-        <entryLink id="001d-730d-be27-aa80" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="481d-6f5a-94ae-6edf" name="Observer" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3984-305e-a8c7-e242" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aca-c7de-df0b-b4dd" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="555a-4df0-c215-a262" name="Reconnaissance" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1766-f7f3-df29-4b02" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e89-0ac5-8b6c-fdfa" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="8f04-a533-34aa-dd0a" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3307-3087-d40a-0d1d" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef06-d2bc-12ec-1133" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abeb-51f0-2ece-ddd2" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="f3e5-84f1-e7a0-adae" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35c4-b239-6de3-b9b9" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="121d-fa9c-9fb4-31a2" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="bb51-2b80-c338-1b9c" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
-        <entryLink id="1a4d-e374-9604-0e9d" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="2a3f-8cc1-32e7-7966" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8954-8286-1b8b-0244" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f22-e55a-207c-b557" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="703b-bca9-4b80-3f3d" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="0abd-1de4-8098-7a9d" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f1c-6a86-c2d6-efdb" type="min"/>
-        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c6b-5c81-c2e2-11c1" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3395-5d11-1ca5-8618" name="Recon" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f865-42a6-7d95-9088" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7658-c769-0b32-9978" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="354e-b971-8ebe-0800" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="4536-8bd8-dbdc-ff84" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="0e15-9766-e7ff-b073" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="eda4-4b90-7200-fd9e" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="8c4e-eb4e-f0b8-81b2" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="eda4-4b90-7200-fd9e" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="8c4e-eb4e-f0b8-81b2" name="Lucky" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df20-fcbf-9f80-718d" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f433-4a9c-db33-a577" type="max"/>
@@ -3365,7 +2435,947 @@ Remove the Ranged In marker for this bombardment at the end of the Shooting Step
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
       </costs>
     </selectionEntry>
-      </selectionEntries></selectionEntry></selectionEntries>
+      </selectionEntries></selectionEntry><selectionEntry id="c602-bd79-e6ed-c599" name="Comet Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="b321-18fd-39dc-bb80" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB179</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="84b4-972b-f7b8-bc2c" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="568f-7c8f-c634-45af" type="min"/>
+        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da47-922d-2f3f-dcad" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4a9b-17a7-a2bf-da30" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
+        <entryLink id="7f6d-35df-d8de-7511" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
+        <entryLink id="71b3-8a39-c000-9b9a" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
+        <entryLink id="76f8-b00e-8a18-e756" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b299-b403-f797-9d39" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d546-d275-9297-75ff" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="725a-0eb1-a2ac-2a6c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="ef29-7617-c389-d4ce" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
+        <entryLink id="c052-670d-d10f-68a6" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
+        <entryLink id="5db6-854a-ca0c-f404" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7d15-815a-74ca-5be2" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="969c-4ed7-7869-6b9b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1ac-51d0-e102-82d9" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1ec4-07d1-1897-6c49" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="625a-9a74-ffed-028b" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f8-9f4f-53c7-0781" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="5ce6-e582-7054-b5bb" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="73ca-f1f2-2a76-da9f" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe3e-0c08-8da0-4c89" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4e2-e341-caf9-292b" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1f3e-73ed-88dd-eefc" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d13-f406-98e7-9b72" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d34-6539-a72f-ed6b" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="d65d-2a13-bbee-09b2" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
+        <entryLink id="9186-bfb2-3131-ba70" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7906-d3bf-89c8-b378" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6b2-7f2a-a623-2e4b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8c9-02d2-e8e3-77ae" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="d4f8-7bf7-145c-8fd8" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="db5b-9f8d-0072-0784" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d36a-a472-089a-95a9" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8df2-4548-1807-6a9a" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4d6e-a8b1-0d62-0180" name="Recon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e6f-9438-14d6-0aee" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5013-c897-e4f7-20ff" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c9e2-3511-c0f7-6713" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="297d-1868-8e2b-3c43" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="6202-25dc-47bb-6355" name="Hussars Cromwell Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="279c-91fd-d7eb-e371" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB184</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="c819-0792-c941-6c24" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9286-ec8f-99fb-fdd9" type="min"/>
+        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f011-b7e1-d159-4f27" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="90a2-d1e4-9c61-8181" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
+        <entryLink id="e21a-b9ed-dac9-0223" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
+        <entryLink id="3a94-2e7d-b70f-b6f9" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
+        <entryLink id="04ba-8ef3-c694-beb3" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4afc-22b4-8a69-a104" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f87b-dc27-5f8a-3aa1" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d81-c0fb-2f35-89f4" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="812b-d614-2790-85dc" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
+        <entryLink id="84fe-48ea-8302-200b" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
+        <entryLink id="1f26-639f-ac88-687e" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ef23-068c-05f5-a483" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c5c-5f79-616d-81a0" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc06-eada-40a2-9599" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4db2-4ce6-981a-12a6" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89ae-829d-7e10-b90e" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8803-c721-ba5a-5762" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="961c-a24c-9ca6-3c85" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5d41-925d-4c01-31ba" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3198-8510-b4d3-fcfc" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02e7-f158-9c6f-772f" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2d87-9694-0920-ca57" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9491-e4d8-cdc8-0d2e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1025-990f-5d87-d469" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="af97-00bb-a77a-9f45" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
+        <entryLink id="ec01-8d31-cdae-09fa" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a44a-fe4c-5e54-5b93" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcd2-2fae-7ef7-583d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d7c-25ca-6bb0-164a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="acb1-f454-9e22-fe37" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9457-b69c-d39e-adc2" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8207-395b-cece-2635" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cea-edbf-a26f-16d9" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="dbf7-cf09-776e-4eff" name="Recon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e35-89df-2ae6-2f31" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a66c-3be6-b56e-ea3a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="569b-b033-42e8-d6a9" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="3daf-0d55-014c-d55f" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="3cae-aa94-c352-9b12" name="Cromwell Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="c356-7644-2045-7a7d" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB187</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="a503-843b-4994-4f67" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49e8-a9ec-c23e-e569" type="min"/>
+        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86ac-298f-bf16-b908" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e9e6-9411-3da1-5279" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
+        <entryLink id="7308-7775-95bc-9037" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
+        <entryLink id="97a8-929b-e0b2-e909" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
+        <entryLink id="5a6c-652b-1dbb-1997" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9ec1-490d-9569-c4fc" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19bd-188d-76e5-b998" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ba3-2ae9-a278-47e5" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4ed1-dc76-171f-d8f6" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
+        <entryLink id="d754-ee14-c0c4-004f" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
+        <entryLink id="ff5f-6846-1840-7e2b" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c3dc-ff25-318f-9048" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4581-170a-bd7a-d1d5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4de-161c-005b-1dfb" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7385-e9cc-e136-fbf5" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef6c-d210-9aac-e13f" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0074-6eaf-2f27-3198" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f33b-095c-2bf7-ac0e" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f553-60b4-12d3-e040" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9e4-0749-d04b-46ab" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c41f-dd2c-231b-c287" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4250-671a-b1c9-bf66" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7ca-2015-01ff-fb57" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a15f-fccc-a3ce-9204" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="a9f9-4831-8f30-da86" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
+        <entryLink id="e1a2-3f31-311d-544a" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="cc0d-06b9-b62e-8ea1" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b91d-bfd9-9ca5-4b5e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f0c-c96c-7198-95ff" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f063-8d51-4caa-3605" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3b04-bdd9-627e-d5d8" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a627-1ad9-5758-00b9" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55da-32fc-b5fa-edd8" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3c19-9ae6-ce1e-4f0b" name="Recon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="315d-5d3e-c7a2-9970" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f90-5d68-52ef-1e29" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="df29-0ad9-84e3-cb6f" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="b634-925b-5db6-58e1" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="4d9a-4999-e941-b849" name="Guards Sherman Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="74fa-312d-0121-c130" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB191</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="10de-5405-f084-837e" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a9-81f7-41af-c800" type="min"/>
+        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19b0-5870-92d3-454d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="bfc3-1578-f0d0-e92a" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
+        <entryLink id="c261-7ac2-8b3b-38c6" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
+        <entryLink id="1434-5433-b797-fb43" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
+        <entryLink id="1443-3fac-af47-3424" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9cc4-f950-adf2-c78a" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8164-019a-07ad-bf63" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b68e-a48d-bbd9-e869" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6cd0-5378-8482-0034" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
+        <entryLink id="cfb5-2898-4fa5-c284" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
+        <entryLink id="e3b4-f1e0-6cf9-f36a" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4e0a-b564-f284-8edb" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1afc-2265-5e07-9ff7" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be91-5e84-c075-0af9" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5f44-9d23-8d27-382b" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73a8-0af8-b7d7-fca1" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec79-fa0a-f82c-b058" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e35a-03e3-79fb-0678" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4a52-ec6a-7365-4b89" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feb8-baaa-972a-bf1f" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf25-530f-7e5f-b995" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4887-ef7c-906b-276a" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4704-3707-b128-d865" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54cd-bcdc-7e9f-358a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c472-78c4-d11e-d20e" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
+        <entryLink id="e084-269e-b401-fd72" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a09d-83c4-988f-85df" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8e7-010e-fe69-c929" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc46-a26b-a1ef-c009" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1fd1-234b-5efa-66ba" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d46a-55fd-af78-5594" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e4b-0471-d0d1-59f4" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4178-5045-9e4c-90c8" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1de8-03dd-2956-a8fc" name="Recon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca5e-b727-1606-6440" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be27-be26-d9fd-f902" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e345-1a2f-4eb3-ec62" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="0426-7929-f896-87ef" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="4b3f-9ebf-c567-ab4a" name="Ram Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="a3e9-4207-9eb7-951d" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB223</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="6831-e55e-597b-17cf" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfd9-d966-cfb7-dde9" type="min"/>
+        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c25f-9286-83e5-4fb8" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="a711-b0b2-e05f-4e5c" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
+        <entryLink id="c6a7-364b-0dee-c623" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
+        <entryLink id="c226-648b-1d6f-e4b8" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
+        <entryLink id="0237-1573-db7a-3178" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5726-d34a-d436-eba6" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ff7-516b-be5f-abed" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4226-d45b-e21c-0fac" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="179e-013d-31d1-7ba2" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
+        <entryLink id="7b11-18bf-d80c-a7d1" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
+        <entryLink id="b2f6-f29a-017c-48ae" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="19f3-b0e7-ac7c-7d9f" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="306d-42f2-17b2-322b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af12-2a41-47a9-b4b4" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fe3c-9b5c-4141-5f29" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81cd-b991-03de-dc86" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3ec-7bb5-8dbb-6b32" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="3622-3364-f8f5-adbe" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="22f0-6025-f40d-921d" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2852-9f29-ac3d-088c" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c66c-53f5-5d6b-b55b" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="43b2-4ba6-8b23-8e24" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff2f-38f4-9451-7e3a" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8c1-7a65-ef6f-3f6f" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6138-0652-0a4d-95cd" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
+        <entryLink id="9fec-df3f-0365-6fca" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7ca1-35a7-47f2-299f" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac64-0562-493b-9e79" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8754-dc35-e1e5-6514" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="beeb-8428-85ef-7d43" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f32f-b77f-0c9d-2e32" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d61-5d6c-9f5c-8d76" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec25-65c3-2a97-4b0d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b078-3d7f-a6bf-47b6" name="Recon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3097-a67f-4bce-b676" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0195-fd61-c2eb-4e09" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="128c-0faa-8c28-2b24" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="438c-36f3-477e-2319" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="3dc5-bfb7-a600-bc86" name="Black Bull Motor Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="98a3-c3b3-eb8f-1515" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB197</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="c991-72ee-cf19-d4b5" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce23-4535-cf2f-a860" type="min"/>
+        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d785-7bb5-0c46-9ff6" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="a40a-880d-fdda-0e7c" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
+        <entryLink id="da71-8dab-7192-e193" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
+        <entryLink id="6d5d-9694-454f-2081" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
+        <entryLink id="e161-170d-7840-f64f" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d2a8-13a8-246c-a5e8" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59fe-c215-be5b-c7a0" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d175-71e1-6af1-9460" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="de3e-c647-0d70-0469" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
+        <entryLink id="fc2e-6cc1-2dcc-6361" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
+        <entryLink id="ba31-949b-beaa-e95e" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3d4b-c8db-b3bd-b7fd" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a73-2af4-ce21-1a55" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5969-5a19-a559-8c3a" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b657-4e55-f387-fa1c" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e626-8c4d-6b51-03fe" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcde-ba5c-f336-c3c9" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f2a2-6b17-e1e4-cc83" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7896-ef14-2998-cd89" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eae-b583-8759-356b" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5340-550d-fefb-e18f" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="155f-f169-4bee-3eda" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3def-7971-38f4-750c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33eb-af3c-2cbb-9483" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="050c-827f-4a27-079e" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
+        <entryLink id="ce0c-33f7-618e-8e70" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0204-f820-17e4-c4fc" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7f6-61a2-65c0-94f6" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8034-39fd-4a3d-2879" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="097a-f503-db1a-57a5" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d891-4d58-79c2-d8fd" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fc5-8686-8f43-1f11" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c3b-5c65-ae31-f34d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c155-28c9-a2fc-aded" name="Recon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfc4-85be-a7e0-aefa" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf9-05a3-2df9-a739" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8040-a697-0223-ba55" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="364d-0a00-bab6-1470" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="cb77-68fd-eada-6b79" name="Guards Churchill Armoured Squadron" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="5a05-85e6-e6f4-eb93" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB194</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="97a4-379a-fe42-f545" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="096f-3c9c-b838-f1e7" type="min"/>
+        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a6f-04da-f74c-72e2" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e669-dd3a-3f54-2dee" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
+        <entryLink id="0d9a-f6d3-f844-9418" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
+        <entryLink id="5a11-64fd-d023-bcfa" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
+        <entryLink id="f76c-931d-954d-4afd" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="22e7-2b52-a126-d652" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a67c-8ffb-16ab-af99" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65d7-c3d8-a155-ae30" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6f73-42c5-e359-a44b" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
+        <entryLink id="c294-8ab3-771f-7fa2" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
+        <entryLink id="51c7-b725-fa5f-548e" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a79b-fdf4-9ff0-12b0" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f00-4116-92c9-9324" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d30-b250-f554-0545" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="14b9-0a6a-4a85-63d0" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b73-d373-b6ad-43f6" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4da3-b19b-4d3c-9969" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6963-2a07-2d0f-35cf" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fc02-9c3f-7af2-f0e3" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1922-7b0f-e5a8-7f62" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf63-0308-c322-11b8" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3d61-8a6b-9e47-081e" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e42-135b-d5d3-4b36" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c8f-dab1-ae2a-07f8" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="3b67-fcb1-df5c-5035" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
+        <entryLink id="4b03-a66a-6295-ed16" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="758f-7032-2761-96a2" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="461f-f543-9fc9-2dc0" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d397-1367-2615-64e9" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="bba5-9391-8e35-5ca4" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8eac-2876-6ae4-a0d6" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0d3-c175-83c7-1655" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45a8-993e-62d4-86aa" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fd89-8c94-bafe-0a62" name="Recon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8be3-aaa6-cc96-1078" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05b0-9458-38e3-d1f9" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4e2c-e68e-0b35-ad87" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="bc63-a47a-7e88-17b9" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="8efe-8857-c320-5a36" name="Kangaroo Rifle Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="2b37-1bf9-626b-fe7e" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB200</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="da0c-fb48-818c-78ac" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d0a-1ad0-3d55-657e" type="min"/>
+        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27f7-a79b-6a9b-045a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="d140-c52c-0d6d-6044" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
+        <entryLink id="a1e1-4cbb-4ba1-c0a5" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
+        <entryLink id="52fa-d521-97d3-24a6" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
+        <entryLink id="ad12-ea8a-1545-d01a" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8567-2d3e-d82a-9f94" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4262-358f-0569-33d5" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2c9-65d8-7e42-a666" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="28a2-60e6-d33f-f95b" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
+        <entryLink id="bd2a-3f8a-3517-8f26" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
+        <entryLink id="c67a-48e2-fa3f-0a54" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6d93-c1e8-15cd-8e10" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfdd-26d7-94c2-bde9" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a8f-3333-68a6-3742" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b755-4405-aa0a-ffd7" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ef3-bd94-7ef7-b843" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c45-442e-ab49-917a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="74e6-d218-2336-7afa" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e3c2-d2c5-3dfc-40f7" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f160-3a46-e968-bacd" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cef-e493-124f-77ff" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="aea6-8d5e-9e6b-e7a2" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1b5-5926-2702-5627" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f39-6cfa-f10e-bf5d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="78b3-18d2-ca00-e0d9" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
+        <entryLink id="3990-0ad7-e7d1-4395" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d30f-a08d-570f-35a1" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2786-73eb-19e9-f275" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="140b-ee8a-261c-0959" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4d68-4979-e6cb-6d5e" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fad2-ea17-a465-36ad" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8fa-fc0d-b878-01f9" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe1a-509a-e7ff-cdf8" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4204-6b78-ffa2-04e8" name="Recon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b377-1a17-d7a0-b6c6" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0021-2e54-9514-192f" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="2d19-4d31-e662-903e" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="6285-ef1a-0d60-ddd6" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="debe-21da-6cc1-8e1d" name="Frost&apos;s Parachute Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="5bac-8e5d-2cdb-4586" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB217</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="77af-399a-9627-5abd" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f2f-6a0c-33ad-e150" type="min"/>
+        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="834a-ff19-0e41-6fd2" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="7386-6744-a64f-d7b3" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
+        <entryLink id="77b2-8e37-f632-3e33" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
+        <entryLink id="a11b-3113-7ae8-d9dc" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
+        <entryLink id="d4f5-afce-d2a2-4e12" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b2c8-2826-3638-fc18" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c325-b623-26a3-4dab" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6660-c796-c3bf-7456" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6dc6-f350-6aad-9d74" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
+        <entryLink id="3ad2-eba2-50dd-56d8" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
+        <entryLink id="1129-4e69-6856-511f" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f2e8-6458-df13-ea02" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40d9-acc3-a0ec-07aa" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="485d-3f47-8f68-088a" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f427-15bf-8f7d-73ba" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f66-80ec-8c2d-8d61" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bc7-87c4-a58a-0db0" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="ee59-4fe5-037a-7293" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3d11-242c-91bb-402a" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f62c-2a50-eea0-fe53" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55b2-e24c-e641-be9e" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2ea6-a8ae-ff09-2839" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="717c-dc96-31e3-9733" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca43-7a9d-f159-7c0c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="3b7a-c3db-87ba-6931" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
+        <entryLink id="0a7a-560d-0e89-5444" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bec5-ae8c-891d-2e46" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4822-d1d6-3d1c-631d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1cd-a772-fd81-c9d9" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="a538-05e9-f0a3-bda6" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="38da-380f-a6c0-aa52" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ab4-dd5a-9ca0-ea8d" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0527-e8de-678a-a204" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3982-c6f3-8a0e-0ef0" name="Recon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="159f-aa8b-0d27-aadf" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d62-1b54-d1a1-9a63" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c1b4-8ee7-9a3d-3665" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="ab5f-5b5d-a56d-4e23" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="48d2-582e-6f52-ef8a" name="Glider Pilot Squadron" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="0e15-9766-e7ff-b073" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LB215</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="f01b-27b3-a3f3-a8b9" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c227-9fd6-e36c-5612" type="min"/>
+        <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="001d-730d-be27-aa80" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="481d-6f5a-94ae-6edf" name="Crocodile Flame-tank Platoon (LB172)" hidden="false" collective="false" import="true" targetId="56b5-7d60-9763-1ea3" type="selectionEntry"/>
+        <entryLink id="3984-305e-a8c7-e242" name="AVRE Assault Section (LB173)" hidden="false" collective="false" import="true" targetId="be4b-09a4-7812-db49" type="selectionEntry"/>
+        <entryLink id="8aca-c7de-df0b-b4dd" name="Sherman DD Armoured Troop (LB137)" hidden="false" collective="false" import="true" targetId="afee-be44-bd9a-9885" type="selectionEntry"/>
+        <entryLink id="555a-4df0-c215-a262" name="Stuart Recce Patrol (LB106)" hidden="false" collective="false" import="true" targetId="6424-2945-bfc1-f116" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1766-f7f3-df29-4b02" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e89-0ac5-8b6c-fdfa" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f04-a533-34aa-dd0a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="3307-3087-d40a-0d1d" name="25 pdr Field Troop (LB117)" hidden="false" collective="false" import="true" targetId="4a19-ccd4-b43f-b2c1" type="selectionEntry"/>
+        <entryLink id="ef06-d2bc-12ec-1133" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" targetId="c4d2-97c5-c14b-0877" type="selectionEntry"/>
+        <entryLink id="abeb-51f0-2ece-ddd2" name="Priest Field Troop (LB116)" hidden="false" collective="false" import="true" targetId="3a4b-1b63-d4f3-816d" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f3e5-84f1-e7a0-adae" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35c4-b239-6de3-b9b9" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="121d-fa9c-9fb4-31a2" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bb51-2b80-c338-1b9c" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a4d-e374-9604-0e9d" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a3f-8cc1-32e7-7966" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8954-8286-1b8b-0244" name="Daimler Armoured Car Troop (LB178)" hidden="false" collective="false" import="true" targetId="7a19-26aa-bafd-e9cc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1f22-e55a-207c-b557" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="703b-bca9-4b80-3f3d" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0abd-1de4-8098-7a9d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1f1c-6a86-c2d6-efdb" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c6b-5c81-c2e2-11c1" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3395-5d11-1ca5-8618" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f865-42a6-7d95-9088" name="Bofors SP AA Troop (LB211)" hidden="false" collective="false" import="true" targetId="405c-1621-c3d8-6a8f" type="selectionEntry"/>
+        <entryLink id="7658-c769-0b32-9978" name="Bofors Light AA Troop (LB120)" hidden="false" collective="false" import="true" targetId="4907-6821-7288-f957" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="354e-b971-8ebe-0800" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4536-8bd8-dbdc-ff84" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="477e-f162-e179-222c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="83ea-330c-40b7-a5c0" name="Typhoon Fighter-Bomber Flight (LB177)" hidden="false" collective="false" import="true" targetId="6a31-9938-fa60-bb90" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1121-6d53-e757-d0c3" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a07e-af92-b47e-f94b" type="min"/>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9a1-c8ea-ed79-bf89" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="47f6-6fa1-ce83-cf1e" name="Recon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d1b-9723-946f-b649" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1af-ab86-ecb6-b557" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="9517-5dbf-b026-c71b" name="Universal Carrier Patrol (LB144)" hidden="false" collective="false" import="true" targetId="8697-7a1c-683d-5e91" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="a3f6-60ab-1826-b102" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry></selectionEntries>
   <entryLinks>
     <entryLink id="b963-a0b7-355c-a45a" name="Kangaroo Rifle Platoon" hidden="false" collective="false" import="true" targetId="d3bc-f9e9-98eb-1789" type="selectionEntry">
       <constraints>

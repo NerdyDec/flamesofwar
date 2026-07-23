@@ -278,627 +278,7 @@ CraftyTactics 3+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="dfd4-289e-97ef-d4e2" name="KV-1S Guards Heavy Tank Regiment" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="75df-e3e3-568a-a491" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LS100</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="18cb-b6f8-f96a-5d45" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b1e-c7f6-4db3-dbdf" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="863e-23da-091f-f74d" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="1565-71a5-7a30-985c" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="5a72-53ae-795b-c96e" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3321-9a6a-a5dd-07a8" type="min"/>
-        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fc4-ac24-a15a-7840" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="82ed-f9de-9247-cff8" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
-        <entryLink id="b52a-037a-e5b2-c1f1" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="688f-5b70-2fa6-1ceb" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="870a-87ab-fb68-6947" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1994-cf02-3cff-4d9b" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="6e01-9101-6d0a-2781" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aea7-7b49-8572-6e5e" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5780-5267-4f0c-1c43" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="c087-0a20-96cc-8d44" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d44c-658d-0dcf-b355" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a15a-19d5-f936-30ca" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="4f6b-29e1-dd14-882f" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="01e7-b6cf-0def-2414" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="536c-63cb-f8e0-e1fe" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7442-c85f-d1a9-d15f" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="95cb-f8de-1c10-63d9" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="0456-f3f9-0a64-25fc" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/><entryLink id="8424-ec9a-ff52-65b8" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="b71c-73f4-6e16-6eb7" name="Churchill Guards Heavy Tank Regiment" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="f498-a5bd-6e70-fad5" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LS103</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="8c6b-33fb-a6e4-12b7" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e22-792a-8ef1-7b16" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ad-ae7f-1410-6817" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="7aa3-b288-ed81-349b" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="eb8a-c593-ef8f-7b2e" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b531-8ad9-dedc-860a" type="min"/>
-        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e471-2024-89fa-73ec" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="af67-3415-047c-3844" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
-        <entryLink id="40b9-8a5d-53c5-f988" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3ed4-a076-4f29-f4e5" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6266-31ef-8bdf-4980" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bdf-73e6-5966-78a5" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="c601-8eb5-ef05-719b" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc04-0cfa-3213-d6f8" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0f0-b140-bdc1-30df" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="c539-e6b2-a187-9d9d" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e974-0821-d244-6f4e" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea37-ee04-514b-b197" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="b063-84eb-0ac7-56a8" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="bfab-6db6-3892-ddd2" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9935-3d26-6479-0b60" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="651d-8bd9-502e-edc9" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="00e2-3b51-9ed6-8240" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="eda5-e979-c5e9-610e" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/><entryLink id="5a0b-8669-6cdc-d2d3" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="ed46-b779-3fda-e124" name="Hero T-34 Tank Battalion" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="d4e8-0dc9-1037-a515" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LS105</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="9c6a-292e-3228-95cb" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef06-0219-6170-a620" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fc8-c092-fc5f-4275" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="e1ba-d988-66d3-13da" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="6a73-386f-a0a7-4855" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e8c-c2d0-0402-3c65" type="min"/>
-        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc61-d4c8-1db0-6da4" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="e0fd-0367-d5ae-bc44" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
-        <entryLink id="3f00-fcb8-ec9b-2131" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="cdca-97c7-822e-dac2" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d50-c8bb-4c55-9206" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44d4-5211-4f7d-a5ab" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="54cb-3d49-74c2-f6d5" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc75-b469-9fda-17ee" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e72-5709-d6dd-2fc6" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="565f-41c2-509c-4395" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65d8-5ceb-d090-5784" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a161-5590-b8d7-eda2" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="942c-6b01-b53f-628a" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="9cef-2199-b90f-6b3c" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9df-4e85-59db-db0d" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="528b-878b-136f-7d68" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="5ff3-a82b-382f-0f53" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="e0c3-1dd4-744a-0592" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/><entryLink id="cd41-8a55-16f8-e2a4" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="b879-c43c-a6c7-b091" name="Hero Motor Rifle Battalion" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="70b6-b30a-28dc-5d23" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LS109</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="128e-f053-fc0a-ec4e" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="243c-e6e1-4dd0-72e7" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfd2-5ade-ce15-76f6" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="d0e8-86a9-063c-030e" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="18f4-4367-09ce-2f63" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5ef-3300-5aa5-407d" type="min"/>
-        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4013-cd6d-382b-f855" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="ab18-42bd-f08a-cee1" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
-        <entryLink id="2caa-0123-9dd7-9f96" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="b1ef-b99e-1a35-f872" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db89-bcec-71f8-5774" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f6-6c32-c05b-a6c8" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="0d8c-ecdc-83c7-aaf2" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b14-afa6-6e2a-9beb" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d503-ad4d-395b-8180" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="5968-193c-6860-703d" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84ce-37f3-0f54-6ccc" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c5f-1a26-d180-60cc" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="a92d-34d2-7d7e-2ab9" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="5de0-3d76-bcaa-c216" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a99e-07e6-5ce4-3ba7" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d0d-69db-92f6-a424" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="ebe3-79bf-28ad-98a8" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="ad38-dc26-11db-8a14" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/><entryLink id="030d-3c54-6154-a356" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="4643-e340-3a5a-b675" name="Hero Rifle Battalion" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="65ce-73a4-6803-5a0e" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LS118</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="b832-5ff9-206a-c43d" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2e1-649b-9aa0-7f6b" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b94-d94b-5f8b-1cc3" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="cf20-ef02-7556-2eda" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="1918-23a7-8dee-004d" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e3b-8a6d-374a-6af4" type="min"/>
-        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15eb-db6d-c769-f381" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="a56d-9505-a9cb-fc9e" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
-        <entryLink id="8e21-d037-192b-d494" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="724e-3ce3-bbfb-0afb" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c626-c4da-b84c-31f1" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1125-b722-fefc-9072" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="8b9e-1015-b0d4-49e7" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="983c-54c8-e000-7ed5" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61f1-ac7c-8c8d-d53c" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="11d0-f3c9-b49a-ec60" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e209-6e74-b70b-3a4a" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83ff-5408-ea71-71f5" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="b322-7028-109e-fdcc" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="0059-a8bf-f2d8-0a11" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35a5-ff19-06b5-599e" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bb0-12f5-dae1-126a" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="6068-b58d-0789-fc56" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="d5f2-4492-d470-9b8d" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/><entryLink id="b3fe-ec2e-0326-1dab" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="41a7-f1d7-16f6-2095" name="Reconnaissance Company" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="9e0b-24d0-4d8d-4145" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LS133</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="6e63-110b-af19-45e1" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="329f-19c6-b7df-b424" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adb3-666b-4dd1-a9ba" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="ca7f-7bb3-b31f-886f" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="adf3-d235-c5ae-d5bb" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faf0-1639-b9ee-60d5" type="min"/>
-        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68a1-af8d-2a3c-656a" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="aa65-97fb-5408-519b" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
-        <entryLink id="b170-4a7a-9117-44c2" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="112a-b325-7427-e5be" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1501-dcc9-824d-276e" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8d1-5951-d23a-df9f" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="f018-a05f-00b2-ff89" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a3a-3aaf-0ace-730d" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef2f-a320-7b18-8d49" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="6cbf-436a-8a07-8514" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36be-68b1-1b4e-49af" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22d0-5a8a-e16d-1860" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="c197-f78d-4e94-831b" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="07f6-37cb-b610-2a0d" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1663-47d6-fac0-43fd" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3a8-89ca-64d0-e240" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="5a7c-f9d4-2991-d1af" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="2fcf-82d8-2db0-2659" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/><entryLink id="8aaf-b615-0f10-63d0" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="133d-b8f0-518d-11e0" name="T-34 Tank Battalion" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="fab5-6a32-e15d-7368" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LS121</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="9610-0bb2-59ec-6324" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9762-e7de-68e4-5671" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2368-2825-ba80-92c6" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="0c47-e145-1584-cadc" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="ee68-321e-04ba-f511" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d43-7941-9afc-b829" type="min"/>
-        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56bf-1e6a-f694-fbbf" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="2006-3486-7ea5-e373" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
-        <entryLink id="2cb3-9965-9b4d-ee4f" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="b701-fea0-08d8-235c" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db05-f9f6-8bad-383d" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d074-5604-35c9-5ce0" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="a875-efb7-b6ee-c627" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac0-eb8f-ecc9-8afe" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f2-6b53-da64-af61" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="524b-84e4-155c-d8e6" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87a6-d5df-a486-f962" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="074c-7282-dd6c-d2aa" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="2606-04b8-2205-3324" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="657a-9c07-e63f-e122" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a088-d997-abf1-1e94" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39fc-2cac-97c2-d776" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="e670-7431-7949-70a4" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="618d-ef5b-fc97-5ca2" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/><entryLink id="c832-6eed-b14f-201f" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="865b-b089-a2a4-f548" name="M3 Lee Tank Battalion" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="07ff-e26a-996b-59d9" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LS125</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="a94d-c857-e678-e45a" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9a4-6270-e0b0-46a3" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e60-a6fd-5a0c-6b8c" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="982c-3118-0bce-c6ea" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="ef9f-6e90-34e9-981e" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f28d-01e6-f59a-798c" type="min"/>
-        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32d0-bab3-3f19-8bcf" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="4b32-f7ee-ef73-4a99" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
-        <entryLink id="dafc-2938-0d71-cb08" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="fab0-3844-9f42-26af" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5369-dc7a-61de-3190" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c96-80b9-5f78-0d92" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="1866-37cc-e920-d096" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a04a-20e4-381b-43b7" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="918d-0daa-f98d-116d" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="dd18-c1d6-e914-6fad" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf9-df0b-0483-0772" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f304-9570-a3f7-282a" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="91f0-3d95-4874-17a0" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="e69e-0789-0d7b-4daf" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eaf-ad43-e370-998c" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40c4-444e-2ff0-e587" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="367d-86fa-3420-9bad" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="7e74-e936-e0ba-cc43" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/><entryLink id="be83-4171-2784-b385" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="549f-8635-fa58-b51f" name="Motor Rifle Battalion" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="54a6-a35b-f0ad-ff84" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LS128</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="cf5c-fa21-42b8-89b6" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb4a-1f6f-a87c-ff8b" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e15-4c33-218f-5c5e" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="7940-dd2c-59ed-1a5d" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="d2fa-230d-dfb1-b58e" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af70-c918-8a78-bec9" type="min"/>
-        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dfa-798b-80c1-b45b" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="ab12-e3df-af76-2977" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
-        <entryLink id="7908-2155-19fc-5234" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="5961-08a4-7692-5759" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33fa-ee13-fda3-0da1" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b01b-5aa2-e117-664a" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="e4d6-a9d5-31a6-cd0f" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6569-337b-ea85-d48d" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae07-d355-4e1e-dec4" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="2ee8-1e8a-ddef-de00" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="572f-441e-038f-2208" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d2f-ee39-20cb-5128" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="1bda-8268-e58b-1cfc" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="77da-4632-c699-a44a" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fae-804e-26a6-4a9b" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0054-84a0-00d8-a2ba" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="8e64-d58b-e737-2317" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="a8b0-f7ee-6f39-563c" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/><entryLink id="de33-94b1-a617-ef78" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="2657-af02-5c7f-df77" name="Rifle Battalion" hidden="false" collective="false" import="true" type="unit">
-  <profiles>
-    <profile id="0aad-be3c-4b1c-7b49" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
-      <characteristics>
-        <characteristic name="ID" typeId="846f-94be-be15-4936">LS131</characteristic>
-      </characteristics>
-    </profile>
-  </profiles>
-  <selectionEntryGroups>
-    <selectionEntryGroup id="81bc-2c04-3fdb-d6ea" name="Anti-tank" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe25-5066-307d-1953" type="min"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39eb-efdf-5fdb-afb9" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="32bf-d93a-eb1f-dc75" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="86f7-030d-2f57-2ba7" name="Armour" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f067-36a5-abb8-2f63" type="min"/>
-        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="748e-38a1-6145-fce1" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="bd31-a16c-7071-8e25" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
-        <entryLink id="d84d-5a4a-f453-e5d2" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3128-7801-115d-0a58" name="Anti-aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2b7-ecd1-65d0-fd2f" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="473e-5ff3-afbb-89f3" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="f937-36eb-8ed9-9d5e" name="Aircraft" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a2-17e4-6b6e-9aee" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1a6-6755-1704-334f" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="3943-c883-2812-9885" name="Artillery" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e703-524f-87ee-bbb9" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1df5-24c6-6241-e080" type="max"/>
-      </constraints>
-      <entryLinks>
-        <entryLink id="81fa-8626-88ee-a83f" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="e858-48a5-cc30-ef00" name="Infantry" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7361-0114-7c96-400e" type="min"/>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c20-382c-5bf1-d387" type="max"/>
-      </constraints>
-      <entryLinks/>
-    </selectionEntryGroup>
-  </selectionEntryGroups>
-  <categoryLinks>
-    <categoryLink id="ac6b-3148-df4e-a3be" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-  </categoryLinks>
-<entryLinks><entryLink id="c3fe-c766-7862-6b9d" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/><entryLink id="b7c5-898c-c4e5-a612" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/></entryLinks></selectionEntry><selectionEntry id="6b78-0f70-911e-df6a" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="e4b1-aa86-6c71-7a3b" name="T-70 Reconnaissance Tank Company" hidden="false" collective="false" import="true" type="upgrade">
+  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="6b78-0f70-911e-df6a" name="Command Cards" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="e4b1-aa86-6c71-7a3b" name="T-70 Reconnaissance Tank Company" hidden="false" collective="false" import="true" type="upgrade">
   <profiles>
     <profile id="d503-b568-8990-dd59" name="T-70 Reconnaissance Tank Company" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
@@ -1086,7 +466,647 @@ IS HIT ONAGRESSIVE3+  Universal Carriers have Passengers 2.</characteristic>
   <categoryLinks>
     <categoryLink id="cb13-f2be-d852-20d8" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
   </categoryLinks>
-</selectionEntry></selectionEntries></selectionEntry></selectionEntries>
+</selectionEntry></selectionEntries></selectionEntry><selectionEntry id="dfd4-289e-97ef-d4e2" name="KV-1S Guards Heavy Tank Regiment" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="8c6b-33fb-a6e4-12b7" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LS100</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="18cb-b6f8-f96a-5d45" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b1e-c7f6-4db3-dbdf" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="863e-23da-091f-f74d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1565-71a5-7a30-985c" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5a72-53ae-795b-c96e" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3321-9a6a-a5dd-07a8" type="min"/>
+        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fc4-ac24-a15a-7840" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="82ed-f9de-9247-cff8" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
+        <entryLink id="b52a-037a-e5b2-c1f1" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/>
+        <entryLink id="688f-5b70-2fa6-1ceb" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
+        <entryLink id="870a-87ab-fb68-6947" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1994-cf02-3cff-4d9b" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e01-9101-6d0a-2781" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aea7-7b49-8572-6e5e" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5780-5267-4f0c-1c43" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c087-0a20-96cc-8d44" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d44c-658d-0dcf-b355" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a15a-19d5-f936-30ca" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f6b-29e1-dd14-882f" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01e7-b6cf-0def-2414" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="536c-63cb-f8e0-e1fe" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7442-c85f-d1a9-d15f" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95cb-f8de-1c10-63d9" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75df-e3e3-568a-a491" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="b71c-73f4-6e16-6eb7" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="0e22-792a-8ef1-7b16" name="Churchill Guards Heavy Tank Regiment" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="1fc8-c092-fc5f-4275" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LS103</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="75ad-ae7f-1410-6817" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aa3-b288-ed81-349b" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb8a-c593-ef8f-7b2e" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b531-8ad9-dedc-860a" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e471-2024-89fa-73ec" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af67-3415-047c-3844" type="min"/>
+        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40b9-8a5d-53c5-f988" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="3ed4-a076-4f29-f4e5" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
+        <entryLink id="6266-31ef-8bdf-4980" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/>
+        <entryLink id="6bdf-73e6-5966-78a5" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
+        <entryLink id="c601-8eb5-ef05-719b" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bc04-0cfa-3213-d6f8" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0f0-b140-bdc1-30df" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c539-e6b2-a187-9d9d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e974-0821-d244-6f4e" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea37-ee04-514b-b197" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b063-84eb-0ac7-56a8" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bfab-6db6-3892-ddd2" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9935-3d26-6479-0b60" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="651d-8bd9-502e-edc9" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="00e2-3b51-9ed6-8240" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f498-a5bd-6e70-fad5" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed46-b779-3fda-e124" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c6a-292e-3228-95cb" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="ef06-0219-6170-a620" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="e1ba-d988-66d3-13da" name="Hero T-34 Tank Battalion" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="18f4-4367-09ce-2f63" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LS105</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="6a73-386f-a0a7-4855" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e8c-c2d0-0402-3c65" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc61-d4c8-1db0-6da4" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e0fd-0367-d5ae-bc44" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3f00-fcb8-ec9b-2131" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdca-97c7-822e-dac2" type="min"/>
+        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d50-c8bb-4c55-9206" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="44d4-5211-4f7d-a5ab" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
+        <entryLink id="54cb-3d49-74c2-f6d5" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/>
+        <entryLink id="dc75-b469-9fda-17ee" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
+        <entryLink id="8e72-5709-d6dd-2fc6" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="565f-41c2-509c-4395" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65d8-5ceb-d090-5784" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a161-5590-b8d7-eda2" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="942c-6b01-b53f-628a" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cef-2199-b90f-6b3c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9df-4e85-59db-db0d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="528b-878b-136f-7d68" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ff3-a82b-382f-0f53" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4e8-0dc9-1037-a515" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b879-c43c-a6c7-b091" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="128e-f053-fc0a-ec4e" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="243c-e6e1-4dd0-72e7" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfd2-5ade-ce15-76f6" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="d0e8-86a9-063c-030e" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="b5ef-3300-5aa5-407d" name="Hero Motor Rifle Battalion" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="15eb-db6d-c769-f381" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LS109</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="4013-cd6d-382b-f855" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab18-42bd-f08a-cee1" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2caa-0123-9dd7-9f96" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b1ef-b99e-1a35-f872" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="db89-bcec-71f8-5774" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6f6-6c32-c05b-a6c8" type="min"/>
+        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d8c-ecdc-83c7-aaf2" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1b14-afa6-6e2a-9beb" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
+        <entryLink id="d503-ad4d-395b-8180" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/>
+        <entryLink id="5968-193c-6860-703d" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
+        <entryLink id="84ce-37f3-0f54-6ccc" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5c5f-1a26-d180-60cc" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a92d-34d2-7d7e-2ab9" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5de0-3d76-bcaa-c216" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a99e-07e6-5ce4-3ba7" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d0d-69db-92f6-a424" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebe3-79bf-28ad-98a8" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="70b6-b30a-28dc-5d23" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4643-e340-3a5a-b675" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b832-5ff9-206a-c43d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f2e1-649b-9aa0-7f6b" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6b94-d94b-5f8b-1cc3" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf20-ef02-7556-2eda" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1918-23a7-8dee-004d" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="1e3b-8a6d-374a-6af4" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="a56d-9505-a9cb-fc9e" name="Hero Rifle Battalion" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="b170-4a7a-9117-44c2" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LS118</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="8e21-d037-192b-d494" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="724e-3ce3-bbfb-0afb" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c626-c4da-b84c-31f1" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1125-b722-fefc-9072" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8b9e-1015-b0d4-49e7" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="983c-54c8-e000-7ed5" type="min"/>
+        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61f1-ac7c-8c8d-d53c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="11d0-f3c9-b49a-ec60" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
+        <entryLink id="e209-6e74-b70b-3a4a" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/>
+        <entryLink id="83ff-5408-ea71-71f5" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
+        <entryLink id="b322-7028-109e-fdcc" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0059-a8bf-f2d8-0a11" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35a5-ff19-06b5-599e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bb0-12f5-dae1-126a" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6068-b58d-0789-fc56" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65ce-73a4-6803-5a0e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41a7-f1d7-16f6-2095" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6e63-110b-af19-45e1" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="329f-19c6-b7df-b424" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adb3-666b-4dd1-a9ba" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="ca7f-7bb3-b31f-886f" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="adf3-d235-c5ae-d5bb" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faf0-1639-b9ee-60d5" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68a1-af8d-2a3c-656a" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="aa65-97fb-5408-519b" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="112a-b325-7427-e5be" name="Reconnaissance Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="db05-f9f6-8bad-383d" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LS133</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="1501-dcc9-824d-276e" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8d1-5951-d23a-df9f" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f018-a05f-00b2-ff89" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="7a3a-3aaf-0ace-730d" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ef2f-a320-7b18-8d49" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cbf-436a-8a07-8514" type="min"/>
+        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36be-68b1-1b4e-49af" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="22d0-5a8a-e16d-1860" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
+        <entryLink id="c197-f78d-4e94-831b" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/>
+        <entryLink id="07f6-37cb-b610-2a0d" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
+        <entryLink id="1663-47d6-fac0-43fd" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e3a8-89ca-64d0-e240" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a7c-f9d4-2991-d1af" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e0b-24d0-4d8d-4145" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="133d-b8f0-518d-11e0" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9610-0bb2-59ec-6324" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9762-e7de-68e4-5671" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2368-2825-ba80-92c6" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c47-e145-1584-cadc" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee68-321e-04ba-f511" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8d43-7941-9afc-b829" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="56bf-1e6a-f694-fbbf" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2006-3486-7ea5-e373" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cb3-9965-9b4d-ee4f" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="b701-fea0-08d8-235c" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="d074-5604-35c9-5ce0" name="T-34 Tank Battalion" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="1866-37cc-e920-d096" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LS121</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="a875-efb7-b6ee-c627" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac0-eb8f-ecc9-8afe" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f2-6b53-da64-af61" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="524b-84e4-155c-d8e6" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="87a6-d5df-a486-f962" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="074c-7282-dd6c-d2aa" type="min"/>
+        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2606-04b8-2205-3324" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="657a-9c07-e63f-e122" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
+        <entryLink id="a088-d997-abf1-1e94" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/>
+        <entryLink id="39fc-2cac-97c2-d776" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
+        <entryLink id="e670-7431-7949-70a4" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fab5-6a32-e15d-7368" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="865b-b089-a2a4-f548" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a94d-c857-e678-e45a" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e9a4-6270-e0b0-46a3" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e60-a6fd-5a0c-6b8c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="982c-3118-0bce-c6ea" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ef9f-6e90-34e9-981e" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f28d-01e6-f59a-798c" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32d0-bab3-3f19-8bcf" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4b32-f7ee-ef73-4a99" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="dafc-2938-0d71-cb08" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fab0-3844-9f42-26af" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5369-dc7a-61de-3190" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="2c96-80b9-5f78-0d92" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="a04a-20e4-381b-43b7" name="M3 Lee Tank Battalion" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="ae07-d355-4e1e-dec4" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LS125</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="918d-0daa-f98d-116d" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd18-c1d6-e914-6fad" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf9-df0b-0483-0772" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f304-9570-a3f7-282a" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="91f0-3d95-4874-17a0" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e69e-0789-0d7b-4daf" type="min"/>
+        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eaf-ad43-e370-998c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="40c4-444e-2ff0-e587" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
+        <entryLink id="367d-86fa-3420-9bad" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/>
+        <entryLink id="07ff-e26a-996b-59d9" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
+        <entryLink id="549f-8635-fa58-b51f" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="cf5c-fa21-42b8-89b6" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb4a-1f6f-a87c-ff8b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e15-4c33-218f-5c5e" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7940-dd2c-59ed-1a5d" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2fa-230d-dfb1-b58e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af70-c918-8a78-bec9" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3dfa-798b-80c1-b45b" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab12-e3df-af76-2977" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7908-2155-19fc-5234" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="5961-08a4-7692-5759" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="33fa-ee13-fda3-0da1" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b01b-5aa2-e117-664a" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4d6-a9d5-31a6-cd0f" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="6569-337b-ea85-d48d" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="2ee8-1e8a-ddef-de00" name="Motor Rifle Battalion" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="e703-524f-87ee-bbb9" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LS128</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="572f-441e-038f-2208" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d2f-ee39-20cb-5128" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bda-8268-e58b-1cfc" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="77da-4632-c699-a44a" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1fae-804e-26a6-4a9b" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0054-84a0-00d8-a2ba" type="min"/>
+        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e64-d58b-e737-2317" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="54a6-a35b-f0ad-ff84" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
+        <entryLink id="2657-af02-5c7f-df77" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/>
+        <entryLink id="81bc-2c04-3fdb-d6ea" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
+        <entryLink id="fe25-5066-307d-1953" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="39eb-efdf-5fdb-afb9" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32bf-d93a-eb1f-dc75" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86f7-030d-2f57-2ba7" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f067-36a5-abb8-2f63" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="748e-38a1-6145-fce1" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd31-a16c-7071-8e25" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d84d-5a4a-f453-e5d2" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3128-7801-115d-0a58" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2b7-ecd1-65d0-fd2f" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="473e-5ff3-afbb-89f3" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f937-36eb-8ed9-9d5e" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a2-17e4-6b6e-9aee" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1a6-6755-1704-334f" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="3943-c883-2812-9885" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="1df5-24c6-6241-e080" name="Rifle Battalion" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="b7c5-898c-c4e5-a612" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LS131</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="81fa-8626-88ee-a83f" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e858-48a5-cc30-ef00" type="min"/>
+        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7361-0114-7c96-400e" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1c20-382c-5bf1-d387" name="Light Tank-killer Company (LS145)" hidden="false" collective="false" import="true" targetId="dcb5-8929-d7f7-4f56" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ac6b-3148-df4e-a3be" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aad-be3c-4b1c-7b49" type="min"/>
+        <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0456-f3f9-0a64-25fc" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8424-ec9a-ff52-65b8" name="SU-122 Medium SP Battery (LS142)" hidden="false" collective="false" import="true" targetId="3ada-1162-d6df-2e22" type="selectionEntry"/>
+        <entryLink id="eda5-e979-c5e9-610e" name="SU-85 Tank-killer Battery (LS144)" hidden="false" collective="false" import="true" targetId="528a-7ba6-a097-6a04" type="selectionEntry"/>
+        <entryLink id="5a0b-8669-6cdc-d2d3" name="KV-8 Flame-tank Company (LS139)" hidden="false" collective="false" import="true" targetId="136b-19f5-7882-665e" type="selectionEntry"/>
+        <entryLink id="e0c3-1dd4-744a-0592" name="Hero T-70 Tank Company (LS107)" hidden="false" collective="false" import="true" targetId="1aca-3882-e656-50cf" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="cd41-8a55-16f8-e2a4" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad38-dc26-11db-8a14" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="030d-3c54-6154-a356" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d5f2-4492-d470-9b8d" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3fe-ec2e-0326-1dab" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fcf-82d8-2db0-2659" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8aaf-b615-0f10-63d0" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="618d-ef5b-fc97-5ca2" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c832-6eed-b14f-201f" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="7e74-e936-e0ba-cc43" name="122mm Artillery Battery (LS149)" hidden="false" collective="false" import="true" targetId="1c6f-5555-ecf6-c1ed" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="be83-4171-2784-b385" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8b0-f7ee-6f39-563c" type="min"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de33-94b1-a617-ef78" type="max"/>
+      </constraints>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="c3fe-c766-7862-6b9d" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry></selectionEntries>
   <entryLinks>
   </entryLinks>
   <sharedSelectionEntries>

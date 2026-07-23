@@ -11722,18 +11722,738 @@ Formation Commander is mounted in a Panther (Late) tank (LG428) in addition to a
   <categoryLinks>
     <categoryLink id="264d-eda2-579b-8e50" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
   </categoryLinks>
-</selectionEntry></selectionEntries></selectionEntry></selectionEntries>
+</selectionEntry></selectionEntries></selectionEntry><selectionEntry id="ca4e-1ab6-0d8c-2836" name="Brigade Panther (Late) Tank Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="09ab-03bc-65bc-26d4" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LG353</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="8b29-6ea8-e85b-6902" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23a7-45ec-3294-5214" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b116-dba4-f317-6508" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="9b36-d875-77b6-3694" name="Volks Hetzer Tank-hunter Platoon (LG412)" hidden="false" collective="false" import="true" targetId="be30-e158-db05-b58c" type="selectionEntry"/>
+        <entryLink id="89d7-f880-13bd-19bc" name="Volks StuG Tank-hunter Platoon (LG413)" hidden="false" collective="false" import="true" targetId="86de-a04e-a8ea-9b21" type="selectionEntry"/>
+        <entryLink id="65ab-2420-0edd-22ed" name="Marder Tank-hunter Platoon (LG257)" hidden="false" collective="false" import="true" targetId="4d14-5707-ed43-5b6e" type="selectionEntry"/>
+        <entryLink id="b152-af6d-f1bd-f37e" name="7.5cm SS Tank-hunter Platoon (LG215)" hidden="false" collective="false" import="true" targetId="5e4b-3e3d-8be8-1f17" type="selectionEntry"/>
+        <entryLink id="d766-2a1a-23f4-0ca2" name="7.5cm Tank-hunter Platoon (LG131)" hidden="false" collective="false" import="true" targetId="a8af-817b-a3b5-01d3" type="selectionEntry"/>
+        <entryLink id="3c69-0bad-0179-d718" name="Volksgrenadier 7.5cm Tank-hunter Platoon (LG410)" hidden="false" collective="false" import="true" targetId="e46f-d54a-6cae-4205" type="selectionEntry"/>
+        <entryLink id="9ace-6d79-5c04-4ea0" name="8.8cm Tank-hunter Platoon (LG182)" hidden="false" collective="false" import="true" targetId="a879-5eed-748d-6815" type="selectionEntry"/>
+        <entryLink id="914f-b2fe-5049-d91a" name="Hornisse Tank-hunter Platoon (LG129)" hidden="false" collective="false" import="true" targetId="5edc-e8d5-6f92-c119" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8c73-aabc-e2ae-0b68" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="565b-0a9f-cf69-85f9" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c23-6703-0651-c049" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="169b-1520-30da-b129" name="Sd Kfz 234 SS Scout Troop (LG445)" hidden="false" collective="false" import="true" targetId="25d1-53f3-d1a5-6867" type="selectionEntry"/>
+        <entryLink id="04e4-f542-dd81-2e5a" name="Sd Kfz 250 SS Scout Troop (LG223)" hidden="false" collective="false" import="true" targetId="7af7-7b48-ff4c-5534" type="selectionEntry"/>
+        <entryLink id="961b-1e28-a846-7b9e" name="Puma Scout Troop (LG178)" hidden="false" collective="false" import="true" targetId="75af-7dfb-557c-bbbb" type="selectionEntry"/>
+        <entryLink id="5732-a9c1-3b5e-e595" name="Sd Kfz 250 Scout Troop (LG179)" hidden="false" collective="false" import="true" targetId="c921-46b8-4560-36c0" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ba38-a6f9-fb17-886f" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f910-f140-f54a-127e" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a271-d39d-614c-e2a5" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="83dd-1a56-a341-78fe" name="Grille (Late) SS Gun Platoon (LG440)" hidden="false" collective="false" import="true" targetId="8558-343b-84d4-cc61" type="selectionEntry"/>
+        <entryLink id="72e8-e244-3e94-df17" name="10.5cm Artillery Battery (LG136)" hidden="false" collective="false" import="true" targetId="a768-0499-4b89-2709" type="selectionEntry"/>
+        <entryLink id="736f-1f03-28f1-74cb" name="Volks 10.5cm Artillery Battery (LG415)" hidden="false" collective="false" import="true" targetId="e16f-1226-f366-0194" type="selectionEntry"/>
+        <entryLink id="f542-a718-7015-4753" name="Wespe Artillery Battery (LG134)" hidden="false" collective="false" import="true" targetId="fc32-d5f2-5d23-2edc" type="selectionEntry"/>
+        <entryLink id="d089-bd54-a66e-83b4" name="Hummel Artillery Battery (LG135)" hidden="false" collective="false" import="true" targetId="af1c-8d72-2511-7ba3" type="selectionEntry"/>
+        <entryLink id="f4d1-1b01-be37-11a7" name="15cm Nebelwerfer Battery (LG137)" hidden="false" collective="false" import="true" targetId="f2f3-89cc-3d06-3df8" type="selectionEntry"/>
+        <entryLink id="c626-91b8-2b34-d579" name="Panzerwerfer 42 Battery (LG260)" hidden="false" collective="false" import="true" targetId="a516-2c3e-d235-22e5" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="356e-8b0a-3f5a-f08f" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7ba-619b-b9d0-6b93" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa88-a8a6-f132-85ad" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4c9f-cfce-ecdb-d88a" name="Panzer III OP Observation Post (LG183)" hidden="false" collective="false" import="true" targetId="ba0d-6ed7-fc0f-3e30" type="selectionEntry"/>
+        <entryLink id="59e4-9184-d195-45cd" name="Sd Kfz 250 OP Observation Post (LG261)" hidden="false" collective="false" import="true" targetId="e6db-3fef-ca7f-fdba" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9f54-c806-0268-1400" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46ee-9690-bd66-f168" type="min"/>
+        <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da3e-1ec4-8d7e-c71f" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="cb97-e358-a962-ba6e" name="Sturmtiger Assault Howitzer Platoon (LG420)" hidden="false" collective="false" import="true" targetId="0a39-b846-e61c-19c2" type="selectionEntry"/>
+        <entryLink id="50e0-a429-63bf-2abe" name="Brummbär Assault Tank Platoon (LG259)" hidden="false" collective="false" import="true" targetId="b0b0-0c10-3400-f9ac" type="selectionEntry"/>
+        <entryLink id="a3c1-3722-efef-3ed6" name="Tiger Tank Platoon (LG102)" hidden="false" collective="false" import="true" targetId="7114-faa3-af81-b43a" type="selectionEntry"/>
+        <entryLink id="c752-c15d-0791-9a71" name="Panzer IV Tank Platoon (LG167)" hidden="false" collective="false" import="true" targetId="768d-53fc-f995-361e" type="selectionEntry"/>
+        <entryLink id="cc72-425f-50af-28f4" name="Panzer IV SS Tank Platoon (LG196)" hidden="false" collective="false" import="true" targetId="95f2-0f5f-6bc4-a748" type="selectionEntry"/>
+        <entryLink id="4cb7-8340-758d-2f63" name="StuG Tank Platoon (LG247)" hidden="false" collective="false" import="true" targetId="af00-e8c6-96b1-f1ea" type="selectionEntry"/>
+        <entryLink id="fee0-e3f5-0c75-a9c5" name="Brigade Panther (Late) Tank Platoon (LG354)" hidden="false" collective="false" import="true" targetId="c253-0191-d672-dfb5" type="selectionEntry"/>
+        <entryLink id="0d10-87f1-9660-d1de" name="Brigade Panzer IV Tank Platoon (LG364)" hidden="false" collective="false" import="true" targetId="3cdb-9864-20ac-aee5" type="selectionEntry"/>
+        <entryLink id="6cf7-230f-ab62-2dd4" name="Tiger II SS Tank Platoon (LG427)" hidden="false" collective="false" import="true" targetId="d9a3-b5e6-28ec-0c8f" type="selectionEntry"/>
+        <entryLink id="ed56-adba-91fb-7ef1" name="Panther (Late) SS Tank Platoon (LG429)" hidden="false" collective="false" import="true" targetId="5f32-21b6-e417-f2c3" type="selectionEntry"/>
+        <entryLink id="3e6f-82c6-802f-de82" name="Panzer IV/70 SS Tank-hunter Platoon (LG432)" hidden="false" collective="false" import="true" targetId="6478-9ad2-5c92-7978" type="selectionEntry"/>
+        <entryLink id="37c6-41cf-2f67-4485" name="Tiger II Tank Platoon (LG352)" hidden="false" collective="false" import="true" targetId="ec62-efc0-805f-91c2" type="selectionEntry"/>
+        <entryLink id="ec01-6908-513e-38d2" name="Panther (Late) Tank Platoon (LG360)" hidden="false" collective="false" import="true" targetId="5df5-094b-8826-b12b" type="selectionEntry"/>
+        <entryLink id="aea6-db31-603d-6e94" name="Panzer IV/70 Tank-hunter Platoon (LG361)" hidden="false" collective="false" import="true" targetId="7f93-b846-0c64-559f" type="selectionEntry"/>
+        <entryLink id="7d48-c28d-e964-0235" name="Jagdpanther Tank-hunter Platoon (LG401)" hidden="false" collective="false" import="true" targetId="1394-fe27-94e6-b094" type="selectionEntry"/>
+        <entryLink id="3bba-089a-1097-9ba1" name="Jagdtiger Tank-hunter Platoon (LG403)" hidden="false" collective="false" import="true" targetId="f887-b215-1144-66a6" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9136-7b8b-0649-0a6c" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64a1-341e-e09b-b2c4" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f60c-5609-0c50-3fb9" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="7e6f-fba0-04e6-a3ee" name="Sd Kfz 10/4 Light AA Platoon (LG142)" hidden="false" collective="false" import="true" targetId="4d17-041f-91cf-9e98" type="selectionEntry"/>
+        <entryLink id="1478-65cb-0414-05f4" name="2cm Light AA Platoon (LG187)" hidden="false" collective="false" import="true" targetId="64b4-ba73-0042-fd8e" type="selectionEntry"/>
+        <entryLink id="9447-f300-6248-5ae1" name="8.8cm Heavy AA Platoon (LG144)" hidden="false" collective="false" import="true" targetId="d921-ddde-4a62-17bc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fe19-2edf-25e0-09c2" name="Flame-thrower" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c8e-b646-3f96-65a8" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8920-732c-2ceb-41ba" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="26a5-2b47-1806-9c03" name="Hetzer Flammpanzer Platoon (LG417)" hidden="false" collective="false" import="true" targetId="9b10-486f-eb95-c62f" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a5d2-2f5b-a355-3d0e" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cca9-0e88-0616-0cbf" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ad9-fd27-47a8-93d3" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="0e76-99aa-001b-af9e" name="ME 262 Sturmvogel Fighter-Bomber Flight (LG449)" hidden="false" collective="false" import="true" targetId="249e-a193-6bf6-ceb2" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b4d6-d4f5-9525-c3f4" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2393-c5bf-a7a8-8b55" type="min"/>
+        <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9138-7bb8-ad2b-415f" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b0ca-fcec-1b30-2b3f" name="Brigade Armoured Assault Platoon (LG368)" hidden="false" collective="false" import="true" targetId="4cbe-62ae-4abe-7b8a" type="selectionEntry"/>
+        <entryLink id="81ad-8e3a-7efd-226a" name="Brigade Armoured Panzergrenadier Platoon (LG375)" hidden="false" collective="false" import="true" targetId="28da-9df1-55ed-a480" type="selectionEntry"/>
+        <entryLink id="0b4d-ca47-d2c0-a785" name="Brigade Panzergrenadier Platoon (LG379)" hidden="false" collective="false" import="true" targetId="5bac-893f-9664-bdf1" type="selectionEntry"/>
+        <entryLink id="2270-68d1-4de0-0624" name="Ardennes Armoured SS Panzergrenadier Platoon (LG437)" hidden="false" collective="false" import="true" targetId="6361-f5eb-242a-4493" type="selectionEntry"/>
+        <entryLink id="ae82-7629-39ab-67ee" name="Ardennes SS Panzergrenadier Platoon (LG442)" hidden="false" collective="false" import="true" targetId="bda1-353c-86af-c8a0" type="selectionEntry"/>
+        <entryLink id="a4e5-0eb5-d314-a373" name="Ardennes Armoured Panzergrenadier Platoon (LG393)" hidden="false" collective="false" import="true" targetId="2b33-3579-b292-7f79" type="selectionEntry"/>
+        <entryLink id="5378-4e4c-ec92-b010" name="Volksgrenadier Assault Platoon (LG405)" hidden="false" collective="false" import="true" targetId="134c-c0e1-fba0-6109" type="selectionEntry"/>
+        <entryLink id="dd16-09a7-0e28-1693" name="Volksgrenadier Rifle Platoon (LG406)" hidden="false" collective="false" import="true" targetId="7dc5-8799-d072-378a" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4c80-9186-912d-30e3" name="Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3b8-f952-55f6-b4a0" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="479b-22eb-d523-b6dd" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="d33b-543e-5c84-1746" name="Brigade Armoured 2cm FlaK Platoon (LG369)" hidden="false" collective="false" import="true" targetId="7ff7-98b8-84b9-74ba" type="selectionEntry"/>
+        <entryLink id="04c0-4e1a-8fbb-2bb9" name="Brigade Armoured Triple 15mm FlaK Platoon (LG370)" hidden="false" collective="false" import="true" targetId="d673-2cf7-b357-0e8c" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="54f2-6aed-28b1-af92" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="8978-c26f-97f8-240d" name="Brigade Armoured Assault Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="fe3d-f36e-3a58-8307" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LG367</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="16bd-f01f-69de-78a3" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d4e-fcf1-1548-fd32" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea45-6cb1-3f85-a491" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6b89-ec83-1f24-c975" name="Volks Hetzer Tank-hunter Platoon (LG412)" hidden="false" collective="false" import="true" targetId="be30-e158-db05-b58c" type="selectionEntry"/>
+        <entryLink id="949d-0388-15fb-5fdf" name="Volks StuG Tank-hunter Platoon (LG413)" hidden="false" collective="false" import="true" targetId="86de-a04e-a8ea-9b21" type="selectionEntry"/>
+        <entryLink id="6e44-b240-cfc1-0c89" name="Marder Tank-hunter Platoon (LG257)" hidden="false" collective="false" import="true" targetId="4d14-5707-ed43-5b6e" type="selectionEntry"/>
+        <entryLink id="24a8-38f0-e88d-6633" name="7.5cm SS Tank-hunter Platoon (LG215)" hidden="false" collective="false" import="true" targetId="5e4b-3e3d-8be8-1f17" type="selectionEntry"/>
+        <entryLink id="a102-f872-dce6-278a" name="7.5cm Tank-hunter Platoon (LG131)" hidden="false" collective="false" import="true" targetId="a8af-817b-a3b5-01d3" type="selectionEntry"/>
+        <entryLink id="3dc7-0439-b90b-ed71" name="Volksgrenadier 7.5cm Tank-hunter Platoon (LG410)" hidden="false" collective="false" import="true" targetId="e46f-d54a-6cae-4205" type="selectionEntry"/>
+        <entryLink id="d712-7aac-839b-6a22" name="8.8cm Tank-hunter Platoon (LG182)" hidden="false" collective="false" import="true" targetId="a879-5eed-748d-6815" type="selectionEntry"/>
+        <entryLink id="cf1a-a95c-6f6b-f075" name="Hornisse Tank-hunter Platoon (LG129)" hidden="false" collective="false" import="true" targetId="5edc-e8d5-6f92-c119" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4638-1901-2698-1ae3" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9404-5033-a44b-584b" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02e3-623b-ebd1-3284" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="483d-5d4f-7db3-122f" name="Sd Kfz 234 SS Scout Troop (LG445)" hidden="false" collective="false" import="true" targetId="25d1-53f3-d1a5-6867" type="selectionEntry"/>
+        <entryLink id="2168-3fe9-678c-f0f4" name="Sd Kfz 250 SS Scout Troop (LG223)" hidden="false" collective="false" import="true" targetId="7af7-7b48-ff4c-5534" type="selectionEntry"/>
+        <entryLink id="f04a-e017-9c05-af32" name="Puma Scout Troop (LG178)" hidden="false" collective="false" import="true" targetId="75af-7dfb-557c-bbbb" type="selectionEntry"/>
+        <entryLink id="12c0-a0e2-1575-a866" name="Sd Kfz 250 Scout Troop (LG179)" hidden="false" collective="false" import="true" targetId="c921-46b8-4560-36c0" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9d23-5562-a116-9c36" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d81-34cc-f637-fd26" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67d1-c63c-4f57-5c06" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="a682-64b8-5f3f-a177" name="Grille (Late) SS Gun Platoon (LG440)" hidden="false" collective="false" import="true" targetId="8558-343b-84d4-cc61" type="selectionEntry"/>
+        <entryLink id="e7dc-b0c8-9bef-230d" name="10.5cm Artillery Battery (LG136)" hidden="false" collective="false" import="true" targetId="a768-0499-4b89-2709" type="selectionEntry"/>
+        <entryLink id="0383-b78f-ce88-e6da" name="Volks 10.5cm Artillery Battery (LG415)" hidden="false" collective="false" import="true" targetId="e16f-1226-f366-0194" type="selectionEntry"/>
+        <entryLink id="d7b5-ba1c-c19a-e22b" name="Wespe Artillery Battery (LG134)" hidden="false" collective="false" import="true" targetId="fc32-d5f2-5d23-2edc" type="selectionEntry"/>
+        <entryLink id="2a81-2d79-a603-d053" name="Hummel Artillery Battery (LG135)" hidden="false" collective="false" import="true" targetId="af1c-8d72-2511-7ba3" type="selectionEntry"/>
+        <entryLink id="8423-470f-f4c3-ad3d" name="15cm Nebelwerfer Battery (LG137)" hidden="false" collective="false" import="true" targetId="f2f3-89cc-3d06-3df8" type="selectionEntry"/>
+        <entryLink id="8e2a-02c2-c5f4-819d" name="Panzerwerfer 42 Battery (LG260)" hidden="false" collective="false" import="true" targetId="a516-2c3e-d235-22e5" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3932-e581-bff3-3716" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdf5-d0cf-1fe4-770c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb36-b0d2-a92d-f4ce" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="5df5-3034-0c72-928d" name="Panzer III OP Observation Post (LG183)" hidden="false" collective="false" import="true" targetId="ba0d-6ed7-fc0f-3e30" type="selectionEntry"/>
+        <entryLink id="2227-937c-2a61-6031" name="Sd Kfz 250 OP Observation Post (LG261)" hidden="false" collective="false" import="true" targetId="e6db-3fef-ca7f-fdba" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2518-4b3e-41c9-3a47" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5686-e6e8-06a8-8c06" type="min"/>
+        <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="560c-1c08-3502-d848" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="a2a0-9ffa-4d3a-aa94" name="Sturmtiger Assault Howitzer Platoon (LG420)" hidden="false" collective="false" import="true" targetId="0a39-b846-e61c-19c2" type="selectionEntry"/>
+        <entryLink id="a455-4653-69fb-4a7e" name="Brummbär Assault Tank Platoon (LG259)" hidden="false" collective="false" import="true" targetId="b0b0-0c10-3400-f9ac" type="selectionEntry"/>
+        <entryLink id="3453-b8d0-2c7b-c7d3" name="Tiger Tank Platoon (LG102)" hidden="false" collective="false" import="true" targetId="7114-faa3-af81-b43a" type="selectionEntry"/>
+        <entryLink id="376a-0b70-b075-eedf" name="Panzer IV Tank Platoon (LG167)" hidden="false" collective="false" import="true" targetId="768d-53fc-f995-361e" type="selectionEntry"/>
+        <entryLink id="c73d-52b9-4cb3-148a" name="Panzer IV SS Tank Platoon (LG196)" hidden="false" collective="false" import="true" targetId="95f2-0f5f-6bc4-a748" type="selectionEntry"/>
+        <entryLink id="7e05-9160-1402-986f" name="StuG Tank Platoon (LG247)" hidden="false" collective="false" import="true" targetId="af00-e8c6-96b1-f1ea" type="selectionEntry"/>
+        <entryLink id="dc86-cc91-a26e-0cda" name="Brigade Panther (Late) Tank Platoon (LG354)" hidden="false" collective="false" import="true" targetId="c253-0191-d672-dfb5" type="selectionEntry"/>
+        <entryLink id="4c64-ce4d-f643-86ef" name="Brigade Panzer IV Tank Platoon (LG364)" hidden="false" collective="false" import="true" targetId="3cdb-9864-20ac-aee5" type="selectionEntry"/>
+        <entryLink id="014c-a5d4-a7da-3c85" name="Tiger II SS Tank Platoon (LG427)" hidden="false" collective="false" import="true" targetId="d9a3-b5e6-28ec-0c8f" type="selectionEntry"/>
+        <entryLink id="8401-e152-6915-48c0" name="Panther (Late) SS Tank Platoon (LG429)" hidden="false" collective="false" import="true" targetId="5f32-21b6-e417-f2c3" type="selectionEntry"/>
+        <entryLink id="e709-fb02-c169-14c3" name="Panzer IV/70 SS Tank-hunter Platoon (LG432)" hidden="false" collective="false" import="true" targetId="6478-9ad2-5c92-7978" type="selectionEntry"/>
+        <entryLink id="c863-c3de-a285-4055" name="Tiger II Tank Platoon (LG352)" hidden="false" collective="false" import="true" targetId="ec62-efc0-805f-91c2" type="selectionEntry"/>
+        <entryLink id="48b7-be8d-d28f-b713" name="Panther (Late) Tank Platoon (LG360)" hidden="false" collective="false" import="true" targetId="5df5-094b-8826-b12b" type="selectionEntry"/>
+        <entryLink id="7e80-5d1a-b2f1-6cfb" name="Panzer IV/70 Tank-hunter Platoon (LG361)" hidden="false" collective="false" import="true" targetId="7f93-b846-0c64-559f" type="selectionEntry"/>
+        <entryLink id="06d6-e66a-2b58-f7cf" name="Jagdpanther Tank-hunter Platoon (LG401)" hidden="false" collective="false" import="true" targetId="1394-fe27-94e6-b094" type="selectionEntry"/>
+        <entryLink id="750d-a27a-832c-215d" name="Jagdtiger Tank-hunter Platoon (LG403)" hidden="false" collective="false" import="true" targetId="f887-b215-1144-66a6" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7ed6-53fe-86fe-97d0" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a509-fc04-4d7c-44b0" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f80e-fef5-8e47-3614" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="cfab-6eca-3c70-c9a9" name="Sd Kfz 10/4 Light AA Platoon (LG142)" hidden="false" collective="false" import="true" targetId="4d17-041f-91cf-9e98" type="selectionEntry"/>
+        <entryLink id="d1fc-2b15-964f-7603" name="2cm Light AA Platoon (LG187)" hidden="false" collective="false" import="true" targetId="64b4-ba73-0042-fd8e" type="selectionEntry"/>
+        <entryLink id="75cd-19ec-fc88-224a" name="8.8cm Heavy AA Platoon (LG144)" hidden="false" collective="false" import="true" targetId="d921-ddde-4a62-17bc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8ae7-5226-6aeb-ac21" name="Flame-thrower" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10fb-1e05-f39b-d702" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbc2-3f8e-b281-c1dc" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="08bc-ad3d-6f99-463b" name="Hetzer Flammpanzer Platoon (LG417)" hidden="false" collective="false" import="true" targetId="9b10-486f-eb95-c62f" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="093f-7150-cc1e-8652" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4765-90fb-c632-a76c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8665-6e7b-8b9b-f02d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="581e-c283-cb21-d527" name="ME 262 Sturmvogel Fighter-Bomber Flight (LG449)" hidden="false" collective="false" import="true" targetId="249e-a193-6bf6-ceb2" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="da86-7492-135e-a934" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="949e-adcd-f556-edc1" type="min"/>
+        <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36b6-8a78-5406-3605" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="a0a2-364f-0ae6-8b42" name="Brigade Armoured Assault Platoon (LG368)" hidden="false" collective="false" import="true" targetId="4cbe-62ae-4abe-7b8a" type="selectionEntry"/>
+        <entryLink id="f00a-335b-623b-8807" name="Brigade Armoured Panzergrenadier Platoon (LG375)" hidden="false" collective="false" import="true" targetId="28da-9df1-55ed-a480" type="selectionEntry"/>
+        <entryLink id="7f25-eb78-c26d-ee86" name="Brigade Panzergrenadier Platoon (LG379)" hidden="false" collective="false" import="true" targetId="5bac-893f-9664-bdf1" type="selectionEntry"/>
+        <entryLink id="663a-4adb-39fe-c10d" name="Ardennes Armoured SS Panzergrenadier Platoon (LG437)" hidden="false" collective="false" import="true" targetId="6361-f5eb-242a-4493" type="selectionEntry"/>
+        <entryLink id="15db-a0e4-d8b7-b4f3" name="Ardennes SS Panzergrenadier Platoon (LG442)" hidden="false" collective="false" import="true" targetId="bda1-353c-86af-c8a0" type="selectionEntry"/>
+        <entryLink id="aa53-07da-b812-001a" name="Ardennes Armoured Panzergrenadier Platoon (LG393)" hidden="false" collective="false" import="true" targetId="2b33-3579-b292-7f79" type="selectionEntry"/>
+        <entryLink id="ffba-e7a3-e6a2-0ff6" name="Volksgrenadier Assault Platoon (LG405)" hidden="false" collective="false" import="true" targetId="134c-c0e1-fba0-6109" type="selectionEntry"/>
+        <entryLink id="17a0-0aab-6b44-62ce" name="Volksgrenadier Rifle Platoon (LG406)" hidden="false" collective="false" import="true" targetId="7dc5-8799-d072-378a" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fdce-fd17-d6f1-f95a" name="Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdce-0da8-2e88-7f64" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="043a-3c4b-abcc-79ee" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="cbab-ce38-08c1-8f6c" name="Brigade Armoured 2cm FlaK Platoon (LG369)" hidden="false" collective="false" import="true" targetId="7ff7-98b8-84b9-74ba" type="selectionEntry"/>
+        <entryLink id="5c3e-cb65-dddd-dbf0" name="Brigade Armoured Triple 15mm FlaK Platoon (LG370)" hidden="false" collective="false" import="true" targetId="d673-2cf7-b357-0e8c" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="af58-296f-b2f6-ccc3" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="908d-afdf-647e-9e3d" name="Brigade Armoured Panzergrenadier Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="7155-dbca-9aa2-e97c" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LG374</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="2b27-6e34-4de7-efac" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2268-d126-b384-482d" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1552-99d0-1aba-c12d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="9a94-fa84-0323-af43" name="Volks Hetzer Tank-hunter Platoon (LG412)" hidden="false" collective="false" import="true" targetId="be30-e158-db05-b58c" type="selectionEntry"/>
+        <entryLink id="a525-ab2d-c4c8-40b3" name="Volks StuG Tank-hunter Platoon (LG413)" hidden="false" collective="false" import="true" targetId="86de-a04e-a8ea-9b21" type="selectionEntry"/>
+        <entryLink id="4a3e-a50a-61ef-1f1b" name="Marder Tank-hunter Platoon (LG257)" hidden="false" collective="false" import="true" targetId="4d14-5707-ed43-5b6e" type="selectionEntry"/>
+        <entryLink id="f987-98c8-40d8-cd41" name="7.5cm SS Tank-hunter Platoon (LG215)" hidden="false" collective="false" import="true" targetId="5e4b-3e3d-8be8-1f17" type="selectionEntry"/>
+        <entryLink id="2a55-11e3-cde5-b6ea" name="7.5cm Tank-hunter Platoon (LG131)" hidden="false" collective="false" import="true" targetId="a8af-817b-a3b5-01d3" type="selectionEntry"/>
+        <entryLink id="cc8c-698a-695a-dbdc" name="Volksgrenadier 7.5cm Tank-hunter Platoon (LG410)" hidden="false" collective="false" import="true" targetId="e46f-d54a-6cae-4205" type="selectionEntry"/>
+        <entryLink id="3eea-30f3-6df9-382c" name="8.8cm Tank-hunter Platoon (LG182)" hidden="false" collective="false" import="true" targetId="a879-5eed-748d-6815" type="selectionEntry"/>
+        <entryLink id="a585-26da-2468-6aaa" name="Hornisse Tank-hunter Platoon (LG129)" hidden="false" collective="false" import="true" targetId="5edc-e8d5-6f92-c119" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e207-3dbd-4d3f-0463" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9829-7028-7919-5d34" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79c4-dd04-2960-b18e" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1ec4-424d-82d8-d649" name="Sd Kfz 234 SS Scout Troop (LG445)" hidden="false" collective="false" import="true" targetId="25d1-53f3-d1a5-6867" type="selectionEntry"/>
+        <entryLink id="98f7-dda6-1573-04b0" name="Sd Kfz 250 SS Scout Troop (LG223)" hidden="false" collective="false" import="true" targetId="7af7-7b48-ff4c-5534" type="selectionEntry"/>
+        <entryLink id="56a9-e695-5634-4fca" name="Puma Scout Troop (LG178)" hidden="false" collective="false" import="true" targetId="75af-7dfb-557c-bbbb" type="selectionEntry"/>
+        <entryLink id="7be6-316d-31ad-8dfc" name="Sd Kfz 250 Scout Troop (LG179)" hidden="false" collective="false" import="true" targetId="c921-46b8-4560-36c0" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9a6b-45c2-3a29-d631" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="067e-3579-2784-b399" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59c7-ee8d-874d-3d68" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="bb8f-1b81-cbe0-b4e4" name="Grille (Late) SS Gun Platoon (LG440)" hidden="false" collective="false" import="true" targetId="8558-343b-84d4-cc61" type="selectionEntry"/>
+        <entryLink id="40b3-80c8-cbaa-0a98" name="10.5cm Artillery Battery (LG136)" hidden="false" collective="false" import="true" targetId="a768-0499-4b89-2709" type="selectionEntry"/>
+        <entryLink id="4b57-ab82-f511-a27a" name="Volks 10.5cm Artillery Battery (LG415)" hidden="false" collective="false" import="true" targetId="e16f-1226-f366-0194" type="selectionEntry"/>
+        <entryLink id="e4e3-dbee-5c6f-5064" name="Wespe Artillery Battery (LG134)" hidden="false" collective="false" import="true" targetId="fc32-d5f2-5d23-2edc" type="selectionEntry"/>
+        <entryLink id="e5af-6d78-ca13-2faf" name="Hummel Artillery Battery (LG135)" hidden="false" collective="false" import="true" targetId="af1c-8d72-2511-7ba3" type="selectionEntry"/>
+        <entryLink id="9e7b-a08d-7c80-9c15" name="15cm Nebelwerfer Battery (LG137)" hidden="false" collective="false" import="true" targetId="f2f3-89cc-3d06-3df8" type="selectionEntry"/>
+        <entryLink id="4b5c-2e42-0ca3-c6fd" name="Panzerwerfer 42 Battery (LG260)" hidden="false" collective="false" import="true" targetId="a516-2c3e-d235-22e5" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="12e2-b1f0-feae-f005" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c6b-10e7-d837-d705" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c36-8b9f-c308-2ab7" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1e5c-96c2-362d-dc5f" name="Panzer III OP Observation Post (LG183)" hidden="false" collective="false" import="true" targetId="ba0d-6ed7-fc0f-3e30" type="selectionEntry"/>
+        <entryLink id="6f73-fb6e-699d-33bd" name="Sd Kfz 250 OP Observation Post (LG261)" hidden="false" collective="false" import="true" targetId="e6db-3fef-ca7f-fdba" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6714-580b-72e3-1c47" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5975-e512-a10c-d516" type="min"/>
+        <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0af3-56b7-b611-5e2d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c3cf-8ac8-c907-a7ed" name="Sturmtiger Assault Howitzer Platoon (LG420)" hidden="false" collective="false" import="true" targetId="0a39-b846-e61c-19c2" type="selectionEntry"/>
+        <entryLink id="71c1-8797-db57-ed81" name="Brummbär Assault Tank Platoon (LG259)" hidden="false" collective="false" import="true" targetId="b0b0-0c10-3400-f9ac" type="selectionEntry"/>
+        <entryLink id="e706-0c27-6616-940a" name="Tiger Tank Platoon (LG102)" hidden="false" collective="false" import="true" targetId="7114-faa3-af81-b43a" type="selectionEntry"/>
+        <entryLink id="dcf8-b816-1334-389b" name="Panzer IV Tank Platoon (LG167)" hidden="false" collective="false" import="true" targetId="768d-53fc-f995-361e" type="selectionEntry"/>
+        <entryLink id="9853-3c47-1c91-6ffa" name="Panzer IV SS Tank Platoon (LG196)" hidden="false" collective="false" import="true" targetId="95f2-0f5f-6bc4-a748" type="selectionEntry"/>
+        <entryLink id="91a4-5607-df9f-92d7" name="StuG Tank Platoon (LG247)" hidden="false" collective="false" import="true" targetId="af00-e8c6-96b1-f1ea" type="selectionEntry"/>
+        <entryLink id="e68f-417e-c94d-9b0d" name="Brigade Panther (Late) Tank Platoon (LG354)" hidden="false" collective="false" import="true" targetId="c253-0191-d672-dfb5" type="selectionEntry"/>
+        <entryLink id="d617-005d-85b5-38a3" name="Brigade Panzer IV Tank Platoon (LG364)" hidden="false" collective="false" import="true" targetId="3cdb-9864-20ac-aee5" type="selectionEntry"/>
+        <entryLink id="14a2-b38e-b334-56cf" name="Tiger II SS Tank Platoon (LG427)" hidden="false" collective="false" import="true" targetId="d9a3-b5e6-28ec-0c8f" type="selectionEntry"/>
+        <entryLink id="2fa9-0ce6-d50a-19e6" name="Panther (Late) SS Tank Platoon (LG429)" hidden="false" collective="false" import="true" targetId="5f32-21b6-e417-f2c3" type="selectionEntry"/>
+        <entryLink id="f703-78a3-38e3-144e" name="Panzer IV/70 SS Tank-hunter Platoon (LG432)" hidden="false" collective="false" import="true" targetId="6478-9ad2-5c92-7978" type="selectionEntry"/>
+        <entryLink id="776f-8939-33d2-9b9a" name="Tiger II Tank Platoon (LG352)" hidden="false" collective="false" import="true" targetId="ec62-efc0-805f-91c2" type="selectionEntry"/>
+        <entryLink id="08fa-c0c7-8118-2229" name="Panther (Late) Tank Platoon (LG360)" hidden="false" collective="false" import="true" targetId="5df5-094b-8826-b12b" type="selectionEntry"/>
+        <entryLink id="9141-2c6f-87ab-3f2a" name="Panzer IV/70 Tank-hunter Platoon (LG361)" hidden="false" collective="false" import="true" targetId="7f93-b846-0c64-559f" type="selectionEntry"/>
+        <entryLink id="5819-447b-da6f-7233" name="Jagdpanther Tank-hunter Platoon (LG401)" hidden="false" collective="false" import="true" targetId="1394-fe27-94e6-b094" type="selectionEntry"/>
+        <entryLink id="4703-e910-1de0-7a35" name="Jagdtiger Tank-hunter Platoon (LG403)" hidden="false" collective="false" import="true" targetId="f887-b215-1144-66a6" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2859-b005-cd74-9cef" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50e0-0355-8d92-d4b1" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0f5-ace4-7c44-9b3c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1b6e-2362-1f91-d62b" name="Sd Kfz 10/4 Light AA Platoon (LG142)" hidden="false" collective="false" import="true" targetId="4d17-041f-91cf-9e98" type="selectionEntry"/>
+        <entryLink id="b280-9b33-c2a2-85c6" name="2cm Light AA Platoon (LG187)" hidden="false" collective="false" import="true" targetId="64b4-ba73-0042-fd8e" type="selectionEntry"/>
+        <entryLink id="767d-066a-ed99-3c76" name="8.8cm Heavy AA Platoon (LG144)" hidden="false" collective="false" import="true" targetId="d921-ddde-4a62-17bc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="812e-b51f-9df2-ba48" name="Flame-thrower" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2369-0d65-a771-7156" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af0f-ec46-ce7d-84b4" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6b69-60e4-e2a8-72b2" name="Hetzer Flammpanzer Platoon (LG417)" hidden="false" collective="false" import="true" targetId="9b10-486f-eb95-c62f" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1491-1818-fce4-6723" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5056-a919-1036-4137" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0121-10ce-d8c5-530b" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="5955-bfeb-6b12-6dd5" name="ME 262 Sturmvogel Fighter-Bomber Flight (LG449)" hidden="false" collective="false" import="true" targetId="249e-a193-6bf6-ceb2" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="812b-e591-5111-58cb" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38b5-5daf-5d2b-1bd1" type="min"/>
+        <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51f1-6c1b-5f36-9faa" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="9c09-63cc-f5f4-bc18" name="Brigade Armoured Assault Platoon (LG368)" hidden="false" collective="false" import="true" targetId="4cbe-62ae-4abe-7b8a" type="selectionEntry"/>
+        <entryLink id="5f17-a5bb-20b4-9d61" name="Brigade Armoured Panzergrenadier Platoon (LG375)" hidden="false" collective="false" import="true" targetId="28da-9df1-55ed-a480" type="selectionEntry"/>
+        <entryLink id="3df9-73c5-d1d5-64d9" name="Brigade Panzergrenadier Platoon (LG379)" hidden="false" collective="false" import="true" targetId="5bac-893f-9664-bdf1" type="selectionEntry"/>
+        <entryLink id="56a4-2c31-8295-3d53" name="Ardennes Armoured SS Panzergrenadier Platoon (LG437)" hidden="false" collective="false" import="true" targetId="6361-f5eb-242a-4493" type="selectionEntry"/>
+        <entryLink id="3156-658f-bf31-f0db" name="Ardennes SS Panzergrenadier Platoon (LG442)" hidden="false" collective="false" import="true" targetId="bda1-353c-86af-c8a0" type="selectionEntry"/>
+        <entryLink id="9b38-be11-1a3d-5f11" name="Ardennes Armoured Panzergrenadier Platoon (LG393)" hidden="false" collective="false" import="true" targetId="2b33-3579-b292-7f79" type="selectionEntry"/>
+        <entryLink id="592c-d671-5090-8295" name="Volksgrenadier Assault Platoon (LG405)" hidden="false" collective="false" import="true" targetId="134c-c0e1-fba0-6109" type="selectionEntry"/>
+        <entryLink id="6d42-36d3-664b-94b1" name="Volksgrenadier Rifle Platoon (LG406)" hidden="false" collective="false" import="true" targetId="7dc5-8799-d072-378a" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2eca-7546-d46a-0b31" name="Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66bb-77fa-4653-2fc5" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f476-6933-f45f-1552" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f5eb-1559-426b-4b1a" name="Brigade Armoured 2cm FlaK Platoon (LG369)" hidden="false" collective="false" import="true" targetId="7ff7-98b8-84b9-74ba" type="selectionEntry"/>
+        <entryLink id="878a-4749-f8b3-c8db" name="Brigade Armoured Triple 15mm FlaK Platoon (LG370)" hidden="false" collective="false" import="true" targetId="d673-2cf7-b357-0e8c" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="5318-552c-a0f2-841a" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="4dab-8c91-06cd-4f23" name="Ardennes Armoured SS Panzergrenadier Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="411f-6f8d-0b53-fb97" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LG436</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="c493-eea1-3399-a973" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a0e-c5d1-51cd-b0b2" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92d5-4a3c-ffe2-2ec5" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="5191-e291-06bd-c7f3" name="Volks Hetzer Tank-hunter Platoon (LG412)" hidden="false" collective="false" import="true" targetId="be30-e158-db05-b58c" type="selectionEntry"/>
+        <entryLink id="b799-2e21-c9ba-6f7a" name="Volks StuG Tank-hunter Platoon (LG413)" hidden="false" collective="false" import="true" targetId="86de-a04e-a8ea-9b21" type="selectionEntry"/>
+        <entryLink id="a7e8-2fc8-c205-2a80" name="Marder Tank-hunter Platoon (LG257)" hidden="false" collective="false" import="true" targetId="4d14-5707-ed43-5b6e" type="selectionEntry"/>
+        <entryLink id="3c94-90ab-58a1-29ab" name="7.5cm SS Tank-hunter Platoon (LG215)" hidden="false" collective="false" import="true" targetId="5e4b-3e3d-8be8-1f17" type="selectionEntry"/>
+        <entryLink id="43ce-f0de-0e57-9690" name="7.5cm Tank-hunter Platoon (LG131)" hidden="false" collective="false" import="true" targetId="a8af-817b-a3b5-01d3" type="selectionEntry"/>
+        <entryLink id="34c0-fac5-22fe-af0d" name="Volksgrenadier 7.5cm Tank-hunter Platoon (LG410)" hidden="false" collective="false" import="true" targetId="e46f-d54a-6cae-4205" type="selectionEntry"/>
+        <entryLink id="17b2-ca70-8747-07db" name="8.8cm Tank-hunter Platoon (LG182)" hidden="false" collective="false" import="true" targetId="a879-5eed-748d-6815" type="selectionEntry"/>
+        <entryLink id="79c8-d4c2-5e0d-2516" name="Hornisse Tank-hunter Platoon (LG129)" hidden="false" collective="false" import="true" targetId="5edc-e8d5-6f92-c119" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3afd-2d21-c7c3-c5ae" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41f1-1b19-93f2-239b" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d091-8d99-52af-6721" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="02d1-68f8-68eb-9502" name="Sd Kfz 234 SS Scout Troop (LG445)" hidden="false" collective="false" import="true" targetId="25d1-53f3-d1a5-6867" type="selectionEntry"/>
+        <entryLink id="cfe9-bd08-adff-adfa" name="Sd Kfz 250 SS Scout Troop (LG223)" hidden="false" collective="false" import="true" targetId="7af7-7b48-ff4c-5534" type="selectionEntry"/>
+        <entryLink id="54ec-4fad-d881-bb7e" name="Puma Scout Troop (LG178)" hidden="false" collective="false" import="true" targetId="75af-7dfb-557c-bbbb" type="selectionEntry"/>
+        <entryLink id="5cc7-0221-1c37-1195" name="Sd Kfz 250 Scout Troop (LG179)" hidden="false" collective="false" import="true" targetId="c921-46b8-4560-36c0" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1ae0-76d5-cc34-5ab4" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="850b-b98a-8ab1-2fb4" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c681-ef76-ad22-4d43" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="d777-a2ec-b743-c1c4" name="Grille (Late) SS Gun Platoon (LG440)" hidden="false" collective="false" import="true" targetId="8558-343b-84d4-cc61" type="selectionEntry"/>
+        <entryLink id="2898-9376-3911-b18b" name="10.5cm Artillery Battery (LG136)" hidden="false" collective="false" import="true" targetId="a768-0499-4b89-2709" type="selectionEntry"/>
+        <entryLink id="014e-bb0f-6ef3-2f36" name="Volks 10.5cm Artillery Battery (LG415)" hidden="false" collective="false" import="true" targetId="e16f-1226-f366-0194" type="selectionEntry"/>
+        <entryLink id="e85a-5bad-cf8a-4a19" name="Wespe Artillery Battery (LG134)" hidden="false" collective="false" import="true" targetId="fc32-d5f2-5d23-2edc" type="selectionEntry"/>
+        <entryLink id="20b1-9447-b94c-6a09" name="Hummel Artillery Battery (LG135)" hidden="false" collective="false" import="true" targetId="af1c-8d72-2511-7ba3" type="selectionEntry"/>
+        <entryLink id="9bf0-b693-cae0-e6f3" name="15cm Nebelwerfer Battery (LG137)" hidden="false" collective="false" import="true" targetId="f2f3-89cc-3d06-3df8" type="selectionEntry"/>
+        <entryLink id="1b5b-24f1-106b-8f27" name="Panzerwerfer 42 Battery (LG260)" hidden="false" collective="false" import="true" targetId="a516-2c3e-d235-22e5" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3b03-2c3d-18a3-db74" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6cc-7b3a-4915-b57d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e04a-4ca9-662d-6b84" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="22c6-6b4e-0071-751a" name="Panzer III OP Observation Post (LG183)" hidden="false" collective="false" import="true" targetId="ba0d-6ed7-fc0f-3e30" type="selectionEntry"/>
+        <entryLink id="2182-57a4-7436-cd4c" name="Sd Kfz 250 OP Observation Post (LG261)" hidden="false" collective="false" import="true" targetId="e6db-3fef-ca7f-fdba" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="92ea-b012-539e-8c5c" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee2e-523a-ad5a-eb1b" type="min"/>
+        <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d084-c0f1-bd3e-6c47" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6450-10e2-eede-241c" name="Sturmtiger Assault Howitzer Platoon (LG420)" hidden="false" collective="false" import="true" targetId="0a39-b846-e61c-19c2" type="selectionEntry"/>
+        <entryLink id="80dc-855b-0c1c-194c" name="Brummbär Assault Tank Platoon (LG259)" hidden="false" collective="false" import="true" targetId="b0b0-0c10-3400-f9ac" type="selectionEntry"/>
+        <entryLink id="b9a7-16aa-0208-c178" name="Tiger Tank Platoon (LG102)" hidden="false" collective="false" import="true" targetId="7114-faa3-af81-b43a" type="selectionEntry"/>
+        <entryLink id="3a97-45c0-2fe9-e19e" name="Panzer IV Tank Platoon (LG167)" hidden="false" collective="false" import="true" targetId="768d-53fc-f995-361e" type="selectionEntry"/>
+        <entryLink id="658d-5746-01ec-87b7" name="Panzer IV SS Tank Platoon (LG196)" hidden="false" collective="false" import="true" targetId="95f2-0f5f-6bc4-a748" type="selectionEntry"/>
+        <entryLink id="0cf5-0cfa-6cba-2609" name="StuG Tank Platoon (LG247)" hidden="false" collective="false" import="true" targetId="af00-e8c6-96b1-f1ea" type="selectionEntry"/>
+        <entryLink id="9186-706f-4858-f9d6" name="Brigade Panther (Late) Tank Platoon (LG354)" hidden="false" collective="false" import="true" targetId="c253-0191-d672-dfb5" type="selectionEntry"/>
+        <entryLink id="4939-c925-fdd8-c8c0" name="Brigade Panzer IV Tank Platoon (LG364)" hidden="false" collective="false" import="true" targetId="3cdb-9864-20ac-aee5" type="selectionEntry"/>
+        <entryLink id="aaa9-70c0-19a7-da9b" name="Tiger II SS Tank Platoon (LG427)" hidden="false" collective="false" import="true" targetId="d9a3-b5e6-28ec-0c8f" type="selectionEntry"/>
+        <entryLink id="cb9d-c02e-2c8a-4f0d" name="Panther (Late) SS Tank Platoon (LG429)" hidden="false" collective="false" import="true" targetId="5f32-21b6-e417-f2c3" type="selectionEntry"/>
+        <entryLink id="1b1c-1a13-6ef6-ff38" name="Panzer IV/70 SS Tank-hunter Platoon (LG432)" hidden="false" collective="false" import="true" targetId="6478-9ad2-5c92-7978" type="selectionEntry"/>
+        <entryLink id="46bc-ec74-4dcd-1036" name="Tiger II Tank Platoon (LG352)" hidden="false" collective="false" import="true" targetId="ec62-efc0-805f-91c2" type="selectionEntry"/>
+        <entryLink id="04e4-1147-afb6-33a4" name="Panther (Late) Tank Platoon (LG360)" hidden="false" collective="false" import="true" targetId="5df5-094b-8826-b12b" type="selectionEntry"/>
+        <entryLink id="d5e7-f69b-8af6-80b6" name="Panzer IV/70 Tank-hunter Platoon (LG361)" hidden="false" collective="false" import="true" targetId="7f93-b846-0c64-559f" type="selectionEntry"/>
+        <entryLink id="e31e-2edb-e467-5198" name="Jagdpanther Tank-hunter Platoon (LG401)" hidden="false" collective="false" import="true" targetId="1394-fe27-94e6-b094" type="selectionEntry"/>
+        <entryLink id="b596-13eb-004b-a0c7" name="Jagdtiger Tank-hunter Platoon (LG403)" hidden="false" collective="false" import="true" targetId="f887-b215-1144-66a6" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1082-0946-94ec-f206" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2078-e23e-b93a-1118" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc44-04dc-bacd-9f1f" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f707-d155-f011-9618" name="Sd Kfz 10/4 Light AA Platoon (LG142)" hidden="false" collective="false" import="true" targetId="4d17-041f-91cf-9e98" type="selectionEntry"/>
+        <entryLink id="039f-3d84-b3c4-3801" name="2cm Light AA Platoon (LG187)" hidden="false" collective="false" import="true" targetId="64b4-ba73-0042-fd8e" type="selectionEntry"/>
+        <entryLink id="a26b-3b84-fc4e-9f9c" name="8.8cm Heavy AA Platoon (LG144)" hidden="false" collective="false" import="true" targetId="d921-ddde-4a62-17bc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1c85-d491-f447-10a1" name="Flame-thrower" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29ab-78fd-1451-0692" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dc6-6986-260a-22e3" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="d6e5-d1c2-8c27-0f44" name="Hetzer Flammpanzer Platoon (LG417)" hidden="false" collective="false" import="true" targetId="9b10-486f-eb95-c62f" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0d03-9009-d24e-d057" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fac7-bcef-b827-56b1" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b39a-9342-cba9-d671" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1482-f2d8-a5cd-15a4" name="ME 262 Sturmvogel Fighter-Bomber Flight (LG449)" hidden="false" collective="false" import="true" targetId="249e-a193-6bf6-ceb2" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="41e9-780f-bdfa-82f7" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a445-11d9-e98d-7706" type="min"/>
+        <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b1b-9bfa-275d-8f6e" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6ae3-2fc0-c5c1-1958" name="Brigade Armoured Assault Platoon (LG368)" hidden="false" collective="false" import="true" targetId="4cbe-62ae-4abe-7b8a" type="selectionEntry"/>
+        <entryLink id="8793-7c3a-2668-27e1" name="Brigade Armoured Panzergrenadier Platoon (LG375)" hidden="false" collective="false" import="true" targetId="28da-9df1-55ed-a480" type="selectionEntry"/>
+        <entryLink id="a76e-89c7-f93d-54af" name="Brigade Panzergrenadier Platoon (LG379)" hidden="false" collective="false" import="true" targetId="5bac-893f-9664-bdf1" type="selectionEntry"/>
+        <entryLink id="4309-84ee-f7f7-d0b0" name="Ardennes Armoured SS Panzergrenadier Platoon (LG437)" hidden="false" collective="false" import="true" targetId="6361-f5eb-242a-4493" type="selectionEntry"/>
+        <entryLink id="537d-5f9c-230e-b37a" name="Ardennes SS Panzergrenadier Platoon (LG442)" hidden="false" collective="false" import="true" targetId="bda1-353c-86af-c8a0" type="selectionEntry"/>
+        <entryLink id="ba51-8726-91d0-1d05" name="Ardennes Armoured Panzergrenadier Platoon (LG393)" hidden="false" collective="false" import="true" targetId="2b33-3579-b292-7f79" type="selectionEntry"/>
+        <entryLink id="9ebd-c79a-fb88-ef58" name="Volksgrenadier Assault Platoon (LG405)" hidden="false" collective="false" import="true" targetId="134c-c0e1-fba0-6109" type="selectionEntry"/>
+        <entryLink id="466f-0462-bb8a-a493" name="Volksgrenadier Rifle Platoon (LG406)" hidden="false" collective="false" import="true" targetId="7dc5-8799-d072-378a" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="797d-0982-aef8-5992" name="Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97a1-70ee-e3d0-4326" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="812f-3298-6a88-0c6b" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="8657-f9a0-cc88-98a1" name="Brigade Armoured 2cm FlaK Platoon (LG369)" hidden="false" collective="false" import="true" targetId="7ff7-98b8-84b9-74ba" type="selectionEntry"/>
+        <entryLink id="176b-bae5-b193-caef" name="Brigade Armoured Triple 15mm FlaK Platoon (LG370)" hidden="false" collective="false" import="true" targetId="d673-2cf7-b357-0e8c" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="0b4f-5348-e0dc-0ec9" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry><selectionEntry id="8625-e385-60c5-ccfd" name="Ardennes Armoured Panzergrenadier Company" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="7628-2b67-9a3b-12f1" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LG392</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="3c62-2039-d6c8-1231" name="Anti-tank" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01ba-b9f0-8e29-7f46" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f9c-7743-104a-dc92" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="30f4-2322-378f-b069" name="Volks Hetzer Tank-hunter Platoon (LG412)" hidden="false" collective="false" import="true" targetId="be30-e158-db05-b58c" type="selectionEntry"/>
+        <entryLink id="561e-0aee-5ef8-f0ff" name="Volks StuG Tank-hunter Platoon (LG413)" hidden="false" collective="false" import="true" targetId="86de-a04e-a8ea-9b21" type="selectionEntry"/>
+        <entryLink id="45b1-3178-5308-ac32" name="Marder Tank-hunter Platoon (LG257)" hidden="false" collective="false" import="true" targetId="4d14-5707-ed43-5b6e" type="selectionEntry"/>
+        <entryLink id="add8-d1bd-19d1-b540" name="7.5cm SS Tank-hunter Platoon (LG215)" hidden="false" collective="false" import="true" targetId="5e4b-3e3d-8be8-1f17" type="selectionEntry"/>
+        <entryLink id="ca14-9cd8-7c99-26a8" name="7.5cm Tank-hunter Platoon (LG131)" hidden="false" collective="false" import="true" targetId="a8af-817b-a3b5-01d3" type="selectionEntry"/>
+        <entryLink id="4679-200b-be8f-ebdd" name="Volksgrenadier 7.5cm Tank-hunter Platoon (LG410)" hidden="false" collective="false" import="true" targetId="e46f-d54a-6cae-4205" type="selectionEntry"/>
+        <entryLink id="9baa-97bb-feb0-d5f6" name="8.8cm Tank-hunter Platoon (LG182)" hidden="false" collective="false" import="true" targetId="a879-5eed-748d-6815" type="selectionEntry"/>
+        <entryLink id="82e8-2341-0e8f-15bd" name="Hornisse Tank-hunter Platoon (LG129)" hidden="false" collective="false" import="true" targetId="5edc-e8d5-6f92-c119" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="42b4-cf74-4842-e60d" name="Reconnaissance" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da8b-59ae-fd10-81aa" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9d3-f351-fb21-5ab0" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="24f8-7f4d-b87e-c7f9" name="Sd Kfz 234 SS Scout Troop (LG445)" hidden="false" collective="false" import="true" targetId="25d1-53f3-d1a5-6867" type="selectionEntry"/>
+        <entryLink id="fdd8-6e73-dfe7-671b" name="Sd Kfz 250 SS Scout Troop (LG223)" hidden="false" collective="false" import="true" targetId="7af7-7b48-ff4c-5534" type="selectionEntry"/>
+        <entryLink id="9048-2f0c-9c45-dd8a" name="Puma Scout Troop (LG178)" hidden="false" collective="false" import="true" targetId="75af-7dfb-557c-bbbb" type="selectionEntry"/>
+        <entryLink id="7cbe-d35e-a0c8-26e0" name="Sd Kfz 250 Scout Troop (LG179)" hidden="false" collective="false" import="true" targetId="c921-46b8-4560-36c0" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="84e3-a79e-e479-c4ed" name="Artillery" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15bd-6eac-c13c-ec75" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8074-a9c0-c58e-cc2e" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="d46c-83c4-7ddd-5146" name="Grille (Late) SS Gun Platoon (LG440)" hidden="false" collective="false" import="true" targetId="8558-343b-84d4-cc61" type="selectionEntry"/>
+        <entryLink id="d804-51a5-4a9f-7030" name="10.5cm Artillery Battery (LG136)" hidden="false" collective="false" import="true" targetId="a768-0499-4b89-2709" type="selectionEntry"/>
+        <entryLink id="2c7c-f3b9-9705-2e13" name="Volks 10.5cm Artillery Battery (LG415)" hidden="false" collective="false" import="true" targetId="e16f-1226-f366-0194" type="selectionEntry"/>
+        <entryLink id="81d0-9932-5838-3c39" name="Wespe Artillery Battery (LG134)" hidden="false" collective="false" import="true" targetId="fc32-d5f2-5d23-2edc" type="selectionEntry"/>
+        <entryLink id="da02-57e3-bd01-136b" name="Hummel Artillery Battery (LG135)" hidden="false" collective="false" import="true" targetId="af1c-8d72-2511-7ba3" type="selectionEntry"/>
+        <entryLink id="2b59-377d-49a3-964f" name="15cm Nebelwerfer Battery (LG137)" hidden="false" collective="false" import="true" targetId="f2f3-89cc-3d06-3df8" type="selectionEntry"/>
+        <entryLink id="22a7-bf69-c47b-adf6" name="Panzerwerfer 42 Battery (LG260)" hidden="false" collective="false" import="true" targetId="a516-2c3e-d235-22e5" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bfcc-77ca-38c6-c324" name="Observer" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="966a-4011-4729-1809" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bbb-dc20-4a75-f38f" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="92e5-b63d-3563-7fc7" name="Panzer III OP Observation Post (LG183)" hidden="false" collective="false" import="true" targetId="ba0d-6ed7-fc0f-3e30" type="selectionEntry"/>
+        <entryLink id="106f-0200-6075-ce6e" name="Sd Kfz 250 OP Observation Post (LG261)" hidden="false" collective="false" import="true" targetId="e6db-3fef-ca7f-fdba" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="399f-6308-e2a0-5421" name="Armour" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1006-7f5c-d642-b13d" type="min"/>
+        <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5444-77cd-2627-52fb" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b47a-3ac7-5b28-2e3e" name="Sturmtiger Assault Howitzer Platoon (LG420)" hidden="false" collective="false" import="true" targetId="0a39-b846-e61c-19c2" type="selectionEntry"/>
+        <entryLink id="b587-1fb5-f325-27b9" name="Brummbär Assault Tank Platoon (LG259)" hidden="false" collective="false" import="true" targetId="b0b0-0c10-3400-f9ac" type="selectionEntry"/>
+        <entryLink id="a0b7-cb76-0f10-f2d9" name="Tiger Tank Platoon (LG102)" hidden="false" collective="false" import="true" targetId="7114-faa3-af81-b43a" type="selectionEntry"/>
+        <entryLink id="459f-2e4d-46f4-b8cf" name="Panzer IV Tank Platoon (LG167)" hidden="false" collective="false" import="true" targetId="768d-53fc-f995-361e" type="selectionEntry"/>
+        <entryLink id="cd56-af05-433a-daf7" name="Panzer IV SS Tank Platoon (LG196)" hidden="false" collective="false" import="true" targetId="95f2-0f5f-6bc4-a748" type="selectionEntry"/>
+        <entryLink id="c4ec-4b6d-7084-b2aa" name="StuG Tank Platoon (LG247)" hidden="false" collective="false" import="true" targetId="af00-e8c6-96b1-f1ea" type="selectionEntry"/>
+        <entryLink id="ec7d-bcef-f3c9-bae8" name="Brigade Panther (Late) Tank Platoon (LG354)" hidden="false" collective="false" import="true" targetId="c253-0191-d672-dfb5" type="selectionEntry"/>
+        <entryLink id="1169-20b3-5d2d-34da" name="Brigade Panzer IV Tank Platoon (LG364)" hidden="false" collective="false" import="true" targetId="3cdb-9864-20ac-aee5" type="selectionEntry"/>
+        <entryLink id="b02d-6e46-3cbc-5a89" name="Tiger II SS Tank Platoon (LG427)" hidden="false" collective="false" import="true" targetId="d9a3-b5e6-28ec-0c8f" type="selectionEntry"/>
+        <entryLink id="16e7-a0fc-ac83-e902" name="Panther (Late) SS Tank Platoon (LG429)" hidden="false" collective="false" import="true" targetId="5f32-21b6-e417-f2c3" type="selectionEntry"/>
+        <entryLink id="9a40-d5dc-6457-0636" name="Panzer IV/70 SS Tank-hunter Platoon (LG432)" hidden="false" collective="false" import="true" targetId="6478-9ad2-5c92-7978" type="selectionEntry"/>
+        <entryLink id="febf-ea18-9e4a-7915" name="Tiger II Tank Platoon (LG352)" hidden="false" collective="false" import="true" targetId="ec62-efc0-805f-91c2" type="selectionEntry"/>
+        <entryLink id="9fbb-eef1-6ef7-42d4" name="Panther (Late) Tank Platoon (LG360)" hidden="false" collective="false" import="true" targetId="5df5-094b-8826-b12b" type="selectionEntry"/>
+        <entryLink id="2033-5249-b524-d691" name="Panzer IV/70 Tank-hunter Platoon (LG361)" hidden="false" collective="false" import="true" targetId="7f93-b846-0c64-559f" type="selectionEntry"/>
+        <entryLink id="081d-52af-f0d0-359e" name="Jagdpanther Tank-hunter Platoon (LG401)" hidden="false" collective="false" import="true" targetId="1394-fe27-94e6-b094" type="selectionEntry"/>
+        <entryLink id="44d6-e517-a199-58e5" name="Jagdtiger Tank-hunter Platoon (LG403)" hidden="false" collective="false" import="true" targetId="f887-b215-1144-66a6" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0e80-1970-2e60-7cd4" name="Anti-aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e16-c6b3-e001-49e2" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9631-47a8-5d6a-6dd7" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="9e1e-8cf5-addc-0474" name="Sd Kfz 10/4 Light AA Platoon (LG142)" hidden="false" collective="false" import="true" targetId="4d17-041f-91cf-9e98" type="selectionEntry"/>
+        <entryLink id="4060-9b60-667c-2199" name="2cm Light AA Platoon (LG187)" hidden="false" collective="false" import="true" targetId="64b4-ba73-0042-fd8e" type="selectionEntry"/>
+        <entryLink id="ba05-8764-d4d0-262a" name="8.8cm Heavy AA Platoon (LG144)" hidden="false" collective="false" import="true" targetId="d921-ddde-4a62-17bc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="40c9-8936-d8da-733a" name="Flame-thrower" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2d6-d6e4-5d79-804f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8730-effa-9b8d-4edd" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="0dda-dff8-bd8c-767e" name="Hetzer Flammpanzer Platoon (LG417)" hidden="false" collective="false" import="true" targetId="9b10-486f-eb95-c62f" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8692-1e09-c4e9-f9b6" name="Aircraft" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea95-45a2-74ba-86cb" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3f7-a945-cd3b-85c6" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1426-c75f-7d7a-01b0" name="ME 262 Sturmvogel Fighter-Bomber Flight (LG449)" hidden="false" collective="false" import="true" targetId="249e-a193-6bf6-ceb2" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="141d-74ba-e02a-bd3f" name="Infantry" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5582-e729-7df9-606e" type="min"/>
+        <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="533c-ef94-ed0e-4517" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="c279-22de-6ca3-2436" name="Brigade Armoured Assault Platoon (LG368)" hidden="false" collective="false" import="true" targetId="4cbe-62ae-4abe-7b8a" type="selectionEntry"/>
+        <entryLink id="d975-8c44-0128-4c40" name="Brigade Armoured Panzergrenadier Platoon (LG375)" hidden="false" collective="false" import="true" targetId="28da-9df1-55ed-a480" type="selectionEntry"/>
+        <entryLink id="4160-4b75-9ec0-11f2" name="Brigade Panzergrenadier Platoon (LG379)" hidden="false" collective="false" import="true" targetId="5bac-893f-9664-bdf1" type="selectionEntry"/>
+        <entryLink id="4e38-f37c-11b8-f421" name="Ardennes Armoured SS Panzergrenadier Platoon (LG437)" hidden="false" collective="false" import="true" targetId="6361-f5eb-242a-4493" type="selectionEntry"/>
+        <entryLink id="6399-5127-c12b-2ed8" name="Ardennes SS Panzergrenadier Platoon (LG442)" hidden="false" collective="false" import="true" targetId="bda1-353c-86af-c8a0" type="selectionEntry"/>
+        <entryLink id="eb14-260d-c529-eb09" name="Ardennes Armoured Panzergrenadier Platoon (LG393)" hidden="false" collective="false" import="true" targetId="2b33-3579-b292-7f79" type="selectionEntry"/>
+        <entryLink id="a794-1941-3b5a-7966" name="Volksgrenadier Assault Platoon (LG405)" hidden="false" collective="false" import="true" targetId="134c-c0e1-fba0-6109" type="selectionEntry"/>
+        <entryLink id="7cc8-7cc8-22b0-331f" name="Volksgrenadier Rifle Platoon (LG406)" hidden="false" collective="false" import="true" targetId="7dc5-8799-d072-378a" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="66d0-49dc-9b05-8e92" name="Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6f6-cc21-a85b-cfb1" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1523-5059-af66-b07c" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="40da-83d6-f7a9-427f" name="Brigade Armoured 2cm FlaK Platoon (LG369)" hidden="false" collective="false" import="true" targetId="7ff7-98b8-84b9-74ba" type="selectionEntry"/>
+        <entryLink id="705d-ae34-7530-50e1" name="Brigade Armoured Triple 15mm FlaK Platoon (LG370)" hidden="false" collective="false" import="true" targetId="d673-2cf7-b357-0e8c" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
+  <categoryLinks>
+    <categoryLink id="fbc4-8121-9985-5452" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
+  </categoryLinks>
+</selectionEntry></selectionEntries>
   <entryLinks>
-    <entryLink id="016a-dfd2-3b80-2812" name="Ardennes Armoured Panzergrenadier Company" hidden="false" collective="false" import="true" targetId="3d72-1130-dfcb-118f" type="selectionEntry"/>
-    <entryLink id="f0ad-e1df-ab9b-68a8" name="Ardennes Armoured SS Panzergrenadier Company" hidden="false" collective="false" import="true" targetId="b386-c808-e8e7-52e6" type="selectionEntry"/>
-    <entryLink id="fe98-3639-c4af-21fa" name="Brigade Armoured Assault Company" hidden="false" collective="false" import="true" targetId="bdcd-f1f0-d528-5942" type="selectionEntry"/>
     <entryLink id="fc62-7224-62e2-fb66" name="Volksgrenadier Company" hidden="false" collective="false" import="true" targetId="51a3-0f07-6c74-1560" type="selectionEntry"/>
     <entryLink id="23ee-44d5-cea8-2f9c" name="Tiger II Tank Company" hidden="false" collective="false" import="true" targetId="7d6b-bda2-b232-f9e9" type="selectionEntry"/>
     <entryLink id="49b1-74d7-4646-6c35" name="Tiger II SS Tank Company" hidden="false" collective="false" import="true" targetId="12b7-e309-2bd4-8d14" type="selectionEntry"/>
     <entryLink id="e2e3-5c25-51f6-984b" name="Panther (Late) Tank Company" hidden="false" collective="false" import="true" targetId="4dfa-79d8-ac13-9017" type="selectionEntry"/>
     <entryLink id="ce30-cb6f-cad5-15c2" name="Panther (Late) SS Tank Company" hidden="false" collective="false" import="true" targetId="fe31-e238-8fe5-9a6d" type="selectionEntry"/>
-    <entryLink id="35a6-8e8c-4357-a87e" name="Brigade Armoured Panzergrenadier Company" hidden="false" collective="false" import="true" targetId="03a2-b0f5-6c84-2ccf" type="selectionEntry"/>
-    <entryLink id="279f-4c6d-521d-af9a" name="Brigade Panther (Late) Tank Company" hidden="false" collective="false" import="true" targetId="95f1-17a5-90b2-8d9e" type="selectionEntry"/>
     <entryLink id="2b10-dcf8-bae7-7a06" name="Brigade Panzer IV Tank Company" hidden="false" collective="false" import="true" targetId="e407-6f61-8856-d3c4" type="selectionEntry"/>
     <entryLink id="d769-475e-8e03-ad08" name="Brigade Panzergrenadier Company" hidden="false" collective="false" import="true" targetId="e351-1ced-29e1-0bdd" type="selectionEntry"/>
     <entryLink id="bb33-8bb5-bd4d-dc30" name="Jagdpanther Tank-Hunter Company" hidden="false" collective="false" import="true" targetId="3844-5048-6063-46ec" type="selectionEntry"/>
@@ -12319,101 +13039,6 @@ Formation Commander is mounted in a Panther (Late) tank (LG428) in addition to a
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="3d72-1130-dfcb-118f" name="Ardennes Armoured Panzergrenadier Company" publicationId="3bbf-3707-35dd-b1f5" page="68" hidden="false" collective="false" import="true" type="unit">
-      <profiles><profile id="3c69-0bad-0179-d718" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG392</characteristic></characteristics></profile></profiles><categoryLinks>
-        <categoryLink id="d4f6-0272-23c5-9e51" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="5166-c81a-e0d3-f0e8" name="Infantry and Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="dbd9-a338-5562-752a">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="51fc-b601-7e27-9653" type="max"/>
-          </constraints>
-          <entryLinks>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-      <entryLink id="d766-2a1a-23f4-0ca2" name="Sd Kfz 234 SS Scout Troop (LG445)" hidden="false" collective="false" import="true" targetId="ab02-90cd-9a50-8cec" type="selectionEntry"/><entryLink id="d617-005d-85b5-38a3" name="StuG Tank Platoon (LG247)" hidden="false" collective="false" import="true" targetId="af00-e8c6-96b1-f1ea" type="selectionEntry"/><entryLink id="14a2-b38e-b334-56cf" name="Ardennes Armoured SS Panzergrenadier Platoon (LG437)" hidden="false" collective="false" import="true" targetId="6361-f5eb-242a-4493" type="selectionEntry"/><entryLink id="2fa9-0ce6-d50a-19e6" name="Puma Scout Troop (LG178)" hidden="false" collective="false" import="true" targetId="75af-7dfb-557c-bbbb" type="selectionEntry"/><entryLink id="f703-78a3-38e3-144e" name="Panzer IV Tank Platoon (LG167)" hidden="false" collective="false" import="true" targetId="768d-53fc-f995-361e" type="selectionEntry"/><entryLink id="776f-8939-33d2-9b9a" name="Brigade Panzergrenadier Platoon (LG379)" hidden="false" collective="false" import="true" targetId="5bac-893f-9664-bdf1" type="selectionEntry"/><entryLink id="08fa-c0c7-8118-2229" name="Ardennes Armoured Panzergrenadier Platoon (LG393)" hidden="false" collective="false" import="true" targetId="2b33-3579-b292-7f79" type="selectionEntry"/><entryLink id="9141-2c6f-87ab-3f2a" name="Panzer IV/70 SS Tank-hunter Platoon (LG432)" hidden="false" collective="false" import="true" targetId="6478-9ad2-5c92-7978" type="selectionEntry"/><entryLink id="5819-447b-da6f-7233" name="Sd Kfz 250 Scout Troop (LG179)" hidden="false" collective="false" import="true" targetId="c921-46b8-4560-36c0" type="selectionEntry"/><entryLink id="4703-e910-1de0-7a35" name="Tiger II Tank Platoon (LG352)" hidden="false" collective="false" import="true" targetId="ec62-efc0-805f-91c2" type="selectionEntry"/><entryLink id="2859-b005-cd74-9cef" name="7.5cm SS Tank-hunter Platoon (LG215)" hidden="false" collective="false" import="true" targetId="5e4b-3e3d-8be8-1f17" type="selectionEntry"/><entryLink id="50e0-0355-8d92-d4b1" name="Brigade Panzer IV Tank Platoon (LG364)" hidden="false" collective="false" import="true" targetId="3cdb-9864-20ac-aee5" type="selectionEntry"/><entryLink id="b0f5-ace4-7c44-9b3c" name="Panther (Late) Tank Platoon (LG360)" hidden="false" collective="false" import="true" targetId="5df5-094b-8826-b12b" type="selectionEntry"/><entryLink id="1b6e-2362-1f91-d62b" name="Hornisse Tank-hunter Platoon (LG129)" hidden="false" collective="false" import="true" targetId="5edc-e8d5-6f92-c119" type="selectionEntry"/><entryLink id="b280-9b33-c2a2-85c6" name="Sd Kfz 250 SS Scout Troop (LG223)" hidden="false" collective="false" import="true" targetId="7af7-7b48-ff4c-5534" type="selectionEntry"/><entryLink id="767d-066a-ed99-3c76" name="Hummel Artillery Battery (LG135)" hidden="false" collective="false" import="true" targetId="af1c-8d72-2511-7ba3" type="selectionEntry"/><entryLink id="812e-b51f-9df2-ba48" name="Sturmtiger Assault Howitzer Platoon (LG420)" hidden="false" collective="false" import="true" targetId="0a39-b846-e61c-19c2" type="selectionEntry"/><entryLink id="2369-0d65-a771-7156" name="Panzer IV SS Tank Platoon (LG196)" hidden="false" collective="false" import="true" targetId="95f2-0f5f-6bc4-a748" type="selectionEntry"/><entryLink id="af0f-ec46-ce7d-84b4" name="Volksgrenadier Assault Platoon (LG405)" hidden="false" collective="false" import="true" targetId="134c-c0e1-fba0-6109" type="selectionEntry"/><entryLink id="6b69-60e4-e2a8-72b2" name="Tiger II SS Tank Platoon (LG427)" hidden="false" collective="false" import="true" targetId="d9a3-b5e6-28ec-0c8f" type="selectionEntry"/><entryLink id="1491-1818-fce4-6723" name="Panzer IV/70 Tank-hunter Platoon (LG361)" hidden="false" collective="false" import="true" targetId="7f93-b846-0c64-559f" type="selectionEntry"/><entryLink id="5056-a919-1036-4137" name="Panther (Late) SS Tank Platoon (LG429)" hidden="false" collective="false" import="true" targetId="5f32-21b6-e417-f2c3" type="selectionEntry"/><entryLink id="0121-10ce-d8c5-530b" name="Marder Tank-hunter Platoon (LG257)" hidden="false" collective="false" import="true" targetId="4d14-5707-ed43-5b6e" type="selectionEntry"/><entryLink id="5955-bfeb-6b12-6dd5" name="Volks 10.5cm Artillery Battery (LG415)" hidden="false" collective="false" import="true" targetId="e16f-1226-f366-0194" type="selectionEntry"/><entryLink id="812b-e591-5111-58cb" name="8.8cm Heavy AA Platoon (LG144)" hidden="false" collective="false" import="true" targetId="d921-ddde-4a62-17bc" type="selectionEntry"/><entryLink id="38b5-5daf-5d2b-1bd1" name="Volks Hetzer Tank-hunter Platoon (LG412)" hidden="false" collective="false" import="true" targetId="be30-e158-db05-b58c" type="selectionEntry"/><entryLink id="51f1-6c1b-5f36-9faa" name="Panzerwerfer 42 Battery (LG260)" hidden="false" collective="false" import="true" targetId="a516-2c3e-d235-22e5" type="selectionEntry"/><entryLink id="9c09-63cc-f5f4-bc18" name="Volksgrenadier 7.5cm Tank-hunter Platoon (LG410)" hidden="false" collective="false" import="true" targetId="e46f-d54a-6cae-4205" type="selectionEntry"/><entryLink id="5f17-a5bb-20b4-9d61" name="ME 262 Sturmvogel Fighter-Bomber Flight (LG449)" hidden="false" collective="false" import="true" targetId="249e-a193-6bf6-ceb2" type="selectionEntry"/><entryLink id="3df9-73c5-d1d5-64d9" name="Hetzer Flammpanzer Platoon (LG417)" hidden="false" collective="false" import="true" targetId="9b10-486f-eb95-c62f" type="selectionEntry"/><entryLink id="56a4-2c31-8295-3d53" name="Ardennes SS Panzergrenadier Platoon (LG442)" hidden="false" collective="false" import="true" targetId="bda1-353c-86af-c8a0" type="selectionEntry"/><entryLink id="3156-658f-bf31-f0db" name="2cm Light AA Platoon (LG187)" hidden="false" collective="false" import="true" targetId="64b4-ba73-0042-fd8e" type="selectionEntry"/><entryLink id="9b38-be11-1a3d-5f11" name="Grille (Late) SS Gun Platoon (LG440)" hidden="false" collective="false" import="true" targetId="8558-343b-84d4-cc61" type="selectionEntry"/><entryLink id="592c-d671-5090-8295" name="Brigade Armoured Assault Platoon (LG368)" hidden="false" collective="false" import="true" targetId="4cbe-62ae-4abe-7b8a" type="selectionEntry"/><entryLink id="6d42-36d3-664b-94b1" name="7.5cm Tank-hunter Platoon (LG131)" hidden="false" collective="false" import="true" targetId="a8af-817b-a3b5-01d3" type="selectionEntry"/><entryLink id="2eca-7546-d46a-0b31" name="Brummbär Assault Tank Platoon (LG259)" hidden="false" collective="false" import="true" targetId="b0b0-0c10-3400-f9ac" type="selectionEntry"/><entryLink id="66bb-77fa-4653-2fc5" name="Sd Kfz 10/4 Light AA Platoon (LG142)" hidden="false" collective="false" import="true" targetId="4d17-041f-91cf-9e98" type="selectionEntry"/><entryLink id="f476-6933-f45f-1552" name="Sd Kfz 250 OP Observation Post (LG261)" hidden="false" collective="false" import="true" targetId="e6db-3fef-ca7f-fdba" type="selectionEntry"/><entryLink id="f5eb-1559-426b-4b1a" name="Tiger Tank Platoon (LG102)" hidden="false" collective="false" import="true" targetId="7114-faa3-af81-b43a" type="selectionEntry"/><entryLink id="878a-4749-f8b3-c8db" name="Brigade Panther (Late) Tank Platoon (LG354)" hidden="false" collective="false" import="true" targetId="c253-0191-d672-dfb5" type="selectionEntry"/><entryLink id="5318-552c-a0f2-841a" name="Brigade Armoured Panzergrenadier Platoon (LG375)" hidden="false" collective="false" import="true" targetId="28da-9df1-55ed-a480" type="selectionEntry"/><entryLink id="7155-dbca-9aa2-e97c" name="8.8cm Tank-hunter Platoon (LG182)" hidden="false" collective="false" import="true" targetId="a879-5eed-748d-6815" type="selectionEntry"/><entryLink id="4dab-8c91-06cd-4f23" name="10.5cm Artillery Battery (LG136)" hidden="false" collective="false" import="true" targetId="a768-0499-4b89-2709" type="selectionEntry"/><entryLink id="c493-eea1-3399-a973" name="Volks StuG Tank-hunter Platoon (LG413)" hidden="false" collective="false" import="true" targetId="86de-a04e-a8ea-9b21" type="selectionEntry"/><entryLink id="0a0e-c5d1-51cd-b0b2" name="Jagdpanther Tank-hunter Platoon (LG401)" hidden="false" collective="false" import="true" targetId="1394-fe27-94e6-b094" type="selectionEntry"/><entryLink id="92d5-4a3c-ffe2-2ec5" name="15cm Nebelwerfer Battery (LG137)" hidden="false" collective="false" import="true" targetId="f2f3-89cc-3d06-3df8" type="selectionEntry"/><entryLink id="5191-e291-06bd-c7f3" name="Volksgrenadier Rifle Platoon (LG406)" hidden="false" collective="false" import="true" targetId="7dc5-8799-d072-378a" type="selectionEntry"/><entryLink id="b799-2e21-c9ba-6f7a" name="Jagdtiger Tank-hunter Platoon (LG403)" hidden="false" collective="false" import="true" targetId="f887-b215-1144-66a6" type="selectionEntry"/><entryLink id="a7e8-2fc8-c205-2a80" name="Brigade Armoured Triple 15mm FlaK Platoon (LG370)" hidden="false" collective="false" import="true" targetId="d673-2cf7-b357-0e8c" type="selectionEntry"/><entryLink id="3c94-90ab-58a1-29ab" name="Wespe Artillery Battery (LG134)" hidden="false" collective="false" import="true" targetId="fc32-d5f2-5d23-2edc" type="selectionEntry"/><entryLink id="43ce-f0de-0e57-9690" name="Brigade Armoured 2cm FlaK Platoon (LG369)" hidden="false" collective="false" import="true" targetId="7ff7-98b8-84b9-74ba" type="selectionEntry"/><entryLink id="34c0-fac5-22fe-af0d" name="Panzer III OP Observation Post (LG183)" hidden="false" collective="false" import="true" targetId="ba0d-6ed7-fc0f-3e30" type="selectionEntry"/></entryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b386-c808-e8e7-52e6" name="Ardennes Armoured SS Panzergrenadier Company" publicationId="3bbf-3707-35dd-b1f5" page="50" hidden="false" collective="false" import="true" type="unit">
-      <profiles><profile id="b152-af6d-f1bd-f37e" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG436</characteristic></characteristics></profile></profiles><categoryLinks>
-        <categoryLink id="5af5-5bef-8bfd-1940" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="bbcc-ad6d-27ef-f2dc" name="Infantry &amp; Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="53ba-ea18-caa5-a440">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0cfb-5c82-5a8a-24a2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d58c-e848-f77f-d02a" type="max"/>
-          </constraints>
-          <entryLinks>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="4939-7466-4c76-af4c" name="Anti-Aircraft" hidden="false" collective="false" import="true" defaultSelectionEntryId="cf49-8a2b-e3ca-5b06">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0502-e565-6732-2a02" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="4934-91d6-b26b-117f" name="Command Card: Mobilewagen SS AA Tanks" hidden="false" collective="false" import="true" type="upgrade">
-              <entryLinks>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <entryLinks>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-      <entryLink id="65ab-2420-0edd-22ed" name="Sd Kfz 234 SS Scout Troop (LG445)" hidden="false" collective="false" import="true" targetId="ab02-90cd-9a50-8cec" type="selectionEntry"/><entryLink id="fdce-fd17-d6f1-f95a" name="StuG Tank Platoon (LG247)" hidden="false" collective="false" import="true" targetId="af00-e8c6-96b1-f1ea" type="selectionEntry"/><entryLink id="fdce-0da8-2e88-7f64" name="Ardennes Armoured SS Panzergrenadier Platoon (LG437)" hidden="false" collective="false" import="true" targetId="6361-f5eb-242a-4493" type="selectionEntry"/><entryLink id="043a-3c4b-abcc-79ee" name="Puma Scout Troop (LG178)" hidden="false" collective="false" import="true" targetId="75af-7dfb-557c-bbbb" type="selectionEntry"/><entryLink id="cbab-ce38-08c1-8f6c" name="Panzer IV Tank Platoon (LG167)" hidden="false" collective="false" import="true" targetId="768d-53fc-f995-361e" type="selectionEntry"/><entryLink id="5c3e-cb65-dddd-dbf0" name="Brigade Panzergrenadier Platoon (LG379)" hidden="false" collective="false" import="true" targetId="5bac-893f-9664-bdf1" type="selectionEntry"/><entryLink id="af58-296f-b2f6-ccc3" name="Ardennes Armoured Panzergrenadier Platoon (LG393)" hidden="false" collective="false" import="true" targetId="2b33-3579-b292-7f79" type="selectionEntry"/><entryLink id="fe3d-f36e-3a58-8307" name="Panzer IV/70 SS Tank-hunter Platoon (LG432)" hidden="false" collective="false" import="true" targetId="6478-9ad2-5c92-7978" type="selectionEntry"/><entryLink id="908d-afdf-647e-9e3d" name="Sd Kfz 250 Scout Troop (LG179)" hidden="false" collective="false" import="true" targetId="c921-46b8-4560-36c0" type="selectionEntry"/><entryLink id="2b27-6e34-4de7-efac" name="Tiger II Tank Platoon (LG352)" hidden="false" collective="false" import="true" targetId="ec62-efc0-805f-91c2" type="selectionEntry"/><entryLink id="2268-d126-b384-482d" name="7.5cm SS Tank-hunter Platoon (LG215)" hidden="false" collective="false" import="true" targetId="5e4b-3e3d-8be8-1f17" type="selectionEntry"/><entryLink id="1552-99d0-1aba-c12d" name="Brigade Panzer IV Tank Platoon (LG364)" hidden="false" collective="false" import="true" targetId="3cdb-9864-20ac-aee5" type="selectionEntry"/><entryLink id="9a94-fa84-0323-af43" name="Panther (Late) Tank Platoon (LG360)" hidden="false" collective="false" import="true" targetId="5df5-094b-8826-b12b" type="selectionEntry"/><entryLink id="a525-ab2d-c4c8-40b3" name="Hornisse Tank-hunter Platoon (LG129)" hidden="false" collective="false" import="true" targetId="5edc-e8d5-6f92-c119" type="selectionEntry"/><entryLink id="4a3e-a50a-61ef-1f1b" name="Sd Kfz 250 SS Scout Troop (LG223)" hidden="false" collective="false" import="true" targetId="7af7-7b48-ff4c-5534" type="selectionEntry"/><entryLink id="f987-98c8-40d8-cd41" name="Hummel Artillery Battery (LG135)" hidden="false" collective="false" import="true" targetId="af1c-8d72-2511-7ba3" type="selectionEntry"/><entryLink id="2a55-11e3-cde5-b6ea" name="Sturmtiger Assault Howitzer Platoon (LG420)" hidden="false" collective="false" import="true" targetId="0a39-b846-e61c-19c2" type="selectionEntry"/><entryLink id="cc8c-698a-695a-dbdc" name="Panzer IV SS Tank Platoon (LG196)" hidden="false" collective="false" import="true" targetId="95f2-0f5f-6bc4-a748" type="selectionEntry"/><entryLink id="3eea-30f3-6df9-382c" name="Volksgrenadier Assault Platoon (LG405)" hidden="false" collective="false" import="true" targetId="134c-c0e1-fba0-6109" type="selectionEntry"/><entryLink id="a585-26da-2468-6aaa" name="Tiger II SS Tank Platoon (LG427)" hidden="false" collective="false" import="true" targetId="d9a3-b5e6-28ec-0c8f" type="selectionEntry"/><entryLink id="e207-3dbd-4d3f-0463" name="Panzer IV/70 Tank-hunter Platoon (LG361)" hidden="false" collective="false" import="true" targetId="7f93-b846-0c64-559f" type="selectionEntry"/><entryLink id="9829-7028-7919-5d34" name="Panther (Late) SS Tank Platoon (LG429)" hidden="false" collective="false" import="true" targetId="5f32-21b6-e417-f2c3" type="selectionEntry"/><entryLink id="79c4-dd04-2960-b18e" name="Marder Tank-hunter Platoon (LG257)" hidden="false" collective="false" import="true" targetId="4d14-5707-ed43-5b6e" type="selectionEntry"/><entryLink id="1ec4-424d-82d8-d649" name="Volks 10.5cm Artillery Battery (LG415)" hidden="false" collective="false" import="true" targetId="e16f-1226-f366-0194" type="selectionEntry"/><entryLink id="98f7-dda6-1573-04b0" name="8.8cm Heavy AA Platoon (LG144)" hidden="false" collective="false" import="true" targetId="d921-ddde-4a62-17bc" type="selectionEntry"/><entryLink id="56a9-e695-5634-4fca" name="Volks Hetzer Tank-hunter Platoon (LG412)" hidden="false" collective="false" import="true" targetId="be30-e158-db05-b58c" type="selectionEntry"/><entryLink id="7be6-316d-31ad-8dfc" name="Panzerwerfer 42 Battery (LG260)" hidden="false" collective="false" import="true" targetId="a516-2c3e-d235-22e5" type="selectionEntry"/><entryLink id="9a6b-45c2-3a29-d631" name="Volksgrenadier 7.5cm Tank-hunter Platoon (LG410)" hidden="false" collective="false" import="true" targetId="e46f-d54a-6cae-4205" type="selectionEntry"/><entryLink id="067e-3579-2784-b399" name="ME 262 Sturmvogel Fighter-Bomber Flight (LG449)" hidden="false" collective="false" import="true" targetId="249e-a193-6bf6-ceb2" type="selectionEntry"/><entryLink id="59c7-ee8d-874d-3d68" name="Hetzer Flammpanzer Platoon (LG417)" hidden="false" collective="false" import="true" targetId="9b10-486f-eb95-c62f" type="selectionEntry"/><entryLink id="bb8f-1b81-cbe0-b4e4" name="Ardennes SS Panzergrenadier Platoon (LG442)" hidden="false" collective="false" import="true" targetId="bda1-353c-86af-c8a0" type="selectionEntry"/><entryLink id="40b3-80c8-cbaa-0a98" name="2cm Light AA Platoon (LG187)" hidden="false" collective="false" import="true" targetId="64b4-ba73-0042-fd8e" type="selectionEntry"/><entryLink id="4b57-ab82-f511-a27a" name="Grille (Late) SS Gun Platoon (LG440)" hidden="false" collective="false" import="true" targetId="8558-343b-84d4-cc61" type="selectionEntry"/><entryLink id="e4e3-dbee-5c6f-5064" name="Brigade Armoured Assault Platoon (LG368)" hidden="false" collective="false" import="true" targetId="4cbe-62ae-4abe-7b8a" type="selectionEntry"/><entryLink id="e5af-6d78-ca13-2faf" name="7.5cm Tank-hunter Platoon (LG131)" hidden="false" collective="false" import="true" targetId="a8af-817b-a3b5-01d3" type="selectionEntry"/><entryLink id="9e7b-a08d-7c80-9c15" name="Brummbär Assault Tank Platoon (LG259)" hidden="false" collective="false" import="true" targetId="b0b0-0c10-3400-f9ac" type="selectionEntry"/><entryLink id="4b5c-2e42-0ca3-c6fd" name="Sd Kfz 10/4 Light AA Platoon (LG142)" hidden="false" collective="false" import="true" targetId="4d17-041f-91cf-9e98" type="selectionEntry"/><entryLink id="12e2-b1f0-feae-f005" name="Sd Kfz 250 OP Observation Post (LG261)" hidden="false" collective="false" import="true" targetId="e6db-3fef-ca7f-fdba" type="selectionEntry"/><entryLink id="7c6b-10e7-d837-d705" name="Tiger Tank Platoon (LG102)" hidden="false" collective="false" import="true" targetId="7114-faa3-af81-b43a" type="selectionEntry"/><entryLink id="6c36-8b9f-c308-2ab7" name="Brigade Panther (Late) Tank Platoon (LG354)" hidden="false" collective="false" import="true" targetId="c253-0191-d672-dfb5" type="selectionEntry"/><entryLink id="1e5c-96c2-362d-dc5f" name="Brigade Armoured Panzergrenadier Platoon (LG375)" hidden="false" collective="false" import="true" targetId="28da-9df1-55ed-a480" type="selectionEntry"/><entryLink id="6f73-fb6e-699d-33bd" name="8.8cm Tank-hunter Platoon (LG182)" hidden="false" collective="false" import="true" targetId="a879-5eed-748d-6815" type="selectionEntry"/><entryLink id="6714-580b-72e3-1c47" name="10.5cm Artillery Battery (LG136)" hidden="false" collective="false" import="true" targetId="a768-0499-4b89-2709" type="selectionEntry"/><entryLink id="5975-e512-a10c-d516" name="Volks StuG Tank-hunter Platoon (LG413)" hidden="false" collective="false" import="true" targetId="86de-a04e-a8ea-9b21" type="selectionEntry"/><entryLink id="0af3-56b7-b611-5e2d" name="Jagdpanther Tank-hunter Platoon (LG401)" hidden="false" collective="false" import="true" targetId="1394-fe27-94e6-b094" type="selectionEntry"/><entryLink id="c3cf-8ac8-c907-a7ed" name="15cm Nebelwerfer Battery (LG137)" hidden="false" collective="false" import="true" targetId="f2f3-89cc-3d06-3df8" type="selectionEntry"/><entryLink id="71c1-8797-db57-ed81" name="Volksgrenadier Rifle Platoon (LG406)" hidden="false" collective="false" import="true" targetId="7dc5-8799-d072-378a" type="selectionEntry"/><entryLink id="e706-0c27-6616-940a" name="Jagdtiger Tank-hunter Platoon (LG403)" hidden="false" collective="false" import="true" targetId="f887-b215-1144-66a6" type="selectionEntry"/><entryLink id="dcf8-b816-1334-389b" name="Brigade Armoured Triple 15mm FlaK Platoon (LG370)" hidden="false" collective="false" import="true" targetId="d673-2cf7-b357-0e8c" type="selectionEntry"/><entryLink id="9853-3c47-1c91-6ffa" name="Wespe Artillery Battery (LG134)" hidden="false" collective="false" import="true" targetId="fc32-d5f2-5d23-2edc" type="selectionEntry"/><entryLink id="91a4-5607-df9f-92d7" name="Brigade Armoured 2cm FlaK Platoon (LG369)" hidden="false" collective="false" import="true" targetId="7ff7-98b8-84b9-74ba" type="selectionEntry"/><entryLink id="e68f-417e-c94d-9b0d" name="Panzer III OP Observation Post (LG183)" hidden="false" collective="false" import="true" targetId="ba0d-6ed7-fc0f-3e30" type="selectionEntry"/></entryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="bdcd-f1f0-d528-5942" name="Brigade Armoured Assault Company" publicationId="3bbf-3707-35dd-b1f5" page="28" hidden="false" collective="false" import="true" type="unit">
-      <profiles><profile id="b116-dba4-f317-6508" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG367</characteristic></characteristics></profile></profiles><categoryLinks>
-        <categoryLink id="7c05-5e26-9521-07ed" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="1af4-3ea3-d3db-cd91" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="4398-efa6-a8b8-6e1b">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d76-8550-6753-9dc3" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="adf8-6a2b-45c1-d444" type="max"/>
-          </constraints>
-          <entryLinks>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="3128-7e69-6457-52f6" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="1b63-fde6-9ce5-f36f">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0446-ec87-6f7f-3787" type="max"/>
-          </constraints>
-          <entryLinks>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="c2d2-ba5d-43f7-3efd" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="8f45-3522-719d-6b39">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b9ed-77e1-ef7a-ecad" type="max"/>
-          </constraints>
-          <entryLinks>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-      <entryLink id="23a7-45ec-3294-5214" name="Sd Kfz 234 SS Scout Troop (LG445)" hidden="false" collective="false" import="true" targetId="ab02-90cd-9a50-8cec" type="selectionEntry"/><entryLink id="8920-732c-2ceb-41ba" name="StuG Tank Platoon (LG247)" hidden="false" collective="false" import="true" targetId="af00-e8c6-96b1-f1ea" type="selectionEntry"/><entryLink id="26a5-2b47-1806-9c03" name="Ardennes Armoured SS Panzergrenadier Platoon (LG437)" hidden="false" collective="false" import="true" targetId="6361-f5eb-242a-4493" type="selectionEntry"/><entryLink id="a5d2-2f5b-a355-3d0e" name="Puma Scout Troop (LG178)" hidden="false" collective="false" import="true" targetId="75af-7dfb-557c-bbbb" type="selectionEntry"/><entryLink id="cca9-0e88-0616-0cbf" name="Panzer IV Tank Platoon (LG167)" hidden="false" collective="false" import="true" targetId="768d-53fc-f995-361e" type="selectionEntry"/><entryLink id="6ad9-fd27-47a8-93d3" name="Brigade Panzergrenadier Platoon (LG379)" hidden="false" collective="false" import="true" targetId="5bac-893f-9664-bdf1" type="selectionEntry"/><entryLink id="0e76-99aa-001b-af9e" name="Ardennes Armoured Panzergrenadier Platoon (LG393)" hidden="false" collective="false" import="true" targetId="2b33-3579-b292-7f79" type="selectionEntry"/><entryLink id="b4d6-d4f5-9525-c3f4" name="Panzer IV/70 SS Tank-hunter Platoon (LG432)" hidden="false" collective="false" import="true" targetId="6478-9ad2-5c92-7978" type="selectionEntry"/><entryLink id="2393-c5bf-a7a8-8b55" name="Sd Kfz 250 Scout Troop (LG179)" hidden="false" collective="false" import="true" targetId="c921-46b8-4560-36c0" type="selectionEntry"/><entryLink id="9138-7bb8-ad2b-415f" name="Tiger II Tank Platoon (LG352)" hidden="false" collective="false" import="true" targetId="ec62-efc0-805f-91c2" type="selectionEntry"/><entryLink id="b0ca-fcec-1b30-2b3f" name="7.5cm SS Tank-hunter Platoon (LG215)" hidden="false" collective="false" import="true" targetId="5e4b-3e3d-8be8-1f17" type="selectionEntry"/><entryLink id="81ad-8e3a-7efd-226a" name="Brigade Panzer IV Tank Platoon (LG364)" hidden="false" collective="false" import="true" targetId="3cdb-9864-20ac-aee5" type="selectionEntry"/><entryLink id="0b4d-ca47-d2c0-a785" name="Panther (Late) Tank Platoon (LG360)" hidden="false" collective="false" import="true" targetId="5df5-094b-8826-b12b" type="selectionEntry"/><entryLink id="2270-68d1-4de0-0624" name="Hornisse Tank-hunter Platoon (LG129)" hidden="false" collective="false" import="true" targetId="5edc-e8d5-6f92-c119" type="selectionEntry"/><entryLink id="ae82-7629-39ab-67ee" name="Sd Kfz 250 SS Scout Troop (LG223)" hidden="false" collective="false" import="true" targetId="7af7-7b48-ff4c-5534" type="selectionEntry"/><entryLink id="a4e5-0eb5-d314-a373" name="Hummel Artillery Battery (LG135)" hidden="false" collective="false" import="true" targetId="af1c-8d72-2511-7ba3" type="selectionEntry"/><entryLink id="5378-4e4c-ec92-b010" name="Sturmtiger Assault Howitzer Platoon (LG420)" hidden="false" collective="false" import="true" targetId="0a39-b846-e61c-19c2" type="selectionEntry"/><entryLink id="dd16-09a7-0e28-1693" name="Panzer IV SS Tank Platoon (LG196)" hidden="false" collective="false" import="true" targetId="95f2-0f5f-6bc4-a748" type="selectionEntry"/><entryLink id="4c80-9186-912d-30e3" name="Volksgrenadier Assault Platoon (LG405)" hidden="false" collective="false" import="true" targetId="134c-c0e1-fba0-6109" type="selectionEntry"/><entryLink id="a3b8-f952-55f6-b4a0" name="Tiger II SS Tank Platoon (LG427)" hidden="false" collective="false" import="true" targetId="d9a3-b5e6-28ec-0c8f" type="selectionEntry"/><entryLink id="479b-22eb-d523-b6dd" name="Panzer IV/70 Tank-hunter Platoon (LG361)" hidden="false" collective="false" import="true" targetId="7f93-b846-0c64-559f" type="selectionEntry"/><entryLink id="d33b-543e-5c84-1746" name="Panther (Late) SS Tank Platoon (LG429)" hidden="false" collective="false" import="true" targetId="5f32-21b6-e417-f2c3" type="selectionEntry"/><entryLink id="04c0-4e1a-8fbb-2bb9" name="Marder Tank-hunter Platoon (LG257)" hidden="false" collective="false" import="true" targetId="4d14-5707-ed43-5b6e" type="selectionEntry"/><entryLink id="54f2-6aed-28b1-af92" name="Volks 10.5cm Artillery Battery (LG415)" hidden="false" collective="false" import="true" targetId="e16f-1226-f366-0194" type="selectionEntry"/><entryLink id="09ab-03bc-65bc-26d4" name="8.8cm Heavy AA Platoon (LG144)" hidden="false" collective="false" import="true" targetId="d921-ddde-4a62-17bc" type="selectionEntry"/><entryLink id="8978-c26f-97f8-240d" name="Volks Hetzer Tank-hunter Platoon (LG412)" hidden="false" collective="false" import="true" targetId="be30-e158-db05-b58c" type="selectionEntry"/><entryLink id="16bd-f01f-69de-78a3" name="Panzerwerfer 42 Battery (LG260)" hidden="false" collective="false" import="true" targetId="a516-2c3e-d235-22e5" type="selectionEntry"/><entryLink id="7d4e-fcf1-1548-fd32" name="Volksgrenadier 7.5cm Tank-hunter Platoon (LG410)" hidden="false" collective="false" import="true" targetId="e46f-d54a-6cae-4205" type="selectionEntry"/><entryLink id="ea45-6cb1-3f85-a491" name="ME 262 Sturmvogel Fighter-Bomber Flight (LG449)" hidden="false" collective="false" import="true" targetId="249e-a193-6bf6-ceb2" type="selectionEntry"/><entryLink id="6b89-ec83-1f24-c975" name="Hetzer Flammpanzer Platoon (LG417)" hidden="false" collective="false" import="true" targetId="9b10-486f-eb95-c62f" type="selectionEntry"/><entryLink id="949d-0388-15fb-5fdf" name="Ardennes SS Panzergrenadier Platoon (LG442)" hidden="false" collective="false" import="true" targetId="bda1-353c-86af-c8a0" type="selectionEntry"/><entryLink id="6e44-b240-cfc1-0c89" name="2cm Light AA Platoon (LG187)" hidden="false" collective="false" import="true" targetId="64b4-ba73-0042-fd8e" type="selectionEntry"/><entryLink id="24a8-38f0-e88d-6633" name="Grille (Late) SS Gun Platoon (LG440)" hidden="false" collective="false" import="true" targetId="8558-343b-84d4-cc61" type="selectionEntry"/><entryLink id="a102-f872-dce6-278a" name="Brigade Armoured Assault Platoon (LG368)" hidden="false" collective="false" import="true" targetId="4cbe-62ae-4abe-7b8a" type="selectionEntry"/><entryLink id="3dc7-0439-b90b-ed71" name="7.5cm Tank-hunter Platoon (LG131)" hidden="false" collective="false" import="true" targetId="a8af-817b-a3b5-01d3" type="selectionEntry"/><entryLink id="d712-7aac-839b-6a22" name="Brummbär Assault Tank Platoon (LG259)" hidden="false" collective="false" import="true" targetId="b0b0-0c10-3400-f9ac" type="selectionEntry"/><entryLink id="cf1a-a95c-6f6b-f075" name="Sd Kfz 10/4 Light AA Platoon (LG142)" hidden="false" collective="false" import="true" targetId="4d17-041f-91cf-9e98" type="selectionEntry"/><entryLink id="4638-1901-2698-1ae3" name="Sd Kfz 250 OP Observation Post (LG261)" hidden="false" collective="false" import="true" targetId="e6db-3fef-ca7f-fdba" type="selectionEntry"/><entryLink id="9404-5033-a44b-584b" name="Tiger Tank Platoon (LG102)" hidden="false" collective="false" import="true" targetId="7114-faa3-af81-b43a" type="selectionEntry"/><entryLink id="02e3-623b-ebd1-3284" name="Brigade Panther (Late) Tank Platoon (LG354)" hidden="false" collective="false" import="true" targetId="c253-0191-d672-dfb5" type="selectionEntry"/><entryLink id="483d-5d4f-7db3-122f" name="Brigade Armoured Panzergrenadier Platoon (LG375)" hidden="false" collective="false" import="true" targetId="28da-9df1-55ed-a480" type="selectionEntry"/><entryLink id="2168-3fe9-678c-f0f4" name="8.8cm Tank-hunter Platoon (LG182)" hidden="false" collective="false" import="true" targetId="a879-5eed-748d-6815" type="selectionEntry"/><entryLink id="f04a-e017-9c05-af32" name="10.5cm Artillery Battery (LG136)" hidden="false" collective="false" import="true" targetId="a768-0499-4b89-2709" type="selectionEntry"/><entryLink id="12c0-a0e2-1575-a866" name="Volks StuG Tank-hunter Platoon (LG413)" hidden="false" collective="false" import="true" targetId="86de-a04e-a8ea-9b21" type="selectionEntry"/><entryLink id="9d23-5562-a116-9c36" name="Jagdpanther Tank-hunter Platoon (LG401)" hidden="false" collective="false" import="true" targetId="1394-fe27-94e6-b094" type="selectionEntry"/><entryLink id="1d81-34cc-f637-fd26" name="15cm Nebelwerfer Battery (LG137)" hidden="false" collective="false" import="true" targetId="f2f3-89cc-3d06-3df8" type="selectionEntry"/><entryLink id="67d1-c63c-4f57-5c06" name="Volksgrenadier Rifle Platoon (LG406)" hidden="false" collective="false" import="true" targetId="7dc5-8799-d072-378a" type="selectionEntry"/><entryLink id="a682-64b8-5f3f-a177" name="Jagdtiger Tank-hunter Platoon (LG403)" hidden="false" collective="false" import="true" targetId="f887-b215-1144-66a6" type="selectionEntry"/><entryLink id="e7dc-b0c8-9bef-230d" name="Brigade Armoured Triple 15mm FlaK Platoon (LG370)" hidden="false" collective="false" import="true" targetId="d673-2cf7-b357-0e8c" type="selectionEntry"/><entryLink id="0383-b78f-ce88-e6da" name="Wespe Artillery Battery (LG134)" hidden="false" collective="false" import="true" targetId="fc32-d5f2-5d23-2edc" type="selectionEntry"/><entryLink id="d7b5-ba1c-c19a-e22b" name="Brigade Armoured 2cm FlaK Platoon (LG369)" hidden="false" collective="false" import="true" targetId="7ff7-98b8-84b9-74ba" type="selectionEntry"/><entryLink id="2a81-2d79-a603-d053" name="Panzer III OP Observation Post (LG183)" hidden="false" collective="false" import="true" targetId="ba0d-6ed7-fc0f-3e30" type="selectionEntry"/></entryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="51a3-0f07-6c74-1560" name="Volksgrenadier Company HQ (LG404)" publicationId="3bbf-3707-35dd-b1f5" page="76" hidden="false" collective="false" import="true" type="unit">
       <profiles><profile id="b882-d51a-fcc4-d84c" name="Volksgrenadier Company HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false"><characteristics><characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ 
 Third ReichLast Stand 4+</characteristic><characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+</characteristic><characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic><characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic><characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic><characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic><characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic><characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic><characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic></characteristics></profile><profile id="311b-a612-5c4f-3f12" name="StG44 assault rifle team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">8&quot;/20cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Pinned ROF 1</characteristic></characteristics></profile><profile id="a1a3-e67f-7836-6080" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG404</characteristic></characteristics></profile></profiles><categoryLinks>
@@ -12571,86 +13196,6 @@ Third ReichLast Stand 3+</characteristic><characteristic name="Skill" typeId="63
       </selectionEntryGroups>
       <entryLinks>
       <entryLink id="06ea-2b63-7816-5db9" name="Ardennes SS Panzergrenadier Platoon (LG442)" hidden="false" collective="false" import="true" targetId="bda1-353c-86af-c8a0" type="selectionEntry"/><entryLink id="a9df-33c6-c938-c7c0" name="Ardennes SS Reconnaissance Platoon (LG444)" hidden="false" collective="false" import="true" targetId="bbac-a0d6-f34d-99b4" type="selectionEntry"/><entryLink id="8363-9cce-3038-aa13" name="Ardennes Armoured SS Panzergrenadier Platoon (LG437)" hidden="false" collective="false" import="true" targetId="6361-f5eb-242a-4493" type="selectionEntry"/><entryLink id="1bc2-0dd3-9e97-8a8d" name="Tiger II SS Tank Platoon (LG427)" hidden="false" collective="false" import="true" targetId="d9a3-b5e6-28ec-0c8f" type="selectionEntry"/><entryLink id="bf2a-e190-6e1c-e9e3" name="Ardennes Fallshirmjäger Platoon (LG451)" hidden="false" collective="false" import="true" targetId="e63a-7dcf-7933-0b7f" type="selectionEntry"/><entryLink id="a972-bceb-8c37-35a9" name="Panther (Late) SS Tank Platoon (LG429)" hidden="false" collective="false" import="true" targetId="5f32-21b6-e417-f2c3" type="selectionEntry"/><entryLink id="d280-cb71-4e7d-3c23" name="Wirbelwind SS AA Tank Platoon (LG434)" hidden="false" collective="false" import="true" targetId="311f-a128-0574-3b9a" type="selectionEntry"/><entryLink id="3a9a-330a-2697-1014" name="Ostwind SS AA Tank Platoon (LG435)" hidden="false" collective="false" import="true" targetId="669f-529f-9628-f144" type="selectionEntry"/><entryLink id="22e0-bb9e-71e3-89fe" name="Panther (Late) SS Tank Company HQ (LG428)" hidden="false" collective="false" import="true" targetId="ae36-e93b-eb41-d9fb" type="selectionEntry"/></entryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="03a2-b0f5-6c84-2ccf" name="Brigade Armoured Panzergrenadier Company" publicationId="3bbf-3707-35dd-b1f5" page="32" hidden="false" collective="false" import="true" type="unit">
-      <profiles><profile id="89d7-f880-13bd-19bc" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG374</characteristic></characteristics></profile></profiles><categoryLinks>
-        <categoryLink id="d675-3481-6583-e47b" name="New CategoryLink" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="fd74-368f-d076-3b5b" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="19d0-12e6-de99-cb28">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f80e-c8d4-dd2c-cca5" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4288-43ab-0f13-6840" type="max"/>
-          </constraints>
-          <entryLinks>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="4498-1fb3-7c6a-33a5" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="553d-2e8b-0baf-8772">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6c2b-c672-5106-cf02" type="max"/>
-          </constraints>
-          <entryLinks>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="798b-bdc4-b528-695b" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="8124-fbd3-7ce8-04d5">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8589-3092-a50e-2b0b" type="max"/>
-          </constraints>
-          <entryLinks>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="57fb-c9ed-b3f5-eca6" name="Weapons" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="977b-7d15-20e1-c352" type="max"/>
-          </constraints>
-          <entryLinks>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-      <entryLink id="9b36-d875-77b6-3694" name="Sd Kfz 234 SS Scout Troop (LG445)" hidden="false" collective="false" import="true" targetId="ab02-90cd-9a50-8cec" type="selectionEntry"/><entryLink id="8423-470f-f4c3-ad3d" name="StuG Tank Platoon (LG247)" hidden="false" collective="false" import="true" targetId="af00-e8c6-96b1-f1ea" type="selectionEntry"/><entryLink id="8e2a-02c2-c5f4-819d" name="Ardennes Armoured SS Panzergrenadier Platoon (LG437)" hidden="false" collective="false" import="true" targetId="6361-f5eb-242a-4493" type="selectionEntry"/><entryLink id="3932-e581-bff3-3716" name="Puma Scout Troop (LG178)" hidden="false" collective="false" import="true" targetId="75af-7dfb-557c-bbbb" type="selectionEntry"/><entryLink id="fdf5-d0cf-1fe4-770c" name="Panzer IV Tank Platoon (LG167)" hidden="false" collective="false" import="true" targetId="768d-53fc-f995-361e" type="selectionEntry"/><entryLink id="fb36-b0d2-a92d-f4ce" name="Brigade Panzergrenadier Platoon (LG379)" hidden="false" collective="false" import="true" targetId="5bac-893f-9664-bdf1" type="selectionEntry"/><entryLink id="5df5-3034-0c72-928d" name="Ardennes Armoured Panzergrenadier Platoon (LG393)" hidden="false" collective="false" import="true" targetId="2b33-3579-b292-7f79" type="selectionEntry"/><entryLink id="2227-937c-2a61-6031" name="Panzer IV/70 SS Tank-hunter Platoon (LG432)" hidden="false" collective="false" import="true" targetId="6478-9ad2-5c92-7978" type="selectionEntry"/><entryLink id="2518-4b3e-41c9-3a47" name="Sd Kfz 250 Scout Troop (LG179)" hidden="false" collective="false" import="true" targetId="c921-46b8-4560-36c0" type="selectionEntry"/><entryLink id="5686-e6e8-06a8-8c06" name="Tiger II Tank Platoon (LG352)" hidden="false" collective="false" import="true" targetId="ec62-efc0-805f-91c2" type="selectionEntry"/><entryLink id="560c-1c08-3502-d848" name="7.5cm SS Tank-hunter Platoon (LG215)" hidden="false" collective="false" import="true" targetId="5e4b-3e3d-8be8-1f17" type="selectionEntry"/><entryLink id="a2a0-9ffa-4d3a-aa94" name="Brigade Panzer IV Tank Platoon (LG364)" hidden="false" collective="false" import="true" targetId="3cdb-9864-20ac-aee5" type="selectionEntry"/><entryLink id="a455-4653-69fb-4a7e" name="Panther (Late) Tank Platoon (LG360)" hidden="false" collective="false" import="true" targetId="5df5-094b-8826-b12b" type="selectionEntry"/><entryLink id="3453-b8d0-2c7b-c7d3" name="Hornisse Tank-hunter Platoon (LG129)" hidden="false" collective="false" import="true" targetId="5edc-e8d5-6f92-c119" type="selectionEntry"/><entryLink id="376a-0b70-b075-eedf" name="Sd Kfz 250 SS Scout Troop (LG223)" hidden="false" collective="false" import="true" targetId="7af7-7b48-ff4c-5534" type="selectionEntry"/><entryLink id="c73d-52b9-4cb3-148a" name="Hummel Artillery Battery (LG135)" hidden="false" collective="false" import="true" targetId="af1c-8d72-2511-7ba3" type="selectionEntry"/><entryLink id="7e05-9160-1402-986f" name="Sturmtiger Assault Howitzer Platoon (LG420)" hidden="false" collective="false" import="true" targetId="0a39-b846-e61c-19c2" type="selectionEntry"/><entryLink id="dc86-cc91-a26e-0cda" name="Panzer IV SS Tank Platoon (LG196)" hidden="false" collective="false" import="true" targetId="95f2-0f5f-6bc4-a748" type="selectionEntry"/><entryLink id="4c64-ce4d-f643-86ef" name="Volksgrenadier Assault Platoon (LG405)" hidden="false" collective="false" import="true" targetId="134c-c0e1-fba0-6109" type="selectionEntry"/><entryLink id="014c-a5d4-a7da-3c85" name="Tiger II SS Tank Platoon (LG427)" hidden="false" collective="false" import="true" targetId="d9a3-b5e6-28ec-0c8f" type="selectionEntry"/><entryLink id="8401-e152-6915-48c0" name="Panzer IV/70 Tank-hunter Platoon (LG361)" hidden="false" collective="false" import="true" targetId="7f93-b846-0c64-559f" type="selectionEntry"/><entryLink id="e709-fb02-c169-14c3" name="Panther (Late) SS Tank Platoon (LG429)" hidden="false" collective="false" import="true" targetId="5f32-21b6-e417-f2c3" type="selectionEntry"/><entryLink id="c863-c3de-a285-4055" name="Marder Tank-hunter Platoon (LG257)" hidden="false" collective="false" import="true" targetId="4d14-5707-ed43-5b6e" type="selectionEntry"/><entryLink id="48b7-be8d-d28f-b713" name="Volks 10.5cm Artillery Battery (LG415)" hidden="false" collective="false" import="true" targetId="e16f-1226-f366-0194" type="selectionEntry"/><entryLink id="7e80-5d1a-b2f1-6cfb" name="8.8cm Heavy AA Platoon (LG144)" hidden="false" collective="false" import="true" targetId="d921-ddde-4a62-17bc" type="selectionEntry"/><entryLink id="06d6-e66a-2b58-f7cf" name="Volks Hetzer Tank-hunter Platoon (LG412)" hidden="false" collective="false" import="true" targetId="be30-e158-db05-b58c" type="selectionEntry"/><entryLink id="750d-a27a-832c-215d" name="Panzerwerfer 42 Battery (LG260)" hidden="false" collective="false" import="true" targetId="a516-2c3e-d235-22e5" type="selectionEntry"/><entryLink id="7ed6-53fe-86fe-97d0" name="Volksgrenadier 7.5cm Tank-hunter Platoon (LG410)" hidden="false" collective="false" import="true" targetId="e46f-d54a-6cae-4205" type="selectionEntry"/><entryLink id="a509-fc04-4d7c-44b0" name="ME 262 Sturmvogel Fighter-Bomber Flight (LG449)" hidden="false" collective="false" import="true" targetId="249e-a193-6bf6-ceb2" type="selectionEntry"/><entryLink id="f80e-fef5-8e47-3614" name="Hetzer Flammpanzer Platoon (LG417)" hidden="false" collective="false" import="true" targetId="9b10-486f-eb95-c62f" type="selectionEntry"/><entryLink id="cfab-6eca-3c70-c9a9" name="Ardennes SS Panzergrenadier Platoon (LG442)" hidden="false" collective="false" import="true" targetId="bda1-353c-86af-c8a0" type="selectionEntry"/><entryLink id="d1fc-2b15-964f-7603" name="2cm Light AA Platoon (LG187)" hidden="false" collective="false" import="true" targetId="64b4-ba73-0042-fd8e" type="selectionEntry"/><entryLink id="75cd-19ec-fc88-224a" name="Grille (Late) SS Gun Platoon (LG440)" hidden="false" collective="false" import="true" targetId="8558-343b-84d4-cc61" type="selectionEntry"/><entryLink id="8ae7-5226-6aeb-ac21" name="Brigade Armoured Assault Platoon (LG368)" hidden="false" collective="false" import="true" targetId="4cbe-62ae-4abe-7b8a" type="selectionEntry"/><entryLink id="10fb-1e05-f39b-d702" name="7.5cm Tank-hunter Platoon (LG131)" hidden="false" collective="false" import="true" targetId="a8af-817b-a3b5-01d3" type="selectionEntry"/><entryLink id="cbc2-3f8e-b281-c1dc" name="Brummbär Assault Tank Platoon (LG259)" hidden="false" collective="false" import="true" targetId="b0b0-0c10-3400-f9ac" type="selectionEntry"/><entryLink id="08bc-ad3d-6f99-463b" name="Sd Kfz 10/4 Light AA Platoon (LG142)" hidden="false" collective="false" import="true" targetId="4d17-041f-91cf-9e98" type="selectionEntry"/><entryLink id="093f-7150-cc1e-8652" name="Sd Kfz 250 OP Observation Post (LG261)" hidden="false" collective="false" import="true" targetId="e6db-3fef-ca7f-fdba" type="selectionEntry"/><entryLink id="4765-90fb-c632-a76c" name="Tiger Tank Platoon (LG102)" hidden="false" collective="false" import="true" targetId="7114-faa3-af81-b43a" type="selectionEntry"/><entryLink id="8665-6e7b-8b9b-f02d" name="Brigade Panther (Late) Tank Platoon (LG354)" hidden="false" collective="false" import="true" targetId="c253-0191-d672-dfb5" type="selectionEntry"/><entryLink id="581e-c283-cb21-d527" name="Brigade Armoured Panzergrenadier Platoon (LG375)" hidden="false" collective="false" import="true" targetId="28da-9df1-55ed-a480" type="selectionEntry"/><entryLink id="da86-7492-135e-a934" name="8.8cm Tank-hunter Platoon (LG182)" hidden="false" collective="false" import="true" targetId="a879-5eed-748d-6815" type="selectionEntry"/><entryLink id="949e-adcd-f556-edc1" name="10.5cm Artillery Battery (LG136)" hidden="false" collective="false" import="true" targetId="a768-0499-4b89-2709" type="selectionEntry"/><entryLink id="36b6-8a78-5406-3605" name="Volks StuG Tank-hunter Platoon (LG413)" hidden="false" collective="false" import="true" targetId="86de-a04e-a8ea-9b21" type="selectionEntry"/><entryLink id="a0a2-364f-0ae6-8b42" name="Jagdpanther Tank-hunter Platoon (LG401)" hidden="false" collective="false" import="true" targetId="1394-fe27-94e6-b094" type="selectionEntry"/><entryLink id="f00a-335b-623b-8807" name="15cm Nebelwerfer Battery (LG137)" hidden="false" collective="false" import="true" targetId="f2f3-89cc-3d06-3df8" type="selectionEntry"/><entryLink id="7f25-eb78-c26d-ee86" name="Volksgrenadier Rifle Platoon (LG406)" hidden="false" collective="false" import="true" targetId="7dc5-8799-d072-378a" type="selectionEntry"/><entryLink id="663a-4adb-39fe-c10d" name="Jagdtiger Tank-hunter Platoon (LG403)" hidden="false" collective="false" import="true" targetId="f887-b215-1144-66a6" type="selectionEntry"/><entryLink id="15db-a0e4-d8b7-b4f3" name="Brigade Armoured Triple 15mm FlaK Platoon (LG370)" hidden="false" collective="false" import="true" targetId="d673-2cf7-b357-0e8c" type="selectionEntry"/><entryLink id="aa53-07da-b812-001a" name="Wespe Artillery Battery (LG134)" hidden="false" collective="false" import="true" targetId="fc32-d5f2-5d23-2edc" type="selectionEntry"/><entryLink id="ffba-e7a3-e6a2-0ff6" name="Brigade Armoured 2cm FlaK Platoon (LG369)" hidden="false" collective="false" import="true" targetId="7ff7-98b8-84b9-74ba" type="selectionEntry"/><entryLink id="17a0-0aab-6b44-62ce" name="Panzer III OP Observation Post (LG183)" hidden="false" collective="false" import="true" targetId="ba0d-6ed7-fc0f-3e30" type="selectionEntry"/></entryLinks>
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="95f1-17a5-90b2-8d9e" name="Brigade Panther (Late) Tank Company" publicationId="3bbf-3707-35dd-b1f5" page="24" hidden="false" collective="false" import="true" type="unit">
-      <profiles><profile id="8b29-6ea8-e85b-6902" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG353</characteristic></characteristics></profile></profiles><categoryLinks>
-        <categoryLink id="fc3b-a021-2e59-193c" name="Formations" hidden="false" targetId="5630-abd3-15d8-5cc6" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="613c-9956-6ebb-0b4f" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="6f48-adc7-88c2-a35b">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ad61-8e94-dec3-0b6f" type="max"/>
-          </constraints>
-          <entryLinks>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="eda0-326e-3c1c-f31a" name="Anti-Aircraft" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f163-2ac3-e037-476a" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="aae2-b27e-f22b-9585" name="Command Card: Mobilewagen Brigade AA Tanks" hidden="false" collective="false" import="true" type="upgrade">
-              <entryLinks>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <entryLinks>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-      <entryLink id="ca4e-1ab6-0d8c-2836" name="Sd Kfz 234 SS Scout Troop (LG445)" hidden="false" collective="false" import="true" targetId="ab02-90cd-9a50-8cec" type="selectionEntry"/><entryLink id="9ace-6d79-5c04-4ea0" name="StuG Tank Platoon (LG247)" hidden="false" collective="false" import="true" targetId="af00-e8c6-96b1-f1ea" type="selectionEntry"/><entryLink id="914f-b2fe-5049-d91a" name="Ardennes Armoured SS Panzergrenadier Platoon (LG437)" hidden="false" collective="false" import="true" targetId="6361-f5eb-242a-4493" type="selectionEntry"/><entryLink id="8c73-aabc-e2ae-0b68" name="Puma Scout Troop (LG178)" hidden="false" collective="false" import="true" targetId="75af-7dfb-557c-bbbb" type="selectionEntry"/><entryLink id="565b-0a9f-cf69-85f9" name="Panzer IV Tank Platoon (LG167)" hidden="false" collective="false" import="true" targetId="768d-53fc-f995-361e" type="selectionEntry"/><entryLink id="9c23-6703-0651-c049" name="Brigade Panzergrenadier Platoon (LG379)" hidden="false" collective="false" import="true" targetId="5bac-893f-9664-bdf1" type="selectionEntry"/><entryLink id="169b-1520-30da-b129" name="Ardennes Armoured Panzergrenadier Platoon (LG393)" hidden="false" collective="false" import="true" targetId="2b33-3579-b292-7f79" type="selectionEntry"/><entryLink id="04e4-f542-dd81-2e5a" name="Panzer IV/70 SS Tank-hunter Platoon (LG432)" hidden="false" collective="false" import="true" targetId="6478-9ad2-5c92-7978" type="selectionEntry"/><entryLink id="961b-1e28-a846-7b9e" name="Sd Kfz 250 Scout Troop (LG179)" hidden="false" collective="false" import="true" targetId="c921-46b8-4560-36c0" type="selectionEntry"/><entryLink id="5732-a9c1-3b5e-e595" name="Tiger II Tank Platoon (LG352)" hidden="false" collective="false" import="true" targetId="ec62-efc0-805f-91c2" type="selectionEntry"/><entryLink id="ba38-a6f9-fb17-886f" name="7.5cm SS Tank-hunter Platoon (LG215)" hidden="false" collective="false" import="true" targetId="5e4b-3e3d-8be8-1f17" type="selectionEntry"/><entryLink id="f910-f140-f54a-127e" name="Brigade Panzer IV Tank Platoon (LG364)" hidden="false" collective="false" import="true" targetId="3cdb-9864-20ac-aee5" type="selectionEntry"/><entryLink id="a271-d39d-614c-e2a5" name="Panther (Late) Tank Platoon (LG360)" hidden="false" collective="false" import="true" targetId="5df5-094b-8826-b12b" type="selectionEntry"/><entryLink id="83dd-1a56-a341-78fe" name="Hornisse Tank-hunter Platoon (LG129)" hidden="false" collective="false" import="true" targetId="5edc-e8d5-6f92-c119" type="selectionEntry"/><entryLink id="72e8-e244-3e94-df17" name="Sd Kfz 250 SS Scout Troop (LG223)" hidden="false" collective="false" import="true" targetId="7af7-7b48-ff4c-5534" type="selectionEntry"/><entryLink id="736f-1f03-28f1-74cb" name="Hummel Artillery Battery (LG135)" hidden="false" collective="false" import="true" targetId="af1c-8d72-2511-7ba3" type="selectionEntry"/><entryLink id="f542-a718-7015-4753" name="Sturmtiger Assault Howitzer Platoon (LG420)" hidden="false" collective="false" import="true" targetId="0a39-b846-e61c-19c2" type="selectionEntry"/><entryLink id="d089-bd54-a66e-83b4" name="Panzer IV SS Tank Platoon (LG196)" hidden="false" collective="false" import="true" targetId="95f2-0f5f-6bc4-a748" type="selectionEntry"/><entryLink id="f4d1-1b01-be37-11a7" name="Volksgrenadier Assault Platoon (LG405)" hidden="false" collective="false" import="true" targetId="134c-c0e1-fba0-6109" type="selectionEntry"/><entryLink id="c626-91b8-2b34-d579" name="Tiger II SS Tank Platoon (LG427)" hidden="false" collective="false" import="true" targetId="d9a3-b5e6-28ec-0c8f" type="selectionEntry"/><entryLink id="356e-8b0a-3f5a-f08f" name="Panzer IV/70 Tank-hunter Platoon (LG361)" hidden="false" collective="false" import="true" targetId="7f93-b846-0c64-559f" type="selectionEntry"/><entryLink id="b7ba-619b-b9d0-6b93" name="Panther (Late) SS Tank Platoon (LG429)" hidden="false" collective="false" import="true" targetId="5f32-21b6-e417-f2c3" type="selectionEntry"/><entryLink id="aa88-a8a6-f132-85ad" name="Marder Tank-hunter Platoon (LG257)" hidden="false" collective="false" import="true" targetId="4d14-5707-ed43-5b6e" type="selectionEntry"/><entryLink id="4c9f-cfce-ecdb-d88a" name="Volks 10.5cm Artillery Battery (LG415)" hidden="false" collective="false" import="true" targetId="e16f-1226-f366-0194" type="selectionEntry"/><entryLink id="59e4-9184-d195-45cd" name="8.8cm Heavy AA Platoon (LG144)" hidden="false" collective="false" import="true" targetId="d921-ddde-4a62-17bc" type="selectionEntry"/><entryLink id="9f54-c806-0268-1400" name="Volks Hetzer Tank-hunter Platoon (LG412)" hidden="false" collective="false" import="true" targetId="be30-e158-db05-b58c" type="selectionEntry"/><entryLink id="46ee-9690-bd66-f168" name="Panzerwerfer 42 Battery (LG260)" hidden="false" collective="false" import="true" targetId="a516-2c3e-d235-22e5" type="selectionEntry"/><entryLink id="da3e-1ec4-8d7e-c71f" name="Volksgrenadier 7.5cm Tank-hunter Platoon (LG410)" hidden="false" collective="false" import="true" targetId="e46f-d54a-6cae-4205" type="selectionEntry"/><entryLink id="cb97-e358-a962-ba6e" name="ME 262 Sturmvogel Fighter-Bomber Flight (LG449)" hidden="false" collective="false" import="true" targetId="249e-a193-6bf6-ceb2" type="selectionEntry"/><entryLink id="50e0-a429-63bf-2abe" name="Hetzer Flammpanzer Platoon (LG417)" hidden="false" collective="false" import="true" targetId="9b10-486f-eb95-c62f" type="selectionEntry"/><entryLink id="a3c1-3722-efef-3ed6" name="Ardennes SS Panzergrenadier Platoon (LG442)" hidden="false" collective="false" import="true" targetId="bda1-353c-86af-c8a0" type="selectionEntry"/><entryLink id="c752-c15d-0791-9a71" name="2cm Light AA Platoon (LG187)" hidden="false" collective="false" import="true" targetId="64b4-ba73-0042-fd8e" type="selectionEntry"/><entryLink id="cc72-425f-50af-28f4" name="Grille (Late) SS Gun Platoon (LG440)" hidden="false" collective="false" import="true" targetId="8558-343b-84d4-cc61" type="selectionEntry"/><entryLink id="4cb7-8340-758d-2f63" name="Brigade Armoured Assault Platoon (LG368)" hidden="false" collective="false" import="true" targetId="4cbe-62ae-4abe-7b8a" type="selectionEntry"/><entryLink id="fee0-e3f5-0c75-a9c5" name="7.5cm Tank-hunter Platoon (LG131)" hidden="false" collective="false" import="true" targetId="a8af-817b-a3b5-01d3" type="selectionEntry"/><entryLink id="0d10-87f1-9660-d1de" name="Brummbär Assault Tank Platoon (LG259)" hidden="false" collective="false" import="true" targetId="b0b0-0c10-3400-f9ac" type="selectionEntry"/><entryLink id="6cf7-230f-ab62-2dd4" name="Sd Kfz 10/4 Light AA Platoon (LG142)" hidden="false" collective="false" import="true" targetId="4d17-041f-91cf-9e98" type="selectionEntry"/><entryLink id="ed56-adba-91fb-7ef1" name="Sd Kfz 250 OP Observation Post (LG261)" hidden="false" collective="false" import="true" targetId="e6db-3fef-ca7f-fdba" type="selectionEntry"/><entryLink id="3e6f-82c6-802f-de82" name="Tiger Tank Platoon (LG102)" hidden="false" collective="false" import="true" targetId="7114-faa3-af81-b43a" type="selectionEntry"/><entryLink id="37c6-41cf-2f67-4485" name="Brigade Panther (Late) Tank Platoon (LG354)" hidden="false" collective="false" import="true" targetId="c253-0191-d672-dfb5" type="selectionEntry"/><entryLink id="ec01-6908-513e-38d2" name="Brigade Armoured Panzergrenadier Platoon (LG375)" hidden="false" collective="false" import="true" targetId="28da-9df1-55ed-a480" type="selectionEntry"/><entryLink id="aea6-db31-603d-6e94" name="8.8cm Tank-hunter Platoon (LG182)" hidden="false" collective="false" import="true" targetId="a879-5eed-748d-6815" type="selectionEntry"/><entryLink id="7d48-c28d-e964-0235" name="10.5cm Artillery Battery (LG136)" hidden="false" collective="false" import="true" targetId="a768-0499-4b89-2709" type="selectionEntry"/><entryLink id="3bba-089a-1097-9ba1" name="Volks StuG Tank-hunter Platoon (LG413)" hidden="false" collective="false" import="true" targetId="86de-a04e-a8ea-9b21" type="selectionEntry"/><entryLink id="9136-7b8b-0649-0a6c" name="Jagdpanther Tank-hunter Platoon (LG401)" hidden="false" collective="false" import="true" targetId="1394-fe27-94e6-b094" type="selectionEntry"/><entryLink id="64a1-341e-e09b-b2c4" name="15cm Nebelwerfer Battery (LG137)" hidden="false" collective="false" import="true" targetId="f2f3-89cc-3d06-3df8" type="selectionEntry"/><entryLink id="f60c-5609-0c50-3fb9" name="Volksgrenadier Rifle Platoon (LG406)" hidden="false" collective="false" import="true" targetId="7dc5-8799-d072-378a" type="selectionEntry"/><entryLink id="7e6f-fba0-04e6-a3ee" name="Jagdtiger Tank-hunter Platoon (LG403)" hidden="false" collective="false" import="true" targetId="f887-b215-1144-66a6" type="selectionEntry"/><entryLink id="1478-65cb-0414-05f4" name="Brigade Armoured Triple 15mm FlaK Platoon (LG370)" hidden="false" collective="false" import="true" targetId="d673-2cf7-b357-0e8c" type="selectionEntry"/><entryLink id="9447-f300-6248-5ae1" name="Wespe Artillery Battery (LG134)" hidden="false" collective="false" import="true" targetId="fc32-d5f2-5d23-2edc" type="selectionEntry"/><entryLink id="fe19-2edf-25e0-09c2" name="Brigade Armoured 2cm FlaK Platoon (LG369)" hidden="false" collective="false" import="true" targetId="7ff7-98b8-84b9-74ba" type="selectionEntry"/><entryLink id="7c8e-b646-3f96-65a8" name="Panzer III OP Observation Post (LG183)" hidden="false" collective="false" import="true" targetId="ba0d-6ed7-fc0f-3e30" type="selectionEntry"/></entryLinks>
       <costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
       </costs>
