@@ -641,19 +641,27 @@ Observer Counterattack 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="23fe-8fc5-7c4f-52b0" name="1x M3 Stuart OP" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="d2f3-390a-5a14-a504" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="67d4-b1da-7697-4ca2" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3733-d3f8-1730-44ec" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8543-2991-d7fa-59dc" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="23fe-8fc5-7c4f-52b0" name="1x M3 Stuart OP" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="89d3-7248-33ee-926c" name="Armored Recon Patrol (MU107)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -741,24 +749,32 @@ Wheeled Scout Assault 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="5464-cb65-0332-a975" name="2x M3A1 Armored Car , 1x Jeep (MG) (MU307), 1x Jeep (60mm) (MU307)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="609a-838f-c981-5f87" name="2x M8 Greyhound (37mm) , 1x Jeep (MG) (MU307), 1x Jeep (60mm) (MU307)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="c60c-5209-bd1b-323a" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="2f8b-de5c-ab67-0a87" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d46d-2adc-db6c-1597" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bc4-cf81-92fe-9eaa" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="5464-cb65-0332-a975" name="2x M3A1 Armored Car , 1x Jeep (MG) (MU307), 1x Jeep (60mm) (MU307)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="609a-838f-c981-5f87" name="2x M8 Greyhound (37mm) , 1x Jeep (MG) (MU307), 1x Jeep (60mm) (MU307)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="503f-d6cb-cb03-2caf" name="M4 Sherman Tank Platoon (MU106)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -813,29 +829,37 @@ Wheeled Scout Assault 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="4021-17f8-f677-a53a" name="3x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6383-5507-60b4-f153" name="4x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f186-a981-78f7-9695" name="5x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="40.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="4e9c-a76b-0774-51a5" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="ef2d-d1ee-d068-a928" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="455d-8836-a683-f1c1" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc08-fbcd-92c0-c0dd" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="4021-17f8-f677-a53a" name="3x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6383-5507-60b4-f153" name="4x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f186-a981-78f7-9695" name="5x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="40.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="92e8-d38f-7ee4-5480" name="M3 Lee Tank Platoon (MU104)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -890,29 +914,37 @@ Wheeled Scout Assault 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="78e5-04bc-0365-b961" name="3x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="dcfb-d3ce-4085-1c80" name="4x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0f33-f429-853a-f433" name="5x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="4b08-bd1e-c73d-16ed" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="ce9b-e1d3-a088-04ec" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16a0-5b26-82b5-f695" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7497-d728-4216-0173" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="78e5-04bc-0365-b961" name="3x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dcfb-d3ce-4085-1c80" name="4x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0f33-f429-853a-f433" name="5x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="ae90-a52e-f966-13f6" name="M3 Stuart Tank Platoon (MU102)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -957,29 +989,37 @@ Wheeled Scout Assault 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="4dae-7b5b-020f-d3fa" name="5x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1e81-7e49-f8aa-6b92" name="3x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="aad9-3775-6447-54e2" name="4x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="3f4c-bf8f-7d52-8834" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="1955-f09c-7c8f-05f9" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b90-e246-a86d-da9c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82e0-a42d-6411-2812" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="4dae-7b5b-020f-d3fa" name="5x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1e81-7e49-f8aa-6b92" name="3x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="aad9-3775-6447-54e2" name="4x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="8346-54c3-a1d3-8eb4" name="Armored Rifle Platoon (MU114)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1083,24 +1123,32 @@ Determined Rally 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="8181-3b31-c96b-cf0d" name="4x M1 Garand rifle team , 4x M1 Bazooka team , 2x M1919 LMG , 1x 60mm mortar , 1x M3 Half-track (.50 cal MG) (MU117) , 3x M3 Half-track (.30 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1b30-9c38-f096-bd0a" name="6x M1 Garand rifle team , 5x M1 Bazooka team , 2x M1919 LMG , 1x 60mm mortar , 1x M3 Half-track (.50 cal MG) (MU117) , 4x M3 Half-track (.30 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="cfec-d42c-358b-fe97" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="1c47-a8b0-3084-a142" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a28-f0ca-f181-7124" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bbf-b905-0684-e873" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8181-3b31-c96b-cf0d" name="4x M1 Garand rifle team , 4x M1 Bazooka team , 2x M1919 LMG , 1x 60mm mortar , 1x M3 Half-track (.50 cal MG) (MU117) , 3x M3 Half-track (.30 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1b30-9c38-f096-bd0a" name="6x M1 Garand rifle team , 5x M1 Bazooka team , 2x M1919 LMG , 1x 60mm mortar , 1x M3 Half-track (.50 cal MG) (MU117) , 4x M3 Half-track (.30 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="29f1-9c00-8802-2684" name="M4 Sherman Tank Company HQ (MU105)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1155,24 +1203,32 @@ Determined Rally 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="e63e-0e96-f86d-0b9a" name="2x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4244-09f3-67f2-bb43" name="1x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="78d0-1b08-306e-c8ca" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="e424-9148-3076-794a" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d93-b90e-9e98-651e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db1c-1f9a-ad2f-caf8" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="e63e-0e96-f86d-0b9a" name="2x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4244-09f3-67f2-bb43" name="1x M4 Sherman (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="6b9d-76b0-2c37-8fc7" name="M4 81mm Armored Mortar Platoon (MU109)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1219,19 +1275,27 @@ SP Gun Assault 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="7ad3-aa14-618a-3780" name="3x M4 (81mm mortar)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="1cc4-b952-b736-c659" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="e3da-26c1-50c2-2366" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70b4-69ca-797a-ab9f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca83-08aa-e739-6657" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="7ad3-aa14-618a-3780" name="3x M4 (81mm mortar)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="76a7-8564-db1d-0a94" name="T30 75mm Assault Gun Platoon (MU110)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1318,34 +1382,42 @@ SP Gun Assault 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="c04d-a26e-c855-7a95" name="2x T30 (75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8c60-9170-a9dd-9182" name="3x T30 (75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="db6e-b4c4-d74b-8c51" name="2x M8 Scott (75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c8aa-5e86-6f40-4f9b" name="3x M8 Scott (75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="b263-e7b9-a588-9878" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="ee9a-c5d4-34aa-0250" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da68-b0e5-93c9-d2ac" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3f2-e9a5-92ff-ba1c" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="c04d-a26e-c855-7a95" name="2x T30 (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8c60-9170-a9dd-9182" name="3x T30 (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="db6e-b4c4-d74b-8c51" name="2x M8 Scott (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c8aa-5e86-6f40-4f9b" name="3x M8 Scott (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="6456-3af3-5bbf-8332" name="M3 Lee Tank Company HQ (MU103)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1400,24 +1472,32 @@ SP Gun Assault 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="0a6c-01f0-fbf2-989a" name="2x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c6cb-b5d9-a68f-f7d7" name="1x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="31f1-5ada-6a49-e27f" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="cb69-8d1c-637e-e9ef" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31e4-18f6-552f-bc24" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="623b-9906-66b6-f1e4" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="0a6c-01f0-fbf2-989a" name="2x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c6cb-b5d9-a68f-f7d7" name="1x M3 Lee (short 75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="e159-fb54-3651-47e6" name="M3 Stuart Tank Company HQ (MU101)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1462,19 +1542,27 @@ SP Gun Assault 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="5010-5de6-c311-b34c" name="2x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="5df6-9c01-95a2-a0c7" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="440c-9d91-444f-3792" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f00d-425c-6f02-fdba" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="937e-240d-6f9b-a1b0" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="5010-5de6-c311-b34c" name="2x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="0d7d-86bc-8f43-dbd3" name="Armored Rifle Company HQ (MU113)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1538,34 +1626,32 @@ Determined Rally 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="abe7-f8e1-b5d0-4302" name="2x M1 Carbine team , 2x Jeep (MG) (MU108)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5d7d-8e4c-e39b-a488" name="2x M1 Carbine team , 2x Jeep (MG) (MU108)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="54d9-d124-65c0-f7ee" name="2x M1 Carbine team , 1x M3 Half-track (.50 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6856-1d0f-4320-c9c8" name="2x M1 Carbine team , 1x M3 Half-track (.50 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="6bd8-9fa2-52aa-e101" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="1566-ed39-a922-aac1" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d68d-8d67-b794-59f9" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ad5-6efc-2453-aa8b" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="abe7-f8e1-b5d0-4302" name="2x M1 Carbine team , 2x Jeep (MG) (MU108)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="54d9-d124-65c0-f7ee" name="2x M1 Carbine team , 1x M3 Half-track (.50 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="b9c5-d80a-1006-0fa6" name="M1917 Armored Machine-Gun Platoon (MU116)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1620,24 +1706,32 @@ Heavy Weapon Assault 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="a0b0-5817-2f5f-7baa" name="4x M1917 HMG" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="431b-cd82-5ec1-19f6" name="4x M1917 HMG , 2x M3 Half-track (.50 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="7c0c-7aa6-34ff-7f40" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="8021-fadd-aaf9-bc4b" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a1f-20e4-2ec8-4f91" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="294c-9cff-e251-865c" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a0b0-5817-2f5f-7baa" name="4x M1917 HMG" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="431b-cd82-5ec1-19f6" name="4x M1917 HMG , 2x M3 Half-track (.50 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="f3c3-8638-d1c4-43cc" name="37mm Armored Anti-Tank Platoon (MU115)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1692,54 +1786,62 @@ Gun Assault 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="96a3-f2cc-3dc6-3b4c" name="4x 57mm Gun (LU150)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4f41-2d6c-fe1f-1210" name="2x 37mm gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3c48-e922-3463-d39c" name="3x 37mm gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6194-ad17-1df6-659a" name="2x 37mm gun , 2x M3 Half-track (.50 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="fdf5-64a9-fc00-e4be" name="4x 37mm gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ae83-4ac7-d067-9265" name="3x 37mm gun , 3x M3 Half-track (.50 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4cba-39dd-fd53-b09b" name="3x 57mm Gun (LU150)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="731b-238d-ed27-7cc2" name="4x 37mm gun , 4x M3 Half-track (.50 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="4430-9235-e095-b92b" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="9add-de5e-5c7b-5d3a" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d782-f705-ec1f-1268" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ecd-f772-0fae-a853" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="96a3-f2cc-3dc6-3b4c" name="4x 57mm Gun (LU150)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4f41-2d6c-fe1f-1210" name="2x 37mm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3c48-e922-3463-d39c" name="3x 37mm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6194-ad17-1df6-659a" name="2x 37mm gun , 2x M3 Half-track (.50 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fdf5-64a9-fc00-e4be" name="4x 37mm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ae83-4ac7-d067-9265" name="3x 37mm gun , 3x M3 Half-track (.50 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4cba-39dd-fd53-b09b" name="3x 57mm Gun (LU150)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="731b-238d-ed27-7cc2" name="4x 37mm gun , 4x M3 Half-track (.50 cal MG) (MU117)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="1762-4f41-49d7-99a3" name="Rifle Company HQ (MU118)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1773,19 +1875,27 @@ Determined Rally 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="d6cf-d10f-3eb9-b7bb" name="2x M1 Carbine team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="be72-7b29-c48e-6671" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="9e2f-e665-a5ee-1966" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51bf-5114-6a53-04c4" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="769e-ff04-6040-7eaf" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="d6cf-d10f-3eb9-b7bb" name="2x M1 Carbine team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="1f6c-6319-b0ca-3498" name="M1917 Machine-Gun Platoon (MU121)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1820,19 +1930,27 @@ Heavy Weapon Assault 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="56bb-b833-3850-c5d6" name="4x M1917 HMG" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="afc5-ca7c-4708-90a2" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="b7e4-8491-8b0f-a003" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa67-f2bd-033b-eb1a" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ed4-d4fd-02b4-ba86" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="56bb-b833-3850-c5d6" name="4x M1917 HMG" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="956e-cfcc-023e-38e3" name="37mm Anti-Tank Platoon (MU122)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1867,24 +1985,32 @@ Heavy Weapon Assault 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="c6f5-8ce1-3413-a39a" name="2x 37mm gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f96e-8660-2126-dfed" name="4x 37mm gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="db87-274a-2fb2-ca7a" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="5a03-ab56-f431-bf53" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a26-4b87-4969-2f8e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a335-d8f7-bab4-f095" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="c6f5-8ce1-3413-a39a" name="2x 37mm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f96e-8660-2126-dfed" name="4x 37mm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="36f2-d56a-b8ab-a5b3" name="Mortar Platoon (MU120)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1919,24 +2045,32 @@ Heavy Weapon Assault 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="d63c-1cfb-aa6f-2178" name="3x Mortar" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="24ec-75da-7fb4-55b4" name="6x Mortar" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="7b0b-8271-1aff-6bcd" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="2ccf-f82a-3f83-7a44" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6908-81d0-f3af-2fde" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ed9-b7de-d7c3-fe93" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="d63c-1cfb-aa6f-2178" name="3x Mortar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="24ec-75da-7fb4-55b4" name="6x Mortar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="9d6a-8b3f-1850-7512" name="Chemical Mortar Platoon (US-005)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1971,24 +2105,32 @@ Gun Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="3113-f0b5-4cad-4364" name="2x Chemical mortars" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="de51-9c69-ed23-5056" name="4x Chemical mortars" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="e92b-4648-62a9-1431" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="2496-b490-2710-50f3" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbab-871a-6733-db49" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67a6-bc2d-081d-52b4" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="3113-f0b5-4cad-4364" name="2x Chemical mortars" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="de51-9c69-ed23-5056" name="4x Chemical mortars" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="f373-55e9-22d5-416e" name="M10 Tank Destroyer Company HQ (MU111)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2034,19 +2176,27 @@ Scout Last Stand 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="5564-16b9-cf90-cb23" name="2x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="8f78-8c73-b235-8ed9" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="ba63-d404-19b1-b78e" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1716-1198-1516-a3c3" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f2c-f73f-b94e-56dc" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="5564-16b9-cf90-cb23" name="2x M3 Stuart (37mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="9609-53f2-fd78-30f1" name="Parachute Rifle Company HQ (MU301)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2079,19 +2229,27 @@ Scout Last Stand 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="f70f-32bc-86dd-7162" name="2x M1 Carbine team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="1809-bb80-fd77-730d" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="9662-9c95-8584-b46d" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e0b-f852-b6dd-5ef3" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6897-d042-6450-b110" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f70f-32bc-86dd-7162" name="2x M1 Carbine team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="7e29-9fd7-8135-1c1b" name="Parachute Mortar Platoon (MU303)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2125,24 +2283,32 @@ Heavy Weapon Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="4d3a-ae53-647d-646f" name="2x 81mm mortar" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="bf47-feda-8d66-b150" name="4x 81mm mortar" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="d611-477d-6237-de22" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="0248-bedf-3316-e172" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1173-4d70-9fca-994e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="841e-d54b-e1fe-5f71" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="4d3a-ae53-647d-646f" name="2x 81mm mortar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bf47-feda-8d66-b150" name="4x 81mm mortar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="4dfd-bcd0-5b4d-4bce" name="Parachute 75mm Artillery Battery (MU304)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2186,24 +2352,32 @@ Gun Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="a4d4-0b98-f8bd-de2c" name="4x 75mm pack howitzer" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6706-0f4f-69f3-cb48" name="2x 75mm pack howitzer" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="6507-f699-bdbf-f96c" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="e424-7696-b6cd-8b56" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8877-f5b8-d603-6435" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39f7-c18a-ed50-9f9b" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a4d4-0b98-f8bd-de2c" name="4x 75mm pack howitzer" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6706-0f4f-69f3-cb48" name="2x 75mm pack howitzer" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="c25f-3217-eb96-4f64" name="Ranger Company HQ (MU131)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2238,19 +2412,27 @@ Deadly Assault 2+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="82b0-810d-0ac7-3543" name="1x M1 Carbine team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="242f-f958-a658-4e90" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="0868-6da5-5577-a72d" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0c7-4ad6-ee99-bdf5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c133-3d8a-0457-4fce" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="82b0-810d-0ac7-3543" name="1x M1 Carbine team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="7bff-a499-415b-e6b9" name="Ranger Mortar Platoon (MU133)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2285,23 +2467,31 @@ Heavy Weapon Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="b8f1-26d1-9600-6f45" name="2x 81mm mortar" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e3be-67c7-aa2f-6ef6" name="4x 81mm mortar" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="e7b6-96b5-54a5-4e54" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="058a-7b2a-4c1a-5611" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d4b-343f-ef77-3e8c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="013a-0deb-a3f0-231e" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="b8f1-26d1-9600-6f45" name="2x 81mm mortar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e3be-67c7-aa2f-6ef6" name="4x 81mm mortar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     </selectionEntries></catalogue>

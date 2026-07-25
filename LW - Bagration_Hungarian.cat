@@ -2193,19 +2193,27 @@ Huszár Follow Me 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="d0db-aa8f-f417-5cd4" name="1x Panther (7.5cm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="095b-538f-a6bb-112a" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="cab5-87c8-5574-d15c" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b221-11cd-cbd7-fba8" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f94-091f-eb39-9303" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="d0db-aa8f-f417-5cd4" name="1x Panther (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="7248-2fcb-a16c-0308" name="Toldi II Light Tank Platoon (LH107)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2262,44 +2270,52 @@ Huzár Follow Me 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="3e06-df36-e452-ce8e" name="3x Toldi II (20mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="578a-c8f4-57bd-fdde" name="4x Toldi II (20mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="122e-82a3-041c-4a4f" name="3x Toldi IIa (40mm) (LH107a)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c53c-fad6-6493-c19d" name="5x Toldi II (20mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2d41-7898-ad95-96f5" name="4x Toldi IIa (40mm) (LH107a)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="394b-fbc2-fc82-1dda" name="5x Toldi IIa (40mm) (LH107a)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="25a6-f941-6e9a-4b65" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="6ead-a0c3-5d3b-bdaa" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e942-c3c4-0d74-6f0b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de18-901f-c650-39f1" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="3e06-df36-e452-ce8e" name="3x Toldi II (20mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="578a-c8f4-57bd-fdde" name="4x Toldi II (20mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="122e-82a3-041c-4a4f" name="3x Toldi IIa (40mm) (LH107a)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c53c-fad6-6493-c19d" name="5x Toldi II (20mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2d41-7898-ad95-96f5" name="4x Toldi IIa (40mm) (LH107a)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="394b-fbc2-fc82-1dda" name="5x Toldi IIa (40mm) (LH107a)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="434b-81a8-e67e-30b8" name="Nimrod Self-Propelled AA Platoon (LH111)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2337,19 +2353,27 @@ SP Gun Assault 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="418e-b9c4-cbdf-c574" name="2x Nimród (40mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="3c67-0b44-9169-50f1" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="9d5c-91b3-5fe9-497f" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e49-8348-c577-84a3" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc89-84b6-6c84-a02e" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="418e-b9c4-cbdf-c574" name="2x Nimród (40mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="7932-47eb-40ca-b36b" name="Tiger Tank Company HQ (LH103)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2396,19 +2420,27 @@ Huszár Follow Me 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="0d47-fa1a-2ed2-bce7" name="1x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="834e-4b52-520e-46f6" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="2831-b0a0-1b8a-c1c6" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70bf-d389-c223-6a1a" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c61-1905-fe61-ca58" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="0d47-fa1a-2ed2-bce7" name="1x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="3e6e-5118-ce1b-9eee" name="Zrínyi Assault Gun Battery HQ (LH112)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2465,19 +2497,27 @@ SP Gun Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="f32d-b0fb-c417-912d" name="1x Zrínyi (105mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="f825-efd0-72fc-0956" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="466c-70a6-be57-2e5a" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0301-4afd-6547-b90c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b26-fadf-546f-dacd" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f32d-b0fb-c417-912d" name="1x Zrínyi (105mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="f955-8673-dec5-badb" name="7.5Cm Anti-Tank Platoon (LH116)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2511,24 +2551,32 @@ Gun Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="982a-3362-d197-3d3c" name="3x 7.5cm gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0cb3-48b9-7f00-6cf6" name="2x 7.5cm gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="4a8a-5019-db63-e20d" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="a43c-f8cf-d081-205f" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ae5-2c05-6edc-e060" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0abc-f51b-5132-8393" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="982a-3362-d197-3d3c" name="3x 7.5cm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0cb3-48b9-7f00-6cf6" name="2x 7.5cm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="8f95-c780-3cbc-5a41" name="StuG Assault Gun Battery HQ (LH114)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2575,19 +2623,27 @@ SP Gun Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="18a6-f3ae-3fb6-23a0" name="1x StuG (7.5cm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="17e7-a977-5c5a-9a85" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="d22d-b8d9-112a-da5d" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7972-45ec-1275-bf2b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d801-d2bf-d9b6-16b4" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="18a6-f3ae-3fb6-23a0" name="1x StuG (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="f8d9-94ae-b556-8573" name="Turán Tank Company HQ (LH105)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2654,24 +2710,32 @@ Huszár Follow Me 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="c613-4429-e154-422c" name="2x Turán I (40mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7b93-c698-ceee-51d5" name="2x Turán II (75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="a079-7e29-659c-361f" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="595e-a7bf-8b19-45d1" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd49-ba40-fb94-63bc" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6e7-60d9-b715-339c" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="c613-4429-e154-422c" name="2x Turán I (40mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7b93-c698-ceee-51d5" name="2x Turán II (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="fa18-1f57-e261-3f35" name="Panzer IV Tank Company HQ (LH108)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2718,19 +2782,27 @@ Huszár Follow Me 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="6d26-4f64-b7a6-826c" name="2x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="ba0e-c0af-ee1f-d706" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="77cf-54ee-86e2-64e2" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cabf-81f4-e385-7205" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b35a-7048-8f97-bf4d" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="6d26-4f64-b7a6-826c" name="2x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="8190-2026-cc2d-e71b" name="Hetzer Assault Gun Battery HQ (LH117)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2778,19 +2850,27 @@ SP Gun Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="90cf-ee47-eb66-a606" name="1x Hetzer (7.5cm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="24d4-e10b-6760-3d19" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="9692-06bd-e388-7469" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fb2-0797-3b89-2627" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e644-f1c7-032c-f422" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="90cf-ee47-eb66-a606" name="1x Hetzer (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="4ee6-343d-7403-cd38" name="Rifle Company HQ (LH119)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2824,19 +2904,27 @@ Home Defence Last Stand 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="35f5-0297-3cb6-b68e" name="2x M39 SMG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="ab5c-0f33-320d-bc71" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="ae82-f35d-b67e-06d8" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7485-f1d8-1677-19ce" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c49-adc9-23b1-2dd7" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="35f5-0297-3cb6-b68e" name="2x M39 SMG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="d261-ede7-568e-7140" name="7/31M Machine-Gun Platoon (LH121)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2871,19 +2959,27 @@ Heavy Weapon Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="a732-f477-7f0c-8abb" name="3x 7/31M HMG" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="d89d-b6d8-17cd-f386" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="e813-ce3d-68a6-a1c4" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3fb-9140-64d8-40c5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="879a-49f2-24b9-dc8a" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a732-f477-7f0c-8abb" name="3x 7/31M HMG" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="babb-27b8-2db2-bfbd" name="81mm Mortar Platoon (LH122)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2918,24 +3014,32 @@ Heavy Weapon Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="a003-bb34-5f5b-f16f" name="2x 81mm mortar" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b442-02a6-94d8-4f0d" name="4x 81mm mortar" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="3faf-eb37-3084-23ef" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="e53e-e74c-b0b0-62ba" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f67e-7590-546f-10f5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cc2-5d04-ca4c-efd0" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a003-bb34-5f5b-f16f" name="2x 81mm mortar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b442-02a6-94d8-4f0d" name="4x 81mm mortar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="2f45-da58-015b-28bd" name="120mm Mortar Platoon (LH123)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2970,24 +3074,32 @@ Heavy Weapon Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="203c-f401-b62f-6955" name="2x 120mm mortar (H)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="24e2-6395-9a89-4327" name="4x 120mm mortar (H)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="9aed-077b-9ea6-1de4" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="2fb3-d3c5-8dcb-d6c6" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b204-7426-6d21-2587" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32fe-e778-1754-05fa" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="203c-f401-b62f-6955" name="2x 120mm mortar (H)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="24e2-6395-9a89-4327" name="4x 120mm mortar (H)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="69cb-9471-9008-59a9" name="Anti-Tank Rocket Platoon (LH124)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -3022,24 +3134,32 @@ Gun Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="58e1-c443-1492-7870" name="2x 44m buzogányveto rocket launcher" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e321-a3ac-dad4-0c9a" name="3x 44m buzogányveto rocket launcher" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="8028-9f91-b2c0-65f1" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="0919-4561-0dd3-b55b" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a950-a1ca-ec07-58d9" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0120-22b9-98cd-01c6" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="58e1-c443-1492-7870" name="2x 44m buzogányveto rocket launcher" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e321-a3ac-dad4-0c9a" name="3x 44m buzogányveto rocket launcher" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="d9ff-09b3-9b18-276e" name="40mm Anti-Tank Platoon (LH125)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -3084,19 +3204,27 @@ Gun Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="04f6-0460-ed16-e634" name="3x 40mm gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="197b-9d14-2253-d7f5" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="778a-9b8d-7f89-fdcb" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ea-aa67-017b-c9d9" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b3d-05c8-4233-e0f9" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="04f6-0460-ed16-e634" name="3x 40mm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="b403-9da5-4e48-f4ab" name="Zrínyi Assault Gun Battery HQ (LH141)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -3143,19 +3271,27 @@ SP Gun Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="af9f-7e53-6c9e-9407" name="1x Zrínyi (75mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="466f-bcf9-f364-ca13" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="eece-1348-853b-56ff" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="083d-886b-8999-55cf" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eabb-7a04-3017-147a" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="af9f-7e53-6c9e-9407" name="1x Zrínyi (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="61bf-78d2-16d5-fec3" name="Motorised Rifle Company HQ (LH201)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -3190,18 +3326,26 @@ Assault Weapons Assault 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="87c0-7b34-c672-442c" name="2x 39M SMG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="1b82-b869-aba4-864f" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="6290-a1d8-fef6-25b9" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77eb-eac8-bf38-3ded" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="926b-54d2-7aca-dfcf" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="87c0-7b34-c672-442c" name="2x 39M SMG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     </selectionEntries></catalogue>

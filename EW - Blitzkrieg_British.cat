@@ -42,24 +42,32 @@ Gun Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="4ea7-529a-75a3-6326" name="4x 18/25 pdr gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f632-3eae-6657-83ee" name="2x 18/25 pdr gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="8d03-8a69-216b-5f6b" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="d771-53b7-75e1-bef0" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="debc-0afe-4470-689c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f29-82c2-4ee5-1cdd" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="4ea7-529a-75a3-6326" name="4x 18/25 pdr gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f632-3eae-6657-83ee" name="2x 18/25 pdr gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="691b-8c0c-a730-ee91" name="18/25 Pdr Horse Artillery Troop (EB122)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -103,24 +111,32 @@ Gun Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="f427-cb51-98d4-9b45" name="4x 18/25 pdr gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2fad-4304-e977-575c" name="2x 18/25 pdr gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="a2a3-cc42-e05e-5bc6" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="4691-3950-996b-42c4" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de7e-276d-c386-a9bd" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f421-11ea-8a30-e05d" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f427-cb51-98d4-9b45" name="4x 18/25 pdr gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2fad-4304-e977-575c" name="2x 18/25 pdr gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="e8c8-70fe-5db1-f83e" name="Observation Post (EB125)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -154,19 +170,27 @@ Observer Counterattack 6</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="0c35-2c18-b848-59b6" name="1x Observer Rifle team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="577d-35f1-518a-5aff" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="a33f-7316-732d-2145" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d685-bce1-e9d6-373f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37dd-b04f-4c1f-9c65" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="0c35-2c18-b848-59b6" name="1x Observer Rifle team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="b0b2-4651-3d54-b1b3" name="Bren Carrier Observation Post (EB126)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -204,19 +228,27 @@ Scout Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="f8f3-79eb-b663-a3af" name="1x Bren Carrier OP" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="cf2b-8b1e-4c0b-2fdb" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="6ede-4801-89db-1499" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff97-457e-939f-1ac4" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d37f-679b-ad84-e449" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f8f3-79eb-b663-a3af" name="1x Bren Carrier OP" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="591f-33ee-07bb-4e73" name="2 Pdr Anti-Tank Troop (EB119)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -250,24 +282,32 @@ Gun Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="e4e1-67a4-ba9f-42a2" name="4x 2 pdr anti-tank gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0566-2ef1-5c2d-ea8e" name="2x 2 pdr anti-tank gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="f6b2-6329-b6c5-3c21" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="fbf2-ae7f-99d0-9843" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cc8-ea0e-30a5-e081" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de68-25b9-7659-5fd2" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="e4e1-67a4-ba9f-42a2" name="4x 2 pdr anti-tank gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0566-2ef1-5c2d-ea8e" name="2x 2 pdr anti-tank gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="7a1f-607d-76a1-a6d8" name="Daimler Dingo Patrol (EB117)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -305,24 +345,32 @@ Scout Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="0590-579c-bf39-0205" name="2x Daimler Dingo" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9e11-159d-80c8-8912" name="3x Daimler Dingo" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="e8ac-a7cb-31b5-cf5c" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="2dc5-538a-d9ff-3b3c" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61f8-6f11-69b6-d3e8" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb47-a72b-5ca0-b23b" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="0590-579c-bf39-0205" name="2x Daimler Dingo" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9e11-159d-80c8-8912" name="3x Daimler Dingo" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="b873-c215-2ca4-434c" name="Morris CS9 Armoured Car Troop (EB123)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -370,19 +418,27 @@ Scout Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="a809-723c-6a71-4f04" name="3x Morris CS9" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="e2d9-fe2a-597a-1715" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="2592-cbf6-e8fc-2151" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43b8-dc0c-2110-da62" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6081-d597-544e-6692" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a809-723c-6a71-4f04" name="3x Morris CS9" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="d81d-3e56-0b7d-9de2" name="Motorcycle Platoon (EB124)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -447,19 +503,27 @@ Deadly Assault 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="fe66-e61d-a0d1-4fbd" name="4x MG team, 1x Boys anti-tank rifle, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="697a-4de2-d588-6b35" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="4120-0ced-b328-68b5" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="862e-5042-316e-6688" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6fa-12c4-383c-6f6f" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="fe66-e61d-a0d1-4fbd" name="4x MG team, 1x Boys anti-tank rifle, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="0fc0-37bc-48cf-4ff7" name="A13 Armoured Troop (EB102)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -504,19 +568,27 @@ Deadly Assault 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="1646-f611-df12-0314" name="3x A13" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="e97f-7be0-f57b-c2f5" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="ad0a-e43c-edd6-782e" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3141-ee52-c310-2a4d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd20-c37a-87ef-70a6" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="1646-f611-df12-0314" name="3x A13" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="5cb5-e9cc-62eb-d2ad" name="A13 Mk II Armoured Troop (EB105)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -551,19 +623,27 @@ Deadly Assault 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="9c51-1f05-1b99-e6d2" name="3x A13 Mk II" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="1af0-bb5b-81a9-16c8" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="d37e-f13c-8fab-5d2c" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05bd-6ccb-a5e8-4200" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30b3-3e7f-4186-e8fc" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="9c51-1f05-1b99-e6d2" name="3x A13 Mk II" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="d193-fc19-38c3-7f25" name="Light Mk VI Armoured Troop (EB104)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -628,24 +708,32 @@ Deadly Assault 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="60e9-9a8c-70ca-0fba" name="3x Light Mk VIB" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1f23-e6af-fa6f-77fb" name="3x Light Mk VIC" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="32e2-728a-b526-c075" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="f205-aed7-1b06-451b" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30aa-d26b-d8c0-bc05" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f620-6b30-80b5-428d" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="60e9-9a8c-70ca-0fba" name="3x Light Mk VIB" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1f23-e6af-fa6f-77fb" name="3x Light Mk VIC" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="0103-adde-c772-d6c3" name="Light Mk VIb Divisional Cavalry Troop (EB112)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -690,19 +778,27 @@ Deadly Assault 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="9a94-e2c1-38e6-6049" name="3x Light Mk VIB" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="2e97-f597-d825-f7e9" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="b0ad-9655-e571-a3a8" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7d4-66be-5b5f-2ff1" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d94c-a1df-f169-cf25" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="9a94-e2c1-38e6-6049" name="3x Light Mk VIB" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="b4c3-9193-3047-9399" name="Matilda I Tank Troop (EB109)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -747,24 +843,32 @@ Deadly Assault 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="27f8-8055-06a3-a8f6" name="3x Matilda I (MG)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="fc9e-2788-312d-f627" name="2x Matilda I (MG), 1x Matilda I (.5-inch)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="763b-ae8d-4cd9-dd08" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="078a-1621-29b2-216e" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d82-d992-d1cb-c376" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22b-d68f-8e3b-2fb8" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="27f8-8055-06a3-a8f6" name="3x Matilda I (MG)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fc9e-2788-312d-f627" name="2x Matilda I (MG), 1x Matilda I (.5-inch)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="4e35-f976-696c-2825" name="Matilda II Tank Troop (EB108)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -820,29 +924,37 @@ Assault Tank Counterattack 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="8a29-1a0e-8c0d-9ff4" name="2x Matilda II" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="34.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4f00-67d1-2c0a-d20e" name="2x Matilda II, 1x Matilda I (MG) (EB109)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="39.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e7c6-8cf9-f20d-5964" name="3x Matilda II" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="51.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="d4d8-26c9-01d4-a1bc" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="43a0-de88-1ba7-cb6d" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02f9-142a-b696-5642" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ca7-ef42-e73a-a8b6" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8a29-1a0e-8c0d-9ff4" name="2x Matilda II" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="34.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4f00-67d1-2c0a-d20e" name="2x Matilda II, 1x Matilda I (MG) (EB109)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="39.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e7c6-8cf9-f20d-5964" name="3x Matilda II" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="51.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="e0ae-88e2-f114-a932" name="Rifle Platoon (EB114)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -907,24 +1019,32 @@ Deadly Assault 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="51c4-02c9-7024-4277" name="7x Rifle/MG team, 1x Boys anti-tank rifle, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1fee-ed2d-5e62-e922" name="5x Rifle/MG team, 1x Boys anti-tank rifle, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="41cf-7ee3-479d-88c6" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="78da-87af-9c8b-29b3" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cf4-7d9c-d365-d175" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3966-9837-946f-0e6d" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="51c4-02c9-7024-4277" name="7x Rifle/MG team, 1x Boys anti-tank rifle, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1fee-ed2d-5e62-e922" name="5x Rifle/MG team, 1x Boys anti-tank rifle, 1x 2-inch mortar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="1bab-7ae0-0ad4-6aa0" name="Matilda I Tank Company HQ (EB107)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -979,19 +1099,27 @@ Deadly Assault 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="70b4-632d-fe4a-7385" name="1x Matilda I (MG), 1x Light Mk VIB (EB104)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="a48f-baf5-0d80-6d4b" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="722f-103b-b821-ef89" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="835f-055c-8277-01fb" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c808-aded-84b7-bf4c" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="70b4-632d-fe4a-7385" name="1x Matilda I (MG), 1x Light Mk VIB (EB104)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="a50f-c84a-80e2-f85b" name="Matilda II Tank Company HQ (EB106)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1056,24 +1184,32 @@ Deadly Assault 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="4707-303f-43c5-32da" name="1x Matilda II" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="83b5-34e6-68ee-c094" name="1x Matilda II, 1x Light Mk VIB (EB104)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="4507-00f1-051e-45c2" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="a483-a4d6-7a34-8626" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a7d-cd3f-64fa-c160" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0659-b26f-cd55-f935" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="4707-303f-43c5-32da" name="1x Matilda II" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="83b5-34e6-68ee-c094" name="1x Matilda II, 1x Light Mk VIB (EB104)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="ecb2-6632-b158-f0b7" name="A13 Armoured Squadron HQ (EB101)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1128,34 +1264,42 @@ Deadly Assault 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="1c17-3504-0e94-ea63" name="2x A13" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8ec4-e7e7-17b8-2241" name="1x A13, 2x A9 CS (EB103)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5d95-ec0d-7420-7246" name="2x A13, 2x A9 CS (EB103)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f04c-4105-fd43-2704" name="2x A9 CS (EB103)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="e705-b5ba-99ba-7327" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="a355-ff4f-c240-8436" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a2b-a28b-eba2-84c6" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bf1-9f85-409c-07b9" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="1c17-3504-0e94-ea63" name="2x A13" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8ec4-e7e7-17b8-2241" name="1x A13, 2x A9 CS (EB103)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5d95-ec0d-7420-7246" name="2x A13, 2x A9 CS (EB103)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f04c-4105-fd43-2704" name="2x A9 CS (EB103)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="9aea-74a3-ed5b-c990" name="Rifle Company HQ (EB113)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1190,19 +1334,27 @@ Deadly Assault 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="a2b8-e3bb-5083-d8d6" name="2x Rifle team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="260b-987c-0b2b-e87e" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="d6d9-99fe-91b8-e1f4" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="416c-c830-6792-e68e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2a2-9bfb-c7f0-daa1" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a2b8-e3bb-5083-d8d6" name="2x Rifle team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="adb5-5203-49f8-0f0d" name="3-Inch Mortar Section (EB120)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1236,19 +1388,27 @@ Heavy Weapon Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="5cac-ee6e-97c3-71ac" name="2x 3-inch mortar" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="6faf-e5a1-76af-94e7" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="022b-ec7d-efa0-e0ab" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a023-a6a5-8bc1-7201" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51b1-23d9-a4af-c762" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="5cac-ee6e-97c3-71ac" name="2x 3-inch mortar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="cab9-21b2-c201-8d0c" name="Machine-Gun Platoon (EB118)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1283,24 +1443,32 @@ Heavy Weapon Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="7bdc-b98f-0984-9a37" name="2x HMG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4859-39dd-deda-7fdd" name="4x HMG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="03bf-cc04-9d8e-ae78" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="16b7-c9c6-85fc-1b3b" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78e6-daa0-8e84-0899" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0fe-22e6-554b-5508" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="7bdc-b98f-0984-9a37" name="2x HMG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4859-39dd-deda-7fdd" name="4x HMG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="696d-e148-ecc7-2469" name="Scout Carrier Patrol (EB115)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1348,19 +1516,27 @@ Scout Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="a8fe-969c-3043-ff97" name="3x Scout Carrier" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="557b-0197-9c00-09c9" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="4ed3-8994-5474-02fe" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5313-79b9-e8c1-b6a5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6459-bf13-edce-5fb2" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a8fe-969c-3043-ff97" name="3x Scout Carrier" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="8bbc-83ba-f4a4-74c0" name="Light Mk VIB Divisional Cavalry Squadron HQ (EB110)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1425,24 +1601,32 @@ Scout Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="a20a-85a2-0541-d470" name="2x Light Mk VIB" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d567-0c72-5f4d-5e15" name="2x Light Mk VIB, 2x Scout Carrier (EB111)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="a15d-198f-06e2-8c45" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="e521-8c0d-61d2-6c2a" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="065a-b62f-b89f-84cd" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15e1-c076-9a78-c1af" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a20a-85a2-0541-d470" name="2x Light Mk VIB" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d567-0c72-5f4d-5e15" name="2x Light Mk VIB, 2x Scout Carrier (EB111)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="a48b-e904-3dfc-47ba" name="Scout Carrier Divisional Cavalry Troop (EB111)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1490,19 +1674,27 @@ Scout Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="b9d8-c162-6c08-c9fa" name="3x Scout Carrier" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="265e-448c-3030-0666" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="7e67-b915-d33b-b19f" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22e1-f780-e259-60b6" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c81-9378-2a00-93c9" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="b9d8-c162-6c08-c9fa" name="3x Scout Carrier" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     </selectionEntries>
 </catalogue>

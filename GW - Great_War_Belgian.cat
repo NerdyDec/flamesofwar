@@ -43,34 +43,42 @@
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="76f1-9f79-9b02-db61" name="1x Renault FT-17 (MG), 1x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="68b7-4df9-fd4b-7ce5" name="1x Renault FT-17 (MG), 2x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="429f-6b6c-1ab3-d846" name="2x Renault FT-17 (MG), 2x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8d60-a118-758b-8937" name="2x Renault FT-17 (MG), 3x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="eeab-4b8d-5ee4-bddc" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="9690-0c3a-6cd9-c823" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fce2-4541-6a9b-1f45" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12ce-0287-3870-fe85" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="76f1-9f79-9b02-db61" name="1x Renault FT-17 (MG), 1x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="68b7-4df9-fd4b-7ce5" name="1x Renault FT-17 (MG), 2x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="429f-6b6c-1ab3-d846" name="2x Renault FT-17 (MG), 2x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8d60-a118-758b-8937" name="2x Renault FT-17 (MG), 3x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="3ecd-1b44-81f0-ec7d" name="Schneider CA.1 Tank (GWF115)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -126,19 +134,27 @@ Landship Tactics 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="33e9-bb58-41df-114d" name="1x Schneider CA.1" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="1443-8c63-d12c-0dff" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="7637-201b-90b3-a779" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de1-d4ea-8901-5f8c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac2-ece1-f90e-aa23" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="33e9-bb58-41df-114d" name="1x Schneider CA.1" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="76b6-30ec-ff4d-7852" name="Char Saint Chamond Tank (GWF116)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -214,19 +230,27 @@ Landship Tactics 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="d7a9-f0e2-f32a-f252" name="1x Char Saint Chamond" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="ad0f-504c-92c2-118d" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="f45b-5dda-bc2e-70e7" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="073f-af0a-b55b-65ca" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37ce-23c4-f407-fef2" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="d7a9-f0e2-f32a-f252" name="1x Char Saint Chamond" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="e296-f3db-56b8-4eca" name="Green Mk IV Female Tank (GWB109)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -273,19 +297,27 @@ Landship Tactics 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="0ac0-5997-e5d3-343a" name="1x Mark IV female" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="1204-8f16-a751-12c5" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="e75d-48d7-fcac-ad93" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9db0-d986-ed4e-87df" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d422-30dd-0b8d-8c96" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="0ac0-5997-e5d3-343a" name="1x Mark IV female" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="7638-1779-9a69-6c11" name="Mk IV Female Tank (GWB110)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -332,19 +364,27 @@ Landship Tactics 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="7a0f-08dd-9303-6887" name="1x Mark IV female" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="f114-ddb7-a36c-7e93" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="dc03-c2eb-4d13-07ab" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="589f-ef90-d827-99a9" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="773d-237f-f010-4c83" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="7a0f-08dd-9303-6887" name="1x Mark IV female" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="6210-d732-c88e-2700" name="Green Mk IV Male Tank (GWB111)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -411,19 +451,27 @@ Landship Tactics 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="b609-dd3a-1ae0-04f5" name="1x Mark IV male" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="b480-64b7-5fe5-b2fd" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="a10d-98ab-3cd8-3f34" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6738-51d8-4049-968b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="303e-4b6a-05fd-3bf3" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="b609-dd3a-1ae0-04f5" name="1x Mark IV male" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="761d-7db7-2144-b4f7" name="Mk IV Male Tank (GWB112)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -490,19 +538,27 @@ Landship Tactics 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="f4e0-e1dc-c497-4bc9" name="1x Mark IV male" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="fca0-8e28-8650-7e8b" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="1f8f-8cda-c7bb-a4a6" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0ef-b523-6fe8-081f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d89-9f7f-d8e5-a627" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f4e0-e1dc-c497-4bc9" name="1x Mark IV male" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="d344-8ec5-d017-dced" name="Mk V Female Tank (GWB113)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -550,19 +606,27 @@ Reliable Blitz Move 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="f36b-775a-03fa-1069" name="1x Mark V female" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="b3eb-6d75-3b77-c6da" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="3e16-4c20-ef4a-3625" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0252-b950-b8c4-4266" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02fd-cefc-42a8-0b31" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f36b-775a-03fa-1069" name="1x Mark V female" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="2a57-32fc-d880-5f65" name="Mk V Male Tank (GWB114)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -630,19 +694,27 @@ Reliable Blitz Move 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="087f-53de-bca8-06b0" name="1x Mark V male" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="02e9-ac59-33da-4942" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="e458-50d7-99ba-831b" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5641-a515-56c1-6d77" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8098-975c-33f3-16a0" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="087f-53de-bca8-06b0" name="1x Mark V male" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="3257-0195-ad7f-d3db" name="Mk V Hermaphrodite Tank (GWB115)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -700,19 +772,27 @@ Reliable Blitz Move 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="0315-3165-ac6c-6041" name="1x Mark V hemaphrodite" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="8930-00a6-5d7f-b84a" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="9eec-1a5e-48d0-c8d5" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3eb-6926-00a7-21d5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf75-aeab-3661-ab7e" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="0315-3165-ac6c-6041" name="1x Mark V hemaphrodite" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="c62d-0e36-e53f-893a" name="Mk V* Female Tank (GWB116)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -759,19 +839,27 @@ Landship Tactics 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="030a-743c-c49b-a7be" name="1x Mark V* female" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="9594-cd8e-a730-f4ad" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="9d54-9f73-56de-a592" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae78-29d1-b8a7-12af" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad2a-6859-cf27-e673" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="030a-743c-c49b-a7be" name="1x Mark V* female" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="39ac-0b69-f177-1318" name="Mk V* Male Tank (GWB117)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -838,19 +926,27 @@ Landship Tactics 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="2a9d-e05c-6a49-b938" name="1x Mark V* male" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="96be-5f8f-9472-42ef" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="d9cc-e7b7-051f-6f64" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d022-d9a9-3619-740e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47bb-02d2-d70e-f031" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="2a9d-e05c-6a49-b938" name="1x Mark V* male" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="7737-9017-f8bd-36ba" name="Mk V* Hermaphrodite Tank (GWB118)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -907,19 +1003,27 @@ Landship Tactics 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="a03c-7c15-a231-23de" name="1x Mark V* hemaphrodite" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="0dc7-3599-e65c-ab21" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="a462-2d47-6fb5-00a3" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3bd-3d9e-23b1-6a81" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df4e-48c6-be96-6fd0" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a03c-7c15-a231-23de" name="1x Mark V* hemaphrodite" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="ac13-148d-2184-e06b" name="Green Mk A Whippet Tank (GWB119)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -954,19 +1058,27 @@ Landship Tactics 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="5bf0-d5b9-4bc9-e6dd" name="1x Mark A Whippet" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="f1ad-4fa7-bb7c-cd97" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="beb4-56be-ae27-b2bf" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc76-c7d6-5c56-7565" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="149b-5d0b-4362-6794" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="5bf0-d5b9-4bc9-e6dd" name="1x Mark A Whippet" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="0756-8f53-4c16-5567" name="Mk A Whippet Tank (GWB120)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1001,19 +1113,27 @@ Landship Tactics 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="dc8a-146f-54fe-e839" name="1x Mark A Whippet" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="f80e-e9ff-19c8-fc85" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="f9bc-f5ce-5648-30e3" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d095-5b3e-c22d-a8f3" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f3c-8c1c-bcc9-b281" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="dc8a-146f-54fe-e839" name="1x Mark A Whippet" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     </selectionEntries>
 </catalogue>

@@ -43,34 +43,42 @@
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="76f1-9f79-9b02-db61" name="1x Renault FT-17 (MG), 1x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="68b7-4df9-fd4b-7ce5" name="1x Renault FT-17 (MG), 2x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="429f-6b6c-1ab3-d846" name="2x Renault FT-17 (MG), 2x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8d60-a118-758b-8937" name="2x Renault FT-17 (MG), 3x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="eeab-4b8d-5ee4-bddc" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="9690-0c3a-6cd9-c823" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fce2-4541-6a9b-1f45" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12ce-0287-3870-fe85" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="76f1-9f79-9b02-db61" name="1x Renault FT-17 (MG), 1x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="68b7-4df9-fd4b-7ce5" name="1x Renault FT-17 (MG), 2x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="429f-6b6c-1ab3-d846" name="2x Renault FT-17 (MG), 2x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8d60-a118-758b-8937" name="2x Renault FT-17 (MG), 3x Renault FT-17 (37mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="b04b-cc46-e7b1-586f" name="Austin Armoured Car Troop (GWB138)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -105,29 +113,37 @@
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="b6de-963d-812a-0ac8" name="1x Austin Armoured Car" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4af6-8013-289f-fa46" name="2x Austin Armoured Car" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6742-b695-0cb4-6421" name="3x Austin Armoured Car" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="447f-d3be-6326-cbcb" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="2322-4d97-f6fd-bb5e" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7696-6a4b-65ad-dd31" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34a8-6a4f-821f-f303" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="b6de-963d-812a-0ac8" name="1x Austin Armoured Car" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4af6-8013-289f-fa46" name="2x Austin Armoured Car" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6742-b695-0cb4-6421" name="3x Austin Armoured Car" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="19be-301e-13fa-98b4" name="Field Gun (GWB126)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -172,19 +188,27 @@ Gun Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="8065-1fed-2da9-e3b9" name="1x OQF 18 pdr gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="f92b-e02a-75e9-1ec8" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="b61a-bb87-3460-b8f4" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="834a-070f-e37f-7d79" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b173-ca5b-a910-fff5" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8065-1fed-2da9-e3b9" name="1x OQF 18 pdr gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="8465-f337-9c1a-dd98" name="Elite Field Gun (GWB127)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -229,19 +253,27 @@ Gun Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="aaf1-6eae-87da-9998" name="1x OQF 18 pdr gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="1ca3-30b9-ead4-13ce" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="b095-1a33-218e-26a0" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ad0-1511-7a7f-e2fd" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec4a-0bbc-7534-a24d" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="aaf1-6eae-87da-9998" name="1x OQF 18 pdr gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="ed5e-427e-bf8a-1f1d" name="Field Battery, Royal Artillery (GWB124)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -286,24 +318,32 @@ Gun Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="fb88-4b4d-b25f-42d8" name="3x OQF 18 pdr gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2de4-2944-850e-b960" name="6x OQF 18 pdr gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="50.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="9379-11d2-6a3a-273c" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="a021-05c8-d662-67ea" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16bc-ff1e-12a8-5077" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38f4-afd7-018b-de6b" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="fb88-4b4d-b25f-42d8" name="3x OQF 18 pdr gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2de4-2944-850e-b960" name="6x OQF 18 pdr gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="a8ec-cedc-f689-4b85" name="Elite Field Battery, Royal Artillery (GWB125)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -348,24 +388,32 @@ Gun Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="5cff-b797-05e1-6445" name="3x OQF 18 pdr gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="33.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e5a1-007f-da61-cf26" name="6x OQF 18 pdr gun" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="66.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="2ea0-b48f-aacf-c3dd" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="218f-3536-058a-99cb" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c792-160a-5077-60c5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6f4-a5e8-e51f-d5c5" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="5cff-b797-05e1-6445" name="3x OQF 18 pdr gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="33.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e5a1-007f-da61-cf26" name="6x OQF 18 pdr gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="66.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="9a42-7f6a-b89f-7b65" name="Sniper (GWB141)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -399,19 +447,27 @@ Sniper Tactics 2+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="8944-2868-81c6-b0d0" name="1x Sniper team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="649f-02d3-e1fb-0579" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="8540-609e-1ca8-0a9d" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b687-b357-f74e-f538" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a982-72ed-5564-58b1" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8944-2868-81c6-b0d0" name="1x Sniper team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="e296-f3db-56b8-4eca" name="Green Mk IV Female Tank (GWB109)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -458,19 +514,27 @@ Landship Tactics 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="0ac0-5997-e5d3-343a" name="1x Mark IV female" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="1204-8f16-a751-12c5" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="e75d-48d7-fcac-ad93" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9db0-d986-ed4e-87df" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d422-30dd-0b8d-8c96" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="0ac0-5997-e5d3-343a" name="1x Mark IV female" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="7638-1779-9a69-6c11" name="Mk IV Female Tank (GWB110)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -517,19 +581,27 @@ Landship Tactics 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="7a0f-08dd-9303-6887" name="1x Mark IV female" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="f114-ddb7-a36c-7e93" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="dc03-c2eb-4d13-07ab" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="589f-ef90-d827-99a9" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="773d-237f-f010-4c83" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="7a0f-08dd-9303-6887" name="1x Mark IV female" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="6210-d732-c88e-2700" name="Green Mk IV Male Tank (GWB111)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -596,19 +668,27 @@ Landship Tactics 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="b609-dd3a-1ae0-04f5" name="1x Mark IV male" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="b480-64b7-5fe5-b2fd" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="a10d-98ab-3cd8-3f34" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6738-51d8-4049-968b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="303e-4b6a-05fd-3bf3" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="b609-dd3a-1ae0-04f5" name="1x Mark IV male" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="761d-7db7-2144-b4f7" name="Mk IV Male Tank (GWB112)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -675,19 +755,27 @@ Landship Tactics 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="f4e0-e1dc-c497-4bc9" name="1x Mark IV male" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="fca0-8e28-8650-7e8b" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="1f8f-8cda-c7bb-a4a6" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0ef-b523-6fe8-081f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d89-9f7f-d8e5-a627" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f4e0-e1dc-c497-4bc9" name="1x Mark IV male" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="d344-8ec5-d017-dced" name="Mk V Female Tank (GWB113)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -735,19 +823,27 @@ Reliable Blitz Move 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="f36b-775a-03fa-1069" name="1x Mark V female" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="b3eb-6d75-3b77-c6da" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="3e16-4c20-ef4a-3625" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0252-b950-b8c4-4266" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02fd-cefc-42a8-0b31" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f36b-775a-03fa-1069" name="1x Mark V female" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="2a57-32fc-d880-5f65" name="Mk V Male Tank (GWB114)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -815,19 +911,27 @@ Reliable Blitz Move 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="087f-53de-bca8-06b0" name="1x Mark V male" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="02e9-ac59-33da-4942" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="e458-50d7-99ba-831b" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5641-a515-56c1-6d77" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8098-975c-33f3-16a0" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="087f-53de-bca8-06b0" name="1x Mark V male" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="3257-0195-ad7f-d3db" name="Mk V Hermaphrodite Tank (GWB115)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -885,19 +989,27 @@ Reliable Blitz Move 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="0315-3165-ac6c-6041" name="1x Mark V hemaphrodite" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="8930-00a6-5d7f-b84a" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="9eec-1a5e-48d0-c8d5" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3eb-6926-00a7-21d5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf75-aeab-3661-ab7e" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="0315-3165-ac6c-6041" name="1x Mark V hemaphrodite" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="c62d-0e36-e53f-893a" name="Mk V* Female Tank (GWB116)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -944,19 +1056,27 @@ Landship Tactics 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="030a-743c-c49b-a7be" name="1x Mark V* female" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="9594-cd8e-a730-f4ad" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="9d54-9f73-56de-a592" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae78-29d1-b8a7-12af" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad2a-6859-cf27-e673" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="030a-743c-c49b-a7be" name="1x Mark V* female" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="39ac-0b69-f177-1318" name="Mk V* Male Tank (GWB117)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1023,19 +1143,27 @@ Landship Tactics 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="2a9d-e05c-6a49-b938" name="1x Mark V* male" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="96be-5f8f-9472-42ef" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="d9cc-e7b7-051f-6f64" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d022-d9a9-3619-740e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47bb-02d2-d70e-f031" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="2a9d-e05c-6a49-b938" name="1x Mark V* male" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="7737-9017-f8bd-36ba" name="Mk V* Hermaphrodite Tank (GWB118)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1092,19 +1220,27 @@ Landship Tactics 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="a03c-7c15-a231-23de" name="1x Mark V* hemaphrodite" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="0dc7-3599-e65c-ab21" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="a462-2d47-6fb5-00a3" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3bd-3d9e-23b1-6a81" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df4e-48c6-be96-6fd0" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a03c-7c15-a231-23de" name="1x Mark V* hemaphrodite" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="ac13-148d-2184-e06b" name="Green Mk A Whippet Tank (GWB119)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1139,19 +1275,27 @@ Landship Tactics 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="5bf0-d5b9-4bc9-e6dd" name="1x Mark A Whippet" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="f1ad-4fa7-bb7c-cd97" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="beb4-56be-ae27-b2bf" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc76-c7d6-5c56-7565" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="149b-5d0b-4362-6794" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="5bf0-d5b9-4bc9-e6dd" name="1x Mark A Whippet" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="0756-8f53-4c16-5567" name="Mk A Whippet Tank (GWB120)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1186,19 +1330,27 @@ Landship Tactics 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="dc8a-146f-54fe-e839" name="1x Mark A Whippet" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="f80e-e9ff-19c8-fc85" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="f9bc-f5ce-5648-30e3" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d095-5b3e-c22d-a8f3" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f3c-8c1c-bcc9-b281" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="dc8a-146f-54fe-e839" name="1x Mark A Whippet" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="3ecd-1b44-81f0-ec7d" name="Schneider CA.1 Tank (GWF115)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1254,19 +1406,27 @@ Landship Tactics 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="33e9-bb58-41df-114d" name="1x Schneider CA.1" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="1443-8c63-d12c-0dff" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="7637-201b-90b3-a779" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de1-d4ea-8901-5f8c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac2-ece1-f90e-aa23" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="33e9-bb58-41df-114d" name="1x Schneider CA.1" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="76b6-30ec-ff4d-7852" name="Char Saint Chamond Tank (GWF116)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1342,19 +1502,27 @@ Landship Tactics 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="d7a9-f0e2-f32a-f252" name="1x Char Saint Chamond" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="ad0f-504c-92c2-118d" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="f45b-5dda-bc2e-70e7" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="073f-af0a-b55b-65ca" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37ce-23c4-f407-fef2" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="d7a9-f0e2-f32a-f252" name="1x Char Saint Chamond" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="21.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="03f4-1a40-88aa-cd05" name="Line Division Rifle Platoon (GWB102)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1409,24 +1577,32 @@ Trench Fighters Assault 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="4161-f269-94e1-a82e" name="5x SMLE rifle team, 2x Hales rifle grenade team, 2x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="fbab-7e6f-0cc9-2ea6" name="3x SMLE rifle team, 1x Hales rifle grenade team, 1x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="3a22-ae1e-6095-46e0" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="25a0-34d2-a357-1a58" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5490-93a5-c0a6-88ee" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="838c-e2df-908b-3de2" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="4161-f269-94e1-a82e" name="5x SMLE rifle team, 2x Hales rifle grenade team, 2x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fbab-7e6f-0cc9-2ea6" name="3x SMLE rifle team, 1x Hales rifle grenade team, 1x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="5a1c-27ef-ee39-c25f" name="Elete Division Rifle Platoon (GWB106)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1481,24 +1657,32 @@ Trench Fighters Assault 2+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="7cd8-d823-a5d2-f083" name="5x SMLE rifle team, 2x Hales rifle grenade team, 2x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="311f-e6d5-c3a9-397e" name="3x SMLE rifle team, 1x Hales rifle grenade team, 1x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="abaa-d9b5-10df-56d0" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="960a-9321-e988-9532" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96cc-9979-a439-b909" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eb5-a309-efda-eb96" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="7cd8-d823-a5d2-f083" name="5x SMLE rifle team, 2x Hales rifle grenade team, 2x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="311f-e6d5-c3a9-397e" name="3x SMLE rifle team, 1x Hales rifle grenade team, 1x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="30b1-42a1-1100-3f5e" name="Anzac Or Canadian Division Rifle Platoon (GWB129)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1553,24 +1737,32 @@ Trench Fighters Assault 2+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="e57a-e61e-eaa7-8837" name="5x SMLE rifle team, 2x Hales rifle grenade team, 2x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6508-67e5-9429-3397" name="3x SMLE rifle team, 1x Hales rifle grenade team, 1x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="22ab-04cc-089d-db1d" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="c5d5-0237-6bfb-ffa6" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdfe-ce7b-ebbc-c4c0" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0bc-039a-02f1-1d60" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="e57a-e61e-eaa7-8837" name="5x SMLE rifle team, 2x Hales rifle grenade team, 2x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6508-67e5-9429-3397" name="3x SMLE rifle team, 1x Hales rifle grenade team, 1x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="7e41-cc3d-fad3-4ae6" name="Cavalry Troop (GWB137)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1615,24 +1807,32 @@ Cavalry Blitz 2+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="a954-eb8c-7fbb-6167" name="8x SMLE rifle team (GWB13a), 1x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7dfa-4b0e-7e7a-e8dc" name="4x SMLE rifle team (GWB13a), 1x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="95e9-0331-d178-9565" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="c62a-3f20-15a7-e1d3" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5ca-e323-74e9-2fdf" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bb5-d428-b3c2-f398" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a954-eb8c-7fbb-6167" name="8x SMLE rifle team (GWB13a), 1x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7dfa-4b0e-7e7a-e8dc" name="4x SMLE rifle team (GWB13a), 1x Lewis MG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="5189-e877-dd2c-0f77" name="Line Division Rifle Company HQ (GWB101)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1667,19 +1867,27 @@ Trench Fighters Assault 3+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="0e96-cec5-b228-37dd" name="2x Webley pistol team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="14df-186f-8713-3fa1" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="2db3-dba3-6c16-20ea" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5041-df0e-d5ed-0b9e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03a1-7df2-50d3-fa72" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="0e96-cec5-b228-37dd" name="2x Webley pistol team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="fe9c-ffb8-35b3-7ffe" name="Line Division Machine-Gun Platoon (GWB103)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1714,29 +1922,37 @@ Heavy Weapon Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="2cba-dad2-bda4-ecd0" name="3x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2c93-c03e-c096-a5a4" name="4x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="184c-5137-6395-3d87" name="2x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="9fea-e1fa-ec55-dd11" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="428c-e27b-5ec7-d04a" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5532-4372-9fc4-93c1" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4a5-18db-5fb8-7f35" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="2cba-dad2-bda4-ecd0" name="3x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2c93-c03e-c096-a5a4" name="4x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="184c-5137-6395-3d87" name="2x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="3d88-7623-6f2d-1db8" name="Line Division Trench Mortar (GWB104)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1771,19 +1987,27 @@ Heavy Weapon Assault 5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="cfac-e3eb-b0d2-7c08" name="1x 3&quot; Stokes mortar team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="a104-73c2-d134-d6ff" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="37db-34be-4b6c-30e2" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bca-335e-be4f-be58" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36a0-3196-c29d-ec56" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="cfac-e3eb-b0d2-7c08" name="1x 3&quot; Stokes mortar team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="d395-9523-6bcd-0608" name="Elete Division Rifle Company HQ (GWB105)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1818,19 +2042,27 @@ Trench Fighters Assault 2+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="033e-c5bd-64a4-b453" name="2x Webley pistol team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="5a11-736e-1d31-9ce5" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="965a-36ea-34f9-1d30" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36e1-87dd-b788-241d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dd4-64c7-ad5c-bf01" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="033e-c5bd-64a4-b453" name="2x Webley pistol team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="e0ec-f253-c977-a17c" name="Elete Division Machine-Gun Platoon (GWB107)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1865,29 +2097,37 @@ Heavy Weapon Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="528b-613f-1d19-d928" name="3x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8b30-75e1-9b97-9279" name="4x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d781-16a6-d3ea-ece0" name="2x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="8e8f-7c42-4928-259c" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="f156-64b9-933c-c506" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9194-0ab4-0fce-0fc3" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4160-f3a4-5274-177e" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="528b-613f-1d19-d928" name="3x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8b30-75e1-9b97-9279" name="4x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d781-16a6-d3ea-ece0" name="2x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="46a7-380b-f3e1-1cb2" name="Elite Division Trench Mortar (GWB108)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1922,19 +2162,27 @@ Heavy Weapon Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="4c94-6abe-1bff-4366" name="1x 3&quot; Stokes mortar team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="0058-d856-1f17-8796" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="10f0-9787-a194-29cf" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfe0-feb6-36a2-1f54" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b83f-0989-896a-02be" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="4c94-6abe-1bff-4366" name="1x 3&quot; Stokes mortar team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="607a-6488-ac77-7e8c" name="ANZAC or Canadian Rifle Company HQ (GWB128)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -1969,19 +2217,27 @@ Trench Fighters Assault 2+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="9c10-4597-3c68-58a9" name="2x Webley pistol team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="0e0b-c982-9dcf-d6eb" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="8746-b4f0-2fb9-e39f" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cc4-7126-be55-1a6a" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ed1-8bab-7d9e-975e" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="9c10-4597-3c68-58a9" name="2x Webley pistol team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="0485-eadc-e6c1-0998" name="Anzac Or Canadian Division Machine-Gun Platoon (GWB130)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2016,29 +2272,37 @@ Heavy Weapon Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="9b8b-a47f-8775-0898" name="3x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ac7a-acdb-d617-0a50" name="4x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4a6f-281d-388c-026e" name="2x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="a438-d5de-7053-4f95" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="8cb8-2e35-b252-d18e" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8946-d3e6-a3e0-472f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d847-4388-6ff9-0ba6" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="9b8b-a47f-8775-0898" name="3x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ac7a-acdb-d617-0a50" name="4x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4a6f-281d-388c-026e" name="2x Vickers HMG team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="6256-1864-920c-547b" name="Canadian Division Armoured Autocar Section (GWB140)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2083,19 +2347,27 @@ Heavy Weapon Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="a5cc-8da4-23b0-0366" name="2x Armoured Autocar" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="5ced-2f63-7553-33ad" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="ed6c-1de8-49a9-0732" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f5e-c1d4-4131-55f4" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b13c-ffca-410d-5ef1" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a5cc-8da4-23b0-0366" name="2x Armoured Autocar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="c961-a9e9-6d81-fa42" name="Anzac Or Canadian Division Trench Mortar (GWB131)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2130,19 +2402,27 @@ Heavy Weapon Assault 4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="9ddd-6714-e568-d0bf" name="1x 3&quot; Stokes mortar team" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="d69f-dc29-acd7-45b6" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="91da-970c-8d6e-0524" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c82-826a-3d4c-75d4" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c0e-699b-6d49-23ec" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="9ddd-6714-e568-d0bf" name="1x 3&quot; Stokes mortar team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     <selectionEntry id="9424-481a-dd3f-308b" name="Cavalry Squadron HQ (GWB136)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
@@ -2177,19 +2457,27 @@ Cavalry Blitz 2+</characteristic>
       </characteristics>
     </profile>
   </profiles>
-  <selectionEntries>
-    <selectionEntry id="7c32-384c-788d-fa3f" name="2x Webley pistol team (GWB13a)" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="7304-6299-faa5-6ebf" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="c851-3f13-532b-f5ad" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15a8-1d16-f3c2-6fa7" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43e4-be77-3153-5ebb" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="7c32-384c-788d-fa3f" name="2x Webley pistol team (GWB13a)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry>
     </selectionEntries>
 </catalogue>
