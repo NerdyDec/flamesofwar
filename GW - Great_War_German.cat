@@ -823,5 +823,878 @@ Gun Assault 4+</characteristic>
     <categoryLink id="04ec-225b-d0e5-3de2" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
 </selectionEntry>
+    <selectionEntry id="2892-fb81-46c0-d55e" name="Infanteriekompanie HQ (GWG101)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="4e0f-1e47-1b2c-daf8" name="Infanteriekompanie HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">CONFIDENT 4+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">TRAINED 4+
+Infatrie Vor! Blitz Move 3+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b24a-4f14-147e-3bd9" name="Mauser pistol team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Pinned ROF 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="db27-1213-134f-8ca7" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG101</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="596b-c345-1ec6-473c" name="2X Mauser pistol team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="e121-9647-68b3-aff6" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="f3f5-9f83-e1fc-749c" name="Machine-Gun Platoon (GWG103)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="bc09-a364-2a4e-f160" name="Machine-Gun Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">CONFIDENT 4+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">TRAINED 4+
+Infatrie Vor! Blitz Move 3+
+Heavy Weapon Assault 5+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9eac-acc4-dedc-9914" name="Maxim MG 08 HMG team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">6</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="7e1f-6c51-921c-23e1" name="Maxim MG 08 HMG team or Firing Bombardment" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="7ff4-f9c7-ffd1-f1b9" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG103</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="24cf-0742-acca-c0bf" name="3x Maxim MG 08 HMG team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad3f-b133-36ed-6d14" name="4x Maxim MG 08 HMG team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="19.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c5c5-9be7-2532-8a5f" name="2x Maxim MG 08 HMG team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="9007-f490-f384-5a85" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="bfc3-8191-4f44-a68f" name="7.6cm Minenwerfer (GWG122)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="24f7-9c4d-c18d-34bf" name="7.6cm Minenwerfer" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">CONFIDENT 4+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">TRAINED 4+
+Gun Assault 5+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4adb-09b0-7b75-5097" name="7.6cm Minenwerfer mortar" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">8&quot;/20cm - 32&quot;/80cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overhead Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ac77-d670-db04-7b23" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG122</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="d1f1-6d1e-f14b-9979" name="1x 7.6cm Minenwerfer mortar" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="8345-e619-449e-8c39" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="1b26-371e-0e6f-0681" name="3.7cm Anti-Tank Gun (GWG123)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="50da-de71-e89f-0e2c" name="3.7cm Anti-Tank Gun" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">CONFIDENT 4+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">TRAINED 4+
+Gun Assault 5+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7fb8-1cd6-ecea-cad0" name="3.7cm TaK team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, No HE</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7997-6b8b-a0e0-0b86" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG123</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="6dd1-55b5-c260-1960" name="1x 3.7cm TaK team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="0379-938f-bd71-64b0" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="144b-9acb-5441-72c3" name="Werfer sektion (GWG104)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="78ca-4dda-998e-a5cd" name="Werfer sektion" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">CONFIDENT 4+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">TRAINED 4+
+Infatrie Vor! Blitz Move 3+
+Heavy Weapon Assault 5+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="30f1-5d5c-b354-0767" name="Granatenwerfer mortar" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">8&quot;/20cm - 16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overhead Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="78ef-f860-d625-306f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG104</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="ee70-2401-6ae3-aa14" name="1x Granatenwerfer mortar" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="305f-f97d-664c-82d4" name="2x Granatenwerfer mortar" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="0f8e-99c6-6aa1-de2c" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="fde7-320e-8f5f-e851" name="Siegfriedstellung HQ (GWG114)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="798f-f65b-92fc-450e" name="Siegfriedstellung HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">RELUCTANT 5+
+Concrete Dug-Outs Rally 4+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">VETERAN 3+
+Infatrie Vor! Blitz Move 2+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">CAREFUL 4+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0702-1d23-90b5-6ae9" name="Mauser pistol team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Pinned ROF 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d1bb-c2e7-d4ac-8379" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG114</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="cb1b-6e58-76ec-cf59" name="2X Mauser pistol team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="406a-21e8-00a9-669d" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="daae-0ea8-43b4-98eb" name="Siegfriedstellung MG Platoon (GWG118)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="7147-d4fc-e985-8633" name="Siegfriedstellung MG Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">RELUCTANT 5+
+Concrete Dug-Outs Rally 4+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">VETERAN 3+
+Infatrie Vor! Blitz Move 2+
+Heavy Weapon Assault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">CAREFUL 4+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="daa6-0422-a459-a45e" name="Maxim MG 08 HMG team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">6</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="8b04-3fb4-3c54-116c" name="Maxim MG 08 HMG team or Firing Bombardment" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="8490-d4fd-70e9-0278" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG118</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="9e0a-8348-87dd-7441" name="2x Maxim MG 08 HMG team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6fb9-5e91-5647-7cb8" name="3x Maxim MG 08 HMG team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb37-5957-67f4-f73f" name="4x Maxim MG 08 HMG team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="aeb1-4afb-22d7-3a4e" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="4fbc-868c-27c6-87de" name="Siegfriedstellung 7.6cm Minenwerfer (GWG119)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="5c25-7d4b-5b53-5922" name="Siegfriedstellung 7.6cm Minenwerfer" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">RELUCTANT 5+
+Concrete Dug-Outs Rally 4+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">VETERAN 3+
+Gun Assault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">CAREFUL 4+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f44b-3d84-1b84-2d82" name="7.6cm Minenwerfer mortar" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">8&quot;/20cm - 32&quot;/80cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overhead Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6363-62fd-7b30-1a1a" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG119</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="decf-7b36-577c-8cc3" name="1x 7.6cm Minenwerfer mortar" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="e1e2-5b74-ade2-91f9" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="d6b0-52d5-3300-a321" name="Siegfriedstellung 7.62cm Infantry Gun (GWG120)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="3e57-5519-3ccc-ddbf" name="Siegfriedstellung 7.62cm Infantry Gun" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">RELUCTANT 5+
+Concrete Dug-Outs Rally 4+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">VETERAN 3+
+Gun Assault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">CAREFUL 4+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e668-a483-8bd6-4969" name="7.62cm Krupp IG gun" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7c1f-2d21-9154-a5bd" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG120</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="5443-3b8b-3d73-3c66" name="1x 7.62cm Krupp IG gun" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="3aec-1ab2-9fbe-90ed" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="821c-d733-80d6-0274" name="Siegfriedstellung 3.7cm Anti-Tank Gun (GWG121)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="3c21-4b29-3a70-67f1" name="Siegfriedstellung 3.7cm Anti-Tank Gun" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">RELUCTANT 5+
+Concrete Dug-Outs Rally 4+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">VETERAN 3+
+Gun Assault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">CAREFUL 4+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9e0e-f706-8e62-1530" name="3.7cm TaK team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, No HE</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="813f-a2cb-d59d-1fe1" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG121</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="89b5-7a25-384d-2a17" name="1x 3.7cm TaK team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="1a30-8031-c382-9856" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="7617-941e-b351-c140" name="Stosskompanie HQ (GWG105)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="6189-c0d0-c256-4bbe" name="Stosskompanie HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">FEARLESS 3+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">VETERAN 3+
+Infatrie Vor! Blitz Move 2+
+Trench Fighters Assaul2 2+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">CAREFUL 4+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9beb-a932-0989-31a6" name="Mauser pistol team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Pinned ROF 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d5e9-871e-8892-26c0" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG105</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="7b56-cf3d-ec15-a67a" name="2X Mauser pistol team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="ec8e-b373-7889-8b54" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="1029-632f-3d0b-0a0f" name="Stoss Machine-Gun Platoon (GWG107)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="e878-9ac8-dafa-76fb" name="Stoss Machine-Gun Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">FEARLESS 3+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">VETERAN 3+
+Infatrie Vor! Blitz Move 2+
+Heavy Weapon Assault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">CAREFUL 4+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="32ef-c7ef-5fd4-57df" name="Maxim MG 08 HMG team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">6</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="8f18-3ffb-de4f-6265" name="Maxim MG 08 HMG team or Firing Bombardment" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="3797-f088-e1fa-82d6" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG107</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="ad2e-843f-59ea-2ab6" name="2x Maxim MG 08 HMG team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb43-74da-c767-7c27" name="1x Maxim MG 08 HMG team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="ca7d-8318-f8cd-9423" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="9f29-2c07-0fa5-f2a4" name="Stoss 7.6cm Minenwerfer (GWG108)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="7888-5cde-39ba-d32c" name="Stoss 7.6cm Minenwerfer" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">CONFIDENT 4+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">VETERAN 3+
+Gun Assault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">CAREFUL 4+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2b45-c4fd-553b-85a5" name="7.6cm Minenwerfer mortar" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">8&quot;/20cm - 32&quot;/80cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overhead Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="899f-7abd-24c2-dbd6" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG108</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="d71b-d3b3-9259-22bb" name="1x 7.6cm Minenwerfer mortar" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="f299-b109-ae7e-be8d" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="44ba-3530-062d-2584" name="Veteran 3.7cm Anti-Tank Gun (GWG124)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="a674-4510-c77b-b7a1" name="Veteran 3.7cm Anti-Tank Gun" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">CONFIDENT 4+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">VETERAN 3+
+Gun Assault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">CAREFUL 4+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c192-0815-e98c-ff44" name="3.7cm TaK team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, No HE</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bf6c-75dc-eb01-fe84" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG124</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="49f9-7b77-95a5-389d" name="1x 3.7cm TaK team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="a1d1-d4f3-8b40-25a0" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="8de7-b4bc-a524-65a1" name="Jägerkompanie HQ (GWG109)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="8e13-a9d7-91a9-3dd6" name="Jägerkompanie HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">CONFIDENT 4+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">VETERAN 3+
+Infatrie Vor! Blitz Move 2+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">CAREFUL 4+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="130c-1306-b3bd-51dc" name="Mauser pistol team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Pinned ROF 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="366c-52e6-e6f0-8854" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG109</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="20de-cf11-171b-197d" name="2X Mauser pistol team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="0701-2815-e8b3-e3c2" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="8cfe-f5d8-bb37-516b" name="Jäger Machine-Gun Platoon (GWG113)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="fcd3-17f7-12a8-5487" name="Jäger Machine-Gun Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">CONFIDENT 4+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">VETERAN 3+
+Infatrie Vor! Blitz Move 2+
+Heavy Weapon Assault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">CAREFUL 4+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8c69-5f1c-af82-9012" name="Maxim MG 08 HMG team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">6</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="4d4d-2485-3e52-5d45" name="Maxim MG 08 HMG team or Firing Bombardment" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="33d6-952e-d6b0-43df" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG113</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="7e29-59b8-5f2e-ca79" name="2x Maxim MG 08 HMG team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c7b-40f2-db1e-5cdd" name="3x Maxim MG 08 HMG team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2dc1-815a-a455-149c" name="4x Maxim MG 08 HMG team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="64ca-93f0-1dee-9f57" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="b9c7-9cda-a983-91ae" name="Jäger 7.6cm Minenwerfer (GWG112)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="749c-7274-05e6-f748" name="Jäger 7.6cm Minenwerfer" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">CONFIDENT 4+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">VETERAN 3+
+Gun Assault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">CAREFUL 4+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="677d-2399-1748-2e77" name="7.6cm Minenwerfer mortar" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">8&quot;/20cm - 32&quot;/80cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Overhead Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0a62-c25d-12e0-af76" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">GWG112</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="f636-6342-6465-5720" name="1x 7.6cm Minenwerfer mortar" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="4891-1cd5-5e32-bc24" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
     </selectionEntries>
 </catalogue>

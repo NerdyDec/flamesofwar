@@ -495,5 +495,451 @@ Gun Assault 6</characteristic>
     <categoryLink id="ae09-3f63-071e-5513" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
 </selectionEntry>
+    <selectionEntry id="b7af-4f42-4dec-4519" name="Infantry Company (LP202)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="18a3-9561-2f38-c1c0" name="Infantry Company" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">FEARLESS 3+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">GREEN 5+
+MP40 SMG teams Assault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b484-b867-2da2-14a5" name="K98 rifle team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="12f6-872e-bdb9-c0fa" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LP202</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="1804-6ae5-f0ba-db71" name="21x K98 rifle team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ce9-fa1a-1d11-3ac1" name="11x K98 rifle team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="97bd-3cbe-b8ca-14fd" name="16x K98 rifle team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="5269-2313-e448-18b7" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="5d86-16e1-8499-11e4" name="Kedyw Partisan Company (LP203)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="df72-02e8-936b-1ba2" name="Kedyw Partisan Company" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">FEARLESS 3+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">TRAINED 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7598-f6ad-6f12-50e4" name="MP40 SMG team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Pinned ROF 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a350-e7d2-71c9-4d69" name="or Panzerfaust anti-tank" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Limited 1, Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cece-5638-dbb0-b8a3" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LP203</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="8483-fd15-7f1c-0460" name="9x MP40 SMG team with Panzerfaust" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="18aa-effc-b04c-c4d7" name="5x MP40 SMG team with Panzerfaust" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="d144-6751-3e48-f0ab" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="4fc4-2a2c-d87e-96af" name="Infantry Battalion HQ (LP201)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="db93-2e5d-cbd1-c0ec" name="Infantry Battalion HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">FEARLESS 3+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">GREEN 5+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8236-1fbf-5e88-00ff" name="K98 rifle team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="df67-a527-ecf9-ff90" name="MP40 SMG team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Pinned ROF 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8b64-2294-9657-630c" name="or Panzerfaust anti-tank" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Limited 1, Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ed1b-461e-4b4c-f5ab" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LP201</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="a11c-851e-7dff-3196" name="2x K98 rifle team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5e36-053a-9c6e-1913" name="2x MP40 SMG team with Panzerfaust" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="8b7d-e2d1-0960-4e41" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="c12a-247c-b132-16d9" name="81mm Mortar Platoon (LP204)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="ea5e-ef65-e4c5-d51e" name="81mm Mortar Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">FEARLESS 3+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">GREEN 5+
+Heavy Weapon Assault 6</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">6&quot;/15cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">8&quot;/20cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">8&quot;/20cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="230c-16dd-c54f-a0c6" name="81mm mortar" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">40&quot;/100cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a968-d96d-3c2f-65fc" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LP204</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="6332-6989-d36b-e439" name="3x 81mm mortar" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf99-a91b-7a32-5d79" name="6x 81mm mortar" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="f515-7bf9-9211-f8bc" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="4d3a-a91f-8f83-de73" name="Machine-Gun Company (LP205)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="d19b-58f7-7b9c-f191" name="Machine-Gun Company" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">FEARLESS 3+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">GREEN 5+
+Heavy Weapon Assault 6</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8c89-c634-6977-5f87" name="sMG42 HMG team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">6</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault: base Skill+1, Heavy Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="21d1-757e-35ea-439a" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LP205</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="4d72-d482-cbef-aab4" name="3x sMG42 HMG team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b269-3b16-a0d5-9be5" name="6x sMG42 HMG team" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="848e-790c-d098-33c0" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="9bb8-9c4d-cc29-95cb" name="3.7cm Anti-Tank Company (LP206)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="dd9c-ff87-93d7-2759" name="3.7cm Anti-Tank Company" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">FEARLESS 3+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">GREEN 5+
+Gun Assault 6</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0804-d7b3-1805-e8ac" name="3.7cm gun" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">6</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2f34-147d-e928-263d" name="3.7cm gun or Firing Stielgranate" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">10&quot;/25cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Slow Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="16cf-3266-487b-6192" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LP206</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="3a24-e868-39f3-eec2" name="2x 3.7cm gun" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="982f-4049-fe22-9867" name="3x 3.7cm gun" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="8ecc-cbf2-3b4a-b261" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="f22f-60ff-2de3-7a4f" name="5cm Anti-Tank Company (LP207)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="ceee-b2a0-ae60-46df" name="5cm Anti-Tank Company" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">FEARLESS 3+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">GREEN 5+
+Gun Assault 6</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">6&quot;/15cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">8&quot;/20cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ab07-d111-452c-8fc7" name="5cm gun" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7b73-9212-7116-2b74" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LP207</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="e342-665e-0f24-d947" name="2x 5cm gun" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86b6-cd55-2876-7572" name="3x 5cm gun" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="ad5c-9dae-5aa6-5893" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
+    <selectionEntry id="5b09-cf5e-e3ff-2577" name="7.5cm Anti-Tank Company (LP208)" hidden="false" collective="false" import="true" type="unit">
+  <profiles>
+    <profile id="4130-2757-150e-b526" name="7.5cm Anti-Tank Company" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">FEARLESS 3+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">GREEN 5+
+Gun Assault 6</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f7b7-4c11-34ce-fe1d" name="7.5cm gun" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">32&quot;/80cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="84c9-774a-47bc-a406" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+      <characteristics>
+        <characteristic name="ID" typeId="846f-94be-be15-4936">LP208</characteristic>
+      </characteristics>
+    </profile>
+  </profiles>
+  <selectionEntries>
+    <selectionEntry id="aea0-bd2d-d768-0066" name="2x 7.5cm gun" hidden="false" collective="false" import="true" type="unit">
+      <costs>
+        <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <costs>
+    <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
+  </costs>
+  <categoryLinks>
+    <categoryLink id="f557-fd16-60b3-8146" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
+  </categoryLinks>
+</selectionEntry>
     </selectionEntries>
 </catalogue>
