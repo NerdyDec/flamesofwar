@@ -5939,11 +5939,10 @@ Protected Ammo Remount 3+</characteristic>
   <profiles>
     <profile id="15b1-9a76-7f46-0c16" name="Panzer III Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">CONFIDENT 4+
-Third Reich Last Stand 3+
-Protected Ammo Remount 3+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">VETERAN 3+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
@@ -5952,26 +5951,6 @@ Protected Ammo Remount 3+</characteristic>
         <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
         <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
         <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3209-6310-6c3d-343d" name="Panzer III (MGs)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="4d5f-aa73-0f72-188e" name="Panzer III (short 5cm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">8</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
     <profile id="96a2-0f8f-6d78-a181" name="Panzer III (7.5cm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
@@ -5984,12 +5963,32 @@ Protected Ammo Remount 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">HEAT</characteristic>
       </characteristics>
     </profile>
-    <profile id="2030-adb8-9e32-23e8" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="4d5f-aa73-0f72-188e" name="Panzer III (short 5cm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">8</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="4c9f-2c42-6d49-d990" name="Panzer III (long 5cm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile>
+    <profile id="3209-6310-6c3d-343d" name="Panzer III (MGs)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+  <profile id="2030-adb8-9e32-23e8" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">MG104</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -6436,14 +6435,14 @@ Third Reich Last Stand 3+</characteristic>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
-    <selectionEntry id="b746-29c0-6330-9b01" name="6 pdr Anti-Tank Platoon (MB110)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b746-29c0-6330-9b01" name="6 pdr Anti-tank Platoon (MB110)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
-    <profile id="afe2-d826-b3e6-d309" name="6 pdr Anti-Tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+    <profile id="afe2-d826-b3e6-d309" name="6 pdr Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">FEARLESS 3+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">VETERAN 3+
-Gun Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
+GunAssault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
         <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
@@ -6457,9 +6456,9 @@ Gun Assault 4+</characteristic>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">11</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, No HE</characteristic>
       </characteristics>
     </profile>
     <profile id="1a2d-a990-c19d-a964" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
@@ -6483,35 +6482,20 @@ Gun Assault 4+</characteristic>
       <selectionEntries>
         <selectionEntry id="2d18-346a-191d-5ff9" name="4x 6 pdr gun" hidden="false" collective="false" import="true" type="unit">
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9278-8b8a-faa1-56ad" name="3x 6 pdr gun (HE)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="33ce-fc02-99ed-7dd8" name="4x 6 pdr gun (HE)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9007-39a7-f1e7-9de1" name="2x 6 pdr gun" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6ebb-0076-b9c7-824c" name="2x 6 pdr gun (HE)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fdb1-0780-f91f-5d8b" name="3x 6 pdr gun" hidden="false" collective="false" import="true" type="unit">
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+      <selectionEntry id="9007-39a7-f1e7-9de1" name="2x 6 pdr gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        </selectionEntries>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>

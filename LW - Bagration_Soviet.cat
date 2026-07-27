@@ -5187,11 +5187,10 @@ Crafty Tactics 2+</characteristic>
   <profiles>
     <profile id="b4f1-d8ba-c201-05fa" name="Tiger Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">CONFIDENT 4+
-Tiger Ace Last Stand 2+
-Tiger Ace Remount 2+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">VETERAN 3+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Tiger AceLast Stand 2+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">8</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">2</characteristic>
@@ -5241,22 +5240,22 @@ Tiger Ace Remount 2+</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70e1-30de-ece9-f71f" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="edaf-9b77-0d6f-da1d" name="2x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7e59-c075-58ed-2e03" name="3x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="d993-4e02-53b7-ea98" name="4x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="unit">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="48.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+      <selectionEntry id="7e59-c075-58ed-2e03" name="3x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="36.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="edaf-9b77-0d6f-da1d" name="2x Tiger (8.8cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+          </costs>
+        </selectionEntry>
+        </selectionEntries>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
@@ -5264,10 +5263,10 @@ Tiger Ace Remount 2+</characteristic>
   <profiles>
     <profile id="ec8a-a5e4-8319-e806" name="Panther Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">CONFIDENT 4+
-Third Reich Last Stand 3+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">VETERAN 3+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">5</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
@@ -5317,22 +5316,22 @@ Third Reich Last Stand 3+</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2ac-73b8-3535-aaca" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="60a6-9f20-f18e-7d59" name="3x Panther (7.5cm)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="33.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d76d-7de8-c357-76c1" name="4x Panther (7.5cm)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="44.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="83fb-cef8-f528-a0c1" name="5x Panther (7.5cm)" hidden="false" collective="false" import="true" type="unit">
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="55.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="46.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+      <selectionEntry id="d76d-7de8-c357-76c1" name="4x Panther (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="37.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="60a6-9f20-f18e-7d59" name="3x Panther (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+          </costs>
+        </selectionEntry>
+        </selectionEntries>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
@@ -5340,11 +5339,11 @@ Third Reich Last Stand 3+</characteristic>
   <profiles>
     <profile id="85f7-a153-3fa4-a8cf" name="StuG Assault Gun Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">FEARLESS 3+
-SP Gun Counterattack 5+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">VETERAN 3+
-SP Gun Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ 
+SP GunCounterattack 5+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+SP GunAssault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
@@ -5365,42 +5364,12 @@ SP Gun Assault 4+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="a4b8-c24f-a344-7417" name="StuG (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="d091-bd5a-dfc1-d4b9" name="StuH (10.5cm) (Direct Fire)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, HEAT, Slow Firing, Smoke</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ffd4-3b05-3a7b-badf" name="StuH (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
-      </characteristics>
-    </profile>
-    <profile id="a107-eef4-0dde-9f4a" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="010c-ea6c-fe1e-a024" name="StuH (10.5cm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, HEAT, Slow Firing, Smoke</characteristic></characteristics></profile>
+  <profile id="5b7b-9b6e-9779-7456" name="StuG &amp; StuH (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile><profile id="a107-eef4-0dde-9f4a" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LG110</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -5414,27 +5383,22 @@ SP Gun Assault 4+</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f33-afc2-e053-73f6" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="6c64-d2cb-ecb6-ce42" name="2x StuG (7.5cm)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d222-ee7a-0f55-ad0c" name="2x StuG (7.5cm) , 1x StuH (10.5cm)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b33a-c0ad-f9a4-f40a" name="3x StuG (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="27e3-0330-8995-e1a1" name="4x StuG (7.5cm)" hidden="false" collective="false" import="true" type="unit">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="17.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="27e3-0330-8995-e1a1" name="4x StuG (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntry id="b33a-c0ad-f9a4-f40a" name="3x StuG (7.5cm)" hidden="false" collective="false" import="true" type="unit">
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="23.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+        <selectionEntry id="6c64-d2cb-ecb6-ce42" name="2x StuG (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4a1e-dd85-304e-da97" name="2x StuG (7.5cm)1x StuH (10.5cm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="13.0"/></costs></selectionEntry></selectionEntries>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
@@ -5442,11 +5406,10 @@ SP Gun Assault 4+</characteristic>
   <profiles>
     <profile id="4002-8514-2f8a-0721" name="Panzer IV Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">CONFIDENT 4+
-Third Reich Last Stand 3+
-Protected Ammo Remount 3+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">VETERAN 3+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
@@ -5496,22 +5459,22 @@ Protected Ammo Remount 3+</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7665-9019-f18c-1ff3" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="fd54-6f3f-c43a-650d" name="3x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6f4f-2d49-72db-0909" name="4x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="a2ca-0d40-d5e9-725b" name="5x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="unit">
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+      <selectionEntry id="6f4f-2d49-72db-0909" name="4x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fd54-6f3f-c43a-650d" name="3x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        </selectionEntries>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>

@@ -1354,11 +1354,10 @@ Assault WeaponsAssault 2+</characteristic>
   <profiles>
     <profile id="4002-8514-2f8a-0721" name="Panzer IV Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">CONFIDENT 4+
-Third Reich Last Stand 3+
-Protected Ammo Remount 3+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">VETERAN 3+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
@@ -1408,22 +1407,22 @@ Protected Ammo Remount 3+</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7665-9019-f18c-1ff3" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="fd54-6f3f-c43a-650d" name="3x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6f4f-2d49-72db-0909" name="4x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="22.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="a2ca-0d40-d5e9-725b" name="5x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="unit">
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+      <selectionEntry id="6f4f-2d49-72db-0909" name="4x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fd54-6f3f-c43a-650d" name="3x Panzer IV (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        </selectionEntries>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>

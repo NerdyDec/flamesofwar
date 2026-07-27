@@ -10423,11 +10423,11 @@ Volksturm Last Stand 6</characteristic>
   <profiles>
     <profile id="3521-1d80-9262-6a10" name="Flammpanzer III Flame-tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">RELUCTANT 5+
-Third Reich Last Stand 3+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">VETERAN 3+
-Flame Tank Assault 5+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
+Third ReichLast Stand 3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+Flame TankAssault 5+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
@@ -10477,19 +10477,9 @@ Flame Tank Assault 5+</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6596-52f1-ab72-7d1f" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="14a9-5ffd-69be-524c" name="3x Flammpanzer III" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="7784-9858-1d92-b2ee" name="7x Flammpanzer III" hidden="false" collective="false" import="true" type="unit">
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="bb49-0d84-8d99-8446" name="4x Flammpanzer III" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a8c8-dfbf-21e9-3cbb" name="5x Flammpanzer III" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2342-6ae1-5fc7-15ef" name="6x Flammpanzer III" hidden="false" collective="false" import="true" type="unit">
@@ -10497,9 +10487,19 @@ Flame Tank Assault 5+</characteristic>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7784-9858-1d92-b2ee" name="7x Flammpanzer III" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="a8c8-dfbf-21e9-3cbb" name="5x Flammpanzer III" hidden="false" collective="false" import="true" type="unit">
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="28.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bb49-0d84-8d99-8446" name="4x Flammpanzer III" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="14a9-5ffd-69be-524c" name="3x Flammpanzer III" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7c03-5c29-f3c6-acb7" name="2x Flammpanzer III" hidden="false" collective="false" import="true" type="unit">
@@ -10515,11 +10515,11 @@ Flame Tank Assault 5+</characteristic>
   <profiles>
     <profile id="2ebf-b421-da5e-9aa7" name="5cm Tank-hunter Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">CONFIDENT 4+
-Third Reich Last Stand 3+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">VETERAN 3+
-Gun Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
+Third ReichLast Stand 3+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
+GunAssault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
         <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
@@ -10557,17 +10557,17 @@ Gun Assault 4+</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fdc-4b8a-2df6-c2bf" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="b1df-9b10-5351-1afa" name="2x 5cm gun" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="9cb7-cc4d-dcb5-8ef1" name="3x 5cm gun" hidden="false" collective="false" import="true" type="unit">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+      <selectionEntry id="b1df-9b10-5351-1afa" name="2x 5cm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        </selectionEntries>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
@@ -10575,12 +10575,11 @@ Gun Assault 4+</characteristic>
   <profiles>
     <profile id="f072-a59a-586a-1d11" name="Sd Kfz 221 &amp; 222 Light Scout Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">RELUCTANT 5+
-Wheeled Scout Counterattack 6
-Determined Remount 4+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">VETERAN 3+
-Scout Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
+Wheeled ScoutCounterattack 6</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+ScoutAssault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
@@ -10601,32 +10600,12 @@ Scout Assault 4+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="b4c0-928f-fff5-a7bf" name="Sd Kfz 222 (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b451-147d-630a-429b" name="Sd Kfz 221 (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="2128-9c8c-3283-6b1b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="85dd-bcd1-d739-5d28" name="Sd Kfz 221 &amp; 222 (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile>
+  <profile id="aa47-f58f-9170-e2bf" name="Sd Kfz 221 (2.8cm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, No HE, Slow Firing</characteristic></characteristics></profile><profile id="2128-9c8c-3283-6b1b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LG140</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -10640,12 +10619,7 @@ Scout Assault 4+</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b65-2467-b164-20e4" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="34b9-e131-2595-3a5a" name="2x Sd Kfz 222 (2cm) , 1x Sd Kfz 221 (MG)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        <selectionEntry id="fc50-a60e-c331-181d" name="2x Sd Kfz 222 (2cm)1x Sd Kfz 221 (MG)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry></selectionEntries>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
@@ -10653,12 +10627,11 @@ Scout Assault 4+</characteristic>
   <profiles>
     <profile id="2253-dca3-1116-7fa7" name="Sd Kfz 231 Heavy Scout Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">RELUCTANT 5+
-Wheeled Scout Counterattack 6
-Determined Remount 4+</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">VETERAN 3+
-Scout Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
+Wheeled ScoutCounterattack 6</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+ScoutAssault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
@@ -10710,7 +10683,7 @@ Scout Assault 4+</characteristic>
       <selectionEntries>
         <selectionEntry id="06d4-654d-0f1b-7dda" name="2x Sd Kfz 231 (2cm)" hidden="false" collective="false" import="true" type="unit">
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -14317,12 +14290,11 @@ Heavy Weapon Assault 4+</characteristic>
   <profiles>
     <profile id="134b-e1b9-9caf-49ed" name="Grille (Late) 15cm Gun Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">CONFIDENT 4+
-Third Reich Last Stand 3+
-SP Gun Counterattack 6</characteristic>
-        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">VETERAN 3+
-SP Gun Assault 5+</characteristic>
-        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+Third ReichLast Stand 3+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+SP GunAssault 5+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
         <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
@@ -14341,16 +14313,6 @@ SP Gun Assault 5+</characteristic>
         <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">3</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="5e92-5bff-d3ac-0452" name="Grille (late) (15cm) or Direct Fire" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
-      <characteristics>
-        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
-        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
-        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">7</characteristic>
-        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">AUTO</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, Slow Firing</characteristic>
       </characteristics>
     </profile>
     <profile id="9060-d4cc-378f-1c71" name="Grille (late) (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
@@ -14382,17 +14344,17 @@ SP Gun Assault 5+</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0abe-76ed-3ddd-1e7e" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="b5ae-9c03-111a-198e" name="2x Grille (late) (15cm)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="f021-ef40-c639-8834" name="3x Grille (late) (15cm)" hidden="false" collective="false" import="true" type="unit">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+      <selectionEntry id="b5ae-9c03-111a-198e" name="2x Grille (late) (15cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        </selectionEntries>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>

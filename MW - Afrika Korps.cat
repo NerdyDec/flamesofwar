@@ -5706,14 +5706,14 @@ Third Reich Last Stand 3+</characteristic>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
-    <selectionEntry id="b746-29c0-6330-9b01" name="6 pdr Anti-Tank Platoon (MB110)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b746-29c0-6330-9b01" name="6 pdr Anti-tank Platoon (MB110)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
-    <profile id="afe2-d826-b3e6-d309" name="6 pdr Anti-Tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+    <profile id="afe2-d826-b3e6-d309" name="6 pdr Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">FEARLESS 3+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">VETERAN 3+
-Gun Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
+GunAssault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
         <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
@@ -5727,9 +5727,9 @@ Gun Assault 4+</characteristic>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
         <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
-        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">11</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
-        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, No HE</characteristic>
       </characteristics>
     </profile>
     <profile id="1a2d-a990-c19d-a964" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
@@ -5753,35 +5753,20 @@ Gun Assault 4+</characteristic>
       <selectionEntries>
         <selectionEntry id="2d18-346a-191d-5ff9" name="4x 6 pdr gun" hidden="false" collective="false" import="true" type="unit">
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9278-8b8a-faa1-56ad" name="3x 6 pdr gun (HE)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="33ce-fc02-99ed-7dd8" name="4x 6 pdr gun (HE)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9007-39a7-f1e7-9de1" name="2x 6 pdr gun" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6ebb-0076-b9c7-824c" name="2x 6 pdr gun (HE)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fdb1-0780-f91f-5d8b" name="3x 6 pdr gun" hidden="false" collective="false" import="true" type="unit">
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="9.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+      <selectionEntry id="9007-39a7-f1e7-9de1" name="2x 6 pdr gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        </selectionEntries>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
@@ -5789,11 +5774,11 @@ Gun Assault 4+</characteristic>
   <profiles>
     <profile id="447a-a599-f48b-dfa1" name="5cm Tank-hunter Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">CONFIDENT 4+
-Third Reich Last Stand 3+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">VETERAN 3+
-Gun Assault 4+</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
+Third ReichLast Stand 3+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
+GunAssault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
         <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
@@ -5831,19 +5816,19 @@ Gun Assault 4+</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6158-69c2-1756-28d4" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="2f4e-c724-c47a-def5" name="3x 5cm gun" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="efb7-5c0e-f295-91ff" name="4x 5cm gun" hidden="false" collective="false" import="true" type="unit">
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="11.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2f4e-c724-c47a-def5" name="3x 5cm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="064c-0130-6ea0-a0b6" name="2x 5cm gun" hidden="false" collective="false" import="true" type="unit">
           <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5854,10 +5839,10 @@ Gun Assault 4+</characteristic>
   <profiles>
     <profile id="b0a4-306e-2b5c-276b" name="Sd Kfz 10/4 Light AA Platoon" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="55ef-8653-887d-4642">CONFIDENT 4+
-Third Reich Last Stand 3+</characteristic>
-        <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">VETERAN 3+</characteristic>
-        <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">CAREFUL 4+</characteristic>
+        <characteristic name="Motivation" typeId="55ef-8653-887d-4642">4+ 
+Third ReichLast Stand 3+</characteristic>
+        <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">3+</characteristic>
+        <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">4+</characteristic>
         <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">4+</characteristic>
         <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">10&quot;/25cm</characteristic>
         <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">12&quot;/30cm</characteristic>
@@ -5895,22 +5880,22 @@ Third Reich Last Stand 3+</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c9d-1c94-b213-501d" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="bcda-3f95-5df4-02ee" name="2x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7544-b1bf-d4c6-23fd" name="3x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="4a28-badb-30e3-1529" name="4x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="unit">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+      <selectionEntry id="7544-b1bf-d4c6-23fd" name="3x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bcda-3f95-5df4-02ee" name="2x Sd Kfz 10/4 (2cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        </selectionEntries>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>

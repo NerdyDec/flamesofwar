@@ -4793,15 +4793,15 @@ Blood &apos;n Guts Rally 3+</characteristic>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
-    <selectionEntry id="0709-6394-d6dc-500a" name="Armoured 37mm Anti-Tank Platoon (LU111)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0709-6394-d6dc-500a" name="Armoured 37mm Anti-tank Platoon (LU111)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
-    <profile id="106f-91e6-9703-1823" name="Armoured 37mm Anti-Tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+    <profile id="106f-91e6-9703-1823" name="Armoured 37mm Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">CONFIDENT 4+
-Blood &apos;n Guts Rally 3+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">TRAINED 4+
-Gun Assault 5+</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
+Blood &apos;n GutsRally 3+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
+GunAssault 5+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
         <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
@@ -4810,6 +4810,9 @@ Gun Assault 5+</characteristic>
         <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
       </characteristics>
     </profile>
+    <profile id="be5a-e2fd-16de-4566" name="M3 Half-track" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false"><characteristics><characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
+TransportCounterattack 6</characteristic><characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
+TransportAssault 6</characteristic><characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic><characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic><characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic><characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic><characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic><characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic><characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic><characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic><characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic></characteristics></profile>
     <profile id="6d1b-41d7-d70f-5eee" name="37mm gun" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic>
@@ -4830,7 +4833,8 @@ Gun Assault 5+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="5ffb-a65d-0e7a-b8f7" name="Passenger MG" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+    <profile id="c1c5-4b7b-e127-b0e4" name="M3 (.30 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic></characteristics></profile>
+  <profile id="5ffb-a65d-0e7a-b8f7" name="Passenger MG" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
         <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
@@ -4839,13 +4843,11 @@ Gun Assault 5+</characteristic>
         <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">MG Transport</characteristic>
       </characteristics>
-    </profile>
-    <profile id="94fc-6f9f-8a6c-c7dd" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    </profile><profile id="94fc-6f9f-8a6c-c7dd" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LU111</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -4859,37 +4861,22 @@ Gun Assault 5+</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eb5-9fe4-98b4-9252" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="ce2a-05e5-8b30-9afe" name="2x 37mm gun" hidden="false" collective="false" import="true" type="unit">
+        <selectionEntry id="098b-d8c0-74ae-3e7a" name="4x 37mm gun4x M3 half-track (.50 cal MG) (LU112)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/></costs></selectionEntry><selectionEntry id="ad9f-da11-7102-4343" name="4x 37mm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="845e-f802-315d-b033" name="3x 37mm gun3x M3 half-track (.50 cal MG) (LU112)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry><selectionEntry id="2e70-5887-60d4-daaa" name="3x 37mm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5ae4-3a7a-1998-d955" name="2x 37mm gun2x M3 half-track (.50 cal MG) (LU112)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry><selectionEntry id="ce2a-05e5-8b30-9afe" name="2x 37mm gun" hidden="false" collective="false" import="true" type="unit">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="2e70-5887-60d4-daaa" name="3x 37mm gun" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="87fb-83b2-39a5-36f3" name="2x 37mm gun , 2x M3 Half-track (.50 cal MG) (LU112)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ad9f-da11-7102-4343" name="4x 37mm gun" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="3896-8ff8-505b-daba" name="3x 37mm gun , 3x M3 Half-track (.50 cal MG) (LU112)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="06a3-b89d-731b-2c83" name="4x 37mm gun , 4x M3 Half-track (.50 cal MG) (LU112)" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </selectionEntries>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
@@ -4947,15 +4934,15 @@ Blood &apos;n Guts Rally 3+</characteristic>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
-    <selectionEntry id="c6e1-a695-472f-f2e6" name="37mm Anti-Tank Platoon (LU119)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c6e1-a695-472f-f2e6" name="37mm Anti-tank Platoon (LU119)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
-    <profile id="ea37-0778-9771-8721" name="37mm Anti-Tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+    <profile id="ea37-0778-9771-8721" name="37mm Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
-        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">CONFIDENT 4+
-Blood &apos;n Guts Rally 3+</characteristic>
-        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">TRAINED 4+
-Gun Assault 5+</characteristic>
-        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">AGGRESSIVE 3+</characteristic>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
+Blood &apos;n GutsRally 3+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
+GunAssault 5+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">3+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
         <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">4&quot;/10cm</characteristic>
@@ -4993,22 +4980,22 @@ Gun Assault 5+</characteristic>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9761-be8c-c966-b673" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="5725-1f45-4822-fa18" name="2x 37mm gun" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5256-c196-f560-9839" name="3x 37mm gun" hidden="false" collective="false" import="true" type="unit">
-          <costs>
-            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="fee4-be82-8c96-cd94" name="4x 37mm gun" hidden="false" collective="false" import="true" type="unit">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
+      <selectionEntry id="5256-c196-f560-9839" name="3x 37mm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5725-1f45-4822-fa18" name="2x 37mm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        </selectionEntries>
     </selectionEntryGroup>
   </selectionEntryGroups>
 </selectionEntry>
