@@ -70,6 +70,46 @@ Third ReichLast Stand 3+</characteristic>
   <categoryLinks>
     <categoryLink id="3248-5792-7409-c211" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="a76c-6f62-f1bd-a940" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="898b-0ec6-873b-016e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0971-5f55-73bc-d20d" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="77f9-379f-f891-ee2b" name="3x Panzer III (short 5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c165-3199-5277-e948" name="4x Panzer III (short 5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1577-752c-c9f3-abbd" name="3x Panzer III (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="24.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5d5a-6763-8f73-c24e" name="5x Panzer III (short 5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e470-44bd-52c5-7c60" name="4x Panzer III (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="32.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9543-5dbc-27f9-e2be" name="5x Panzer III (7.5cm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="40.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry><selectionEntry id="6d4c-8b5d-c6bd-b91d" name="Panzergrenadier Platoon (MG210)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="acfb-711e-33f0-64d4" name="Panzergrenadier Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">

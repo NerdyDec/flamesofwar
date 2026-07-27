@@ -157,6 +157,36 @@ SP Gun Assault 6</characteristic>
   <categoryLinks>
     <categoryLink id="c9d9-d096-84b4-24bb" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="ee9a-c5d4-34aa-0250" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da68-b0e5-93c9-d2ac" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3f2-e9a5-92ff-ba1c" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="c04d-a26e-c855-7a95" name="2x T30 (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8c60-9170-a9dd-9182" name="3x T30 (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="db6e-b4c4-d74b-8c51" name="2x M8 Scott (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c8aa-5e86-6f40-4f9b" name="3x M8 Scott (75mm)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry><selectionEntry id="93a4-4e8c-c1af-9495" name="M10 3-inch Tank Destroyer Platoon (MU112)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="6e00-3eac-3d01-6ce0" name="M10 3-inch Tank Destroyer Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
@@ -246,6 +276,21 @@ Determined Rally 3+</characteristic>
   <categoryLinks>
     <categoryLink id="c566-4de7-4738-3348" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="9e2f-e665-a5ee-1966" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51bf-5114-6a53-04c4" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="769e-ff04-6040-7eaf" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="d6cf-d10f-3eb9-b7bb" name="2x M1 Carbine team" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry><selectionEntry id="1c83-9989-6f17-f4b3" name="Rifle Platoon (MU119)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="2165-76ca-b564-a77e" name="Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
@@ -343,6 +388,26 @@ Heavy Weapon Assault 6</characteristic>
   <categoryLinks>
     <categoryLink id="57b1-0e10-2e00-5d07" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="2ccf-f82a-3f83-7a44" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6908-81d0-f3af-2fde" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ed9-b7de-d7c3-fe93" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="d63c-1cfb-aa6f-2178" name="3x Mortar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="24ec-75da-7fb4-55b4" name="6x Mortar" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry><selectionEntry id="4638-e040-56f0-d129" name="M1917 Machine-gun Platoon (MU121)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="0023-b72d-fbef-eba5" name="M1917 Machine-gun Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
@@ -382,6 +447,21 @@ Heavy Weapon Assault 6</characteristic>
   <categoryLinks>
     <categoryLink id="8d3b-36a6-2b9f-b7d1" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="b7e4-8491-8b0f-a003" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa67-f2bd-033b-eb1a" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ed4-d4fd-02b4-ba86" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="56bb-b833-3850-c5d6" name="4x M1917 HMG" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry><selectionEntry id="035b-30b5-2fda-80f8" name="37mm Anti-tank Platoon (MU122)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="6887-7574-4e23-867e" name="37mm Anti-tank Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
@@ -421,6 +501,26 @@ Gun Assault 6</characteristic>
   <categoryLinks>
     <categoryLink id="4866-f459-c4d0-16ca" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="5a03-ab56-f431-bf53" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a26-4b87-4969-2f8e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a335-d8f7-bab4-f095" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="c6f5-8ce1-3413-a39a" name="2x 37mm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f96e-8660-2126-dfed" name="4x 37mm gun" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry><selectionEntry id="60fb-a89d-dda9-a2f4" name="M7 Priest Artillery Battery (MU123)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="85f3-992a-7285-3443" name="M7 Priest Artillery Battery" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">

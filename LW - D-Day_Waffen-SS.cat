@@ -5276,6 +5276,26 @@ Limited VisionTactics 5+</characteristic>
   <categoryLinks>
     <categoryLink id="043d-71b5-0ef7-88f7" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="25ef-fa9b-d658-826c" name="Unit Size" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dae-b84b-e6f6-855b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6df5-54b1-9b7b-17a3" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="4251-2dd6-249a-dcac" name="3x Hotchkiss H39 (long 37mm), 1x Somua S35 (47mm) (LG742)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2de1-792f-790c-800f" name="4x Hotchkiss H39 (long 37mm), 1x Somua S35 (47mm) (LG742)" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry><selectionEntry id="7a0e-1d65-443c-1cb9" name="Hotchkiss H39 Looted Tank Platoon (LG747)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="553b-94e2-3f92-d3ac" name="Hotchkiss H39 Looted Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
