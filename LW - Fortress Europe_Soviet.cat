@@ -466,6 +466,26 @@ IS HIT ONAGRESSIVE3+  Universal Carriers have Passengers 2.</characteristic>
   <categoryLinks>
     <categoryLink id="cb13-f2be-d852-20d8" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
   </categoryLinks>
+  <selectionEntryGroups>
+    <selectionEntryGroup id="863e-23da-091f-f74d" name="Card Options" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1565-71a5-7a30-985c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a72-53ae-795b-c96e" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="3321-9a6a-a5dd-07a8" name="Total second Universal Carrier per M3 Scout for +1 point each" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1fc4-ac24-a15a-7840" name="Total Units with Boys AT rifles for +1 point for the Unit" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </selectionEntryGroups>
 </selectionEntry></selectionEntries></selectionEntry>
     <selectionEntry id="bd62-c977-4ebd-88a6" name="SU-152 Heavy SP Battery (LS143)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
