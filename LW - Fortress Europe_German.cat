@@ -5503,35 +5503,31 @@ Third ReichLast Stand 3+</characteristic>
     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b34-79a4-ccae-30ff" type="max"/>
   </constraints>
   <profiles>
-    <profile id="a5fc-4d2d-1a75-ef41" name="Softskin Transport" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
-      <characteristics>
-        <characteristic name="Motivation" typeId="55ef-8653-887d-4642">4+</characteristic>
-        <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">3+</characteristic>
-        <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">4+</characteristic>
-        <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">5+</characteristic>
-        <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">-</characteristic>
-        <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">10&quot;/25cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">18&quot;/45cm</characteristic>
-        <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">40&quot;/100cm</characteristic>
-        <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">4+</characteristic>
-        <characteristic name="Notes" typeId="5c4c-b4d7-c2d1-6a93">Passengers 2, Tractor, Softskin, Unarmoured.</characteristic>
-      </characteristics>
-    </profile>
     <profile id="c83c-0b96-16d7-57ce" name="Softskin Transport" hidden="false" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card">
       <characteristics>
         <characteristic name="Info" typeId="bd5c-655e-1889-6af7">Most of the German infantry on the Eastern Front marched on foot. However, somewere fully motorised with excellent German 4-wheel-drive trucks and half-tracks that allowed the infantry and guns to keep pace with the tanks on long marches.</characteristic>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">This Infantry or Gun Unit may add a Softskin Transport Attachment. The number of vehicles in the Unit is as follows:Add one Softskin Transport for every two Infantry Teams in the Unit.Add one Softskin Transport for each Gun Team in the Unit.
-MOTIVATIONCONFIDENT4+
-SKILLVETERAN3+
-IS HIT ONCAREFUL4+
-SAVETANK5+
-TACTICALTERRAIN DASHCROSS COUNTRY DASHROAD DASHCROSS-10&quot;/25cm18&quot;/45cm40&quot;/100cm4+SPECIAL RULESPassengers 2, Tractor: Team can carry two Infantry Teams or one Gun Team as Passengers.Softskin: If a Transport is Destroyed, any Passengers it is carrying are also Destroyed, and Unit immediately Dismounts and all of its Transports are Sent to the Rear. All Passengers must Dismount from this Unit at the same time. Empty Transport Teams must be Sent to the Rear.Unarmoured: Team cannot Charge into Contact and must Break Off if Assaulted.</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">This Infantry or Gun Unit may add a Softskin Transport Attachment. The number of vehicles in the Unit is as follows:Add one Softskin Transport for every two Infantry Teams in the Unit.Add one Softskin Transport for each Gun Team in the Unit.</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Build, Unit (Infantry or Gun)</characteristic>
       </characteristics>
     </profile>
     <profile id="36cb-7f23-8d13-496c" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">ffc7edfe-aeb0-5b64-a3b0-a17fe9ca44b1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1201-609a-9f5f-6569" name="Softskin Transport" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">-</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">-</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">-</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">-</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">-</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">-</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">-</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">40&quot;/100cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
       </characteristics>
     </profile>
   </profiles>

@@ -1389,7 +1389,7 @@ TraineesLast Stand 5+</characteristic><characteristic name="Skill" typeId="6334-
 Limited VisionTactics 5+</characteristic><characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic><characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic><characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic><characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic><characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">6&quot;/15cm</characteristic><characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic><characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">12&quot;/30cm</characteristic><characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">12&quot;/30cm</characteristic><characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic></characteristics></profile><profile id="f3b9-7e83-c28e-46bf" name="Renault R35 (37mm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">4</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Overworked</characteristic></characteristics></profile><profile id="2f75-f3e4-20fa-91ff" name="Renault R35 (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile><profile id="9514-fcd3-a456-c2f5" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false"><characteristics><characteristic name="ID" typeId="846f-94be-be15-4936">LG751</characteristic></characteristics></profile></profiles><costs>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/>
       </costs>
-    <selectionEntryGroups><selectionEntryGroup id="c4a3-f549-4bd6-f1a7" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d071-06b2-0f8c-da4e" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2b5-f759-23a0-70bd" type="max"/></constraints><selectionEntries><selectionEntry id="a15b-7742-ad35-a7cb" name="2x Hotchkiss H39 (long 37mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry><selectionEntry id="4c40-37e4-965b-6496" name="2x Renault R35 (37mm) (LG751)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry>
+    <selectionEntryGroups><selectionEntryGroup id="c4a3-f549-4bd6-f1a7" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d071-06b2-0f8c-da4e" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2b5-f759-23a0-70bd" type="max"/></constraints><selectionEntries><selectionEntry id="5cab-522d-1ecb-1b52" name="3x Renault R35 (37mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry>
   </selectionEntries>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
@@ -9738,32 +9738,28 @@ Is Hit On: 3+</characteristic>
     <profile id="f6f5-2ba3-185b-b6ba" name="Softskin Transport" hidden="false" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card">
       <characteristics>
         <characteristic name="Info" typeId="bd5c-655e-1889-6af7">The divisions training in France had a low priority for trucks and other transport, while the costal defence divisions had almost none! Despite this, some units managed to scrape together enough vehicles to motorise at least part of their guns and infantry.</characteristic>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">This Infantry or Gun Unit may add a Softskin Transport Attachment. The number of vehicles in the Unit is as follows:Add one Softskin Transport for every two Infantry Teams in the Unit.Add one Softskin Transport for each Gun Team in the Unit.
-MOTIVATIONCONFIDENT4+
-SKILLVETERAN3+
-IS HIT ONCAREFUL4+
-SAVETANK5+
-TACTICALTERRAIN DASHCROSS COUNTRY DASHROAD DASHCROSS-10&quot;/25cm18&quot;/45cm40&quot;/100cm4+SPECIAL RULESPassengers 2, Tractor: Team can carry two Infantry Teams or one Gun Team as Passengers.Softskin: If a Transport is Destroyed, any Passengers it is carrying are also Destroyed, and all Transports must be Sent to the Rear immediately. All Passengers must Dismount from this Unit at the same time. Empty Transport Teams must be Sent to the Rear.Unarmoured: Team cannot Charge into Contact and must Break Off if Assaulted.</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">This Infantry or Gun Unit may add a Softskin Transport Attachment. The number of vehicles in the Unit is as follows:Add one Softskin Transport for every two Infantry Teams in the Unit.Add one Softskin Transport for each Gun Team in the Unit.</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Build, Unit (Infantry or Gun)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="454c-b18d-782-e77f" name="Softskin Transport" hidden="false" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit">
-      <characteristics>
-        <characteristic name="Motivation" typeId="55ef-8653-887d-4642">4+</characteristic>
-        <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">3+</characteristic>
-        <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">4+</characteristic>
-        <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">5+</characteristic>
-        <characteristic name="Tactical" typeId="6caa-857a-dce7-e965">-</characteristic>
-        <characteristic name="Terrain Dash" typeId="f188-5e37-f014-5069">10”/25cm</characteristic>
-        <characteristic name="Cross Country Dash" typeId="d2da-b73b-7a4a-ca53">18”/45cm</characteristic>
-        <characteristic name="Road Dash" typeId="271f-e64c-128c-5740">40&quot;/100cm</characteristic>
-        <characteristic name="Cross" typeId="b443-5f9e-d0b5-48b0">4+</characteristic>
-        <characteristic name="Notes" typeId="5c4c-b4d7-c2d1-6a93">Passengers 2, Softskin, Tractor</characteristic>
       </characteristics>
     </profile>
     <profile id="a86b-003c-0045-4f81" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">70bf7ae9-da41-5389-b347-e1f9a65d06a8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bedb-6562-9397-78f3" name="Softskin Transport" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">-</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">-</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">-</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">-</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">-</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">-</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">-</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">40&quot;/100cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
       </characteristics>
     </profile>
   </profiles>
@@ -9780,13 +9776,63 @@ TACTICALTERRAIN DASHCROSS COUNTRY DASHROAD DASHCROSS-10&quot;/25cm18&quot;/45cm4
   <profiles>
     <profile id="e8f3-d0b6-240f-1e7b" name="Puma Scout Company" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e"/>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">• Tank Unit
+• Scout
+• Spearhead
+• Stormtroopers</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a"/>
       </characteristics>
     </profile>
     <profile id="3f68-634b-6c8f-dfac" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">ae5e6981-2db0-5aca-9510-c342aa352a2e</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="195f-fc94-2741-7e5b" name="Puma Scout Company" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
+DeterminedRemount 4+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+ScoutAssault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">36&quot;/90cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9b63-faa7-7942-91fc" name="Puma (5cm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="a458-7a1d-8ba7-bebc" name="Sd Kfz 234 (2cm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self Defence AA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7d6e-4ecb-6198-a732" name="Puma &amp; Sd Kfz 234 (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
   </profiles>
@@ -9800,13 +9846,53 @@ TACTICALTERRAIN DASHCROSS COUNTRY DASHROAD DASHCROSS-10&quot;/25cm18&quot;/45cm4
   <profiles>
     <profile id="6fca-ad86-5777-a215" name="Half-track Scout Company" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e"/>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">• Tank Unit
+• Scout
+• Spearhead
+• Stormtroopers</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a"/>
       </characteristics>
     </profile>
     <profile id="92a9-a232-de8b-8418" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">aebc3dc3-62dd-565d-9fdd-95cbdcf36c96</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="773c-69e1-6fa0-d5f0" name="Half-track Scout Company" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
+DeterminedRemount 4+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
+ScoutAssault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">32&quot;/80cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7d11-14da-7f11-0507" name="Sd Kfz 250/9 (2cm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">5</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8a4a-d5d0-0a08-b68b" name="Sd Kfz 250 &amp; 250/9 (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
   </profiles>
@@ -9827,6 +9913,32 @@ TACTICALTERRAIN DASHCROSS COUNTRY DASHROAD DASHCROSS-10&quot;/25cm18&quot;/45cm4
     <profile id="ac1a-9e21-6dc6-b4bb" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">7bfe4261-42d5-54b4-acf6-98e1511a698b</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7c99-a844-8440-de83" name="Sd Kfz 250 OP" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
+ScoutLast Stand 5+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">-</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">-</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">-</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">-</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5fbe-862c-8b0f-2712" name="Sd Kfz 250 (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">3</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
       </characteristics>
     </profile>
   </profiles>
@@ -9940,27 +10052,7 @@ TACTICALTERRAIN DASHCROSS COUNTRY DASHROAD DASHCROSS-10&quot;/25cm18&quot;/45cm4
   <profiles>
     <profile id="d40e-2554-f6c8-7683" name="Armoured FlaK Half-tracks" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">All Sd Kfz 10/4 (2cm) or Sd Kfz 7/1 (Quad 2cm) tanks in this Unit have the following Armour rating instead of their normal Unarmoured Tank Save:
-                        ARMOUR
-                        
-                            
-                                
-                                    FRONT
-                                
-                                
-                                    0
-                                
-                                
-                                    SIDE &amp; REAR
-                                
-                                
-                                    0
-                                
-                                
-                                    TOP
-                                
-                                
-                                    0</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">All Sd Kfz 10/4 (2cm) or Sd Kfz 7/1 (Quad 2cm) tanks in this Unit have the following Armour rating instead of their normal Unarmoured Tank Save: ARMOUR FRONT 0 SIDE &amp; REAR 0 TOP 0</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Unit (Sd Kfz 10/4 Light AA Platoon, Sd Kfz 7/1 Quad AA Platoon)</characteristic>
       </characteristics>
     </profile>
@@ -10063,13 +10155,50 @@ TACTICALTERRAIN DASHCROSS COUNTRY DASHROAD DASHCROSS-10&quot;/25cm18&quot;/45cm4
         <characteristic name="Details" typeId="4091-e11a-c858-f46e">You may field one M5 Stuart (LU103) for 3 points, one M8 Greyhound (LU174) for 2 points, one Sherman (LB102) for 4 points, or one Firefly (LB103) for 5 points, as a Looted Tank.The Looted Tank has a Moving ROF of 1 for any 75mm or 37mm guns, and is an Independent Team with the following ratings:
 MOTIVATIONCONFIDENT4+
 SKILLTRAINED4+
-IS HIT ONAGGRESSIVE3+</characteristic>
+IS HIT ONAGGRESSIVE3+
+
+• Tank Unit</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a"/>
       </characteristics>
     </profile>
     <profile id="ddc9-b747-cf6b-a0ba" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">2b8b8dff-23bf-5493-af33-79d5c5298cdf</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3e41-f4da-45f4-9bd6" name="Looted Tank" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e24c-6d96-3940-189a" name="Sherman (75mm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">10</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1e38-a693-2da8-4689" name="Sherman (MGs)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">4</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">4</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
   </profiles>
@@ -10103,13 +10232,41 @@ IS HIT ONAGGRESSIVE3+</characteristic>
   <profiles>
     <profile id="a86d-b828-58fc-82a3" name="Screaming Meemies" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">You may field a 15cm Nebelwerfer Battery (LG137) in place of a 10.5cm Artillery Battery (LG136). This allows you to field two 15cm Nebelwerfer Batteries</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">You may field a 15cm Nebelwerfer Battery (LG137) in place of a 10.5cm Artillery Battery (LG136). This allows you to field two 15cm Nebelwerfer Batteries
+
+• Gun Unit
+• Large Gun</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a"/>
       </characteristics>
     </profile>
     <profile id="d236-bf98-d00c-eb8b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">f1065d19-8f4e-5f3c-98fe-519b4579974a</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1b93-eeb9-c796-2124" name="Screaming Meemies" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
+Third ReichLast Stand 3+</characteristic>
+        <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
+GunAssault 4+</characteristic>
+        <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
+        <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
+        <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="a400-d543-6fb9-26d0">2&quot;/5cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="34ca-877a-8ffa-1006">4&quot;/10cm</characteristic>
+        <characteristic name="Road Dash" typeId="d283-e066-839c-fbd7">6&quot;/15cm</characteristic>
+        <characteristic name="Cross" typeId="3f9c-89f9-0b29-0585">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="89c7-03d7-c1bc-6e18" name="15cm Nebelwerfer" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">64&quot;/160cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">SALVO</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">SALVO</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
   </profiles>
@@ -10123,10 +10280,7 @@ IS HIT ONAGGRESSIVE3+</characteristic>
   <profiles>
     <profile id="563f-b031-3710-2c96" name="275th Infantry Division 10.5cm Howitzer" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">All 10.5cm Artillery Batteries in this Force have the following ratings for -1 point per Gun team:
-MOTIVATIONCONFIDENT4+Family MenLast Stand 5+
-SKILLTRAINED4+Heavy WeaponAssault 6
-IS HIT ONAGGRESSIVE3+</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">All 10.5cm Artillery Batteries in this Force have the following ratings for -1 point per Gun team:</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Build, Formation (Beach Defence Grenadier Company), Title</characteristic>
       </characteristics>
     </profile>
@@ -10146,10 +10300,7 @@ IS HIT ONAGGRESSIVE3+</characteristic>
   <profiles>
     <profile id="5491-8871-5862-13ac" name="77th Infantry Division 8.8cm Tank-hunter" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">All 8.8cm Tank-hunter Platoons in this Force have the following ratings for -1 point per Gun team:
-MOTIVATIONCONFIDENT4+Family MenLast Stand 5+
-SKILLTRAINED4+Heavy WeaponAssault 6
-IS HIT ONAGGRESSIVE3+</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">All 8.8cm Tank-hunter Platoons in this Force have the following ratings for -1 point per Gun team:</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Build, Formation (Beach Defence Grenadier Company), Title</characteristic>
       </characteristics>
     </profile>
@@ -10169,10 +10320,7 @@ IS HIT ONAGGRESSIVE3+</characteristic>
   <profiles>
     <profile id="a68d-537c-63df-1352" name="8.8cm Assault FlaK" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">All 8.8cm Heavy AA Platoons in this Force have the following ratings for -1 point per Gun team:
-MOTIVATIONCONFIDENT4+Family MenLast Stand 5+
-SKILLTRAINED4+Heavy WeaponAssault 6
-IS HIT ONAGGRESSIVE3+</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">All 8.8cm Heavy AA Platoons in this Force have the following ratings for -1 point per Gun team:</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Build, Force</characteristic>
       </characteristics>
     </profile>
@@ -10192,10 +10340,7 @@ IS HIT ONAGGRESSIVE3+</characteristic>
   <profiles>
     <profile id="6215-99c8-be37-f526" name="265th Infantry Division Russian Guns" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">This Force must field 76mm Artillery or 122mm Artillery Batteries (LS148 or LS149) (at the cost shown on the card) in place of 10.5cm Artillery Batteries, with the following ratings:
-MOTIVATIONCONFIDENT4+Family MenLast Stand 5+
-SKILLTRAINED4+Heavy WeaponAssault 6
-IS HIT ONAGGRESSIVE3+</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">This Force must field 76mm Artillery or 122mm Artillery Batteries (LS148 or LS149) (at the cost shown on the card) in place of 10.5cm Artillery Batteries, with the following ratings:</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Build, Formation (Beach Defence Grenadier Company), Title</characteristic>
       </characteristics>
     </profile>
@@ -10212,58 +10357,58 @@ IS HIT ONAGGRESSIVE3+</characteristic>
     <categoryLink id="df6d-ed23-82a3-500b" name="Command Cards" hidden="false" targetId="c5b6-63ee-3f81-25f2" primary="true"/>
   </categoryLinks>
   <selectionEntryGroups>
-    <selectionEntryGroup id="ea03-6f07-eac4-c709" name="Card Options" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="29c7-65e7-30ad-beba" name="Card Options" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="176b-7500-2c37-97d8" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ccc-6593-0bf6-9430" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea9c-6541-199d-c961" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f2b-c6cc-be15-433c" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="e547-0cc4-6e85-9a5a" name="8x 76mm gun in two platoons of 4 for 16 points" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3fa6-681f-eaaf-fdf6" name="8x 76mm gun in two platoons of 4 for 16 points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="482f-eda3-6253-77f0" name="6x 76mm gun in two platoons (4x and 2x) for 12 points" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="93a4-cefe-cc25-ea32" name="6x 76mm gun in two platoons (4x and 2x) for 12 points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b417-74e9-43e9-a9a2" name="4x 76mm gun in two platoons (2x and 2x) for 8 points" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b467-10da-8b38-f74d" name="4x 76mm gun in two platoons (2x and 2x) for 8 points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f0f6-1470-7fb8-a9b6" name="4x 76mm gun in one platoon for 8 points" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b06e-df4c-3fe8-7948" name="4x 76mm gun in one platoon for 8 points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b900-2107-ed5b-2944" name="2x 76mm gun in one platoon for 4 points" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ecc0-6157-95a6-07de" name="2x 76mm gun in one platoon for 4 points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5e78-219d-9985-6654" name="8x 122mm howitzer in two platoons of 4 for 16 points" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ea7e-87c6-ba33-c3e7" name="8x 122mm howitzer in two platoons of 4 for 16 points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="16.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="01d2-e820-07dd-ece7" name="6x 122mm howitzer in two platoons (4x and 2x) for 12 points" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a24e-d291-6853-2734" name="6x 122mm howitzer in two platoons (4x and 2x) for 12 points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="939f-2cfe-c215-592f" name="4x 122mm howitzer in two platoons (2x and 2x) for 8 points" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="28ca-6700-9c88-16fd" name="4x 122mm howitzer in two platoons (2x and 2x) for 8 points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9629-85de-440f-1f0a" name="4x 122mm howitzer in one platoon for 8 points" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8768-5eae-e3a4-8838" name="4x 122mm howitzer in one platoon for 8 points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="78ac-b090-068c-8e3c" name="2x 122mm howitzer in one platoon for 4 points" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8519-87ef-a9c5-e741" name="2x 122mm howitzer in one platoon for 4 points" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
           </costs>
@@ -10275,16 +10420,23 @@ IS HIT ONAGGRESSIVE3+</characteristic>
   <profiles>
     <profile id="4006-1d88-3248-5957" name="8.8cm Tank-hunter" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">This 8.8cm Tank-hunter Platoon may fire an Artillery Bombardment with the following characteristics:
-            
-                WeaponRangeROF HaltedROF MovingAnti- tankFire- power
-                        8.8cm gun88&quot;/220cmARTILLERY24+</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">This 8.8cm Tank-hunter Platoon may fire an Artillery Bombardment with the following characteristics:</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Build, Unit (8.8cm Tank-hunter Platoon)</characteristic>
       </characteristics>
     </profile>
     <profile id="a1cf-ac87-946e-8afd" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">e64741c0-762b-54c4-8d2a-801f81f64d60</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0900-b0d1-d394-d784" name="8.8cm gun" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">88&quot;/220cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">4+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
   </profiles>
@@ -10338,7 +10490,7 @@ IS HIT ONAGGRESSIVE3+</characteristic>
   <profiles>
     <profile id="c7c7-81cc-7611-d480" name="9th Panzer Division Rebuilding" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">All Units in this Formation have a Tactics rating of 4+ for -1 point per Unit.SKILLRebuildingTactics4+</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">All Units in this Formation have a Tactics rating of 4+ for -1 point per Unit.</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Build, Formation (any Tank or Panzergrenadier Company), Title</characteristic>
       </characteristics>
     </profile>
@@ -10358,8 +10510,7 @@ IS HIT ONAGGRESSIVE3+</characteristic>
   <profiles>
     <profile id="a947-4b49-5524-5b40" name="116th Panzer Division Greyhound" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">All Units in this Formation lose Third Reich, and have a Last Stand rating of 5+ and a Tactics rating for 4+ for -2 points per Unit.  LFTF: ..for -1 point per unit.MOTIVATIONRearguardLast Stand5+
-SKILLRebuildingTactics4+</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">All Units in this Formation lose Third Reich, and have a Last Stand rating of 5+ and a Tactics rating for 4+ for -2 points per Unit. LFTF: ..for -1 point per unit.</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Build, Formation (any Tank or Panzergrenadier Company), Title</characteristic>
       </characteristics>
     </profile>
@@ -10379,8 +10530,7 @@ SKILLRebuildingTactics4+</characteristic>
   <profiles>
     <profile id="3244-6b7e-d548-7d1f" name="16th Luftwaffe Field Division Air Force Soldiers" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">The HQ Unit and all Beach Defence Grenadier Platoons in this Formation have the following ratings for +1 point per Unit:MOTIVATIONCONFIDENT4+Ground CrewCounterattack 3+Ground CrewLast Stand 5+
-SKILLGREEN5+Ground CrewTactics 4+</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">The HQ Unit and all Beach Defence Grenadier Platoons in this Formation have the following ratings for +1 point per Unit:</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Build, Formation (Beach Defence Grenadier Company), Title</characteristic>
       </characteristics>
     </profile>
@@ -10400,8 +10550,7 @@ SKILLGREEN5+Ground CrewTactics 4+</characteristic>
   <profiles>
     <profile id="c3fd-a945-4285-bacc" name="352nd Infantry Division Eastern Front" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">The HQ Unit and all Beach Defence Grenadier Platoons in this Formation have the following ratings for +1 point per Unit:MOTIVATIONCONFIDENT4+Family MenLast Stand 5+Front SwineRally 3+
-SKILLGREEN5+Front SwineAssault 4+</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">The HQ Unit and all Beach Defence Grenadier Platoons in this Formation have the following ratings for +1 point per Unit:</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Build, Formation (Beach Defence Grenadier Company), Title</characteristic>
       </characteristics>
     </profile>
@@ -10441,8 +10590,7 @@ SKILLGREEN5+Front SwineAssault 4+</characteristic>
   <profiles>
     <profile id="93ff-3c32-8a7f-cca2" name="Seventh Army Assault Battalion" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">The HQ Unit and all Beach Defence Grenadier Platoons in this Formation have the following ratings for +2 points per Unit:MOTIVATIONCONFIDENT4+
-SKILLTRAINED4+Assault BattalionAssault 3+</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">The HQ Unit and all Beach Defence Grenadier Platoons in this Formation have the following ratings for +2 points per Unit:</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Build, Formation (Beach Defence Grenadier Company), Title</characteristic>
       </characteristics>
     </profile>
@@ -10462,8 +10610,7 @@ SKILLTRAINED4+Assault BattalionAssault 3+</characteristic>
   <profiles>
     <profile id="9780-5b98-223a-d575" name="716th Infantry Division Ost Battalion" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">All Beach Defence Grenadier Platoons in this Formation have the following ratings:MOTIVATIONRELUCTANT5+
-SKILLGREEN5+</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">All Beach Defence Grenadier Platoons in this Formation have the following ratings:</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Build, Formation (Beach Defence Grenadier Company), Title</characteristic>
       </characteristics>
     </profile>
@@ -10503,8 +10650,7 @@ SKILLGREEN5+</characteristic>
   <profiles>
     <profile id="1671-93e5-01b5-5a32" name="5th Fallschirmjäger Division No Jump Training" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">The HQ and all Fallschirmjäger Rifle Platoons in this Formation have the following ratings for -1 point per Unit:MOTIVATIONFEARLESS3+
-SKILLTRAINED4+</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">The HQ and all Fallschirmjäger Rifle Platoons in this Formation have the following ratings for -1 point per Unit:</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">German, Build, Formation (Fallschirmjäger Company), Title</characteristic>
       </characteristics>
     </profile>
@@ -10704,13 +10850,50 @@ SKILLTRAINED4+</characteristic>
   <profiles>
     <profile id="fdd2-5f66-eb89-ca63" name="Heinz Meyer" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">Field a 21st Panzer Panzergrenadier Platoon with 5x MG42 teams (21st Panzer Panzergrenadier Platoon (LG905) as a Support Unit.This Unit and other Units from this Formation whose Unit Leader is within 6”/15cm of this Unit Leader may re-roll any failed Motivation Tests.If any Units are held in Reserve, this Unit must be held in Reserve.</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">Field a 21st Panzer Panzergrenadier Platoon with 5x MG42 teams (21st Panzer Panzergrenadier Platoon (LG905) as a Support Unit.This Unit and other Units from this Formation whose Unit Leader is within 6”/15cm of this Unit Leader may re-roll any failed Motivation Tests.If any Units are held in Reserve, this Unit must be held in Reserve.
+
+• Infantry Unit
+• Stormtroopers</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a"/>
       </characteristics>
     </profile>
     <profile id="3306-799f-80f4-8465" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">437205ab-71b4-56ea-be2e-c55002469433</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1599-a781-b5c4-ec02" name="Heinz Meyer" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
+Third ReichLast Stand 3+</characteristic>
+        <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+</characteristic>
+        <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
+        <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
+        <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
+        <characteristic name="Terrain Dash" typeId="b93a-5d61-9a77-50cc">8&quot;/20cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="4862-29d4-9ab9-76a0">12&quot;/30cm</characteristic>
+        <characteristic name="Road Dash" typeId="75e3-9f15-03c8-7f95">12&quot;/30cm</characteristic>
+        <characteristic name="Cross" typeId="2d03-7d6c-d869-db3f">AUTO</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="05c5-1076-4496-2b24" name="MG42 team" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">3</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">2</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">2</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
+      </characteristics>
+    </profile>
+    <profile id="7045-8dcb-abc5-8d1e" name="Panzerfaust anti-tank" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
+      <characteristics>
+        <characteristic name="Range" typeId="c2e5-4990-8105-f793">4&quot;/10cm</characteristic>
+        <characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic>
+        <characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic>
+        <characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">12</characteristic>
+        <characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">5+</characteristic>
+        <characteristic name="Notes" typeId="d939-5084-e654-44c6">Limited 1, Slow Firing</characteristic>
       </characteristics>
     </profile>
   </profiles>

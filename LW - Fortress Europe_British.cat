@@ -2039,19 +2039,28 @@ Large GunAssault 4+</characteristic>
   <profiles>
     <profile id="3e32-0524-70d2-b750" name="Softskin Transport" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">This Infantry or Gun Unit may add a Softskin Transport Attachment. The number of vehicles in the Unit is as follows:Add one Softskin Transport for every two Infantry Teams in the Unit.Add one Softskin Transport for each Gun Team in the UnitThe characteristics of a Softskin Transport are shown of the back of this card.
-MOTIVATIONCONFIDENT4+
-SKILLTRAINED4+
-IS HIT ONCAREFULL4+
-SAVETANK5+
-TACTICALTERRAIN DASHCROSS COUNTRY DASHROAD DASHCROSS-10&quot;/25cm14&quot;/35cm36&quot;/90cm5+SPECIAL RULESPassengers 2, Tractor: Team can carry two Infantry Teams or one Gun Team as Passengers.Softskin: If a Transport is Destroyed, any Passengers it is carrying are also Destroyed, and all Transports must be Sent to the Rear immediately. All Passengers must Dismount from this Unit at the same time. Empty Transport Teams must be Sent to the Rear.  
-Unarmoured: Team cannot Charge into Contact and must Break Off if Assaulted.</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">This Infantry or Gun Unit may add a Softskin Transport Attachment. The number of vehicles in the Unit is as follows:Add one Softskin Transport for every two Infantry Teams in the Unit.Add one Softskin Transport for each Gun Team in the UnitThe characteristics of a Softskin Transport are shown of the back of this card.</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">British, Build, Unit (Infantry or Gun)</characteristic>
       </characteristics>
     </profile>
     <profile id="0f19-1af3-ccbb-451b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">88a7cb89-1d9f-5eb6-859e-8050454ce0dc</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d496-4c44-7185-b97d" name="Softskin Transport" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
+      <characteristics>
+        <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">-</characteristic>
+        <characteristic name="Skill" typeId="6334-745a-f712-a0aa">-</characteristic>
+        <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">-</characteristic>
+        <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">-</characteristic>
+        <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">-</characteristic>
+        <characteristic name="Armour Top" typeId="f551-1392-03e8-967d">-</characteristic>
+        <characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">-</characteristic>
+        <characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">10&quot;/25cm</characteristic>
+        <characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">14&quot;/35cm</characteristic>
+        <characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">36&quot;/90cm</characteristic>
+        <characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">5+</characteristic>
       </characteristics>
     </profile>
   </profiles>
@@ -2085,14 +2094,7 @@ Unarmoured: Team cannot Charge into Contact and must Break Off if Assaulted.</ch
   <profiles>
     <profile id="afb1-dac1-4cc9-bd73" name="New Zealand Rifle Company" typeId="5cbd-556d-67b5-1bd9" typeName="Command Card" hidden="false">
       <characteristics>
-        <characteristic name="Details" typeId="4091-e11a-c858-f46e">Rifle Company HQ and Rifle Platoons in this formation gain the Kiwi rating for +2 points per Rifle Platoon.
-
-	
-		MOTIVATION
-		
-			
-				KiwiRally
-				 3+</characteristic>
+        <characteristic name="Details" typeId="4091-e11a-c858-f46e">Rifle Company HQ and Rifle Platoons in this formation gain the Kiwi rating for +2 points per Rifle Platoon. MOTIVATION KiwiRally 3+</characteristic>
         <characteristic name="Notes" typeId="75a6-20ee-1c76-640a">British, Build, Formation (Rifle Company)</characteristic>
       </characteristics>
     </profile>
