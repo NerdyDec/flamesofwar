@@ -5,9 +5,11 @@
     <profile id="7eff-dbb4-6375-1686" name="M7 Priest Artillery Battery" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-SP GunCounterattack 6</characteristic>
+SP Gun
+Counterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-SP GunAssault 6</characteristic>
+SP Gun
+Assault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">3+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -29,6 +31,7 @@ SP GunAssault 6</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
+    <profile id="8192-8e79-2cb2-1421" name="or Direct Fire" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, Slow Firing, Smoke</characteristic></characteristics></profile>
     <profile id="8f54-4da7-39f2-3778" name="M7 Priest (.50 cal MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic>
@@ -39,12 +42,11 @@ SP GunAssault 6</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Self-defence AA</characteristic>
       </characteristics>
     </profile>
-    <profile id="267a-92da-2509-76e6" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+  <profile id="267a-92da-2509-76e6" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LU121</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -56,9 +58,13 @@ SP GunAssault 6</characteristic>
     <profile id="9718-29d9-62fd-de4e" name="M4 Sherman OP Observation Post" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-ScoutLast Stand 5+</characteristic>
+Scout
+Last Stand 5+ 
+Observer
+Counterattack 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-ObserverRanging 3+</characteristic>
+Observer
+Ranging 3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic>
@@ -100,12 +106,12 @@ ObserverRanging 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="e243-64b4-a344-87d0" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="8232-e95a-2787-f4ca" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">You must field:a Parachute 75mm Aritllery Battery,a Glider 75mm Artillery Battery,a 105mm Field Artillery Battery,an M7 Priest Artillery Battery, oran M12 155mm Artillery Batterybefore you can field an M4 Sherman OP.</characteristic></characteristics></profile>
+  <profile id="e243-64b4-a344-87d0" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LU122</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -118,7 +124,8 @@ ObserverRanging 3+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+Gun
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
@@ -162,12 +169,12 @@ GunAssault 5+</characteristic>
         <characteristic name="Terrain Dash" typeId="e6d2-8608-f213-ef1f">AUTO</characteristic>
       </characteristics>
     </profile>
-    <profile id="2bcd-30c1-4fdf-facf" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="a0cb-bf3c-5f84-471d" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">You must field:a Parachute 75mm Artillery Battery (LU128),a Glider 75mm Artillery Battery (LU133), ora 105mm Field Artillery Battery (LU120), oran M7 Priest Armoured Artillery Battery LU121), oran M12 155mm Armoured Artillery Battery (LU177)before you can field an L4 Grasshopper OP.</characteristic></characteristics></profile>
+  <profile id="2bcd-30c1-4fdf-facf" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LU178</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>

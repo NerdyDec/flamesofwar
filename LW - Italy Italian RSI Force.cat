@@ -5,9 +5,11 @@
     <profile id="c8a0-c512-a562-52fb" name="StuG Assault Gun Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ 
-SP GunCounterattack 5+</characteristic>
+SP Gun
+Counterattack 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-SP GunAssault 4+</characteristic>
+SP Gun
+Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
@@ -66,9 +68,11 @@ SP GunAssault 4+</characteristic>
     <profile id="c4df-1e17-2686-4220" name="10.5cm Artillery Battery" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
-Third ReichLast Stand 3+</characteristic>
+Third Reich
+Last Stand 3+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
-Large GunAssault 4+</characteristic>
+Large Gun
+Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
@@ -88,12 +92,12 @@ Large GunAssault 4+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
-    <profile id="d4ce-293e-31bf-a9db" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="3ab0-bc12-90fa-7677" name="or Direct Fire" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, Slow Firing, Smoke</characteristic></characteristics></profile>
+  <profile id="d4ce-293e-31bf-a9db" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LG136</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -139,7 +143,10 @@ Large GunAssault 4+</characteristic>
     <profile id="3dbc-9c69-4722-a05e" name="Panzer III OP Observation Post" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-ScoutLast Stand 5+</characteristic>
+Scout
+Last Stand 5+ 
+Observer
+Counterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">5</characteristic>
@@ -162,12 +169,12 @@ ScoutLast Stand 5+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="28cd-0305-7fa1-9cdc" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="1829-b75a-8dfc-d7f7" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">You must field a:10.5cm Artillery Battery (LG136),10.5cm Volks Artillery Battery (LG415),Wespe Artillery Battery (LG134),Hummel Artillery Battery (LG135),Panzerwerfer 42 Battery (LG260),15cm Nebelwerfer Battery (LG137),21st Panzer 15cm (Sf) Lorraine Schlepper (LG911), or 21st Panzer 10.5cm (Sf) Lorraine Schlepper (LG912)before you can field a Panzer III OP.</characteristic></characteristics></profile>
+  <profile id="28cd-0305-7fa1-9cdc" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LG183</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -179,9 +186,13 @@ ScoutLast Stand 5+</characteristic>
     <profile id="5f24-96c6-4c41-334a" name="Marder Tank-hunter Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Third ReichLast Stand 3+</characteristic>
+Third Reich
+Last Stand 3+ 
+SP Gun
+Counterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-SP GunAssault 5+</characteristic>
+SP Gun
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -230,7 +241,10 @@ SP GunAssault 5+</characteristic>
     <profile id="ab02-5f59-ad1b-53bf" name="Sd Kfz 250 OP Observation Post" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-ScoutLast Stand 5+</characteristic>
+Scout
+Last Stand 5+ 
+Observer
+Counterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
@@ -253,12 +267,12 @@ ScoutLast Stand 5+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="63ba-db16-dd0c-06b2" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="754b-b3bd-63e3-ef56" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">You must field a: 10.5cm Artillery Battery (LG136), 10.5cm Volks Artillery Battery (LG415), Wespe Artillery Battery (LG134), Hummel Artillery Battery (LG135), Panzerwerfer 42 Battery (LG260), or 15cm Nebelwerfer Battery (LG137) before you can field a Sd Kfz 250 OP.</characteristic></characteristics></profile>
+  <profile id="63ba-db16-dd0c-06b2" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LG261</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>

@@ -209,6 +209,11 @@ updated info in v20 by mdcooledge</comment>
         <characteristicType id="846f-94be-be15-4936" name="ID"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="7c0d-4e1a-8b2f-63d9" name="Requirements">
+      <characteristicTypes>
+        <characteristicType id="b41e-2a9c-5f07-8d3b" name="Requirements"/>
+      </characteristicTypes>
+    </profileType>
 </profileTypes>
   <categoryEntries>
     <categoryEntry id="5630-abd3-15d8-5cc6" name="Formations" publicationId="453d-401b-fd1e-0f95" page="94" hidden="false">

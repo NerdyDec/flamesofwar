@@ -118,9 +118,11 @@ Support the creators, buy the book!</readme>
     <profile id="d072-d17e-eede-e341" name="Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Peasant ArmyLast Stand 5+</characteristic>
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">5+ 
-Defend the HomelandAssault 4+</characteristic>
+Defend the Homeland
+Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -170,12 +172,12 @@ Defend the HomelandAssault 4+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 5+, Heavy Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="a9b1-7911-6ba1-07a9" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="c8ad-462f-a802-9dd7" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">The Unit Leader is one of the ZB30 MG &amp; ZB24 rifle teams, and is mounted on a small base.</characteristic></characteristics></profile>
+  <profile id="a9b1-7911-6ba1-07a9" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LR132</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -192,7 +194,7 @@ Defend the HomelandAssault 4+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="b4bc-14c4-7be8-87f6" name="Bagration: Romanian Command Cards" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup><selectionEntryGroup id="99f3-f871-4ad2-58e8" name="Options" hidden="false" collective="false" import="true"><selectionEntries><selectionEntry id="b8fe-c93e-e604-fb36" name="Equip ZB30 MG &amp; ZB24 rifle teams with Panzerfaust anti-tank for +2 points." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry><selectionEntry id="2c0e-225f-c800-b587" name="Add one 60mm mortar team for +1 point." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/></costs></selectionEntry><selectionEntry id="773d-2ccb-8655-8146" name="Add one Panzerschreck anti-tank team for +1 point." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="b4bc-14c4-7be8-87f6" name="Bagration: Romanian Command Cards" hidden="false" collective="false" import="true" type="unit">
   <selectionEntryGroups>
     <selectionEntryGroup id="0264-63ef-2c92-ae9b" name="Artillery" hidden="false" collective="false" import="true">
       <constraints>
@@ -267,9 +269,11 @@ Defend the HomelandAssault 4+</characteristic>
     <profile id="16bc-4c10-44d6-bf28" name="75mm Artillery Battery" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
-Peasant ArmyLast Stand 5+</characteristic>
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+Gun
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -289,12 +293,12 @@ GunAssault 5+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
-    <profile id="f0b1-f7cd-fc46-f35e" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="0757-8c08-b3e5-6bc0" name="or Direct Fire" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">8</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke</characteristic></characteristics></profile>
+  <profile id="f0b1-f7cd-fc46-f35e" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LR125</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -316,9 +320,11 @@ GunAssault 5+</characteristic>
     <profile id="e667-344c-3b47-051d" name="100mm Artillery Battery" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
-Peasant ArmyLast Stand 5+</characteristic>
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+Gun
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
@@ -338,12 +344,12 @@ GunAssault 5+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
-    <profile id="8a4a-0933-5f1b-5c13" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="0b6a-c1ad-2707-c5a9" name="or Direct Fire" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">8</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Forward Firing, Slow Firing, Smoke</characteristic></characteristics></profile>
+  <profile id="8a4a-0933-5f1b-5c13" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LR126</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -365,7 +371,10 @@ GunAssault 5+</characteristic>
     <profile id="f7b8-b3d9-24b0-f956" name="Artillery Observation Post" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-ScoutLast Stand 5+</characteristic>
+Scout
+Last Stand 5+ 
+Observer
+Counterattack 6</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
@@ -386,12 +395,12 @@ ScoutLast Stand 5+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="892d-f108-79f2-f58f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="33a3-a2df-8d8e-d676" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">You must field a: 75mm Artillery Battery (LR143), or 100mm Artillery Battery (LR144) before you can field an Observer ZB24 rifle team.</characteristic></characteristics></profile>
+  <profile id="892d-f108-79f2-f58f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LR127</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -408,9 +417,11 @@ ScoutLast Stand 5+</characteristic>
     <profile id="9443-b611-c05a-7dc7" name="Cavalry Troop" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Peasant ArmyLast Stand 5+</characteristic>
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Defend the HomelandAssault 3+</characteristic>
+Defend the Homeland
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -450,12 +461,12 @@ Defend the HomelandAssault 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Cavalry, Heavy Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="018b-89cb-238b-4396" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="e05a-1bff-d305-2354" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">The Unit Leader is one of the ZB30 MG &amp; ZB24 rifle teams, and is mounted on a medium base (see page 113).</characteristic></characteristics></profile>
+  <profile id="018b-89cb-238b-4396" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LR123</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -472,14 +483,18 @@ Defend the HomelandAssault 3+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="39d7-6691-39cf-d6a1" name="Scout Platoon (LR124)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup><selectionEntryGroup id="19c4-f117-fa75-7ebe" name="Options" hidden="false" collective="false" import="true"><selectionEntries><selectionEntry id="2f8d-32c3-936d-5448" name="Equip ZB30 MG &amp; ZB24 rifle teams with Panzerfaust anti-tank for +2 points." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry><selectionEntry id="dec1-66d7-3ba2-dcd3" name="Add one 60mm mortar for +1 point." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="39d7-6691-39cf-d6a1" name="Scout Platoon (LR124)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="13d0-b5b3-5c9c-627c" name="Scout Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-ScoutCounterattack 6</characteristic>
+Scout
+Counterattack 6 
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">5+ 
-ScoutAssault 6</characteristic>
+Scout
+Assault 6</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">3+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -509,12 +524,12 @@ ScoutAssault 6</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Limited 1, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="dd4c-9084-6889-cb41" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="2786-3f78-8133-8d94" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">The Unit Leader is one of the ZB30 MG &amp; ZB24 rifle teams and is mounted on a small base (see page 113).</characteristic></characteristics></profile>
+  <profile id="dd4c-9084-6889-cb41" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LR124</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -531,14 +546,18 @@ ScoutAssault 6</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="5.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="b4fb-8d7c-a339-182b" name="AB Armoured Car Platoon (LR122)" hidden="false" collective="false" import="true" type="unit">
+  </selectionEntries></selectionEntryGroup><selectionEntryGroup id="4270-6ff2-2620-c9ac" name="Options" hidden="false" collective="false" import="true"><selectionEntries><selectionEntry id="3d9c-253d-67d0-25d1" name="Equip ZB30 MG &amp; ZB24 rifle teams with Panzerfaust anti-tank for +2 points." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="b4fb-8d7c-a339-182b" name="AB Armoured Car Platoon (LR122)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="b714-1a89-b98b-b8a1" name="AB Armoured Car Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-ScoutCounterattack 6</characteristic>
+Scout
+Counterattack 6 
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+ 
-ScoutAssault 6</characteristic>
+Scout
+Assault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
@@ -592,9 +611,13 @@ ScoutAssault 6</characteristic>
     <profile id="ba04-96e1-7022-28b9" name="TACAM T-60 Tank-hunter Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-SP GunCounterattack 6</characteristic>
+SP Gun
+Counterattack 6 
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-SP GunAssault 6</characteristic>
+SP Gun
+Assault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -653,9 +676,13 @@ SP GunAssault 6</characteristic>
     <profile id="de2a-e578-dedf-7563" name="TACAM R-2 Tank-hunter Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-SP GunCounterattack 6</characteristic>
+SP Gun
+Counterattack 6 
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-SP GunAssault 6</characteristic>
+SP Gun
+Assault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -714,9 +741,11 @@ SP GunAssault 6</characteristic>
     <profile id="ad12-b785-cbe3-0d01" name="75mm Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
-Peasant ArmyLast Stand 5+</characteristic>
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+Gun
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -763,9 +792,11 @@ GunAssault 5+</characteristic>
     <profile id="dbe5-fa18-b264-275b" name="75mm M43 Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
-Peasant ArmyLast Stand 5+</characteristic>
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+Gun
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -812,9 +843,11 @@ GunAssault 5+</characteristic>
     <profile id="2fcd-9809-8f24-cdcf" name="20mm Anti-aircraft Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
-Peasant ArmyLast Stand 5+</characteristic>
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+Gun
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
@@ -905,7 +938,10 @@ GunAssault 5+</characteristic>
     <profile id="9a86-ca6f-9fdb-cb74" name="R-2 Light Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic>
+Protected Ammo
+Remount 3+ 
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">2</characteristic>
@@ -960,7 +996,8 @@ Protected AmmoRemount 3+</characteristic>
     <profile id="0622-67f3-dc05-5022" name="R-35 Light Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Peasant ArmyLast Stand 5+</characteristic>
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
@@ -1025,7 +1062,10 @@ Peasant ArmyLast Stand 5+</characteristic>
     <profile id="fe8a-0ad4-cc8e-12c6" name="T-4 Medium Tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic>
+Protected Ammo
+Remount 3+ 
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
@@ -1080,9 +1120,11 @@ Protected AmmoRemount 3+</characteristic>
     <profile id="ac7c-e580-4906-5466" name="TA Assault Gun Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
-Protected AmmoRemount 3+</characteristic>
+Protected Ammo
+Remount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">5+ 
-SP GunAssault 6</characteristic>
+SP Gun
+Assault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">7</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
@@ -1136,9 +1178,11 @@ SP GunAssault 6</characteristic>
     <profile id="50f0-dd37-8aac-1f3e" name="Motorised Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-Peasant ArmyLast Stand 5+</characteristic>
+Peasant Army
+Last Stand 5+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Defend the HomelandAssault 3+</characteristic>
+Defend the Homeland
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -1188,12 +1232,12 @@ Defend the HomelandAssault 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Heavy Weapon</characteristic>
       </characteristics>
     </profile>
-    <profile id="a09a-441c-6167-9743" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="df11-1161-42c2-6920" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">The Unit Leader is one of the ZB30 MG teams, and is mounted on a small base (see page 113).</characteristic></characteristics></profile>
+  <profile id="a09a-441c-6167-9743" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LR110</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -1215,7 +1259,7 @@ Defend the HomelandAssault 3+</characteristic>
         <cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry>
+  </selectionEntries></selectionEntryGroup><selectionEntryGroup id="d755-ef3b-1c53-740d" name="Options" hidden="false" collective="false" import="true"><selectionEntries><selectionEntry id="4ef9-0214-ceaa-174b" name="Equip ZB30 MG teams with Panzerfaust anti-tank for +2 points." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry><selectionEntry id="ec03-543e-39b8-082f" name="Add one 60mm mortar for +1 point." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/></costs></selectionEntry><selectionEntry id="0a11-8a61-7746-5ed1" name="Add one Panzerschreck anti-tank team for +1 point." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry>
     <selectionEntry id="371c-698a-8fad-1a00" name="R-2 Light Tank Company HQ (LR101)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="832d-63fe-2a29-01a5" name="R-2 Light Tank Company HQ" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
@@ -2489,7 +2533,8 @@ Gun Assault 6|5+</characteristic>
           <characteristics>
             <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
             <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+Gun
+Assault 5+</characteristic>
             <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
             <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
             <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>

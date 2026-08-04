@@ -18,7 +18,8 @@
       </characteristics>
     </profile>
     <profile id="7cf4-6984-1b1d-57e9" name="Firefly Sherman Armoured Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false"><characteristics><characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic><characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic><characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic><characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic><characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic><characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic><characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic><characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic><characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic><characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic><characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic></characteristics></profile>
+Protected Ammo
+Remount 3+</characteristic><characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic><characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic><characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic><characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic><characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic><characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic><characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic><characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic><characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic><characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic></characteristics></profile>
     <profile id="b843-b5f1-d4bb-3f2b" name="Sherman (75mm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
@@ -55,7 +56,10 @@ Protected AmmoRemount 3+</characteristic><characteristic name="Skill" typeId="63
     <profile id="9758-2765-e055-b64c" name="Italy Churchill Armoured Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic>
+Protected Ammo
+Remount 3+ 
+Infantry Tank
+Counterattack 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">8</characteristic>
@@ -105,9 +109,13 @@ Protected AmmoRemount 3+</characteristic>
     <profile id="38f6-415d-7505-5413" name="Stuart Recce Patrol" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-ScoutLast Stand 5+</characteristic>
+Scout
+Last Stand 5+ 
+Scout
+Counterattack 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-ScoutAssault 5+</characteristic>
+Scout
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
@@ -156,9 +164,11 @@ ScoutAssault 5+</characteristic>
     <profile id="bafa-9871-06a8-9ff9" name="Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-BulldogCounterattack 3+</characteristic>
+Bulldog
+Counterattack 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-DeadlyAssault 3+</characteristic>
+Deadly
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -198,12 +208,12 @@ DeadlyAssault 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Overhead Fire, Slow Firing, Smoke</characteristic>
       </characteristics>
     </profile>
-    <profile id="23b2-0fa9-7bd4-07bf" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="0f35-3937-662e-bb2d" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">The Unit Leader is one of the Bren Gun &amp; SMLE rifle teams, and is mounted on a small base (see page 118).</characteristic></characteristics></profile>
+  <profile id="23b2-0fa9-7bd4-07bf" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB108</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -216,7 +226,8 @@ DeadlyAssault 3+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
-Heavy WeaponAssault 5+</characteristic>
+Heavy Weapon
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">4&quot;/10cm</characteristic>
@@ -253,9 +264,11 @@ Heavy WeaponAssault 5+</characteristic>
     <profile id="e253-9e78-66b1-393e" name="Motor Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-BulldogCounterattack 3+</characteristic>
+Bulldog
+Counterattack 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-DeadlyAssault 3+</characteristic>
+Deadly
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -295,12 +308,12 @@ DeadlyAssault 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Overhead Fire, Slow Firing, Smoke</characteristic>
       </characteristics>
     </profile>
-    <profile id="520a-2661-7ff5-2b8f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="ea19-167d-6811-32e0" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">The Unit Leader is one of the Bren Gun teams, and is mounted on a small base (see page 118).</characteristic></characteristics></profile>
+  <profile id="520a-2661-7ff5-2b8f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB111</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -312,9 +325,13 @@ DeadlyAssault 3+</characteristic>
     <profile id="e6e8-422a-5974-e7ab" name="Universal Carrier Patrol" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-ScoutLast Stand 5+</characteristic>
+Scout
+Last Stand 5+ 
+Scout
+Counterattack 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-ScoutAssault 5+</characteristic>
+Scout
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
@@ -358,14 +375,16 @@ ScoutAssault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="927e-6f49-cb7d-57e6" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-<selectionEntryGroups><selectionEntryGroup id="8de5-d869-8605-3522" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94f4-37ff-b602-45cb" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f38-2a84-df54-55e5" type="max"/></constraints><selectionEntries><selectionEntry id="acf9-8d8f-1290-0f6a" name="3x Universal Carrier (MG)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="18f4-0137-f2f1-ae59" name="Vickers Machine-gun Platoon (LB113)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntryGroups><selectionEntryGroup id="8de5-d869-8605-3522" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94f4-37ff-b602-45cb" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f38-2a84-df54-55e5" type="max"/></constraints><selectionEntries><selectionEntry id="acf9-8d8f-1290-0f6a" name="3x Universal Carrier (MG)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup><selectionEntryGroup id="3792-a588-39f5-a7fe" name="Options" hidden="false" collective="false" import="true"><selectionEntries><selectionEntry id="1fb7-efa9-165b-b0eb" name="Arm any or all Universal Carrier (MG) with Boys AT rifle for +1 point." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="18f4-0137-f2f1-ae59" name="Vickers Machine-gun Platoon (LB113)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="5465-a93c-c462-dc5d" name="Vickers Machine-gun Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-BulldogCounterattack 3+</characteristic>
+Bulldog
+Counterattack 3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Heavy WeaponAssault 5+</characteristic>
+Heavy Weapon
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -385,12 +404,12 @@ Heavy WeaponAssault 5+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="7209-f715-f5eb-6837" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="f613-1e36-ceff-ecac" name="Firing Bombardment" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile>
+  <profile id="7209-f715-f5eb-6837" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB113</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -403,7 +422,8 @@ Heavy WeaponAssault 5+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
-Large GunAssault 4+</characteristic>
+Large Gun
+Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
@@ -423,12 +443,12 @@ Large GunAssault 4+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
-    <profile id="afbf-007a-4550-c03b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="dd4c-a0b3-6697-595c" name="or Direct Fire" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke</characteristic></characteristics></profile>
+  <profile id="afbf-007a-4550-c03b" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB117</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -441,7 +461,8 @@ Large GunAssault 4+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-DeadlyAssault 3+</characteristic>
+Deadly
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -479,7 +500,8 @@ DeadlyAssault 3+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-DeadlyAssault 3+</characteristic>
+Deadly
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -509,25 +531,26 @@ DeadlyAssault 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Asasult 4+, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="1788-0c4f-7047-ca4f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="3676-c859-91a5-cd13" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">The Unit Leader is one of the Bren Gun &amp; SMLE rifle teams, and is mounted on a small base (see page 75)</characteristic></characteristics></profile>
+  <profile id="1788-0c4f-7047-ca4f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB124</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="34d5-687d-ba04-f444" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-<selectionEntryGroups><selectionEntryGroup id="938a-a10d-c573-b9b0" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4584-1044-6b95-fb0a" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cc6-01f4-cba3-4da9" type="max"/></constraints><selectionEntries><selectionEntry id="9442-4965-909e-66b4" name="7x Bren Gun &amp; SMLE rifle team&#10;1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/></costs></selectionEntry><selectionEntry id="5fb2-3603-fd6e-b093" name="5x Bren Gun &amp; SMLE rifle team&#10;1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="a298-1abf-09a8-2a4b" name="Airlanding Company HQ (LB125)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntryGroups><selectionEntryGroup id="938a-a10d-c573-b9b0" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4584-1044-6b95-fb0a" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cc6-01f4-cba3-4da9" type="max"/></constraints><selectionEntries><selectionEntry id="9442-4965-909e-66b4" name="7x Bren Gun &amp; SMLE rifle team&#10;1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/></costs></selectionEntry><selectionEntry id="5fb2-3603-fd6e-b093" name="5x Bren Gun &amp; SMLE rifle team&#10;1x PIAT anti-tank team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup><selectionEntryGroup id="db22-c865-284a-bfea" name="Options" hidden="false" collective="false" import="true"><selectionEntries><selectionEntry id="dd1c-0ff2-ef0a-ea15" name="Add an additional PIAT anti-tank team for +1 point." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="a298-1abf-09a8-2a4b" name="Airlanding Company HQ (LB125)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="4ca9-68a9-3d76-d233" name="Airlanding Company HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-DeadlyAssault 3+</characteristic>
+Deadly
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -565,7 +588,8 @@ DeadlyAssault 3+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-DeadlyAssault 3+</characteristic>
+Deadly
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -605,25 +629,26 @@ DeadlyAssault 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Overhead Fire, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="9d9f-9c6c-b29a-4834" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="3910-416b-3dc1-f774" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">The Unit Leader is one of the Bren Gun &amp; SMLE rifle teams, and is mounted on a small base (see page 75)</characteristic></characteristics></profile>
+  <profile id="9d9f-9c6c-b29a-4834" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB126</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="421d-08be-9156-7438" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-<selectionEntryGroups><selectionEntryGroup id="7aa9-55ba-9706-0756" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7257-ff27-9bfa-7f44" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12fa-4b02-70cc-5a99" type="max"/></constraints><selectionEntries><selectionEntry id="4022-93b4-e9e5-1c96" name="6x Bren Gun &amp; SMLE rifle team&#10;1x PIAT anti-tank team&#10;1x 2-inch mortar team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/></costs></selectionEntry><selectionEntry id="aaa2-6e9f-d174-dfca" name="4x Bren Gun &amp; SMLE rifle team&#10;1x PIAT anti-tank team&#10;1x 2-inch mortar team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="7a82-ee4b-bac6-cc3b" name="Airborne Vickers Machine-gun Platoon (LB127)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntryGroups><selectionEntryGroup id="7aa9-55ba-9706-0756" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7257-ff27-9bfa-7f44" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12fa-4b02-70cc-5a99" type="max"/></constraints><selectionEntries><selectionEntry id="4022-93b4-e9e5-1c96" name="6x Bren Gun &amp; SMLE rifle team&#10;1x PIAT anti-tank team&#10;1x 2-inch mortar team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="10.0"/></costs></selectionEntry><selectionEntry id="aaa2-6e9f-d174-dfca" name="4x Bren Gun &amp; SMLE rifle team&#10;1x PIAT anti-tank team&#10;1x 2-inch mortar team" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="8.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup><selectionEntryGroup id="5bee-a4de-9894-a6bd" name="Options" hidden="false" collective="false" import="true"><selectionEntries><selectionEntry id="8ae2-f279-eaa7-7494" name="Add an additional PIAT anti-tank team for +1 point." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="7a82-ee4b-bac6-cc3b" name="Airborne Vickers Machine-gun Platoon (LB127)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="942b-16cf-e363-cdc4" name="Airborne Vickers Machine-gun Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Heavy WeaponAssault 5+</characteristic>
+Heavy Weapon
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -643,12 +668,12 @@ Heavy WeaponAssault 5+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="9694-160a-95e2-c260" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="a42a-7926-f074-3047" name="Firing Bombardment" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile>
+  <profile id="9694-160a-95e2-c260" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB127</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -661,7 +686,8 @@ Heavy WeaponAssault 5+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
-Heavy WeaponAssault 4+</characteristic>
+Heavy Weapon
+Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">6&quot;/15cm</characteristic>
@@ -699,7 +725,8 @@ Heavy WeaponAssault 4+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">3+ 
-GunAssault 4+</characteristic>
+Gun
+Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">4&quot;/10cm</characteristic>
@@ -719,12 +746,12 @@ GunAssault 4+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
-    <profile id="23af-9ca6-b356-7b0d" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="db17-3670-48e1-90e0" name="or Direct Fire" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">20&quot;/50cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">6</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke</characteristic></characteristics></profile>
+  <profile id="23af-9ca6-b356-7b0d" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB129</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -737,7 +764,8 @@ GunAssault 4+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+Gun
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -775,7 +803,8 @@ GunAssault 5+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">3+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-Large GunAssault 5+</characteristic>
+Large Gun
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">4+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">-</characteristic>
@@ -813,7 +842,8 @@ Large GunAssault 5+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
-DeadlyAssault 2+</characteristic>
+Deadly
+Assault 2+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -851,7 +881,8 @@ DeadlyAssault 2+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
-DeadlyAssault 2+</characteristic>
+Deadly
+Assault 2+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -891,12 +922,12 @@ DeadlyAssault 2+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 3+, Overhead Fire, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="af0d-1249-f523-08c3" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="950a-585e-838b-a203" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">The Unit Leader is one of the Bren Gun &amp; SMLE rifle teams, and is mounted on a small base (see page 75)</characteristic></characteristics></profile>
+  <profile id="af0d-1249-f523-08c3" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB133</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -909,7 +940,8 @@ DeadlyAssault 2+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
-Heavy WeaponAssault 4+</characteristic>
+Heavy Weapon
+Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -929,12 +961,12 @@ Heavy WeaponAssault 4+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="7b67-98b7-151b-ecbb" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="a292-af43-8de0-8166" name="Firing Bombardment" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile>
+  <profile id="7b67-98b7-151b-ecbb" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB134</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -947,7 +979,8 @@ Heavy WeaponAssault 4+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
-Heavy WeaponAssault 4+</characteristic>
+Heavy Weapon
+Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">6&quot;/15cm</characteristic>
@@ -1082,7 +1115,8 @@ Heavy WeaponAssault 4+</characteristic>
     <profile id="e297-a35c-ee23-51d6" name="Firefly Armoured Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic>
+Protected Ammo
+Remount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
@@ -1132,9 +1166,11 @@ Protected AmmoRemount 3+</characteristic>
     <profile id="ea40-71dd-c64e-6cb2" name="Crusader AA Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-SP GunCounterattack 6</characteristic>
+SP Gun
+Counterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-SP GunAssault 6</characteristic>
+SP Gun
+Assault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
@@ -1173,9 +1209,13 @@ SP GunAssault 6</characteristic>
     <profile id="fed8-c048-6d6c-6d91" name="Rifle Company HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-BulldogCounterattack 3+</characteristic>
+Bulldog
+Counterattack 3+ 
+War Weary
+Rally 5+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-DeadlyAssault 3+</characteristic>
+Deadly
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -1212,9 +1252,13 @@ DeadlyAssault 3+</characteristic>
     <profile id="2a4e-94b1-efdb-0fee" name="Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-BulldogCounterattack 3+</characteristic>
+Bulldog
+Counterattack 3+ 
+War Weary
+Rally 5+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-DeadlyAssault 3+</characteristic>
+Deadly
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -1254,12 +1298,12 @@ DeadlyAssault 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Overhead Fire, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="1a5c-b586-6fb6-5c8a" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="5dfb-68ab-b6f4-3ded" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">The Unit Leader is one of the Bren Gun &amp; SMLE rifle teams, and is mounted on a small base (see page 75)</characteristic></characteristics></profile>
+  <profile id="1a5c-b586-6fb6-5c8a" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB141</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -1271,9 +1315,11 @@ DeadlyAssault 3+</characteristic>
     <profile id="d7c1-bbdd-def7-4cd7" name="MMG Carrier Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-MMG CarrierCounterattack 6</characteristic>
+MMG Carrier
+Counterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-MMG CarrierAssault 5+</characteristic>
+MMG Carrier
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
@@ -1295,12 +1341,12 @@ MMG CarrierAssault 5+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="1330-dd89-ba5b-8689" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="c4c6-2caa-c0d5-713b" name="Firing Bombardment" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic></characteristics></profile>
+  <profile id="1330-dd89-ba5b-8689" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB142</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -1313,7 +1359,8 @@ MMG CarrierAssault 5+</characteristic>
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+Gun
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -1350,9 +1397,13 @@ GunAssault 5+</characteristic>
     <profile id="7659-2f0d-4704-293d" name="Universal Carrier Patrol" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-ScoutLast Stand 5+</characteristic>
+Scout
+Last Stand 5+ 
+Scout
+Counterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-ScoutAssault 5+</characteristic>
+Scout
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
@@ -1396,14 +1447,18 @@ ScoutAssault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="2638-697a-3fcb-58ec" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-<selectionEntryGroups><selectionEntryGroup id="f1b8-8c28-13e3-3c4c" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a4-6e9f-89a2-d936" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6c3-889e-bb0d-5c76" type="max"/></constraints><selectionEntries><selectionEntry id="3abd-18a4-2117-2fc9" name="3x Universal Carrier (MG)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="e0bb-d9d4-7320-ad71" name="Wasp Carrier Patrol (LB145)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntryGroups><selectionEntryGroup id="f1b8-8c28-13e3-3c4c" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a4-6e9f-89a2-d936" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6c3-889e-bb0d-5c76" type="max"/></constraints><selectionEntries><selectionEntry id="3abd-18a4-2117-2fc9" name="3x Universal Carrier (MG)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup><selectionEntryGroup id="dfb4-ddaa-2d36-cc39" name="Options" hidden="false" collective="false" import="true"><selectionEntries><selectionEntry id="e090-8a59-2604-bdf6" name="Arm any or all Universal Carrier (MG) with PIAT anti-tank for +1 point each." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="e0bb-d9d4-7320-ad71" name="Wasp Carrier Patrol (LB145)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="b171-c55e-7faa-73c7" name="Wasp Carrier Patrol" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Flame TankCounterattack 6</characteristic>
+Flame Tank
+Counterattack 6 
+Flame Tank
+Remount 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-Flame TankAssault 6</characteristic>
+Flame Tank
+Assault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
@@ -1442,7 +1497,10 @@ Flame TankAssault 6</characteristic>
     <profile id="8496-2ed1-434d-64d0" name="Churchill Armoured Squadron HQ" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic>
+Protected Ammo
+Remount 3+ 
+Assault Tank
+Counterattack 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9Late 75mm11</characteristic>
@@ -1465,6 +1523,7 @@ Protected AmmoRemount 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
+    <profile id="962d-ee8f-0fb1-a0e8" name="or Direct Fire" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">8</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Slow Firing, Smoke</characteristic></characteristics></profile>
     <profile id="e605-05c2-87e5-8aa1" name="Churchill (75mm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
@@ -1485,24 +1544,26 @@ Protected AmmoRemount 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="8229-278b-650e-17cd" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+  <profile id="8229-278b-650e-17cd" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB146</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
   <categoryLinks>
     <categoryLink id="5bdf-c9ca-3bea-8fef" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-<selectionEntryGroups><selectionEntryGroup id="8ead-3c02-2a58-d3e7" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79a2-4a11-468f-5dd9" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eae-c8f6-a1f1-9f4a" type="max"/></constraints><selectionEntries><selectionEntry id="d8d6-2a80-35b5-a6a4" name="2x Churchill CS (95mm)&#10;1x Churchill (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/></costs></selectionEntry><selectionEntry id="f40a-e347-44d6-1670" name="2x Churchill CS (95mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/></costs></selectionEntry><selectionEntry id="09ff-1831-aaab-290a" name="1x Churchill CS (95mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry><selectionEntry id="94b2-125f-6d99-0dd0" name="1x Churchill (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="1ad0-00b1-6a77-5bee" name="Churchill Armoured Troop (LB147)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntryGroups><selectionEntryGroup id="8ead-3c02-2a58-d3e7" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79a2-4a11-468f-5dd9" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eae-c8f6-a1f1-9f4a" type="max"/></constraints><selectionEntries><selectionEntry id="d8d6-2a80-35b5-a6a4" name="2x Churchill CS (95mm)&#10;1x Churchill (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/></costs></selectionEntry><selectionEntry id="f40a-e347-44d6-1670" name="2x Churchill CS (95mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="12.0"/></costs></selectionEntry><selectionEntry id="09ff-1831-aaab-290a" name="1x Churchill CS (95mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry><selectionEntry id="94b2-125f-6d99-0dd0" name="1x Churchill (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="6.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup><selectionEntryGroup id="366b-43dc-3660-9072" name="Options" hidden="false" collective="false" import="true"><selectionEntries><selectionEntry id="0147-7284-836a-aeef" name="Replace one Churchill (75mm) with a Churchill (late 75mm) for +2 points." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="1ad0-00b1-6a77-5bee" name="Churchill Armoured Troop (LB147)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="a9f3-b393-3232-f076" name="Churchill Armoured Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic>
+Protected Ammo
+Remount 3+ 
+Assault Tank
+Counterattack 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">9Late 75mm11</characteristic>
@@ -1557,7 +1618,7 @@ Protected AmmoRemount 3+</characteristic>
   <categoryLinks>
     <categoryLink id="132f-05ae-feab-be26" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-<selectionEntryGroups><selectionEntryGroup id="e242-c80c-4d4d-2ba7" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f8f-e446-9fac-e4fc" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e3f-3552-b361-3697" type="max"/></constraints><selectionEntries><selectionEntry id="4587-5335-2939-2dd8" name="3x Churchill (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/></costs></selectionEntry><selectionEntry id="c094-be87-737f-6945" name="2x Churchill (75mm)&#10;1x Churchill (6 pdr)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="8ead-2fec-0a0a-3190" name="Sherman Armoured Squadron HQ (LB148)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntryGroups><selectionEntryGroup id="e242-c80c-4d4d-2ba7" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f8f-e446-9fac-e4fc" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e3f-3552-b361-3697" type="max"/></constraints><selectionEntries><selectionEntry id="4587-5335-2939-2dd8" name="3x Churchill (75mm)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/></costs></selectionEntry><selectionEntry id="c094-be87-737f-6945" name="2x Churchill (75mm)&#10;1x Churchill (6 pdr)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="18.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup><selectionEntryGroup id="bda2-e3e9-2432-968a" name="Options" hidden="false" collective="false" import="true"><selectionEntries><selectionEntry id="00f7-3533-c156-0dbc" name="Replace one Churchill (75mm) with a Churchill (late 75mm) for +2 points." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="2.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="8ead-2fec-0a0a-3190" name="Sherman Armoured Squadron HQ (LB148)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="2adc-d577-1020-32c6" name="Sherman Armoured Squadron HQ" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
@@ -1624,7 +1685,8 @@ Protected AmmoRemount 3+</characteristic>
       </characteristics>
     </profile>
     <profile id="ed7e-59db-b87b-124b" name="Firefly Sherman Armoured Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false"><characteristics><characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic><characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic><characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic><characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic><characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic><characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic><characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic><characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic><characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic><characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic><characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic></characteristics></profile>
+Protected Ammo
+Remount 3+</characteristic><characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic><characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic><characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic><characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic><characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic><characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic><characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic><characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic><characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic><characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic></characteristics></profile>
     <profile id="0198-e4f2-39db-7c7e" name="Sherman (75mm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
@@ -1661,7 +1723,8 @@ Protected AmmoRemount 3+</characteristic><characteristic name="Skill" typeId="63
     <profile id="86f5-cdcf-bc6b-b3a9" name="Cromwell Armoured Recce Squadron HQ" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic>
+Protected Ammo
+Remount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
@@ -1684,6 +1747,7 @@ Protected AmmoRemount 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
+    <profile id="85e9-2840-2269-1cff" name="or Direct Fire" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">8</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Slow Firing, Smoke</characteristic></characteristics></profile>
     <profile id="1ad4-379d-c426-6a30" name="Cromwell (75mm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
@@ -1704,12 +1768,11 @@ Protected AmmoRemount 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="39cb-21dc-e245-b49f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+  <profile id="39cb-21dc-e245-b49f" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB150</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -1721,7 +1784,8 @@ Protected AmmoRemount 3+</characteristic>
     <profile id="2e02-b6d1-6824-8476" name="Cromwell Armoured Recce Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic>
+Protected Ammo
+Remount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
@@ -1735,7 +1799,8 @@ Protected AmmoRemount 3+</characteristic>
       </characteristics>
     </profile>
     <profile id="e978-d077-98a7-1dac" name="Challenger Cromwell Armoured Recce Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false"><characteristics><characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic><characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic><characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic><characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic><characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic><characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic><characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic><characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic><characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic><characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic><characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic></characteristics></profile>
+Protected Ammo
+Remount 3+</characteristic><characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic><characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic><characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic><characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic><characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic><characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic><characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic><characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic><characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic><characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic></characteristics></profile>
     <profile id="b16e-f0ab-a3e4-7ecf" name="Cromwell (75mm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
@@ -1772,9 +1837,13 @@ Protected AmmoRemount 3+</characteristic><characteristic name="Skill" typeId="63
     <profile id="4524-f774-6483-1229" name="Motor Company HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-BulldogCounterattack 3+</characteristic>
+Bulldog
+Counterattack 3+ 
+War Weary
+Rally 5+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-DeadlyAssault 3+</characteristic>
+Deadly
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -1811,9 +1880,13 @@ DeadlyAssault 3+</characteristic>
     <profile id="2437-33f8-b4c9-2b6b" name="Motor Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">4+ 
-BulldogCounterattack 3+</characteristic>
+Bulldog
+Counterattack 3+ 
+War Weary
+Rally 5+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-DeadlyAssault 3+</characteristic>
+Deadly
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -1853,12 +1926,12 @@ DeadlyAssault 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Overhead Fire, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="0d67-57fc-45d7-b533" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="78e2-72c0-2079-1df8" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">The Unit Leader is one of the Bren Gun teams, and is mounted on a small base (see page 75)</characteristic></characteristics></profile>
+  <profile id="0d67-57fc-45d7-b533" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB153</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -1870,9 +1943,11 @@ DeadlyAssault 3+</characteristic>
     <profile id="33bd-d861-7900-08fa" name="Motor 6pdr Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">4+ 
-War WearyRally 5+</characteristic>
+War Weary
+Rally 5+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+Gun
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -1909,7 +1984,8 @@ GunAssault 5+</characteristic>
     <profile id="86fc-a5fb-610c-3415" name="Desert Rats Cromwell Armoured Squadron HQ" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
-Cautious Not StupidRemount 3+</characteristic>
+Cautious Not Stupid
+Remount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
@@ -1942,6 +2018,7 @@ Cautious Not StupidRemount 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Smoke Bombardment</characteristic>
       </characteristics>
     </profile>
+    <profile id="f75a-08d7-8ae9-61e6" name="or Direct Fire" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">1</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">8</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">2+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Brutal, Slow Firing, Smoke</characteristic></characteristics></profile>
     <profile id="7f36-281f-3a58-3e87" name="Cromwell (MGs)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
@@ -1952,12 +2029,11 @@ Cautious Not StupidRemount 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="6b0d-eef2-199e-ae53" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+  <profile id="6b0d-eef2-199e-ae53" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB155</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -1969,7 +2045,8 @@ Cautious Not StupidRemount 3+</characteristic>
     <profile id="ce0d-e63c-c18a-d874" name="Desert Rats Cromwell Armoured Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
-Cautious Not StupidRemount 3+</characteristic>
+Cautious Not Stupid
+Remount 3+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
@@ -1983,9 +2060,11 @@ Cautious Not StupidRemount 3+</characteristic>
       </characteristics>
     </profile>
     <profile id="ec2e-9891-5c46-45d8" name="Firefly Desert Rats Armoured Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false"><characteristics><characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
-Cautious Not StupidRemount 3+</characteristic><characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic><characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic><characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic><characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic><characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic><characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic><characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic><characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic><characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic><characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic></characteristics></profile>
+Cautious Not Stupid
+Remount 3+</characteristic><characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic><characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic><characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic><characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic><characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic><characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic><characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">12&quot;/30cm</characteristic><characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">18&quot;/45cm</characteristic><characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">20&quot;/50cm</characteristic><characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">3+</characteristic></characteristics></profile>
     <profile id="6b4c-2b68-4e7e-e164" name="Challenger Desert Rats Armoured Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false"><characteristics><characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
-Cautious Not StupidRemount 3+</characteristic><characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic><characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic><characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic><characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic><characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic><characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic><characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic><characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic><characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic><characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic></characteristics></profile>
+Cautious Not Stupid
+Remount 3+</characteristic><characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic><characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic><characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic><characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">4</characteristic><characteristic name="Armour Top" typeId="f551-1392-03e8-967d">1</characteristic><characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">12&quot;/30cm</characteristic><characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">16&quot;/40cm</characteristic><characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">24&quot;/60cm</characteristic><characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">28&quot;/70cm</characteristic><characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic></characteristics></profile>
     <profile id="c044-5e04-1a56-91f5" name="Cromwell (75mm)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">28&quot;/70cm</characteristic>
@@ -2021,9 +2100,11 @@ Cautious Not StupidRemount 3+</characteristic><characteristic name="Skill" typeI
     <profile id="7c4a-ab4f-414d-f56b" name="Desert Rats Stuart Recce Patrol" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
-Cautious Not StupidRemount 4+</characteristic>
+Cautious Not Stupid
+Remount 4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-ScoutAssault 5+</characteristic>
+Scout
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">4</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">3</characteristic>
@@ -2072,9 +2153,13 @@ ScoutAssault 5+</characteristic>
     <profile id="5172-3e81-7164-69f0" name="Desert Rats Crusader AA Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
-SP GunCounterattack 6</characteristic>
+SP Gun
+Counterattack 6 
+Cautious Not Stupid
+Remount 4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-SP GunAssault 6</characteristic>
+SP Gun
+Assault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">3</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">2</characteristic>
@@ -2113,9 +2198,11 @@ SP GunAssault 6</characteristic>
     <profile id="f53f-eb52-532d-e69b" name="Desert Rats Motor Company HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ 
-BulldogCounterattack 4+</characteristic>
+Bulldog
+Counterattack 4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Assault WeaponsAssault 3+</characteristic>
+Assault Weapons
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -2152,9 +2239,11 @@ Assault WeaponsAssault 3+</characteristic>
     <profile id="7750-a296-b41d-cb0b" name="Desert Rats Motor Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ 
-BulldogCounterattack 4+</characteristic>
+Bulldog
+Counterattack 4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-DeadlyAssault 3+</characteristic>
+Deadly
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -2194,12 +2283,12 @@ DeadlyAssault 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Overhead Fire, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="3d3a-3e7b-6382-979a" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="639a-12cd-02cf-46c0" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">The Unit Leader is one of the Bren Gun teams, and is mounted on a small base (see page 75)</characteristic></characteristics></profile>
+  <profile id="3d3a-3e7b-6382-979a" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB161</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -2211,9 +2300,11 @@ DeadlyAssault 3+</characteristic>
     <profile id="84fa-c624-e852-e81d" name="Desert Rats 6pdr Motor Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">5+ 
-BulldogCounterattack 4+</characteristic>
+Bulldog
+Counterattack 4+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+Gun
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -2250,9 +2341,11 @@ GunAssault 5+</characteristic>
     <profile id="ccd9-da86-b5d7-1b48" name="Desert Rats Rifle Company HQ" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ 
-BulldogCounterattack 4+</characteristic>
+Bulldog
+Counterattack 4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-DeadlyAssault 3+</characteristic>
+Deadly
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -2289,9 +2382,11 @@ DeadlyAssault 3+</characteristic>
     <profile id="5d62-8243-3a61-aea1" name="Desert Rats Rifle Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ 
-BulldogCounterattack 4+</characteristic>
+Bulldog
+Counterattack 4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-DeadlyAssault 3+</characteristic>
+Deadly
+Assault 3+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -2331,12 +2426,12 @@ DeadlyAssault 3+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Assault 4+, Overhead Fire, Slow Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="113a-7540-7efd-c43c" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="eac2-4f61-6e2b-10bb" name="Requirements" typeId="7c0d-4e1a-8b2f-63d9" typeName="Requirements" hidden="false"><characteristics><characteristic name="Requirements" typeId="b41e-2a9c-5f07-8d3b">The Unit Leader is one of the Bren Gun &amp; SMLE rifle teams, and is mounted on a small base (see page 75)</characteristic></characteristics></profile>
+  <profile id="113a-7540-7efd-c43c" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB164</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -2348,9 +2443,11 @@ DeadlyAssault 3+</characteristic>
     <profile id="d249-f8dc-ad87-05dc" name="Desert Rats Vickers Machine-gun Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ 
-BulldogCounterattack 4+</characteristic>
+Bulldog
+Counterattack 4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Heavy WeaponAssault 5+</characteristic>
+Heavy Weapon
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
@@ -2370,12 +2467,12 @@ Heavy WeaponAssault 5+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6"/>
       </characteristics>
     </profile>
-    <profile id="7f09-4863-8619-4f83" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="6fd4-59e9-8b98-1d9f" name="Firing Bombardment" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6"/></characteristics></profile>
+  <profile id="7f09-4863-8619-4f83" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB165</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -2387,9 +2484,13 @@ Heavy WeaponAssault 5+</characteristic>
     <profile id="08dc-54cb-71a9-c1e7" name="Desert Rats MMG Carrier Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
-DeterminedRemount 4+</characteristic>
+Determined
+Remount 4+ 
+SP Gun
+Counterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-SP GunAssault 6</characteristic>
+SP Gun
+Assault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
@@ -2411,12 +2512,12 @@ SP GunAssault 6</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic>
       </characteristics>
     </profile>
-    <profile id="3346-dfb2-84bf-2d27" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="36f9-7c6b-2d60-4ee7" name="Firing Bombardment" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">48&quot;/120cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">ARTILLERY</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">ARTILLERY</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">1</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">6</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing</characteristic></characteristics></profile>
+  <profile id="3346-dfb2-84bf-2d27" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB166</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -2428,9 +2529,11 @@ SP GunAssault 6</characteristic>
     <profile id="d420-a094-d4e2-bff2" name="Desert Rats 3-inch Mortar Platoon" typeId="0917-e2f0-0c3e-b482" typeName="Infantry Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">5+ 
-BulldogCounterattack 4+</characteristic>
+Bulldog
+Counterattack 4+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">3+ 
-Heavy WeaponAssault 4+</characteristic>
+Heavy Weapon
+Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">6&quot;/15cm</characteristic>
@@ -2467,9 +2570,11 @@ Heavy WeaponAssault 4+</characteristic>
     <profile id="83af-6391-eedc-8e7f" name="Desert Rats 6pdr Anti-tank Platoon" typeId="7c70-b6af-9e5a-e7f6" typeName="Gun Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="0954-f596-53ea-4ef7">5+ 
-BulldogCounterattack 4+</characteristic>
+Bulldog
+Counterattack 4+</characteristic>
         <characteristic name="Skill" typeId="a907-592d-ab2d-5ead">4+ 
-GunAssault 5+</characteristic>
+Gun
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="1f89-085b-464b-c60f">4+</characteristic>
         <characteristic name="Save" typeId="ae14-5890-03de-a715">3+</characteristic>
         <characteristic name="Tactical" typeId="3bad-79bd-27aa-4539">2&quot;/5cm</characteristic>
@@ -2506,9 +2611,11 @@ GunAssault 5+</characteristic>
     <profile id="146b-5268-3cb3-2c93" name="Desert Rats Universal Carrier Patrol" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
-Cautious Not StupidRemount 4+</characteristic>
+Cautious Not Stupid
+Remount 4+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-ScoutAssault 5+</characteristic>
+Scout
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
@@ -2552,14 +2659,16 @@ ScoutAssault 5+</characteristic>
   <categoryLinks>
     <categoryLink id="70ef-184b-4f67-536a" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-<selectionEntryGroups><selectionEntryGroup id="9e62-5809-ce8a-202d" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b4c-7233-5b44-473f" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5014-ddf4-b7e8-5fa2" type="max"/></constraints><selectionEntries><selectionEntry id="1517-d944-3918-6116" name="3x Universal Carrier (MG)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="b3e2-a1a7-69f1-5534" name="Desert Rats Wasp Carrier Patrol (LB170)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntryGroups><selectionEntryGroup id="9e62-5809-ce8a-202d" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b4c-7233-5b44-473f" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5014-ddf4-b7e8-5fa2" type="max"/></constraints><selectionEntries><selectionEntry id="1517-d944-3918-6116" name="3x Universal Carrier (MG)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup><selectionEntryGroup id="46bb-7eb5-7a99-2775" name="Options" hidden="false" collective="false" import="true"><selectionEntries><selectionEntry id="3b2b-acd4-2509-dcec" name="Arm any or all Universal Carrier (MG) with PIAT anti-tank for +1 point each." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="b3e2-a1a7-69f1-5534" name="Desert Rats Wasp Carrier Patrol (LB170)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="ae40-046e-13ac-06d9" name="Desert Rats Wasp Carrier Patrol" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">5+ 
-Flame TankCounterattack 6</characteristic>
+Flame Tank
+Counterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-Flame TankAssault 6</characteristic>
+Flame Tank
+Assault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic>
@@ -2598,9 +2707,13 @@ Flame TankAssault 6</characteristic>
     <profile id="b119-c744-28c8-b4fc" name="Crocodile Flame-tank Platoon" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-Protected AmmoRemount 3+</characteristic>
+Protected Ammo
+Remount 3+ 
+Flame Tank
+Counterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-Flame TankAssault 6</characteristic>
+Flame Tank
+Assault 6</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">11</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">8</characteristic>
@@ -2703,9 +2816,13 @@ Flame TankAssault 6</characteristic>
     <profile id="fa72-9587-020f-a371" name="Daimler Armoured Car Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">4+ 
-ScoutLast Stand 5+</characteristic>
+Scout
+Last Stand 5+ 
+Scout
+Counterattack 6</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-ScoutAssault 4+</characteristic>
+Scout
+Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -2759,14 +2876,16 @@ ScoutAssault 4+</characteristic>
   <categoryLinks>
     <categoryLink id="438d-83a6-044e-03de" name="Support Units" hidden="false" targetId="9be3-4dab-91f0-f7c5" primary="true"/>
   </categoryLinks>
-<selectionEntryGroups><selectionEntryGroup id="5b21-dc25-c251-d21b" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ef2-d9bd-43e0-cea1" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dec-b1e2-f1a0-3411" type="max"/></constraints><selectionEntries><selectionEntry id="5495-fe0c-e333-d042" name="1x Daimler (2 pdr)&#10;1x Daimler (Littlejohn)&#10;1x Dingo (MG)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry><selectionEntry id="cd22-2c61-e634-add2" name="2x Daimler (2 pdr)&#10;1x Dingo (MG)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="1892-f0c0-402b-de7a" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" type="unit">
+<selectionEntryGroups><selectionEntryGroup id="5b21-dc25-c251-d21b" name="Unit Size" hidden="false" collective="false" import="true"><constraints><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ef2-d9bd-43e0-cea1" type="min"/><constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dec-b1e2-f1a0-3411" type="max"/></constraints><selectionEntries><selectionEntry id="5495-fe0c-e333-d042" name="1x Daimler (2 pdr)&#10;1x Daimler (Littlejohn)&#10;1x Dingo (MG)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="4.0"/></costs></selectionEntry><selectionEntry id="cd22-2c61-e634-add2" name="2x Daimler (2 pdr)&#10;1x Dingo (MG)" hidden="false" collective="false" import="true" type="unit"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="3.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup><selectionEntryGroup id="56aa-c70f-63b8-8319" name="Options" hidden="false" collective="false" import="true"><selectionEntries><selectionEntry id="c11a-2bd5-6295-c63f" name="Add one Dingo (MG) for +1 point." hidden="false" collective="false" import="true" type="upgrade"><costs><cost name="pts" typeId="995a-4d67-6920-bfe4" value="1.0"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups></selectionEntry><selectionEntry id="1892-f0c0-402b-de7a" name="Sexton Field Troop (LB209)" hidden="false" collective="false" import="true" type="unit">
   <profiles>
     <profile id="e30f-c913-3442-3ef2" name="Sexton Field Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ 
-SP GunCounterattack 5+</characteristic>
+SP Gun
+Counterattack 5+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">3+ 
-SP GunAssault 5+</characteristic>
+SP Gun
+Assault 5+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic>
         <characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">1</characteristic>
@@ -2788,12 +2907,12 @@ SP GunAssault 5+</characteristic>
         <characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke, Bombardment</characteristic>
       </characteristics>
     </profile>
-    <profile id="c7f5-6bd9-0644-5aa5" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
+    <profile id="b1d0-e109-15f5-7740" name="or Direct Fire" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false"><characteristics><characteristic name="Range" typeId="c2e5-4990-8105-f793">24&quot;/60cm</characteristic><characteristic name="Halted ROF" typeId="7f6e-6f8f-5f15-6e9d">2</characteristic><characteristic name="Moving ROF" typeId="f78e-b583-b3a5-754a">1</characteristic><characteristic name="Anti-Tank" typeId="f57e-fa10-d0f9-e2dd">9</characteristic><characteristic name="Firepower" typeId="9cf3-a34f-60d9-1309">3+</characteristic><characteristic name="Notes" typeId="d939-5084-e654-44c6">Forward Firing, Smoke</characteristic></characteristics></profile>
+  <profile id="c7f5-6bd9-0644-5aa5" name="Forces ID" typeId="86a9-a6ee-b9bd-dafe" typeName="Forces ID" hidden="false">
       <characteristics>
         <characteristic name="ID" typeId="846f-94be-be15-4936">LB209</characteristic>
       </characteristics>
-    </profile>
-  </profiles>
+    </profile></profiles>
   <costs>
     <cost name="pts" typeId="995a-4d67-6920-bfe4" value="0.0"/>
   </costs>
@@ -2950,7 +3069,8 @@ SP GunAssault 5+</characteristic>
     <profile id="6e6c-b5f8-e212-5bb5" name="Cromwell Airborne Recce Troop" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ 
-Protected AmmoRemount 2+</characteristic>
+Protected Ammo
+Remount 2+</characteristic>
         <characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+</characteristic>
         <characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic>
         <characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">6</characteristic>
@@ -3000,7 +3120,8 @@ Protected AmmoRemount 2+</characteristic>
     <profile id="aede-1677-d2c8-be16" name="Airborne Recce Patrol" typeId="7cf5-5c36-14cc-3c0d" typeName="Unarmoured Tank Unit" hidden="false">
       <characteristics>
         <characteristic name="Motivation" typeId="55ef-8653-887d-4642">3+ 
-ScoutLast Stand 4+</characteristic>
+Scout
+Last Stand 4+</characteristic>
         <characteristic name="Skill" typeId="229c-c44f-2910-c1d1">4+</characteristic>
         <characteristic name="Is Hit On" typeId="acbb-3bc2-c667-6e4d">4+</characteristic>
         <characteristic name="Save" typeId="6e6b-7d9e-7557-43cd">5+</characteristic>
@@ -3012,8 +3133,12 @@ ScoutLast Stand 4+</characteristic>
       </characteristics>
     </profile>
     <profile id="8b71-9dd6-b0cf-2fd6" name="Airborne Recce Platoon Universal Carrier" typeId="55ec-3ef5-ca51-e647" typeName="Tank Unit" hidden="false"><characteristics><characteristic name="Motivation" typeId="046a-7f27-8072-dedb">3+ 
-ScoutLast Stand 4+</characteristic><characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
-ScoutAssault 5+</characteristic><characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic><characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic><characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic><characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic><characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic><characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic><characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic><characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic><characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic></characteristics></profile>
+Scout
+Last Stand 4+ 
+Scout
+Counterattack 5+</characteristic><characteristic name="Skill" typeId="6334-745a-f712-a0aa">4+ 
+Scout
+Assault 5+</characteristic><characteristic name="Is Hit On" typeId="3931-565d-e382-fda5">4+</characteristic><characteristic name="Armour Front" typeId="b88a-3ca6-9b40-ff73">1</characteristic><characteristic name="Armour Side &amp; Rear" typeId="3712-51b3-aae3-94bd">0</characteristic><characteristic name="Armour Top" typeId="f551-1392-03e8-967d">0</characteristic><characteristic name="Tactical" typeId="ea9a-bf7d-68c5-e2d7">10&quot;/25cm</characteristic><characteristic name="Terrain Dash" typeId="f7f4-9e66-c9ed-034b">14&quot;/35cm</characteristic><characteristic name="Cross Country Dash" typeId="f73b-6fcf-b0d1-fde4">20&quot;/50cm</characteristic><characteristic name="Road Dash" typeId="b5b1-c829-470a-af62">24&quot;/60cm</characteristic><characteristic name="Cross" typeId="8be2-d5b6-ec4a-76d9">4+</characteristic></characteristics></profile>
     <profile id="c991-3ab7-7b84-db1b" name="Jeep (MG)" typeId="33b6-a72a-2bd8-2565" typeName="Weapon" hidden="false">
       <characteristics>
         <characteristic name="Range" typeId="c2e5-4990-8105-f793">16&quot;/40cm</characteristic>
@@ -3041,7 +3166,8 @@ ScoutAssault 5+</characteristic><characteristic name="Is Hit On" typeId="3931-56
       <characteristics>
         <characteristic name="Motivation" typeId="4aa0-1b18-70af-9474">3+</characteristic>
         <characteristic name="Skill" typeId="7258-881d-dc2d-e80b">4+ 
-Heavy WeaponAssault 4+</characteristic>
+Heavy Weapon
+Assault 4+</characteristic>
         <characteristic name="Is Hit On" typeId="0641-f39f-6a33-7dcc">4+</characteristic>
         <characteristic name="Save" typeId="4750-979d-b2bb-c536">3+</characteristic>
         <characteristic name="Tactical" typeId="8027-bcf9-d953-3740">8&quot;/20cm</characteristic>
